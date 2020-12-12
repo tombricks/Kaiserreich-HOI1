@@ -1,0 +1,79 @@
+#
+# HoI - Romania Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  USSR Claims Bessarabia
+#########################################################################
+event = { 
+	id = 2700
+	random = no
+	country = ROM
+	
+	# Triggered by SOV 2606
+	
+	name = "EVT_2700_NAME"
+	desc = "EVT_2700_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2700A" # Accept
+		command = { type = secedeprovince which = SOV value = 763 }
+		command = { type = secedeprovince which = SOV value = 767 }
+		command = { type = trigger value = 2607 } # SOV
+	}
+	action_b = {
+		name = "ACTIONNAME2700B" # Refuse
+		command = { type = war which = SOV } # Romania should be forced to declare the war, since the Axis and Soviets have an agreement
+		command = { type = alignment which = fascist value = 50 }
+		command = { type = trigger value = 2608 } # SOV		
+	}
+}
+#########################################################################
+#  The Vienna Diktat
+#########################################################################
+event = { 
+	id = 2701
+	random = no
+	country = ROM
+	
+	# Triggered by GER 2019
+	
+	name = "EVT_2701_NAME"
+	desc = "EVT_2701_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2701A" # Accept
+		command = { type = secedeprovince which = HUN value = 729 }
+		command = { type = secedeprovince which = HUN value = 730 }
+		command = { type = trigger value = 2505 } # HUN
+	}
+	action_b = {
+		name = "ACTIONNAME2701B" # Refuse
+		command = { type = war which = HUN } # Romania should be forced to declare the war, since the Axis stands behind the claim
+		command = { type = alignment which = communist value = 50 }
+		command = { type = trigger value = 2506 } # HUN
+	}
+}
+#########################################################################
+#  The Vienna Diktat - Germans rule in Romanian favor
+#########################################################################
+event = { 
+	id = 2702
+	random = no
+	country = ROM
+	
+	# Triggered by GER 2019
+	
+	name = "EVT_2702_NAME"
+	desc = "EVT_2702_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = alignment which = fascist value = 50 }
+	}
+}

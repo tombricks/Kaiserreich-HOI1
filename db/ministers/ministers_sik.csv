@@ -1,0 +1,45 @@
+SIK;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+72001;Head of State;Cheng-Chi-Tsai;NA;PA;NA;NA;unknown;x
+72002;Head of Government;Cheng-Chi-Tsai;NA;PA;NA;NA;unknown;x
+72003;Foreign Minister;Cheng-Chi-Tsai;NA;PA;Great Compromiser;Undying;unknown;x
+72004;Minister of Armament;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+72005;Minister of Security;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+72006;Head of Military Intelligence;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+72007;Chief of Staff;Cheng-Chi-Tsai;NA;PA;School of Psychology;Undying;unknown;x
+72008;Chief of Army;Cheng-Chi-Tsai;NA;PA;Guns and Butter doctrine;Undying;unknown;x
+72009;Chief of Navy;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+72010;Chief of Air Force;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+72011;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+72012;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+72013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+72014;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+72015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+72016;Head of Military Intelligence;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+72017;Chief of Staff;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+72018;Chief of Army;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+72019;Chief of Navy;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+72020;Chief of Air Force;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+72021;Head of State;Black Shadow;NA;FA PA;NA;NA;unknown;x
+72022;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+72023;Foreign Minister;Cheng-Chi-Tsai;NA;FA;Great Compromiser;Undying;unknown;x
+72024;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+72025;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+72026;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+72027;Chief of Staff;Cheng-Chi-Tsai;NA;FA;School of Psychology;Undying;unknown;x
+72028;Chief of Army;Cheng-Chi-Tsai;NA;FA;Guns and Butter doctrine;Undying;unknown;x
+72029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+72030;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+72031;Head of State;Cheng-Chi-Tsai;NA;ST LE LWR;NA;NA;unknown;x
+72032;Head of Government;Cheng-Chi-Tsai;NA;LWR;NA;NA;unknown;x
+72033;Foreign Minister;Cheng-Chi-Tsai;NA;LWR;Great Compromiser;Undying;unknown;x
+72034;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+72035;Minister of Security;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+72036;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+72037;Chief of Staff;Cheng-Chi-Tsai;NA;LWR;School of Psychology;Undying;unknown;x
+72038;Chief of Army;Cheng-Chi-Tsai;NA;LWR;Guns and Butter doctrine;Undying;unknown;x
+72039;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+72040;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

@@ -1,0 +1,88 @@
+FRA;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+2001;Head of State;Albert Lebrun;NA;LC CE RS LWR;NA;NA;lebrun_albert_fra;x
+2002;Head of Government;Pierre Laval;NA;CE;NA;NA;pierre_laval_fra;x
+2003;Foreign Minister;Pierre Laval;NA;CE;Great Compromiser;Undying;pierre_laval_fra;x
+2004;Minister of Armament;Jean Fabry;NA;RS;Resource Industrialist;Medium;unknown;x
+2005;Minister of Security;Joseph Paganon;NA;RS;Silent Lawyer;Medium;unknown;x
+2006;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+2007;Chief of Staff;Maurice Gamelin;NA;LC;School of Fire Support;Very High;maurice_gamelin_fra;x
+2008;Chief of Army;Maurice Gamelin;NA;LC;Static Defense Doctrine;Very High;maurice_gamelin_fra;x
+2009;Chief of Navy;François Darlan;NA;LC;Open Seas Doctrine;High;darlan_jean-francois3_fra;x
+2010;Chief of Air Force;Victor Denain;NA;LC;Carpet Bombing Doctrine;Medium;unknown;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+2011;Head of Government;Léon Blum;NA;RS;NA;NA;blum_leon_fra;x
+2012;Foreign Minister;Edouard Daladier;NA;RS;Great Compromiser;High;daladier_edouard4_fra;x
+2013;Minister of Armament;Vincent Auriol;NA;RS;Administrative Genius;High;Vincent_Auriol;x
+2014;Minister of Security;Marx Dormoy;NA;RS;Compassionate Gentleman;Medium;Marx_Dormoy;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+2002;Head of Government;Pierre Laval;NA;CE;NA;NA;pierre_laval_fra;x
+2015;Foreign Minister;Pierre Etienne Flandin;NA;CE;Great Compromiser;Low;france_FLANDIN;x
+2004;Minister of Armament;Jean Fabry;NA;RS;Resource Industrialist;Medium;unknown;x
+2005;Minister of Security;Joseph Paganon;NA;RS;Silent Lawyer;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+2016;Head of Government;Paul Reynaud;NA;CE;NA;NA;Reynaud;x
+2017;Foreign Minister;Paul Reynaud;NA;CE;Ideological Crusader;Undying;Reynaud;x
+2018;Minister of Armament;Raoul Dautry;NA;CE;Theoretical Scientist;High;unknown;x
+2019;Minister of Security;Henri Roy;NA;CE;Man of the People;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+2011;Head of Government;Léon Blum;NA;RS;NA;NA;blum_leon_fra;x
+2012;Foreign Minister;Edouard Daladier;NA;RS;Great Compromiser;High;daladier_edouard4_fra;x
+2013;Minister of Armament;Vincent Auriol;NA;RS;Administrative Genius;High;Vincent_Auriol;x
+2014;Minister of Security;Marx Dormoy;NA;RS;Compassionate Gentleman;Medium;Marx_Dormoy;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+2020;Head of Government;Charles de Gaulle;NA;CE;NA;NA;degaulle_charles_fra;x
+2021;Foreign Minister;George Bidault;NA;RS;Great Compromiser;High;bidault_georges2_fra;x
+2013;Minister of Armament;Vincent Auriol;NA;RS;Administrative Genius;High;Vincent_Auriol;x
+2022;Minister of Security;Adrien Tixier;NA;RS;Compassionate Gentleman;Very High;unknown;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+2016;Head of Government;Paul Reynaud;NA;CE;NA;NA;Reynaud;x
+2017;Foreign Minister;Paul Reynaud;NA;CE;Ideological Crusader;Undying;Reynaud;x
+2018;Minister of Armament;Raoul Dautry;NA;CE;Theoretical Scientist;High;unknown;x
+2019;Minister of Security;Henri Roy;NA;CE;Man of the People;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+2023;Head of State;Maurice Thorez;NA;ST LE LWR;NA;NA;Maurice_Thorez;x
+2024;Head of Government;Jacques Duclos;NA;ST;NA;NA;unknown;x
+2025;Foreign Minister;Jacques Duclos;NA;ST;Ideological Crusader;Very High;unknown;x
+2026;Minister of Armament;George Lévy;NA;ST;Resource Industrialist;Medium;levy_jean-pierre_fra;x
+2027;Minister of Security;Lucien Micol;NA;ST;Crime Fighter;High;unknown;x
+2028;Head of Military Intelligence;Waldeck Rochet;NA;ST;Dismal Enigma;High;rochet;x
+2029;Chief of Staff;André Marty;NA;LWR;School of Fire Support;Medium;marty_andre_fra;x
+2030;Chief of Army;André Marty;NA;LWR;Guns and Butter Doctrine;Medium;marty_andre_fra;x
+2031;Chief of Navy;Marcel Cachin;NA;ST;Indirect Approach Doctrine;Medium;Marcel_Cachin;x
+2032;Chief of Air Force;Marcel Gitton;NA;ST;Air Superiority Doctrine;Medium;unknown;x
+;Replacements;;;;;;;x
+2033;Head of State;Vincent Auriol;46;LC CE RS LWR;NA;NA;Vincent_Auriol;x
+2034;Head of Government;Albert Sarraut;36;CE;NA;NA;Albert Sarraut;x
+2035;Head of Government;Camille Chautemps;37;CE;NA;NA;Camille_Chautemps;x
+2036;Head of Government;Edouard Daladier;38;RS;NA;NA;daladier_edouard4_fra;x
+2037;Foreign Minister;Yvon Delbos;38;RS;Biased Intellectual;Medium;unknown;x
+2038;Foreign Minister;Augustin Paul-Boncour;38;CE;Ideological Crusader;Medium;unknown;x
+2039;Foreign Minister;Georges Bonnet;37;CE;Great Compromiser;Medium;bonnet_georges_fra;x
+2040;Minister of Armament;Georges Bonnet;37;CE;Resource Industrialist;Medium;bonnet_georges_fra;x
+2041;Minister of Armament;Paul Marchandeau;38;RS;Administrative Genius;Medium;unknown;x
+2042;Minister of Armament;Edouard Daladier;38;RS;Laissez Faires Capitalist;Low;daladier_edouard4_fra;x
+2043;Minister of Security;Roger Salengro;36;LWR;Silent Lawyer;Medium;unknown;x
+2044;Minister of Security;Louis-George Mandel;40;CE;Crime Fighter;Low;mandel_fra;x
+2045;Head of Military Intelligence;Jean Provoust;40;CE;Logistics Specialist;High;unknown;x
+2046;Chief of Staff;Pierre-Armand Billotte;42;CE;School of Manoeuvre;Medium;bilotte_fra;x
+2047;Chief of Staff;Maxime Weygand;40;LC;School of Defence;Very High;weygand;x
+2048;Chief of Army;Jean-Marie Lattre;44;LC;Armoured Spearhead Doctrine;Medium;Jean_Marie_Lattre;x
+2049;Chief of Army;Louis Colson;39;CE;Elastic Defence Doctrine;Low;unknown;x
+2050;Chief of Army;Henri Caillault;40;CE;Static Defence Doctrine;Medium;unknown;x
+2051;Chief of Navy;M. Pietri;36;RS;Open Seas Doctrine;Medium;unknown;x
+2052;Chief of Navy;Alphonse Gastier-Duparc;36;RS;Base Control Doctrine;High;unknown;x
+2053;Chief of Navy;César Campinchi;37;CE;Decisive Naval Doctrine;Very High;Cesar_Campinchi;x
+2054;Chief of Navy;William Bertrand;38;RS;Decisive Naval Doctrine;High;unknown;x
+2055;Chief of Air Force;Marcel Deat;36;RS;Air Superiority Doctrine;Low;unknown;x
+2056;Chief of Air Force;Pierre Cot;36;RS;Carpet Bombing Doctrine;Very High;cot_pierre_fra;x
+2057;Chief of Air Force;Guy La Chambre;38;CE;Vertical Envelopment Doctrine;Medium;unknown;x
+2058;Chief of Air Force;Joseph Vuillemin;38;CE;Air Superiority Doctrine;Very High;vuillemin_fra;x
+2059;Head of Government;Marcel Cachin;38;ST;NA;NA;unknown;x
+2060;Foreign Minister;Marcel Cachin;38;ST;Biased Intellectual;Very High;unknown;x
+2061;Minister of Security;Henri Gourdeaux;38;ST;Silent Lawyer;High;unknown;x
+2062;Minister of Security;Jean-Marie Clamamus;38;ST;Back Stabber;Medium;unknown;x
+2063;Minister of Armament;Daniel Renoult;38;ST;Theoretical Scientist;Medium;Daniel_Renoult.bmp;x
+2064;Head of Military Intelligence;Henri Gourdeaux;38;ST;Technical Specialist;High;unknown;x
+2065;Head of Military Intelligence;Jean-Marie Clamamus;38;ST;Dismal Enigma;Medium;unknown;x
+2066;Head of State;Charles de Gaulle;40;CE LC RS;NA;NA;degaulle_charles_fra;x
+2067;Chief of Staff;Charles de Gaulle;40;CE;School of Manoeuvre;High;degaulle_charles_fra;x

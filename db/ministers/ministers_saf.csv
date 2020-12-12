@@ -1,0 +1,64 @@
+SAF;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+70001;Head of State;Unknown;NA;LC CE RS;NA;NA;unknown;x
+70002;Head of Government;Unknown;NA;LC;NA;NA;unknown;x
+70003;Foreign Minister;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+70004;Minister of Armament;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+70005;Minister of Security;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+70006;Head of Military Intelligence;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+70007;Chief of Staff;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+70008;Chief of Army;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+70009;Chief of Navy;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+70010;Chief of Air Force;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+70011;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+70012;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+70013;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+70014;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+70015;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+70016;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+70017;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+70018;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+70019;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+70020;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+70021;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+70022;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+70023;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+70024;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+70025;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+70026;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+70027;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+70028;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+70029;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+70030;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+70031;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+70032;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+70033;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+70034;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+70035;Head of State;Black Shadow;NA;PA FA NS;NA;NA;unknown;x
+70036;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+70037;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+70038;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+70039;Minister of Security;Black Shadow;NA;NS;Undistinguished Suit;Medium;unknown;x
+70040;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+70041;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+70042;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+70043;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+70044;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+70045;Head of State;Red Shadow;NA;LWR LE ST;NA;NA;unknown;x
+70046;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+70047;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+70048;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+70049;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+70050;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+70051;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+70052;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+70053;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+70054;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

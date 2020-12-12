@@ -1,0 +1,1910 @@
+# 
+# The Armor Technology Group
+#
+
+#
+#	
+#	
+#	
+technology = {
+	id = 2
+	category = armor
+	name = TECH_ARMOR_NAME #Localized name
+	desc = TECH_ARMOR_DESC #Localized description
+	
+	level = { # 1 - Riveted Armor
+		id = 2000
+		name = TECH_LEVEL_ARMOR_1_NAME 
+		desc = TECH_LEVEL_ARMOR_1_DESC 
+		
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Early Gear
+			id = 2001
+			name = TECH_APP_ARMOR_1_1_NAME
+			desc = TECH_APP_ARMOR_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Early Suspension
+			id = 2002
+			name = TECH_APP_ARMOR_1_2_NAME
+			desc = TECH_APP_ARMOR_1_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Early Engine
+			id = 2003
+			name = TECH_APP_ARMOR_1_3_NAME
+			desc = TECH_APP_ARMOR_1_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Early Halftrack Troop Carrier
+			id = 2004
+			name = TECH_APP_ARMOR_1_4_NAME
+			desc = TECH_APP_ARMOR_1_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Early Tank Prototype Tests
+			id = 2005
+			name = TECH_APP_ARMOR_1_5_NAME
+			desc = TECH_APP_ARMOR_1_5_DESC
+			
+			required = { 2001 2002 2003 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Early Tank (MG)
+			id = 2006
+			name = TECH_APP_ARMOR_1_6_NAME
+			desc = TECH_APP_ARMOR_1_6_DESC
+			
+			required = { 2005 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 1 }
+			}
+		}
+	} # Level 1
+	
+	level = { # 2 - Welded Armor
+		id = 2100
+		name = TECH_LEVEL_ARMOR_2_NAME 
+		desc = TECH_LEVEL_ARMOR_2_DESC 
+		
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Basic Optical Sights
+			id = 2101
+			name = TECH_APP_ARMOR_2_1_NAME
+			desc = TECH_APP_ARMOR_2_1_DESC
+			
+			required = { 2005 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Halftrack Troop Carrier
+			id = 2102
+			name = TECH_APP_ARMOR_2_2_NAME
+			desc = TECH_APP_ARMOR_2_2_DESC
+			
+			required = { 2004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Basic Light Tank Prototype Tests
+			id = 2103
+			name = TECH_APP_ARMOR_2_3_NAME
+			desc = TECH_APP_ARMOR_2_3_DESC
+			
+			required = { 2001 2002 2003 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Light Tank (MG)
+			id = 2104
+			name = TECH_APP_ARMOR_2_4_NAME
+			desc = TECH_APP_ARMOR_2_4_DESC
+			
+			required = { 2103 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 2 }
+				command = { type = deactivate which = 2105 }
+				command = { type = deactivate which = 2106 }
+				command = { type = deactivate which = 2107 }
+			}
+		}
+		application = { # Basic Light Tank (20+mm)
+			id = 2105
+			name = TECH_APP_ARMOR_2_5_NAME
+			desc = TECH_APP_ARMOR_2_5_DESC
+			
+			required = { 2103 14010 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 3 }
+				command = { type = deactivate which = 2104 }
+				command = { type = deactivate which = 2106 }
+				command = { type = deactivate which = 2107 }
+			}
+		}
+		application = { # Basic Light Tank (30+mm)
+			id = 2106
+			name = TECH_APP_ARMOR_2_6_NAME
+			desc = TECH_APP_ARMOR_2_6_DESC
+			
+			required = { 2103 14011 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 4 }
+				command = { type = deactivate which = 2105 }
+				command = { type = deactivate which = 2104 }
+				command = { type = deactivate which = 2107 }
+			}
+		}
+		application = { # Basic Light Tank (40+mm)
+			id = 2107
+			name = TECH_APP_ARMOR_2_7_NAME
+			desc = TECH_APP_ARMOR_2_7_DESC
+			
+			required = { 2103 14105 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 5 }
+				command = { type = deactivate which = 2105 }
+				command = { type = deactivate which = 2106 }
+				command = { type = deactivate which = 2104 }
+			}
+		}
+	} # Level 2
+	
+	level = { # 3 - Amphibious Tanks
+		id = 2200
+		name = TECH_LEVEL_ARMOR_3_NAME 
+		desc = TECH_LEVEL_ARMOR_3_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Basic Gear
+			id = 2201
+			name = TECH_APP_ARMOR_3_1_NAME
+			desc = TECH_APP_ARMOR_3_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Suspension
+			id = 2202
+			name = TECH_APP_ARMOR_3_2_NAME
+			desc = TECH_APP_ARMOR_3_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Engine
+			id = 2203
+			name = TECH_APP_ARMOR_3_3_NAME
+			desc = TECH_APP_ARMOR_3_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Wading Equipment
+			id = 2204
+			name = TECH_APP_ARMOR_3_4_NAME
+			desc = TECH_APP_ARMOR_3_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = river_attack which = mechanized value = 10 }
+				command = { type = river_attack which = armor value = 10 }
+			}
+		}
+		application = { # Basic Amphibious Tank
+			id = 2205
+			name = TECH_APP_ARMOR_3_5_NAME
+			desc = TECH_APP_ARMOR_3_5_DESC
+			
+			required = { 2005 2204 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = shore_attack which = mechanized value = 10 }
+				command = { type = shore_attack which = armor value = 10 }
+			}
+		}
+		application = { # Basic Amphibious Assault Vehicle
+			id = 2206
+			name = TECH_APP_ARMOR_3_6_NAME
+			desc = TECH_APP_ARMOR_3_6_DESC
+			
+			required = { 2005 2204 13405 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = marine when = now value = 1 }
+				command = { type = hard_attack which = marine when = now value = 1 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+			}
+		}
+		application = { # Submersible Tank
+			id = 2207
+			name = TECH_APP_ARMOR_3_7_NAME
+			desc = TECH_APP_ARMOR_3_7_DESC
+			
+			required = { 2205 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = shore_attack which = mechanized value = 10 }
+				command = { type = shore_attack which = armor value = 10 }
+			}
+		}
+		application = { # Desert Operations Equipment
+			id = 2208
+			name = TECH_APP_ARMOR_3_8_NAME
+			desc = TECH_APP_ARMOR_3_8_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = desert_move which = mechanized value = 10 }
+				command = { type = desert_move which = armor value = 10 }
+			}
+		}
+		application = { # Improved Light Tank Prototype Tests
+			id = 2209
+			name = TECH_APP_ARMOR_3_9_NAME
+			desc = TECH_APP_ARMOR_3_9_DESC
+			
+			required = { 2005 2201 2202 2103 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Light Tank (20+mm)
+			id = 2210
+			name = TECH_APP_ARMOR_3_10_NAME
+			desc = TECH_APP_ARMOR_3_10_DESC
+			
+			required = { 2209 14010 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 6 }
+				command = { type = deactivate which = 2211 }
+				command = { type = deactivate which = 2212 }
+			}
+		}
+		application = { # Improved Light Tank (30+mm)
+			id = 2211
+			name = TECH_APP_ARMOR_3_11_NAME
+			desc = TECH_APP_ARMOR_3_11_DESC
+			
+			required = { 2209 14011 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 7 }
+				command = { type = deactivate which = 2210 }
+				command = { type = deactivate which = 2212 }
+			}
+		}
+		application = { # Improved Light Tank (40+mm)
+			id = 2212
+			name = TECH_APP_ARMOR_3_12_NAME
+			desc = TECH_APP_ARMOR_3_12_DESC
+			
+			required = { 2209 14105 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 8 }
+				command = { type = deactivate which = 2210 }
+				command = { type = deactivate which = 2211 }
+			}
+		}
+	} # Level 3
+	
+	level = { # 4 - Assault Guns & Tank Destroyers
+		id = 2300
+		name = TECH_LEVEL_ARMOR_4_NAME 
+		desc = TECH_LEVEL_ARMOR_4_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Improved Gear
+			id = 2301
+			name = TECH_APP_ARMOR_4_1_NAME
+			desc = TECH_APP_ARMOR_4_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Suspension
+			id = 2302
+			name = TECH_APP_ARMOR_4_2_NAME
+			desc = TECH_APP_ARMOR_4_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Engine
+			id = 2303
+			name = TECH_APP_ARMOR_4_3_NAME
+			desc = TECH_APP_ARMOR_4_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Airborne Tank
+			id = 2304
+			name = TECH_APP_ARMOR_4_4_NAME
+			desc = TECH_APP_ARMOR_4_4_DESC
+			
+			required = { 2103 12203 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = paratrooper when = now value = 1 }
+				command = { type = hard_attack which = paratrooper when = now value = 1 }
+			}
+		}
+		application = { # Light Assault Gun (30+mm)
+			id = 2305
+			name = TECH_APP_ARMOR_4_5_NAME
+			desc = TECH_APP_ARMOR_4_5_DESC
+			
+			required = { 2209 14003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+				command = { type = soft_attack which = motorized when = now value = 1 }
+			}
+		}
+		application = { # Medium Assault Gun (70+mm)
+			id = 2306
+			name = TECH_APP_ARMOR_4_6_NAME
+			desc = TECH_APP_ARMOR_4_6_DESC
+			
+			required = { 2305 14004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+				command = { type = soft_attack which = motorized when = now value = 1 }
+			}
+		}
+		application = { # Light Tank Destroyer (30+mm)
+			id = 2307
+			name = TECH_APP_ARMOR_4_7_NAME
+			desc = TECH_APP_ARMOR_4_7_DESC
+			
+			required = { 2209 14008 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = motorized when = now value = 1 }
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Light Tank Destroyer (40+mm)
+			id = 2308
+			name = TECH_APP_ARMOR_4_8_NAME
+			desc = TECH_APP_ARMOR_4_8_DESC
+			
+			required = { 2307 14009 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = motorized when = now value = 1 }
+				command = { type = hard_attack which = mechanized when = now value = 1 }
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Advanced Light Tank Prototype Tests
+			id = 2309
+			name = TECH_APP_ARMOR_4_9_NAME
+			desc = TECH_APP_ARMOR_4_9_DESC
+			
+			required = { 2209 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Light Tank (30+mm)
+			id = 2310
+			name = TECH_APP_ARMOR_4_10_NAME
+			desc = TECH_APP_ARMOR_4_10_DESC
+			
+			required = { 2309 14011 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 9 }
+				command = { type = deactivate which = 2311 }
+				command = { type = deactivate which = 2312 }
+				command = { type = deactivate which = 2313 }
+			}
+		}
+		application = { # Advanced Light Tank (40+mm)
+			id = 2311
+			name = TECH_APP_ARMOR_4_11_NAME
+			desc = TECH_APP_ARMOR_4_11_DESC
+			
+			required = { 2309 14105 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 10 }
+				command = { type = deactivate which = 2310 }
+				command = { type = deactivate which = 2312 }
+				command = { type = deactivate which = 2313 }
+			}
+		}
+		application = { # Advanced Light Tank (50+mm)
+			id = 2312
+			name = TECH_APP_ARMOR_4_12_NAME
+			desc = TECH_APP_ARMOR_4_12_DESC
+			
+			required = { 2309 14206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 11 }
+				command = { type = deactivate which = 2310 }
+				command = { type = deactivate which = 2311 }
+				command = { type = deactivate which = 2313 }
+			}
+		}
+		application = { # Advanced Light Tank (70+mm)
+			id = 2313
+			name = TECH_APP_ARMOR_4_13_NAME
+			desc = TECH_APP_ARMOR_4_13_DESC
+			
+			required = { 2309 14207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 12 }
+				command = { type = deactivate which = 2310 }
+				command = { type = deactivate which = 2311 }
+				command = { type = deactivate which = 2312 }
+			}
+		}
+		application = { # Basic Medium Tank Prototype Tests
+			id = 2314
+			name = TECH_APP_ARMOR_4_14_NAME
+			desc = TECH_APP_ARMOR_4_14_DESC
+			
+			required = { 2103 2201 2202 2203 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Medium Tank (MG)
+			id = 2315
+			name = TECH_APP_ARMOR_4_15_NAME
+			desc = TECH_APP_ARMOR_4_15_DESC
+			
+			required = { 2314 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 13 }
+				command = { type = deactivate which = 2316 }
+				command = { type = deactivate which = 2317 }
+				command = { type = deactivate which = 2318 }
+				command = { type = deactivate which = 2319 }
+			}
+		}
+		application = { # Basic Medium Tank (30+mm)
+			id = 2316
+			name = TECH_APP_ARMOR_4_16_NAME
+			desc = TECH_APP_ARMOR_4_16_DESC
+			
+			required = { 2314 14011 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 14 }
+				command = { type = deactivate which = 2315 }
+				command = { type = deactivate which = 2317 }
+				command = { type = deactivate which = 2318 }
+				command = { type = deactivate which = 2319 }
+			}
+		}
+		application = { # Basic Medium Tank (40+mm)
+			id = 2317
+			name = TECH_APP_ARMOR_4_17_NAME
+			desc = TECH_APP_ARMOR_4_17_DESC
+			
+			required = { 2314 14105 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 15 }
+				command = { type = deactivate which = 2316 }
+				command = { type = deactivate which = 2315 }
+				command = { type = deactivate which = 2318 }
+				command = { type = deactivate which = 2319 }
+			}
+		}
+		application = { # Basic Medium Tank (50+mm)
+			id = 2318
+			name = TECH_APP_ARMOR_4_18_NAME
+			desc = TECH_APP_ARMOR_4_18_DESC
+			
+			required = { 2314 14206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 16 }
+				command = { type = deactivate which = 2316 }
+				command = { type = deactivate which = 2317 }
+				command = { type = deactivate which = 2315 }
+				command = { type = deactivate which = 2319 }
+			}
+		}
+		application = { # Basic Medium Tank (70+mm)
+			id = 2319
+			name = TECH_APP_ARMOR_4_19_NAME
+			desc = TECH_APP_ARMOR_4_19_DESC
+			
+			required = { 2314 14207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 17 }
+				command = { type = deactivate which = 2316 }
+				command = { type = deactivate which = 2317 }
+				command = { type = deactivate which = 2318 }
+				command = { type = deactivate which = 2315 }
+			}
+		}
+	} # Level 4
+	
+	level = { # 5 - Sloped Armor
+		id = 2400
+		name = TECH_LEVEL_ARMOR_5_NAME 
+		desc = TECH_LEVEL_ARMOR_5_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Improved Optical Sights
+			id = 2401
+			name = TECH_APP_ARMOR_5_1_NAME
+			desc = TECH_APP_ARMOR_5_1_DESC
+			
+			required = { 2101 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = hard_attack which = armor when = now value = 1 }
+			}
+		}
+		application = { # Vehicle Radio Intercoms
+			id = 2402
+			name = TECH_APP_ARMOR_5_2_NAME
+			desc = TECH_APP_ARMOR_5_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = ground_defense which = armor when = now value = 1 }
+			}
+		}
+		application = { # Improved Amphibious Tank
+			id = 2403
+			name = TECH_APP_ARMOR_5_3_NAME
+			desc = TECH_APP_ARMOR_5_3_DESC
+			
+			required = { 2205 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = shore_attack which = armor value = 10 }
+			}
+		}
+		application = { # Improved Amphibious Assault Vehicle
+			id = 2404
+			name = TECH_APP_ARMOR_5_4_NAME
+			desc = TECH_APP_ARMOR_5_4_DESC
+			
+			required = { 2206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = marine when = now value = 1 }
+				command = { type = hard_attack which = marine when = now value = 1 }
+			}
+		}
+		application = { # Improved Halftrack Troop Carrier
+			id = 2405
+			name = TECH_APP_ARMOR_5_5_NAME
+			desc = TECH_APP_ARMOR_5_5_DESC
+			
+			required = { 2102 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Light Tank Destroyer (50+mm)
+			id = 2406
+			name = TECH_APP_ARMOR_5_6_NAME
+			desc = TECH_APP_ARMOR_5_6_DESC
+			
+			required = { 2308 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = motorized when = now value = 1 }
+				command = { type = hard_attack which = mechanized when = now value = 1 }
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Improved Medium Tank Prototype Tests
+			id = 2407
+			name = TECH_APP_ARMOR_5_7_NAME
+			desc = TECH_APP_ARMOR_5_7_DESC
+			
+			required = { 2301 2302 2303 2314 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Medium Tank (40+mm)
+			id = 2408
+			name = TECH_APP_ARMOR_5_8_NAME
+			desc = TECH_APP_ARMOR_5_8_DESC
+			
+			required = { 2407 14105 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 18 }
+				command = { type = deactivate which = 2409 }
+				command = { type = deactivate which = 2410 }
+				command = { type = deactivate which = 2503 }
+			}
+		}
+		application = { # Improved Medium Tank (50+mm)
+			id = 2409
+			name = TECH_APP_ARMOR_5_9_NAME
+			desc = TECH_APP_ARMOR_5_9_DESC
+			
+			required = { 2407 14206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 19 }
+				command = { type = deactivate which = 2408 }
+				command = { type = deactivate which = 2410 }
+				command = { type = deactivate which = 2503 }
+			}
+		}
+		application = { # Improved Medium Tank (70+mm)
+			id = 2410
+			name = TECH_APP_ARMOR_5_10_NAME
+			desc = TECH_APP_ARMOR_5_10_DESC
+			
+			required = { 2407 14207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 20 }
+				command = { type = deactivate which = 2409 }
+				command = { type = deactivate which = 2408 }
+				command = { type = deactivate which = 2503 }
+			}
+		}
+		application = { # Medium Tank Destroyer (70+mm)
+			id = 2411
+			name = TECH_APP_ARMOR_5_11_NAME
+			desc = TECH_APP_ARMOR_5_11_DESC
+			
+			required = { 2406 2407 14205 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = mechanized when = now value = 1 }
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Medium Tank Destroyer (80+mm)
+			id = 2412
+			name = TECH_APP_ARMOR_5_12_NAME
+			desc = TECH_APP_ARMOR_5_12_DESC
+			
+			required = { 2411 14303 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = mechanized when = now value = 1 }
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Medium Tank Destroyer (90+mm)
+			id = 2413
+			name = TECH_APP_ARMOR_5_13_NAME
+			desc = TECH_APP_ARMOR_5_13_DESC
+			
+			required = { 2411 14304 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = mechanized when = now value = 1 }
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+	} # Level 5
+	
+	level = { # 6 - Armor Skirts
+		id = 2500
+		name = TECH_LEVEL_ARMOR_6_NAME 
+		desc = TECH_LEVEL_ARMOR_6_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Basic Armor Skirts
+			id = 2501
+			name = TECH_APP_ARMOR_6_1_NAME
+			desc = TECH_APP_ARMOR_6_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = ground_defense which = armor when = now value = 1 }
+			}
+		}
+		application = { # Improved Wading Equipment
+			id = 2502
+			name = TECH_APP_ARMOR_6_2_NAME
+			desc = TECH_APP_ARMOR_6_2_DESC
+			
+			required = { 2204 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = river_attack which = mechanized value = 10 }
+				command = { type = river_attack which = armor value = 10 }
+			}
+		}
+		application = { # Improved Medium Tank (80+mm)
+			id = 2503
+			name = TECH_APP_ARMOR_6_3_NAME
+			desc = TECH_APP_ARMOR_6_3_DESC
+			
+			required = { 2407 14503 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 21 }
+				command = { type = deactivate which = 2408 }
+				command = { type = deactivate which = 2409 }
+				command = { type = deactivate which = 2410 }
+			}
+		}
+		application = { # Advanced Medium Tank Prototype Tests
+			id = 2504
+			name = TECH_APP_ARMOR_6_4_NAME
+			desc = TECH_APP_ARMOR_6_4_DESC
+			
+			required = { 2407 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = {  }
+			}
+		}
+		application = { # Advanced Medium Tank (50+mm)
+			id = 2505
+			name = TECH_APP_ARMOR_6_5_NAME
+			desc = TECH_APP_ARMOR_6_5_DESC
+			
+			required = { 2504 14206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 22 }
+				command = { type = deactivate which = 2506 }
+				command = { type = deactivate which = 2611 }
+			}
+		}
+		application = { # Advanced Medium Tank (70+mm)
+			id = 2506
+			name = TECH_APP_ARMOR_6_6_NAME
+			desc = TECH_APP_ARMOR_6_6_DESC
+			
+			required = { 2504 14207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 23 }
+				command = { type = deactivate which = 2505 }
+				command = { type = deactivate which = 2611 }
+			}
+		}
+	} # Level 6
+	
+	level = { # 7 - Heavy Tanks
+		id = 2600
+		name = TECH_LEVEL_ARMOR_7_NAME 
+		desc = TECH_LEVEL_ARMOR_7_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Advanced Gear
+			id = 2601
+			name = TECH_APP_ARMOR_7_1_NAME
+			desc = TECH_APP_ARMOR_7_1_DESC
+			
+			required = { 2301 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Suspension
+			id = 2602
+			name = TECH_APP_ARMOR_7_2_NAME
+			desc = TECH_APP_ARMOR_7_2_DESC
+			
+			required = { 2302 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Engine
+			id = 2603
+			name = TECH_APP_ARMOR_7_3_NAME
+			desc = TECH_APP_ARMOR_7_3_DESC
+			
+			required = { 2303 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Halftrack Troop Carrier
+			id = 2604
+			name = TECH_APP_ARMOR_7_4_NAME
+			desc = TECH_APP_ARMOR_7_4_DESC
+			
+			required = { 2405 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Advanced Amphibious Tank
+			id = 2605
+			name = TECH_APP_ARMOR_7_5_NAME
+			desc = TECH_APP_ARMOR_7_5_DESC
+			
+			required = { 2403 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = shore_attack which = armor value = 10 }
+			}
+		}
+		application = { # Advanced Amphibious Assault Vehicle
+			id = 2606
+			name = TECH_APP_ARMOR_7_6_NAME
+			desc = TECH_APP_ARMOR_7_6_DESC
+			
+			required = { 2404 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = marine when = now value = 2 }
+			}
+		}
+		application = { # Heavy Assault Gun (100+mm)
+			id = 2607
+			name = TECH_APP_ARMOR_7_7_NAME
+			desc = TECH_APP_ARMOR_7_7_DESC
+			
+			required = { 2306 2407 14102 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = motorized when = now value = 1 }
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Heavy Assault Gun (150+mm)
+			id = 2608
+			name = TECH_APP_ARMOR_7_8_NAME
+			desc = TECH_APP_ARMOR_7_8_DESC
+			
+			required = { 2607 2407 14601 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = motorized when = now value = 1 }
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Heavy Tank Destroyer (100+mm)
+			id = 2609
+			name = TECH_APP_ARMOR_7_9_NAME
+			desc = TECH_APP_ARMOR_7_9_DESC
+			
+			required = { 2413 2504 14501 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Heavy Tank Destroyer (120+mm)
+			id = 2610
+			name = TECH_APP_ARMOR_7_10_NAME
+			desc = TECH_APP_ARMOR_7_10_DESC
+			
+			required = { 2609 14502 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 2 }
+			}
+		}
+		application = { # Advanced Medium Tank (80+mm)
+			id = 2611
+			name = TECH_APP_ARMOR_7_11_NAME
+			desc = TECH_APP_ARMOR_7_11_DESC
+			
+			required = { 2504 14503 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 24 }
+				command = { type = deactivate which = 2505 }
+				command = { type = deactivate which = 2506 }
+			}
+		}
+		application = { # Basic Heavy Tank Prototype Tests
+			id = 2612
+			name = TECH_APP_ARMOR_7_12_NAME
+			desc = TECH_APP_ARMOR_7_12_DESC
+			
+			required = { 2314 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Heavy Tank (70+mm)
+			id = 2613
+			name = TECH_APP_ARMOR_7_13_NAME
+			desc = TECH_APP_ARMOR_7_13_DESC
+			
+			required = { 2612 14207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 25 }
+				command = { type = deactivate which = 2614 }
+				command = { type = deactivate which = 2703 }
+				
+			}
+		}
+		application = { # Basic Heavy Tank (80+mm)
+			id = 2614
+			name = TECH_APP_ARMOR_7_14_NAME
+			desc = TECH_APP_ARMOR_7_14_DESC
+			
+			required = { 2612 14503 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 26 }
+				command = { type = deactivate which = 2613 }
+				command = { type = deactivate which = 2703 }
+			}
+		}
+	} # Level 7
+	
+	level = { # 8 - Improved Heavy Tanks
+		id = 2700
+		name = TECH_LEVEL_ARMOR_8_NAME 
+		desc = TECH_LEVEL_ARMOR_8_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Improved Armor Skirts
+			id = 2701
+			name = TECH_APP_ARMOR_8_1_NAME
+			desc = TECH_APP_ARMOR_8_1_DESC
+			
+			required = { 2501 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = ground_defense which = armor when = now value = 1 }
+			}
+		}
+		application = { # Advanced Optical Sights
+			id = 2702
+			name = TECH_APP_ARMOR_8_2_NAME
+			desc = TECH_APP_ARMOR_8_2_DESC
+			
+			required = { 2401 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = hard_attack which = armor when = now value = 1 }
+			}
+		}
+		application = { # Basic Heavy Tank (90+mm)
+			id = 2703
+			name = TECH_APP_ARMOR_8_3_NAME
+			desc = TECH_APP_ARMOR_8_3_DESC
+			
+			required = { 2612 14603 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 27 }
+				command = { type = deactivate which = 2613 }
+				command = { type = deactivate which = 2614 }
+			}
+		}
+		application = { # Improved Heavy Tank Prototype Tests
+			id = 2704
+			name = TECH_APP_ARMOR_8_4_NAME
+			desc = TECH_APP_ARMOR_8_4_DESC
+			
+			required = { 2612  }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Heavy Tank (70+mm)
+			id = 2705
+			name = TECH_APP_ARMOR_8_5_NAME
+			desc = TECH_APP_ARMOR_8_5_DESC
+			
+			required = { 2704 14207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 28 }
+				command = { type = deactivate which = 2706 }
+				command = { type = deactivate which = 2707 }
+				command = { type = deactivate which = 2803 }
+			}
+		}
+		application = { # Improved Heavy Tank (80+mm)
+			id = 2706
+			name = TECH_APP_ARMOR_8_6_NAME
+			desc = TECH_APP_ARMOR_8_6_DESC
+			
+			required = { 2704 14503 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 29 }
+				command = { type = deactivate which = 2705 }
+				command = { type = deactivate which = 2707 }
+				command = { type = deactivate which = 2803 }
+			}
+		}
+		application = { # Improved Heavy Tank (90+mm)
+			id = 2707
+			name = TECH_APP_ARMOR_8_7_NAME
+			desc = TECH_APP_ARMOR_8_7_DESC
+			
+			required = { 2704 14603 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 30 }
+				command = { type = deactivate which = 2706 }
+				command = { type = deactivate which = 2705 }
+				command = { type = deactivate which = 2803 }
+			}
+		}
+	} # Level 8
+	
+	level = { # 9 - Advanced Heavy Tanks
+		id = 2800
+		name = TECH_LEVEL_ARMOR_9_NAME 
+		desc = TECH_LEVEL_ARMOR_9_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Advanced Armor Skirts
+			id = 2801
+			name = TECH_APP_ARMOR_9_1_NAME
+			desc = TECH_APP_ARMOR_9_1_DESC
+			
+			required = { 2701 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = ground_defense which = armor when = now value = 1 }
+			}
+		}
+		application = { # Advanced Wading Equipment
+			id = 2802
+			name = TECH_APP_ARMOR_9_2_NAME
+			desc = TECH_APP_ARMOR_9_2_DESC
+			
+			required = { 2502 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = river_attack which = mechanized value = 10 }
+				command = { type = river_attack which = armor value = 10 }
+			}
+		}
+		application = { # Improved Heavy Tank (100+mm)
+			id = 2803
+			name = TECH_APP_ARMOR_9_3_NAME
+			desc = TECH_APP_ARMOR_9_3_DESC
+			
+			required = { 2704 14703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 31 }
+				command = { type = deactivate which = 2706 }
+				command = { type = deactivate which = 2707 }
+				command = { type = deactivate which = 2705 }
+			}
+		}
+		application = { # Advanced Heavy Tank Prototype Tests
+			id = 2804
+			name = TECH_APP_ARMOR_9_4_NAME
+			desc = TECH_APP_ARMOR_9_4_DESC
+			
+			required = { 2601 2602 2603 2704  }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Heavy Tank (80+mm)
+			id = 2805
+			name = TECH_APP_ARMOR_9_5_NAME
+			desc = TECH_APP_ARMOR_9_5_DESC
+			
+			required = { 2804 14503 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 32 }
+				command = { type = deactivate which = 2806 }
+				command = { type = deactivate which = 2807 }
+				command = { type = deactivate which = 2808 }
+			}
+		}
+		application = { # Advanced Heavy Tank (90+mm)
+			id = 2806
+			name = TECH_APP_ARMOR_9_6_NAME
+			desc = TECH_APP_ARMOR_9_6_DESC
+			
+			required = { 2804 14603 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 33 }
+				command = { type = deactivate which = 2805 }
+				command = { type = deactivate which = 2807 }
+				command = { type = deactivate which = 2808 }
+			}
+		}
+		application = { # Advanced Heavy Tank (100+mm)
+			id = 2807
+			name = TECH_APP_ARMOR_9_7_NAME
+			desc = TECH_APP_ARMOR_9_7_DESC
+			
+			required = { 2804 14703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 34 }
+				command = { type = deactivate which = 2806 }
+				command = { type = deactivate which = 2805 }
+				command = { type = deactivate which = 2808 }
+			}
+		}
+		application = { # Advanced Heavy Tank (120+mm)
+			id = 2808
+			name = TECH_APP_ARMOR_9_8_NAME
+			desc = TECH_APP_ARMOR_9_8_DESC
+			
+			required = { 2804 14803 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 35 }
+				command = { type = deactivate which = 2805 }
+				command = { type = deactivate which = 2806 }
+				command = { type = deactivate which = 2807 }
+			}
+		}
+	} # Level 9
+	
+	level = { # 10 - Infrared Gun Sights
+		id = 2900
+		name = TECH_LEVEL_ARMOR_10_NAME 
+		desc = TECH_LEVEL_ARMOR_10_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Infrared Optical Sights
+			id = 2901
+			name = TECH_APP_ARMOR_10_1_NAME
+			desc = TECH_APP_ARMOR_10_1_DESC
+			
+			required = { 2702 3701 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { type = night_attack which = armor value = 15 }
+				command = { type = night_move which = armor value = 15 }
+				command = { type = night_defense which = armor value = 15 }
+			}
+		}
+		application = { # Super-Heavy Gear
+			id = 2902
+			name = TECH_APP_ARMOR_10_2_NAME
+			desc = TECH_APP_ARMOR_10_2_DESC
+			
+			required = { 2601 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Super-Heavy Suspension
+			id = 2903
+			name = TECH_APP_ARMOR_10_3_NAME
+			desc = TECH_APP_ARMOR_10_3_DESC
+			
+			required = { 2602 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Super-Heavy Engine
+			id = 2904
+			name = TECH_APP_ARMOR_10_4_NAME
+			desc = TECH_APP_ARMOR_10_4_DESC
+			
+			required = { 2603 }
+			chance = 90
+			cost = 6
+			time = 60
+			neg_offset = 15
+			pos_offset = 30
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 10
+	
+	level = { # 11 - Super-Heavy Tanks
+		id = 2940
+		name = TECH_LEVEL_ARMOR_11_NAME 
+		desc = TECH_LEVEL_ARMOR_11_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Super-Heavy Tank Prototype Tests
+			id = 2941
+			name = TECH_APP_ARMOR_11_1_NAME
+			desc = TECH_APP_ARMOR_11_1_DESC
+			
+			required = { 2804 2902 2903 2904  }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Super-Heavy Tank (100+mm)
+			id = 2942
+			name = TECH_APP_ARMOR_11_2_NAME
+			desc = TECH_APP_ARMOR_11_2_DESC
+			
+			required = { 2941 14703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 36 }
+				command = { type = deactivate which = 2943 }
+				command = { type = deactivate which = 2971 }
+			}
+		}
+		application = { # Super-Heavy Tank (120+mm)
+			id = 2943
+			name = TECH_APP_ARMOR_11_3_NAME
+			desc = TECH_APP_ARMOR_11_3_DESC
+			
+			required = { 2941 14803 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 37 }
+				command = { type = deactivate which = 2942 }
+				command = { type = deactivate which = 2971 }
+			}
+		}
+	} # Level 11
+	
+	level = { # 12 - Armored Personnel Carriers
+		id = 2970
+		name = TECH_LEVEL_ARMOR_12_NAME 
+		desc = TECH_LEVEL_ARMOR_12_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Super-Heavy Tank (150+mm)
+			id = 2971
+			name = TECH_APP_ARMOR_12_1_NAME
+			desc = TECH_APP_ARMOR_12_1_DESC
+			
+			required = { 2941 14942 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = armor value = 38 }
+				command = { type = deactivate which = 2942 }
+				command = { type = deactivate which = 2943 }
+			}
+		}
+		application = { # Armored Personnel Carriers
+			id = 2972
+			name = TECH_APP_ARMOR_12_2_NAME
+			desc = TECH_APP_ARMOR_12_2_DESC
+			
+			required = { 2604 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 2 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+				command = { type = soft_attack which = armor when = now value = 2 }
+				command = { type = ground_defense which = armor when = now value = 1 }
+			}
+		}
+	} # Level 12
+}

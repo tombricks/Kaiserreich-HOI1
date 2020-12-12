@@ -1,0 +1,137 @@
+SPR;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+11001;Head of State;Niceto Alcalá-Zamora;NA;LC CE RS PA FA;NA;NA;unknown;x
+11002;Head of Government;Manuel Portela Valladares;NA;LC;NA;NA;unknown;x
+11003;Foreign Minister;Joaquín Urzaiz Cadaval;NA;RS;Undistinguished Suit;Low;unknown;x
+11004;Minister of Armament;José Mendizábal y Bonilla;NA;LC;Undistinguished Suit;Medium;unknown;x
+11005;Minister of Security;Manuel Portela Valladares;NA;LC;Silent Lawyer;Undying;unknown;x
+11006;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+11007;Chief of Staff;Francisco Franco Bahamonde;NA;FA;School of Psychology;Medium;franco_francisco2_spa;x
+11008;Chief of Army;Nicolás Molero Lobo;NA;CE;Static Defence Doctrine;Very High;unknown;x
+11009;Chief of Navy;Antonio Azarola Gresillón;NA;CE;Undistinguished Suit;High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+11001;Head of State;Niceto Alcalá-Zamora;NA;LC CE RS PA FA;NA;NA;unknown;x
+11002;Head of Government;Manuel Portela Valladares;NA;LC;NA;NA;unknown;x
+11003;Foreign Minister;Joaquín Urzaiz Cadaval;NA;RS;Undistinguished Suit;Low;unknown;x
+11004;Minister of Armament;José Mendizábal y Bonilla;NA;LC;Undistinguished Suit;Medium;unknown;x
+11005;Minister of Security;Manuel Portela Valladares;NA;LC;Silent Lawyer;Undying;unknown;x
+11006;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+11007;Chief of Staff;Francisco Franco Bahamonde;NA;FA;School of Psychology;Medium;franco_francisco2_spa;x
+11008;Chief of Army;Nicolás Molero Lobo;NA;CE;Static Defence Doctrine;Very High;unknown;x
+11009;Chief of Navy;Antonio Azarola Gresillón;NA;CE;Undistinguished Suit;High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+11011;Head of State;Manuel Azaña ;NA;CE RS LWR LE ST;NA;NA;unknown;x
+11012;Head of Government;Manuel Azaña ;NA;RS;NA;NA;unknown;x
+11013;Foreign Minister;Augusto Barcia Trelles;NA;RS;Ideological Crusader;High;unknown;x
+11014;Minister of Armament;Gabriel Franco López;NA;RS;Undistinguished Suit;Medium;unknown;x
+11015;Minister of Security;Amós Salvador Carreras;NA;RS;Undistinguished Suit;High;unknown;x
+11016;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+11017;Chief of Staff;Manuel Estrada;NA;CE;Undistinguished Suit;Medium;unknown;x
+11018;Chief of Army;Carlos Masquelet Lacaci;NA;RS;Static Defence Doctrine;High;unknown;x
+11019;Chief of Navy;José Giral Pereira;NA;RS;Undistinguished Suit;Very High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+11001;Head of State;Niceto Alcalá-Zamora;NA;LC CE RS PA FA;NA;NA;unknown;x
+11002;Head of Government;Manuel Portela Valladares;NA;LC;NA;NA;unknown;x
+11003;Foreign Minister;Joaquín Urzaiz Cadaval;NA;RS;Undistinguished Suit;Low;unknown;x
+11004;Minister of Armament;José Mendizábal y Bonilla;NA;LC;Undistinguished Suit;Medium;unknown;x
+11005;Minister of Security;Manuel Portela Valladares;NA;LC;Silent Lawyer;Undying;unknown;x
+11006;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+11007;Chief of Staff;Francisco Franco Bahamonde;NA;FA;School of Psychology;Medium;franco_francisco2_spa;x
+11008;Chief of Army;Nicolás Molero Lobo;NA;CE;Static Defence Doctrine;Very High;unknown;x
+11009;Chief of Navy;Antonio Azarola Gresillón;NA;CE;Undistinguished Suit;High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+11011;Head of State;Manuel Azaña ;NA;CE RS LWR LE ST;NA;NA;unknown;x
+11012;Head of Government;Manuel Azaña ;NA;RS;NA;NA;unknown;x
+11013;Foreign Minister;Augusto Barcia Trelles;NA;RS;Ideological Crusader;High;unknown;x
+11014;Minister of Armament;Gabriel Franco López;NA;RS;Undistinguished Suit;Medium;unknown;x
+11015;Minister of Security;Amós Salvador Carreras;NA;RS;Undistinguished Suit;High;unknown;x
+11016;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+11017;Chief of Staff;Manuel Estrada;NA;CE;Undistinguished Suit;Medium;unknown;x
+11018;Chief of Army;Carlos Masquelet Lacaci;NA;RS;Static Defence Doctrine;High;unknown;x
+11019;Chief of Navy;José Giral Pereira;NA;RS;Undistinguished Suit;Very High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+11001;Head of State;Niceto Alcalá-Zamora;NA;LC CE RS PA FA;NA;NA;unknown;x
+11002;Head of Government;Manuel Portela Valladares;NA;LC;NA;NA;unknown;x
+11003;Foreign Minister;Joaquín Urzaiz Cadaval;NA;RS;Undistinguished Suit;Low;unknown;x
+11004;Minister of Armament;José Mendizábal y Bonilla;NA;LC;Undistinguished Suit;Medium;unknown;x
+11005;Minister of Security;Manuel Portela Valladares;NA;LC;Silent Lawyer;Undying;unknown;x
+11006;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+11007;Chief of Staff;Francisco Franco Bahamonde;NA;FA;School of Psychology;Medium;franco_francisco2_spa;x
+11008;Chief of Army;Nicolás Molero Lobo;NA;CE;Static Defence Doctrine;Very High;unknown;x
+11009;Chief of Navy;Antonio Azarola Gresillón;NA;CE;Undistinguished Suit;High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+11011;Head of State;Manuel Azaña ;NA;CE RS LWR LE ST;NA;NA;unknown;x
+11012;Head of Government;Manuel Azaña ;NA;RS;NA;NA;unknown;x
+11013;Foreign Minister;Augusto Barcia Trelles;NA;RS;Ideological Crusader;High;unknown;x
+11014;Minister of Armament;Gabriel Franco López;NA;RS;Undistinguished Suit;Medium;unknown;x
+11015;Minister of Security;Amós Salvador Carreras;NA;RS;Undistinguished Suit;High;unknown;x
+11016;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+11017;Chief of Staff;Manuel Estrada;NA;CE;Undistinguished Suit;Medium;unknown;x
+11018;Chief of Army;Carlos Masquelet Lacaci;NA;RS;Static Defence Doctrine;High;unknown;x
+11019;Chief of Navy;José Giral Pereira;NA;RS;Undistinguished Suit;Very High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+11021;Head of State;Alfonso XIII;NA;PA LC CE;NA;NA;alfons_XIII_spa;x
+11022;Head of Government;José María Gil-Robles Quiñones;NA;PA;NA;NA;unknown;x
+11023;Foreign Minister;Manuel Jímenez Fernández;NA;PA;Undistinguished Suit;Medium;unknown;x
+11024;Minister of Armament;José Calvo-Sotelo;NA;PA;Laissez Faire Capitalist;Very High;unknown;x
+11025;Minister of Security;Federico Salmón Amorín ;NA;PA;Compassionate Gentleman;High;unknown;x
+11026;Head of Military Intelligence;Royal Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+11027;Chief of Staff;Luís Orgaz Yoldi;NA;PA;Guns and Butter Doctrine;Medium;unknown;x
+11028;Chief of Army;Antonio Aranda Mata;NA;PA;Static Defense Doctrine;Low;unknown;x
+11029;Chief of Navy;Antonio Royo Villanova;NA;PA;Open Seas Doctrine;High;unknown;x
+11030;Chief of Air Force;Alfredo Kindelán Duany ;NA;PA;Carpet Bombing Doctrine;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+11031;Head of State;José Díaz Ramos;NA;LE ST;NA;NA;unknown;x
+11032;Head of Government;José Díaz Ramos;NA;ST;NA;NA;unknown;x
+11033;Foreign Minister;Julio Álvarez del Vayo;NA;ST;Ideological Crusader;High;unknown;x
+11034;Minister of Armament;Enrique Castro Delgado;NA;ST;Infantry Proponent;High;unknown;x
+11035;Minister of Security;Santiago Carrillo Solares;NA;LE;Prince of Terror;Very High;unknown;x
+11036;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+11037;Chief of Staff;Miguel Tagüeña Lacorte;NA;LE;School of Manoeuvre;Very High;unknown;x
+11038;Chief of Army;Enrique Líster Forján;NA;LE;Decisive Battle Doctrine;Very High;unknown;x
+11039;Chief of Navy;Francisco Galán Rodríguez;NA;LE;Open Seas Doctrine;Medium;unknown;x
+11040;Chief of Air Force;Ignacio Hidalgo de Cisneros;NA;LE;Air Superiority Doctrine;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+11012;Head of Government;Manuel Azaña;36;RS;NA;NA;unknown;x
+11022;Head of Government;José María Gil-Robles Quiñones;36;PA;NA;NA;unknown;x
+11046;Head of Government;Santiago Casares Quiroga;36;RS;NA;NA;unknown;x
+11047;Head of Government;José Giral Pereira;36;RS;NA;NA;unknown;x
+11048;Head of Government;Francisco Largo Caballero;36;LE;NA;NA;unknown;x
+11049;Head of Government;Juan Negrín López;37;LWR;NA;NA;unknown;x
+11023;Foreign Minister;Manuel Jímenez Fernández;36;PA;Undistinguished Suit;Medium;unknown;x
+11033;Foreign Minister;Julio Álvarez del Vayo;36;ST;Ideological Crusader;High;unknown;x
+11052;Foreign Minister;José Giral Pereira;37;LWR;Undistinguished Suit;High;unknown;x
+11045;Minister of Armament;Francisco Largo Caballero;36;LE;Resource Industrialist;High;unknown;x
+11024;Minister of Armament;José Calvo-Sotelo;36;PA;Laissez-Faires Capitalist;Very High;unknown;x
+11054;Minister of Armament;Enrique Ramos y Ramos;36;RS;Infantry Proponent;High;unknown;x
+11055;Minister of Armament;Juan Negrín López;36;LWR;Administrative Genius;High;unknown;x
+11056;Minister of Armament;Francisco Méndez Aspe;38;LWR;Corrupt Kleptocrat;High;unknown;x
+11057;Minister of Security;Paulino Gómez Saiz;38;LWR;Undistinguished Suit;High;unknown;x
+11025;Minister of Security;Federico Salmón Amorín;36;PA;Compassionate Gentleman;High;unknown;x
+11059;Minister of Security;Sebastián Pozas Perea;36;LWR;Crime Fighter;High;unknown;x
+11060;Minister of Security;Ángel Galarza Gago;36;LWR;Prince of Terror;High;unknown;x
+11061;Minister of Security;Juan Moles Ormella;36;RS;Undistinguished Suit;Medium;unknown;x
+11062;Minister of Security;Julián Zugazagoitia Mendieta;37;LWR;Compassionate Gentleman;High;unknown;x
+11063;Chief of Staff;Toribio Martínez Cabrera;36;CE;School of Mass Combat;Medium;unknown;x
+11064;Chief of Staff;Vicente Rojo Lluch;36;CE;School of Manoeuvre;Very High;unknown;x
+11065;Chief of Army;Emilio Mola;36;FA;Decisive Battle Doctrine;High;unknown;x
+11066;Chief of Army;Luis Castelló Pantoja;36;CE;Elastic Defence Doctrine;High;unknown;x
+11067;Chief of Army;Juan Hernández Sarabia;36;RS;Guns and Butter Doctrine;High;unknown;x
+11068;Chief of Navy;Indalecio Prieto Tuero;36;LWR;Open Seas Doctrine;High;unknown;x
+11029;Chief of Navy;Antonio Royo Villanova;36;PA;Open Seas Doctrine;High;unknown;x
+11070;Chief of Navy;Francisco Matz Sánchez;36;CE;Undistinguished Suit;High;unknown;x
+11071;Chief of Navy;Miguel Buiza;36;CE;Indirect Approach Doctrine;Medium;unknown;x
+11072;Chief of Navy;González Ubieta;37;RS;Indirect Approach Doctrine;High;unknown;x
+11030;Chief of Air Force;Alfredo Kindelán Duany;36;PA;Carpet Bombing Doctrine;High;unknown;x
+11074;Chief of Air Force;Indalecio Prieto Tuero ;36;LWR;Carpet Bombing Doctrine;High;unknown;x
+11040;Chief of Air Force;Ignacio Hidalgo de Cisneros;37;LE;Air Superiority Doctrine;High;unknown;x
+11017;Chief of Staff;Manuel Estrada;36;RS;Undistinguished Suit;High;unknown;x
+11018;Chief of Army;Carlos Masquelet Lacaci;36;RS;Static Defence Doctrine;High;unknown;x
+11019;Chief of Navy;José Giral Pereira;36;RS;Undistinguished Suit;High;unknown;x
+11010;Chief of Air Force;Miguel Nuñez de Prado;36;CE;Naval Air Doctrine;Medium;unknown;x

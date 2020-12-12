@@ -1,0 +1,682 @@
+GER;BB;Bismarck
+GER;BB;Tirpitz
+GER;BB;Scharnhorst
+GER;BB;Gneisenau
+GER;BB;Friedrich der Grosse
+GER;BB;Grossdeutschland
+GER;BB;Hindenburg
+GER;BB;Ludendorff
+GER;BB;Schlieffen
+GER;BB;Berlin
+GER;BB;Moritz
+GER;BB;Zeiten
+GER;BB;Bevan
+GER;BB;Moltke
+GER;BB;Bülow
+GER;BB;Falkenhayn
+GER;BB;Schlesien
+GER;BB;Ostmark
+GER;BB;Preussen
+GER;BB;Sachsen
+GER;BB;Westfalen
+GER;BB;Pommern
+GER;CA;Admiral Hipper
+GER;CA;Blücher
+GER;CA;Prinz Eugen
+GER;CA;Seydlitz
+GER;CA;Lützow
+GER;CA;Deutschland
+GER;CA;Admiral Scheer
+GER;CA;Admiral Graf Spee
+GER;CA;Nürnberg
+GER;CA;Leipzig
+GER;CA;Königsberg
+GER;CA;Karlsruhe
+GER;CA;Köln
+GER;CA;Emden
+GER;CA;Dresden
+GER;CA;Memel
+GER;CA;Stuttgart
+GER;CA;Kassel
+GER;CA;Rostock
+GER;CA;Kiel
+GER;CA;Hamburg
+GER;CA;Bremen
+GER;CA;Wien
+GER;CA;Salzburg
+GER;CA;Karlsbad
+GER;CA;Laibach
+GER;CA;Essen
+GER;CA;Düsseldorf
+GER;CA;München
+GER;CA;Dortmund
+GER;CA;Frankfurt am Main
+GER;CA;Braunschweig
+GER;CA;Schwerin
+GER;CA;Mannheim
+GER;CA;Augsburg
+GER;CV;Graf Zeppelin
+GER;CV;Peter Strasser
+GER;CV;Seydlitz
+GER;CV;Clausewitz
+GER;CV;Barbarossa
+GER;CV;Seelöwe
+GER;CV;Amerika
+GER;CV;Rheingold
+GER;CV;Siegfried
+GER;CV;Parsifal
+GER;CV;Lohengrin
+GER;CV;Germania
+GER;CV;Richthofen
+ITA;BB;Conte di Cavour
+ITA;BB;Giulio Cesare
+ITA;BB;Caio Duilio
+ITA;BB;Andrea Doria
+ITA;BB;Littorio
+ITA;BB;Vittorio Veneto
+ITA;BB;Impero
+ITA;BB;Roma
+ITA;CA;Bolzano
+ITA;CA;Zara
+ITA;CA;Fiume
+ITA;CA;Gorizia
+ITA;CA;Pola
+ITA;CA;Trento
+ITA;CA;Trieste
+ITA;CA;San Marco
+ITA;CA;San Giorgio
+ITA;CA;Giuseppe Garibaldi
+ITA;CA;Luigi di Savoia Duca Degli Abruzzi
+ITA;CA;Emanuele Filiberto Duca d´Aosta
+ITA;CA;Eugenio Di Savoia
+ITA;CA;Raimondo Montecuccoli
+ITA;CA;Muzio Attendolo
+ITA;CA;Luigi Cadorna
+ITA;CA;Armando Diaz
+ITA;CA;Alberico da Barbiano
+ITA;CA;Alberto di Giussano
+ITA;CA;Bartolomeo Colleoni
+ITA;CA;Giovanni delle Dande Nere
+ITA;CV;Aquilia
+JAP;BB;Yamato
+JAP;BB;Musashi
+JAP;BB;Shinano
+JAP;BB;Nagato
+JAP;BB;Mutsu
+JAP;BB;Ise
+JAP;BB;Hyuga
+JAP;BB;Fuso
+JAP;BB;Yamashiro
+JAP;BB;Kongo
+JAP;BB;Hiei
+JAP;BB;Haruna
+JAP;BB;Kirishima
+JAP;CV;Shinano
+JAP;CV;Taiho
+JAP;CV;Urnyu
+JAP;CV;Amagi
+JAP;CV;Katsuragi
+JAP;CV;Kasagi
+JAP;CV;Aso
+JAP;CV;Ikoma
+JAP;CV;Shokaku
+JAP;CV;Zuikaku
+JAP;CV;Soryu
+JAP;CV;Hiryu
+JAP;CV;Kaga
+JAP;CV;Akagi
+JAP;CV;Ibuki
+JAP;CV;Ryuho
+JAP;CV;Junyo
+JAP;CV;Hiyo
+JAP;CV;Chitose
+JAP;CV;Chiyoda
+JAP;CV;Zuiho
+JAP;CV;Shoho
+JAP;CV;Ryujo
+JAP;CV;Hosho
+JAP;CV;Shinyo
+JAP;CV;Kaiyo
+JAP;CV;Taiyo
+JAP;CV;Unyo
+JAP;CV;Chuyo
+JAP;CA;Tone
+JAP;CA;Chikuma
+JAP;CA;Mogami
+JAP;CA;Mikuma
+JAP;CA;Suzuya
+JAP;CA;Kumano
+JAP;CA;Takao
+JAP;CA;Atago
+JAP;CA;Maya
+JAP;CA;Chokai
+JAP;CA;Aoba
+JAP;CA;Kinugasa
+JAP;CA;Myoko
+JAP;CA;Nachi
+JAP;CA;Ashigara
+JAP;CA;Haguro
+JAP;CA;Furutaka
+JAP;CA;Kako
+JAP;CA;Oyoda
+JAP;CA;Niyoyobo
+JAP;CA;Agano
+JAP;CA;Noshiro
+JAP;CA;Sakawa
+JAP;CA;Yahagi
+JAP;CA;Katuri
+JAP;CA;Kashima
+JAP;CA;Kashii
+JAP;CA;Kashiwara
+JAP;CA;Yubari
+JAP;CA;Naka
+JAP;CA;Sendai
+JAP;CA;Jintsu
+JAP;CA;Nagara
+JAP;CA;Isuzu
+JAP;CA;Natori
+JAP;CA;Kinu
+JAP;CA;Yura
+JAP;CA;Abukama
+JAP;CA;Kuma
+JAP;CA;Tama
+JAP;CA;Kitakama
+JAP;CA;Oi
+JAP;CA;Kiso
+JAP;CA;Tenryu
+JAP;CA;Tatsuta
+ENG;BB;Lion
+ENG;BB;Temeraire
+ENG;BB;Conqueror
+ENG;BB;Thunderer
+ENG;BB;Vanguard
+ENG;BB;King George V
+ENG;BB;Prince of Wales
+ENG;BB;Duke of York
+ENG;BB;Anson
+ENG;BB;Howe
+ENG;BB;Nelson
+ENG;BB;Rodney
+ENG;BB;Revenge
+ENG;BB;Resolution
+ENG;BB;Ramilles
+ENG;BB;Royal Sovereign
+ENG;BB;Royal Oak
+ENG;BB;Queen Elizabeth
+ENG;BB;Warspite
+ENG;BB;Barham
+ENG;BB;Valiant
+ENG;BB;Malaya
+ENG;BB;Iron Duke
+ENG;BB;Hood
+ENG;BB;Renown
+ENG;BB;Repulse
+ENG;CV;Malta
+ENG;CV;New Zealand
+ENG;CV;Gibraltar
+ENG;CV;Africa
+ENG;CV;Audaciuos/Eagle
+ENG;CV;Irresistable/Ark Royal
+ENG;CV;Eagle (II)
+ENG;CV;Implacable
+ENG;CV;Indefatigable
+ENG;CV;Illustrious
+ENG;CV;Victorious
+ENG;CV;Formidable
+ENG;CV;Indomitable
+ENG;CV;Ark Royal
+ENG;CV;Corageous
+ENG;CV;Gloriuos
+ENG;CV;Furiuos
+ENG;CV;Centaur
+ENG;CV;Albion
+ENG;CV;Bulwark
+ENG;CV;Elephant
+ENG;CV;Arrogant
+ENG;CV;Monmouth
+ENG;CV;Hermes
+ENG;CV;Polyphemus
+ENG;CV;Majestic
+ENG;CV;Magnificent
+ENG;CV;Terrible
+ENG;CV;Powerful
+ENG;CV;Hercules
+ENG;CV;Leviathan
+ENG;CV;Collussus
+ENG;CV;Vengeance
+ENG;CV;Venerable
+ENG;CV;Mars
+ENG;CV;Glory
+ENG;CV;Ocean
+ENG;CV;Perseus
+ENG;CV;Theseus
+ENG;CV;Triumph
+ENG;CV;Warrior
+ENG;CV;Unicorn
+ENG;CV;Hermes
+ENG;CV;Eagle
+ENG;CV;Argus
+ENG;CA;York
+ENG;CA;Exeter
+ENG;CA;Norfolk
+ENG;CA;Dorsetshire
+ENG;CA;London
+ENG;CA;Devonshire
+ENG;CA;Sussex
+ENG;CA;Shropshire
+ENG;CA;Kent
+ENG;CA;Berwick
+ENG;CA;Cumberland
+ENG;CA;Cornwall
+ENG;CA;Suffolk
+ENG;CA;Swiftsure
+ENG;CA;Minotaur/Ontario
+ENG;CA;Superb
+ENG;CA;Bellerphon
+ENG;CA;Hawke
+ENG;CA;Centurion
+ENG;CA;Edgar
+ENG;CA;Mars
+ENG;CA;Minotaur
+ENG;CA;Neptune
+ENG;CA;Tiger
+ENG;CA;Blake
+ENG;CA;Defense
+ENG;CA;Uganda
+ENG;CA;New Foundland
+ENG;CA;Ceylon
+ENG;CA;Fiji
+ENG;CA;Kenya
+ENG;CA;Nigeria
+ENG;CA;Mauritius
+ENG;CA;Trinidad
+ENG;CA;Gambia
+ENG;CA;Jamaica
+ENG;CA;Bermuda
+ENG;CA;Spartan
+ENG;CA;Royalist
+ENG;CA;Bellona
+ENG;CA;Black Prince
+ENG;CA;Diadem
+ENG;CA;Dido
+ENG;CA;Bonaventure
+ENG;CA;Pheobe
+ENG;CA;Hermione
+ENG;CA;Euryalus
+ENG;CA;Naiad
+ENG;CA;Cleopatra
+ENG;CA;Sirius
+ENG;CA;Argonaut
+ENG;CA;Charybdis
+ENG;CA;Scylla
+ENG;CA;Southampton
+ENG;CA;Newcastle
+ENG;CA;Sheffield
+ENG;CA;Glasgow
+ENG;CA;Birmingham
+ENG;CA;Liverpool
+ENG;CA;Manchester
+ENG;CA;Gloucester
+ENG;CA;Edinburgh
+ENG;CA;Belfast
+ENG;CA;Arethusa
+ENG;CA;Galatea
+ENG;CA;Penelope
+ENG;CA;Aurora
+ENG;CA;Leander
+ENG;CA;Achilles
+ENG;CA;Neptune
+ENG;CA;Orion
+ENG;CA;Ajax
+ENG;CA;Perth
+ENG;CA;Hobart
+ENG;CA;Sydney
+ENG;CA;Emerald
+ENG;CA;Enterprise
+ENG;CA;Delhi
+ENG;CA;Dunedin
+ENG;CA;Durban
+ENG;CA;Diomede
+ENG;CA;Despatch
+ENG;CA;Danae
+ENG;CA;Dauntless
+ENG;CA;Dragon
+ENG;CA;Carlisle
+ENG;CA;Columbo
+ENG;CA;Calcutta
+ENG;CA;Cairo
+ENG;CA;Capetown
+ENG;CA;Cardiff
+ENG;CA;Ceres
+ENG;CA;Coventry
+ENG;CA;Curacao
+ENG;CA;Curlew
+ENG;CA;Caledon
+ENG;CA;Calypso
+ENG;CA;Caradoc
+FRA;BB;Richelieu
+FRA;BB;Jean Bart
+FRA;BB;Clemenceau
+FRA;BB;Gascoigne
+FRA;BB;Provence
+FRA;BB;Bretagne
+FRA;BB;Lorraine
+FRA;BB;Courbet
+FRA;BB;Ocean
+FRA;BB;Paris
+FRA;BB;Dunkerque
+FRA;BB;Strasbourg
+FRA;CV;Bearn
+FRA;CV;Joffre
+FRA;CV;Painleve
+FRA;CA;Algérie
+FRA;CA;Foch
+FRA;CA;Dupleix
+FRA;CA;Suffren
+FRA;CA;Colbert
+FRA;CA;Duquesne
+FRA;CA;Tourville
+FRA;CA;de Grasse
+FRA;CA;Guichen
+FRA;CA;Chateaurenault
+FRA;CA;La Galissonnière
+FRA;CA;Jean de Vienne
+FRA;CA;Georges Leygues
+FRA;CA;Marseillaise
+FRA;CA;Gloire
+FRA;CA;Montcalm
+FRA;CA;Emile Bertin
+FRA;CA;Pluton
+FRA;CA;Jeanne D´Arc
+FRA;CA;Duguay-Trouin
+FRA;CA;Lamotte-Piquet
+FRA;CA;Primauget
+USA;BB;Montana
+USA;BB;Ohio
+USA;BB;Maine
+USA;BB;New Hampshire
+USA;BB;Lousiana
+USA;BB;Iowa
+USA;BB;New Jersey
+USA;BB;Missouri
+USA;BB;Wisconsin
+USA;BB;Illinois
+USA;BB;Kentucky
+USA;BB;South Dakota
+USA;BB;Indiana
+USA;BB;Massachusetts
+USA;BB;Alabama
+USA;BB;North Carolina
+USA;BB;Washington
+USA;BB;Colorado
+USA;BB;Maryland
+USA;BB;West Virginia
+USA;BB;Tennessee
+USA;BB;California
+USA;BB;New Mexico
+USA;BB;Mississippi
+USA;BB;Idaho
+USA;BB;Pennsylvania
+USA;BB;Arizona
+USA;BB;Nevada
+USA;BB;Oklahoma
+USA;BB;New York
+USA;BB;Texas
+USA;BB;Wyoming
+USA;BB;Arkansas
+USA;BB;Alaska
+USA;BB;Guam
+USA;BB;Hawaii
+USA;BB;Phillipines
+USA;BB;Puerto Rico
+USA;BB;Samoa
+USA;BB;North Dakota
+USA;BB;South Carolina
+USA;BB;Georgia
+USA;BB;Florida
+USA;BB;Virginia
+USA;BB;Vermont
+USA;BB;Connecticut
+USA;BB;Minnesota
+USA;BB;Utah
+USA;BB;Oregon
+USA;BB;Kansas
+USA;CV;Forrestal
+USA;CV;Saratoga (II)
+USA;CV;Ranger (II)
+USA;CV;Independance (II)
+USA;CV;United States
+USA;CV;Midway
+USA;CV;Franklin D. Roosevelt
+USA;CV;Coral Sea
+USA;CV;Essex
+USA;CV;Yorktown (II)
+USA;CV;Intrepid
+USA;CV;Hornet (II)
+USA;CV;Franklin
+USA;CV;Lexington (II)
+USA;CV;Bunker Hill
+USA;CV;Wasp (II)
+USA;CV;Bennington
+USA;CV;Bon Homme Richard
+USA;CV;Ticonderoga
+USA;CV;Randolph
+USA;CV;Hancock
+USA;CV;Boxer
+USA;CV;Leyte
+USA;CV;Kearsage
+USA;CV;Oriskany
+USA;CV;Antietam
+USA;CV;Princeton (II)
+USA;CV;Shangri La
+USA;CV;Lake Champlain
+USA;CV;Tarawa
+USA;CV;Valley Forge
+USA;CV;Phillipine Sea
+USA;CV;Wasp
+USA;CV;Yorktown
+USA;CV;Enterprise
+USA;CV;Hornet
+USA;CV;Lexington
+USA;CV;Saratoga
+USA;CV;Saipan
+USA;CV;Wright
+USA;CV;Lafayette
+USA;CV;Independance
+USA;CV;Princeton
+USA;CV;Bealeauwood
+USA;CV;Cowpens
+USA;CV;Monterey
+USA;CV;Langley (II)
+USA;CV;Cabot
+USA;CV;Bataan
+USA;CV;San Jacinto
+USA;CV;Ranger
+USA;CV;Langley
+USA;CA;Des Moines
+USA;CA;Salem
+USA;CA;Dallas
+USA;CA;Newport News
+USA;CA;Oregon City
+USA;CA;Albany
+USA;CA;Rochester
+USA;CA;Northampton (II)
+USA;CA;Baltimore
+USA;CA;Boston
+USA;CA;Canberra
+USA;CA;Quincy (II)
+USA;CA;Pittsburgh
+USA;CA;St.Paul
+USA;CA;Columbus
+USA;CA;Helena
+USA;CA;Cambridge
+USA;CA;Bridgeport
+USA;CA;Kansas City
+USA;CA;Tulsa
+USA;CA;Bremerton
+USA;CA;Fall River
+USA;CA;Macon
+USA;CA;Toledo
+USA;CA;Los Angeles
+USA;CA;Chicago (II)
+USA;CA;Norfolk
+USA;CA;Scranton
+USA;CA;Wichita
+USA;CA;New Orleans
+USA;CA;Astoria
+USA;CA;Minneapolis
+USA;CA;Tuscaloosa
+USA;CA;Quincey
+USA;CA;Vincennes
+USA;CA;Portland
+USA;CA;Indianapolis
+USA;CA;Northampton
+USA;CA;Chester
+USA;CA;Louisville
+USA;CA;Chicago
+USA;CA;Houston
+USA;CA;Augusta
+USA;CA;Pensacola
+USA;CA;Salt Lake City
+USA;CA;Worchester
+USA;CA;Roanoke
+USA;CA;Vallejo
+USA;CA;Gary
+USA;CA;Fargo
+USA;CA;Huntington
+USA;CA;Newark
+USA;CA;New Haven
+USA;CA;Buffalo
+USA;CA;Wilmington
+USA;CA;Tallahassee
+USA;CA;Cheyenne
+USA;CA;Chattanooga
+USA;CA;Clevland
+USA;CA;Columbia
+USA;CA;Montpelier
+USA;CA;Denver
+USA;CA;Amsterdam
+USA;CA;Santa Fe
+USA;CA;Tallahassee
+USA;CA;Birmingham
+USA;CA;Mobile
+USA;CA;Vincennes (II)
+USA;CA;Pasadena
+USA;CA;Springfield
+USA;CA;Topeka
+USA;CA;New Haven
+USA;CA;Huntington
+USA;CA;Dayton
+USA;CA;Wilmington
+USA;CA;Biloxi
+USA;CA;Houston (II)
+USA;CA;Providence
+USA;CA;Manchester
+USA;CA;Crown Point
+USA;CA;Vicksburg
+USA;CA;Duluth
+USA;CA;Miami
+USA;CA;Astoria (II)
+USA;CA;Oklahoma City
+USA;CA;Little Rock
+USA;CA;Galveston
+USA;CA;Youngstown
+USA;CA;Buffalo
+USA;CA;Reprisal
+USA;CA;Amsterdam
+USA;CA;Portsmouth
+USA;CA;Wilkes-Barre
+USA;CA;Atlanta (II)
+USA;CA;Dayton
+USA;CA;Atlanta
+USA;CA;Juneau
+USA;CA;San Diego
+USA;CA;San Juan
+USA;CA;St.Louis
+USA;CA;Helena
+USA;CA;Brooklyn
+USA;CA;Philadelphia
+USA;CA;Savannah
+USA;CA;Nashville
+USA;CA;Pheonix
+USA;CA;Boise
+USA;CA;Honolulu
+SOV;BB;Sovyetskiy Soyuz
+SOV;BB;Sovyetskaya Ukraina
+SOV;BB;Sovyetskaya Byelorussiya
+SOV;BB;Sovyetskaya Rossiya
+SOV;BB;Marat
+SOV;BB;Oktyabrskaya Revoulutisa
+SOV;BB;Parishskaya Kommuna
+SOV;BB;Kronshtadt
+SOV;BB;Sevastopol
+SOV;CA;Chapayev
+SOV;CA;Zheleznyacov
+SOV;CA;Kuybyshev
+SOV;CA;Chkalov
+SOV;CA;Frunze
+SOV;CA;Maxim Gor'kiy
+SOV;CA;Molotov
+SOV;CA;Kalinin
+SOV;CA;Kaganovich
+SOV;CA;Kirov
+SOV;CA;Voroshilov
+SOV;CA;Krasni Kavkaz
+SOV;CA;Profintern
+SOV;CA;Chervonaya Ukraina
+ARG;BB;Rivadiavia
+ARG;BB;Moreno
+ARG;CA;La Argentina
+ARG;CA;Veinticinco de Mayo
+BRA;BB;Minas Geraes
+BRA;BB;São Paulo
+CHL;BB;Almirante Latorre
+HOL;CA;De Zeven Provincien
+HOL;CA;Eendracht
+HOL;CA;Tromp
+HOL;CA;Jacob van Heemskerck
+HOL;CA;De Ruyter
+SPA;CA;España
+SPA;CA;Jaime I
+SPA;CA;Canarias
+SPA;CA;Baleares
+SPA;CA;Galicia
+SPA;CA;Amlmirante Cervera
+SPA;CA;Miguel de Cervantes
+SPA;CA;Méndez Núñez
+SPA;CA;Republica
+TUR;BB;Torgud Reis
+TUR;BB;Yavuz
+FIN;CV;Mannerheim
+FIN;CA;Helsinki
+FIN;CA;Turku
+FIN;BB;Savolax
+FIN;CA;Vipurii
+NOR;CV;Eidsvold
+NOR;CV;Olav den Hellige
+NOR;CV;Haakon Haakonsson
+NOR;CV;Sigurd Jorsalfar
+NOR;BB;Vestlandet
+NOR;BB;Finnmark
+NOR;CA;Akershus
+NOR;CA;Bergen
+NOR;CA;Nidaros
+SWE;CV;Kronan
+SWE;CV;Riksäpplet
+SWE;CV;Spiran
+SWE;CA;Starkodder
+SWE;CA;Styrbiörn
+SWE;CA;Sverige
+SWE;CA;Tre Kronor
+SWE;CA;Gotland
+SWE;CA;Clas Fleming
+SWE;CA;Stockholm
+SWE;CA;Göteborg
+SWE;CA;Svealand
+SWE;CA;Götaland
+SWE;CA;Norrland
+SWE;BB;Gustav II Adolf
+SWE;BB;Karl XII
+SWE;BB;Karl XI
+SWE;BB;Gustav III
+SWE;BB;Gustav Vasa

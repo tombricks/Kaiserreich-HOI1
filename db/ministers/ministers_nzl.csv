@@ -1,0 +1,89 @@
+NZL;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+55001;Head of State;Viscount Galway;NA;LC CE RS;NA;NA;unknown;x
+55002;Head of Government;Michael Joseph Savage;NA;RS;NA;NA;unknown;x
+55003;Foreign Minister;Michael Joseph Savage;NA;RS;Great Compromiser;Very High;unknown;x
+55004;Minister of Armament;Walter Nash;NA;RS;Resource Industrialist;High;nash_nzl;x
+55005;Minister of Security;William Parry;NA;RS;Compassionate Gentleman;High;unknown;x
+55006;Head of Military Intelligence;Kenneth Folkes;NA;LC;Dismal Enigma;Medium;unknown;x
+55007;Chief of Staff;William Sinclair-Burgess;NA;LC;Undistinguished Suit;High;unknown;x
+55008;Chief of Army;William Sinclair-Burgess;NA;LC;Undistinguished Suit;High;unknown;x
+55009;Chief of Navy;E.R. Drummond;NA;LC;Undistinguished Suit;High;unknown;x
+55010;Chief of Air Force;R.A. Cochrane;NA;LC;Undistinguished Suit;High;unknown;x
+;A Cabinet - 1938;ELECT_A;;;;;;x
+55002;Head of Government;Michael Joseph Savage;NA;RS;NA;NA;unknown;x
+55003;Foreign Minister;Michael Joseph Savage;NA;RS;Great Compromiser;Very High;unknown;x
+55004;Minister of Armament;Walter Nash;NA;RS;Resource Industrialist;High;nash_nzl;x
+55005;Minister of Security;William Parry;NA;RS;Compassionate Gentleman;High;unknown;x
+;B Cabinet - 1938;ELECT_B;;;;;;x
+55011;Head of Government;Adam Hamilton;NA;LC;NA;NA;unknown;x
+55012;Foreign Minister;Adam Hamilton;NA;LC;Apologetic Clerk;Very High;unknown;x
+55013;Minister of Armament;Sydney Holland;NA;LC;Laissez-Faires Capitalist;High;unknown;x
+55014;Minister of Security;Gordon Coates;NA;LC;Silent Lawyer;High;unknown;x
+;A Cabinet - 1943;ELECT_A;;;;;;x
+55015;Head of Government;Peter Fraser;NA;RS;NA;NA;fraser_peter_nzl;x
+55016;Foreign Minister;Peter Fraser;NA;RS;Ideological Crusader;Very High;fraser_peter_nzl;x
+55004;Minister of Armament;Walter Nash;NA;RS;Resource Industrialist;High;nash_nzl;x
+55005;Minister of Security;William Parry;NA;RS;Compassionate Gentleman;High;unknown;x
+;B Cabinet - 1943;ELECT_B;;;;;;x
+55017;Head of Government;Sydney Holland;NA;LC;NA;NA;unknown;x
+55018;Foreign Minister;Sydney Holland;NA;LC;Great Compromiser;Very High;unknown;x
+55019;Minister of Armament;Adam Hamilton;NA;LC;Laissez-Faires Capitalist;High;unknown;x
+55014;Minister of Security;Gordon Coates;NA;LC;Silent Lawyer;High;unknown;x
+;A Cabinet - 1946;ELECT_A;;;;;;x
+55015;Head of Government;Peter Fraser;NA;RS;NA;NA;fraser_peter_nzl;x
+55016;Foreign Minister;Peter Fraser;NA;RS;Ideological Crusader;Very High;fraser_peter_nzl;x
+55004;Minister of Armament;Walter Nash;NA;RS;Resource Industrialist;High;nash_nzl;x
+55005;Minister of Security;William Parry;NA;RS;Compassionate Gentleman;High;unknown;x
+;B Cabinet - 1946;ELECT_B;;;;;;x
+55017;Head of Government;Sydney Holland;NA;LC;NA;NA;unknown;x
+55018;Foreign Minister;Sydney Holland;NA;LC;Great Compromiser;Very High;unknown;x
+55019;Minister of Armament;Adam Hamilton;NA;LC;Laissez-Faires Capitalist;High;unknown;x
+55014;Minister of Security;Gordon Coates;NA;LC;Silent Lawyer;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+55020;Head of State;T.C.A. Hislop;NA;LC PA;NA;NA;unknown;x
+55021;Head of Government;A.E. Davy;NA;PA;NA;NA;unknown;x
+55022;Foreign Minister;A.E. Davy;NA;PA;Undistinguished Suit;Very High;unknown;x
+55023;Minister of Armament;A.J. Stallworthy;NA;PA;Undistinguished Suit;High;unknown;x
+55024;Minister of Security;W.A. Veitch;NA;PA;Undistinguished Suit;High;unknown;x
+55025;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+55026;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+55027;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+55028;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+55029;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+55030;Head of State;Tom Stanley;NA;ST;NA;NA;unknown;x
+55031;Head of Government;Victor Wilcox;NA;ST;NA;NA;unknown;x
+55032;Foreign Minister;Victor Wilcox;NA;ST;Undistinguished Suit;Very High;unknown;x
+55033;Minister of Armament;Sid Scott;NA;ST;Undistinguished Suit;High;unknown;x
+55034;Minister of Security;Gordon Watson;NA;ST;Undistinguished Suit;High;unknown;x
+55035;Head of Military Intelligence;Frederick Freeman;NA;ST;Undistinguished Suit;High;unknown;x
+55036;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+55037;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+55038;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+55039;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+55040;Head of State;Baron Newall;41;RS CE LC;NA;NA;unknown;x
+55041;Head of State;Baron Freyberg;46;RS CE LC;NA;NA;freyberg_bernhard_nzl;x
+55042;Head of Government;Peter Fraser;36;RS;NA;NA;fraser_peter_nzl;x
+55043;Foreign Minister;Peter Fraser;36;RS;Ideological Crusader;Very High;fraser_peter_nzl;x
+55044;Foreign Minister;Frank Langstone;40;RS;Ideological Crusader;Low;unknown;x
+55045;Minister of Armament;Dan Sullivan;36;RS;Resource Industrialist;High;unknown;x
+55046;Minister of Security;W.J. Broadfoot;36;RS;Silent Lawyer;High;unknown;x
+55047;Minister of Security;Robert Semple;36;RS;Man of the People;High;unknown;x
+55048;Head of Military Intelligence;H. Philpott;39;LC;Undistinguished Suit;High;unknown;x
+55049;Head of Military Intelligence;Ken MacKenzie;39;LC;Undistinguished Suit;High;unknown;x
+55050;Chief of Staff;J.E. Duigan;37;LC;Undistinguished Suit;High;unknown;x
+55051;Chief of Staff;Edward Puttick;41;LC;Undistinguished Suit;High;unknown;x
+55052;Chief of Staff;N. McD. Weir;46;LC;Undistinguished Suit;High;unknown;x
+55053;Chief of Army;J.E. Duigan;37;LC;Undistinguished Suit;High;unknown;x
+55054;Chief of Army;Edward Puttick;41;LC;Undistinguished Suit;High;unknown;x
+55055;Chief of Army;N. McD. Weir;46;LC;Undistinguished Suit;High;unknown;x
+55056;Chief of Navy;H.E. Horan;38;LC;Undistinguished Suit;High;unknown;x
+55057;Chief of Navy;W.E. Parry;40;LC;Undistinguished Suit;High;unknown;x
+55058;Chief of Navy;Sir Atwell Lake;42;LC;Undistinguished Suit;High;unknown;x
+55059;Chief of Navy;G.H. Faulkner;45;LC;Undistinguished Suit;High;unknown;x
+55060;Chief of Navy;G.W.G. Simpson;47;LC;Undistinguished Suit;High;unknown;x
+55061;Chief of Air Force;H.W.L. Saunders;39;LC;Undistinguished Suit;High;unknown;x
+55062;Chief of Air Force;R.V. Goddard;41;LC;Undistinguished Suit;High;unknown;x
+55063;Chief of Air Force;L.M. Isitt;43;LC;Undistinguished Suit;High;unknown;x
+55064;Chief of Air Force;A. de T. Nevill;46;LC;Undistinguished Suit;High;unknown;x

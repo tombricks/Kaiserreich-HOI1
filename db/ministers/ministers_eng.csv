@@ -1,0 +1,106 @@
+ENG;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+1001;Head of State;George V;NA;LC CE RS;NA;NA;unknown;ENG
+1002;Head of Government;Stanley Baldwin;NA;LC;NA;NA;unknown;ENG
+1003;Foreign Minister;Anthony Eden;NA;LC;Ideological Crusader;Medium;eden_anthony3_eng;ENG
+1004;Minister of Armament;Neville Chamberlain;NA;LC;Laissez-Faires Capitalist;High;chamberlain_austin_eng;ENG
+1005;Minister of Security;Sir John Simon;NA;LC;Crime Fighter;High;unknown;ENG
+1006;Head of Military Intelligence;Sir Hugh Sinclair;NA;LC;Logistics Specialist;Very High;unknown;ENG
+1007;Chief of Staff;Sir A. Montgomery-Massingberd;NA;LC;School of Fire Support;Very High;unknown;ENG
+1008;Chief of Army;Sir A. Montgomery-Massingberd;NA;LC;Static Defense Doctrine;Very High;unknown;ENG
+1009;Chief of Navy;Sir Ernle Chatfield;NA;LC;Decisive Battle Doctrine;High;unknown;ENG
+1010;Chief of Air Force;Sir Edward Ellington;NA;LC;Air Superiority Doctrine;High;unknown;ENG
+;A Cabinet - 1937;ELECT_UK_1A;;;;;;ENG
+1044;Head of Government;Neville Chamberlain;NA;LC;NA;NA;chamberlain_austin_eng;ENG
+1003;Foreign Minister;Anthony Eden;NA;LC;Ideological Crusader;Medium;eden_anthony3_eng;ENG
+1051;Minister of Armament;Sir John Simon;NA;LC;Military Entrepreneur;High;unknown;ENG
+1057;Minister of Security;Viscount Templewood;NA;LC;Silent Lawyer;High;unknown;ENG
+;B Cabinet - 1937;ELECT_UK_1B;;;;;;ENG
+1011;Head of Government;Clement Atlee;NA;RS;NA;NA;attlee_clement3_eng;ENG
+1012;Foreign Minister;Ernest Bevin;NA;RS;Ideological Crusader;High;bevin_ernest_eng;ENG
+1013;Minister of Armament;Hugh Dalton;NA;RS;Resource Industrialist;Medium;dalton_hugh_eng;ENG
+1014;Minister of Security;Herbert Morrison;NA;RS;Man of the People;Very High;morrison_herbert2_eng;ENG
+;A Cabinet - 1940;ELECT_UK_1A;;;;;;ENG
+1045;Head of Government;Winston Churchill;NA;LC;NA;NA;churchill_winston_eng;ENG
+1048;Foreign Minister;Lord Halifax;NA;LC;Apologetic Clerk;Very High;halifax_edward3_eng;ENG
+1052;Minister of Armament;Sir Kingsley Wood;NA;LC;Resource Industrialist;High;wood_kingsley_eng;ENG
+1058;Minister of Security;Sir John Anderson;NA;LC;Compassionate Gentleman;High;unknown;ENG
+;B Cabinet - 1940;ELECT_UK_1B;;;;;;ENG
+1015;Head of Government;Clement Atlee;NA;RS;NA;NA;attlee_clement3_eng;ENG
+1016;Foreign Minister;Ernest Bevin;NA;RS;Ideological Crusader;High;bevin_ernest_eng;ENG
+1017;Minister of Armament;Hugh Dalton;NA;RS;Resource Industrialist;Medium;dalton_hugh_eng;ENG
+1018;Minister of Security;Herbert Morrison;NA;RS;Man of the People;Very High;morrison_herbert2_eng;ENG
+;A Cabinet - 1945;ELECT_UK_1A;;;;;;ENG
+1045;Head of Government;Winston Churchill;NA;LC;NA;NA;churchill_winston_eng;ENG
+1048;Foreign Minister;Lord Halifax;NA;LC;Apologetic Clerk;Very High;halifax_edward3_eng;ENG
+1054;Minister of Armament;Sir John Anderson;43;LC;Resource Industrialist;High;unknown;ENG
+1060;Minister of Security;Donald Bradley Somervell;45;LC;Compassionate Gentleman;High;unknown;ENG
+;B Cabinet - 1945;ELECT_UK_1B;;;;;;ENG
+1019;Head of Government;Herbert Morrison;NA;RS;NA;NA;morrison_herbert2_eng;ENG
+1020;Foreign Minister;Ernest Bevin;NA;RS;Ideological Crusader;High;bevin_ernest_eng;ENG
+1021;Minister of Armament;Hugh Dalton;NA;RS;Resource Industrialist;Medium;dalton_hugh_eng;ENG
+1022;Minister of Security;Herbert Morrison;NA;RS;Man of the People;Undying;morrison_herbert2_eng;ENG
+;Shadow Fascist Cabinet;;;;;;;ENG
+1023;Head of State;Edward VIII;NA;CE LC PA FA;NA;NA;unknown;ENG
+1024;Head of Government;Oswald Mosely;NA;FA;NA;NA;mosley_eng;ENG
+1025;Foreign Minister;William Joyce;NA;NS;General Staffer;Low;unknown;ENG
+1026;Minister of Armament;Oswald Mosely;NA;FA;Resource Industrialist;Undying;mosley_eng;ENG
+1027;Minister of Security;Arnold Spencer-Leese;NA;NS;Prince of Terror;Low;unknown;ENG
+1028;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;ENG
+1029;Chief of Staff;JFC Fuller;NA;FA;School of Manoeuvre;Medium;unknown;ENG
+1030;Chief of Army;JFC Fuller;NA;FA;Armoured Spearhead Doctrine;Medium;unknown;ENG
+1031;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;ENG
+1032;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;ENG
+;Shadow Communist Cabinet;;;;;;;ENG
+1033;Head of State;Aneurin Bevan;NA;LWR;NA;NA;bevan_aneurin_eng;ENG
+1034;Head of Government;Aneurin Bevan;NA;LWR;NA;NA;bevan_aneurin_eng;ENG
+1035;Foreign Minister;Michael Foot;NA;LWR;Great Compromiser;Medium;unknown;ENG
+1036;Minister of Armament;Stafford Cripps;NA;LWR;Theoretical Scientist;Medium;cripps_stafford_eng;ENG
+1037;Minister of Security;Barbara Castle;NA;LWR;Crime Fighter;Medium;unknown;ENG
+1038;Head of Military Intelligence;Sir Anthony Blunt;NA;LWR;Political Specialist;Very High;unknown;ENG
+1039;Chief of Staff;Bill Alexander;NA;LE;School of Mass Combat;High;unknown;ENG
+1040;Chief of Army;Bill Alexander;NA;LE;Static Defense Doctrine;High;unknown;ENG
+1041;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;ENG
+1042;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;ENG
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;ENG
+1043;Head of State;George VI;NA;LC CE RS;NA;NA;george_VI_eng;ENG
+1044;Head of Government;Neville Chamberlain;37;LC;NA;NA;chamberlain_austin_eng;ENG
+1045;Head of Government;Winston Churchill;40;LC;NA;NA;churchill_winston_eng;ENG
+1046;Head of Government;Lord Halifax;40;LC;NA;NA;halifax_edward3_eng;ENG
+1047;Head of Government;Anthony Eden;45;LC;NA;NA;eden_anthony3_eng;ENG
+1048;Foreign Minister;Lord Halifax;38;LC;Apologetic Clerk;Very High;halifax_edward3_eng;ENG
+1049;Foreign Minister;John Selwyn Lloyd;47;LC;Ideological Crusader;High;unknown;ENG
+1050;Foreign Minister;Herbert Morrison;44;RS;Ideological Crusader;High;morrison_herbert2_eng;ENG
+1051;Minister of Armament;Sir John Simon;37;LC;Military Entrepreneur;High;unknown;ENG
+1052;Minister of Armament;Sir Kingsley Wood;40;LC;Resource Industrialist;High;wood_kingsley_eng;ENG
+1053;Minister of Armament;Lord Beaverbrook;42;LC;Military Entrepreneur;Very High;beaverbrook_maxwell_eng;ENG
+1054;Minister of Armament;Sir John Anderson;43;LC;Resource Industrialist;High;unknown;ENG
+1055;Minister of Armament;Robert Butler;46;LC;Theoretical Scientist;Very High;unknown;ENG
+1056;Minister of Armament;Stafford Cripps;47;RS;Theoretical Scientist;Medium;cripps_stafford_eng;ENG
+1057;Minister of Security;Viscount Templewood;37;LC;Silent Lawyer;High;unknown;ENG
+1058;Minister of Security;Sir John Anderson;39;LC;Compassionate Gentleman;High;unknown;ENG
+1059;Minister of Security;Herbert Morrison;40;RS;Man of the People;Very High;morrison_herbert2_eng;ENG
+1060;Minister of Security;Donald Bradley Somervell;45;LC;Compassionate Gentleman;High;unknown;ENG
+1061;Minister of Security;Davis Maxwell Fyfe;45;LC;Crime Fighter;High;unknown;ENG
+1062;Minister of Security;James Chuter Ede;45;RS;Man of the People;Very High;unknown;ENG
+1063;Head of Military Intelligence;Sir Robert Menzies;39;LC;Dismal Enigma;Very High;menzies_eng;ENG
+1064;Head of Military Intelligence;Kim Philby;45;LC;Technical Specialist;Very Low;unknown;ENG
+1065;Head of Military Intelligence;Kim Philby;40;ST;Technical Specialist;Very High;unknown;ENG
+1066;Chief of Staff;Sir Cyril Deverell;36;LC;School of Defense;Very High;unknown;ENG
+1067;Chief of Staff;Lord John Gort;37;LC;School of Manoeuvre;Very High;gort_john2_eng;ENG
+1068;Chief of Staff;Sir Edmund Ironside;39;LC;School of Manoeuvre;Very High;ironside_edmund_eng;ENG
+1069;Chief of Staff;Sir John Dill;40;LC;School of Manoeuvre;Very High;dill_john2_eng;ENG
+1070;Chief of Staff;Sir Alan Brooke;41;LC;School of Manoeuvre;Very High;brooke_alan_eng;ENG
+1071;Chief of Staff;Sir Bernard Montgomery;46;LC;School of Fire Support;Medium;montgomery_bernard_eng;ENG
+1072;Chief of Army;Sir Cyril Deverell;36;LC;Guns and Butter Doctrine;Very High;unknown;ENG
+1073;Chief of Army;Lord John Gort;37;LC;Armoured Spearhead Doctrine;Very High;gort_john2_eng;ENG
+1074;Chief of Army;Sir Edmund Ironside;39;LC;Elastic Defense Doctrine;Very High;ironside_edmund_eng;ENG
+1075;Chief of Army;Sir John Dill;40;LC;Elastic Defense Doctrine;Very High;dill_john2_eng;ENG
+1076;Chief of Army;Sir Alan Brooke;41;LC;Armoured Spearhead Doctrine;Very High;brooke_alan_eng;ENG
+1077;Chief of Army;Sir Bernard Montgomery;46;LC;Decisive Battle Doctrine;Medium;montgomery_bernard_eng;ENG
+1078;Chief of Navy;Sir Roger Backhouse;38;LC;Open Seas Doctrine;High;unknown;ENG
+1079;Chief of Navy;Sir Dudley Pound;39;LC;Decisive Battle Doctrine;Very High;pound_dudley_eng;ENG
+1080;Chief of Navy;Sir Andrew Cunningham;43;LC;Power Projection Doctrine;High;cunningham_andrew3_eng;ENG
+1081;Chief of Navy;Sir John Cunningham;46;LC;Power Projection Doctrine;Very High;cunningham_john-henry_eng;ENG
+1082;Chief of Air Force;Sir Cyril Newall;37;LC;Carpet Bombing Doctrine;Very High;newall_cyril_eng;ENG
+1083;Chief of Air Force;Sir Charles Portal;40;LC;Carpet Bombing Doctrine;Very High;portal_charles_eng;ENG
+1084;Chief of Air Force;Sir Arthur Tedder;46;LC;Army Aviation Doctrine;Very High;tedder_arthur2_eng;ENG

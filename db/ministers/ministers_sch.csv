@@ -1,0 +1,52 @@
+SCH;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+17001;Head of State;Albert Meyer;NA;LC CE RS;NA;NA;meyer_albert_sch;x
+17002;Head of Government;The Federal Councillors;NA;CE;NA;NA;unknown;x
+17003;Foreign Minister;Giuseppe Motta;NA;CE;Apologetic Clerk;Very High;motta_guiseppe_sch;x
+17004;Minister of Armament;Albert Meyer;NA;RS;Laissez Faires Capitalist;Very High;meyer_albert_sch;x
+17005;Minister of Security;Johannes Baumann;NA;LC;Compassionate Gentleman;Very High;baumann_johannes_sch;x
+17006;Head of Military Intelligence;Roger Masson;NA;RS;Industrial Specialist;Very High;unknown;x
+17007;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Very High;unknown;x
+17008;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Very High;unknown;x
+17009;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Very High;unknown;x
+17010;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Very High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+17011;Head of State;Black Shadow;NA;PA FA NS;NA;NA;unknown;x
+17012;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+17013;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+17014;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+17015;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+17016;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+17017;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+17018;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+17019;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+17020;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+17021;Head of State;Red Shadow;NA;LWR LE ST;NA;NA;unknown;x
+17022;Head of Government;Red Shadow;NA;LWR;NA;NA;unknown;x
+17023;Foreign Minister;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+17024;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+17025;Minister of Security;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+17026;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+17027;Chief of Staff;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+17028;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+17029;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+17030;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+17031;Foreign Minister;Max Petitpierre;44;CE;Great Compromiser;Very High;unknown;x
+17032;Chief of Staff;Henri Guisan;38;CE;School of Mass Combat;Very High;guisan_henri_sch;x
+17033;Chief of Army;Henri Guisan;38;CE;Static Defence Doctrine;Very High;guisan_henri_sch;x
+17034;Chief of Navy;Henri Guisan;38;CE;Undistinguished Suit;Very High;guisan_henri_sch;x
+17035;Chief of Air Force;Henri Guisan;38;CE;Air Superiority Doctrine;Very High;guisan_henri_sch;x
+17036;Head of State;Giuseppe Motta;37;LC CE RS;NA;NA;motta_guiseppe_sch;x
+17037;Head of State;Johannes Baumann;38;LC CE RS;NA;NA;baumann_johannes_sch;x
+17038;Head of State;Philipp Etter;39;LC CE RS;NA;NA;etter_phillipp_sch;x
+17039;Head of State;Marcel Pilet-Golaz;40;LC CE RS;NA;NA;pilet-golaz_marcel_sch;x
+17040;Head of State;Ernst Wetter;41;LC CE RS;NA;NA;wetter_ernst_sch;x
+17041;Head of State;Philipp Etter;42;LC CE RS;NA;NA;etter_phillipp_sch;x
+17042;Head of State;Enrico Celio;43;LC CE RS;NA;NA;celio_enrico_sch;x
+17043;Head of State;Walter Stampfli;44;LC CE RS;NA;NA;stampfli_walter_sch;x
+17044;Head of State;Eduard von Steiger;45;LC CE RS;NA;NA;vonsteiger_eduard_sch;x
+17045;Minister of Security;Eduard von Steiger;41;CE;Compassionate Gentleman;Very High;vonsteiger_eduard_sch;x
+17046;Minister of Armament;Ernst Wetter;39;CE;Laissez Faires Capitalist;Very High;wetter_ernst_sch;x
+17047;Minister of Armament;Ernst Nobs;44;RS;Laissez Faires Capitalist;Very High;unknown;x
+17048;Foreign Minister;Marcel Pilet-Golaz;40;LC;Apologetic Clerk;Very High;pilet-golaz_marcel_sch;x

@@ -1,0 +1,104 @@
+POL;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+13001;Head of State;Ignacy Moscicki;NA;PA LC CE;NA;NA;moscicki_ignacy2_pol;x
+13002;Head of Government;Marian Zyndram-Koscialkowski;NA;CE;NA;NA;unknown;x
+13003;Foreign Minister;Jozef Beck;NA;PA;General Staffer;High;beck_jozef_pol;x
+13004;Minister of Armament;Tadeusz Kasprzycki;NA;PA;Military Entrepeneur;Medium;kasprzycki_tadeusz_pol;x
+13081;Minister of Security;Wladyslaw Raczkiewicz;NA;PA;Crime Fighter;Medium;raczkiewicz_w_pol;x
+13006;Head of Military Intelligence;Edward Rydz-Smigly;NA;PA;Logistics Specialist;High;smigly-rydz_edward2_pol;x
+13007;Chief of Staff;Edward Rydz-Smigly;NA;PA;School of Defense;High;smigly-rydz_edward2_pol;x
+13008;Chief of Army;Edward Rydz-Smigly;NA;PA;Decisive battle doctrine;High;smigly-rydz_edward2_pol;x
+13009;Chief of Navy;J. Swirski;NA;PA;Open Seas Doctrine;Medium;swirski_jerzy_pol;x
+13010;Chief of Air Force;Jozef Zajac;NA;PA;Air Superiority Doctrine;Medium;zajac_jozef_pol;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+13046;Head of Government;Felicjan Slawnoj-Skladkowski;NA;PA LC CE;NA;NA;unknown;x
+13003;Foreign Minister;Jozef Beck;NA;PA;General Staffer;High;beck_jozef_pol.jpg;x
+13055;Minister of Armament;Eugeniusz Kwiatkowski;NA;CE;Administrative Genius;Very High;kwiatkowski_eugeniusz_pol;x
+13080;Minister of Security;Witold Grabowski;NA;PA;Crime Fighter;Medium;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+13011;Head of Government;Wojciech Korfanty;NA;RS;NA;NA;unknown;x
+13012;Foreign Minister;Wladyslaw Sikorski;NA;RS;General Staffer;High;sikorski_wladyslaw_pol;x
+13013;Minister of Armament;Jozef Haller;NA;RS;Military Entrepreneur;Medium;unknown;x
+13014;Minister of Security;Karol Popiel;NA;RS;Silent Lawyer;High;Popiel_Karol_pol;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+13046;Head of Government;Felicjan Slawnoj-Skladkowski;NA;PA;NA;NA;unknown;x
+13003;Foreign Minister;Jozef Beck;NA;PA;General Staffer;High;beck_jozef_pol.jpg;x
+13004;Minister of Armament;Tadeusz Kasprzycki;NA;PA;Military Entrepeneur;Medium;kasprzycki_tadeusz_pol;x
+13081;Minister of Security;Wladyslaw Raczkiewicz;NA;PA;Crime Fighter;Medium;raczkiewicz_w_pol;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+13015;Head of Government;Stanislaw Osiecki;NA;RS;NA;NA;unknown;x
+13016;Foreign Minister;Jan Piekalkiewicz;NA;RS;Biased Intellectual;Medium;Piekalkiewicz_Jan_pol;x
+13017;Minister of Armament;Jozef Niecko;NA;RS;Resource Industrialist;Medium;unknown;x
+13018;Minister of Security;Stanislaw Mikolajczyk;NA;RS;Man of the People;Medium;mikolajczyk_stanislav_pol ;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+13046;Head of Government;Felicjan Slawnoj-Skladkowski;NA;PA;NA;NA;unknown;x
+13003;Foreign Minister;Jozef Beck;NA;PA;General Staffer;High;beck_jozef_pol;x
+13004;Minister of Armament;Tadeusz Kasprzycki;NA;PA;Military Entrepeneur;Medium;kasprzycki_tadeusz_pol;x
+13081;Minister of Security;Wladyslaw Raczkiewicz;NA;PA;Crime Fighter;Medium;raczkiewicz_w_pol;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+13019;Head of Government;Mieczyslaw Michalowicz;NA;RS;NA;NA;Michalowicz_Mieczyslaw_pol;x
+13020;Foreign Minister;Wincenty Rzymowski;NA;RS;Biased Intellectual;Medium;unknown;x
+13021;Minister of Armament;Jerzy Makowiecki;NA;RS;Resource Industrialist;High;unknown;x
+13022;Minister of Security;Leon Chajn;NA;RS;Man of the People;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+13023;Head of State;Boleslaw Piasecki;NA;FA PA CE;NA;NA;Piasecki_Boleslaw_pol;x
+13024;Head of Government;Wojciech Saryusz Zaleski;NA;PA;NA;NA;unknown;x
+13025;Foreign Minister;Stanislaw Strzetelski;NA;PA;Apologetic Clerk;Low;unknown;x
+13026;Minister of Armament;Boleslaw Piasecki;NA;PA;Corrupt Kleptocrat;Medium;Piasecki_Boleslaw_pol;x
+13027;Minister of Security;Witold Rosciszewski;NA;PA;Back Stabber;Medium;unknown;x
+13028;Head of Military Intelligence;Witold Rosciszewski;NA;PA;Dismal Enigma;Medium;unknown;x
+13029;Chief of Staff;Stanislaw Zochowski;NA;CE;School of Psychology;Low;unknown;x
+13030;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Low;unknown;x
+13031;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Low;unknown;x
+13032;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Low;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+13033;Head of State;Norbert Barlicki;NA;RS LWR;NA;NA;unknown;x
+13034;Head of Government;Herman Lieberman;NA;RS;NA;NA;unknown;x
+13035;Foreign Minister;Adam Prochnik;NA;LWR;Biased Intellectual;Low;unknown;x
+13036;Minister of Armament;Herman Lieberman;NA;RS;Theoretical Scientist;Medium;unknown;x
+13037;Minister of Security;Mieczyslaw Niedzialkowski;NA;RS;Crime Fighter;Medium;Niedzialkowski_Mieczyslaw_pol;x
+13038;Head of Military Intelligence;Stanislaw Dubois;NA;LWR;Political Specialist;Medium;unknown;x
+13039;Chief of Staff;Herman Lieberman;NA;RS;School of Psychology;Medium;unknown;x
+13040;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Low;unknown;x
+13041;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Low;unknown;x
+13042;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Low;unknown;x
+;Replacements;;;;;;;x
+13043;Head of State;Kazimierz Sosnkowski;1939;CE LC;NA;NA;sosnkowski_kazimierz_pol;x
+13044;Head of State;Boleslaw Dlugoszowski-Wieniawa;1939;CE;NA;NA;unknown;x
+13045;Head of State;Wladyslaw Raczkiewicz;1939;CE;NA;NA;raczkiewicz_w_pol;x
+13046;Head of Government;Felicjan Slawnoj-Skladkowski;1936;PA;NA;NA;unknown;x
+13047;Head of Government;Eugeniusz Kwiatkowski;1937;CE;NA;NA;Kwiatkowski_Eugeniusz_pol;x
+13048;Head of Government;Wladyslaw Sikorski;1939;LC;NA;NA;sikorski_wladyslaw_pol;x
+13049;Head of Government;Stanislaw Mikolajczyk;1943;LC;NA;NA;mikolajczyk_stanislav_pol ;x
+13050;Head of Government;Tomasz Arciszewski;1944;RS;NA;NA;arciszewski_tomaz_pol;x
+13051;Foreign Minister;August Zaleski;1939;CE;Ideological Crusader;High;unknown;x
+13052;Foreign Minister;Edward Raczynski;1941;CE;Biased Intellectual;Medium;unknown;x
+13053;Foreign Minister;Tadeusz Romer;1943;CE;Ideological Crusader;Medium;Romer_Edward_pol;x
+13054;Foreign Minister;Adam Tarnowski;1944;CE;Ideological Crusader;Medium;unknown;x
+13055;Minister of Armament;Eugeniusz Kwiatkowski;1936;CE;Administrative Genius;Very High;kwiatkowski_eugeniusz_pol;x
+13056;Minister of Armament;Ludwik Grosfeld;1943;CE;Laissez Faires Capitalist;Medium;unknown;x
+13057;Minister of Security;Felicjan Slawnoj-Skladkowski;1936;CE;Efficient Sociopath;High;unknown;x
+13058;Minister of Security;Stanislaw Mikolajczyk;1941;LC;Man of the People;Medium;mikolajczyk_stanislav_pol ;x
+13059;Minister of Security;Wladyslaw Banaczyk;1943;RS;Silent Lawyer;Low;unknown;x
+13060;Chief of Staff;Michal Tokarzewski;1939;CE;School of Defence;Medium;unknown;x
+13061;Chief of Staff;Wladyslaw Sikorski;1939;LC;school of manuever;Medium;sikorski_wladyslaw_pol;x
+13062;Chief of Staff;Stefan Rowecki;1942;CE;School of Defence;Medium;Rowecki_Stefan_pol;x
+13063;Chief of Staff;Tadeusz Bor-Komorowski;1943;CE;School of Defence;Medium;komorowski_tadeusz_pol;x
+13064;Chief of Staff;Leopold Okulicki;1944;LWR;School of Mass Combat;Low;okulicki_leopold_pol;x
+13065;Chief of Staff;Stanislaw Kopanski;1944;CE;school of manuever;High;kopanski_stanislaw_pol;x
+13066;Chief of Army;Wladyslaw Anders;1943;RS;Elastic Defence Doctrine;Medium;anders_wladyslaw_pol ;x
+13067;Chief of Army;Tadeusz Komorowski;1944;CE;Guns and Butter Doctrine;Medium;komorowski_tadeusz_pol;x
+13068;Chief of Air force;Stanislaw Ujejski;1939;CE;Air Superiority Doctrine;Medium;unknown;x
+13069;Head of State;Wanda Wasilewska;1937;LWR LE RS;NA;NA;Wasilewska_Wanda_pol;x
+13070;Head of State;Wladyslaw Gomulka;1942;LWR LE RS;NA;NA;unknown;x
+13071;Head of State;Boleslaw Bierut;1944;ST LE;NA;NA;bierut_pol;x
+13072;Head of Government;Marceli Nowotko;1941;ST;NA;NA;unknown;x
+13072;Head of Government;Boleslaw Drobner;1943;LWR;NA;NA;unknown;x
+13073;Head of Government;Edward Osobka-Morawski;1944;ST;NA;NA;osobka_morawski_edward_pol;x
+13074;Foreign Minister;Wincenty Rzymowski;1945;RS;Biased Intellectual;High;unknown;x
+13075;Minister of Armament;Jan Stefan Haneman;1944;ST;Corrupt Kleptocrat;Medium;unknown;x
+13076;Minister of Armament;Hilary Minc;1945;ST;Resource Industrialist;High;unknown;x
+13077;Chief of Staff;Michal Zymierski;1944;ST;School of Mass Combat;Medium;Zymierski_Michal_pol;x
+13078;Chief of Army;Michal Zymierski;1944;ST;Guns and Butter Doctrine;Medium;Zymierski_Michal_pol;x
+13079;Chief of Army;Stefan Mossor;1945;LWR;Guns and Butter Doctrine;Medium;unknown;x
+13080;Minister of Security;Witold Grabowski;1936;PA;Crime Fighter;Medium;unknown;x
+13005;Minister of Security;Marian Zyndram-Koscialkowski;1936;PA;Silent Lawyer;High;unknown;x

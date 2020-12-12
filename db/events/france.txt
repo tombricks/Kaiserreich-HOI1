@@ -1,0 +1,114 @@
+#
+# HoI - France Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  The Vichy Regime
+#########################################################################
+event = { 
+	id = 2800
+	random = no
+	country = FRA
+	
+	# Triggered by GER 2021
+	
+	name = "EVT_2800_NAME"
+	desc = "EVT_2800_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2800A" # We have no choice but to accept
+		command = { type = independence which = VIC }
+		command = { type = capital which = 312 } # French Guyana - event may go FUBAR if this is not French-Controlled
+		command = { type = control which = GER value = 950 }
+		command = { type = control which = GER value = 948 }	
+		command = { type = control which = GER value = 922 }	
+		command = { type = control which = GER value = 918 }	
+		command = { type = control which = GER value = 919 }	
+		command = { type = control which = GER value = 518 }	
+		command = { type = control which = GER value = 520 }	
+		command = { type = control which = GER value = 522 }	
+		command = { type = control which = GER value = 524 }	
+		command = { type = control which = GER value = 525 }	
+		command = { type = control which = GER value = 526 }	
+		command = { type = control which = GER value = 527 }	 # Paris itself. Command might not work.
+		command = { type = control which = GER value = 528 }	
+		command = { type = control which = GER value = 529 }	
+		command = { type = control which = GER value = 531 }	
+		command = { type = control which = GER value = 532 }	
+		command = { type = control which = GER value = 533 }	
+		command = { type = control which = GER value = 534 }	
+		command = { type = control which = GER value = 535 }	
+		command = { type = control which = GER value = 536 }	
+		command = { type = control which = GER value = 537 }	
+		command = { type = control which = GER value = 538 }	
+		command = { type = control which = GER value = 539 }	
+		command = { type = control which = GER value = 542 }	
+		command = { type = control which = GER value = 543 }	
+		command = { type = control which = GER value = 544 }	
+		command = { type = control which = GER value = 554 }	
+		command = { type = control which = GER value = 555 }	
+		command = { type = control which = GER value = 556 }	
+		command = { type = trigger which = 3000 } # Spain might cede provinces to Vichy
+		command = { type = trigger which = 3803 } # Japan might demand Vichy territories
+	}
+	action_b = {
+		name = "ACTIONNAME2800B" # Never! Vive la France!
+		command = { }
+	}
+}
+#########################################################################
+#  Spanish Civil War - Intervention
+#########################################################################
+event = { 
+	id = 2801
+	random = no
+	country = FRA
+	
+	# Triggered by SPA 3001
+	
+	name = "EVT_2801_NAME"
+	desc = "EVT_2801_DESC"
+	style = 0
+	action_a = {
+		name = "ACTIONNAME2801A" # Why support anarchist rabble?
+		command = { type = dissent value = 10 }
+	}
+	action_b = {
+		name = "ACTIONNAME2801B" # Send materiel and volunteers
+		command = { type = manpowerpool value = -10 }
+		command = { type = supplies value = -100 }
+		command = { type = trigger which = 3104 } #SPR
+		command = { type = trigger which = 3723 } #USA
+	}
+}
+#########################################################################
+#  Liberation of France
+#########################################################################
+event = { 
+	id = 2802
+	random = no
+	country = FRA
+	
+	trigger = {
+		exists = VIC
+		control = { province = 527 data = FRA } # Paris	
+		# Because: Paris is French-controlled if an ally liberates it
+	}
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	name = "EVT_2802_NAME"
+	desc = "EVT_2802_DESC"
+	style = 0
+	action_a = {
+		name = "OK" # Vive la France!
+		command = { type = capital which = 527 }
+		command = { type = inherit which = VIC }
+		command = { type = dissent value = -100 }
+	}
+}

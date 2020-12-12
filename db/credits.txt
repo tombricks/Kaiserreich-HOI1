@@ -1,0 +1,176 @@
+#8§WParadox Entertainment:
+ 
+#6§WCEO
+#4§YTheodore Bergquist
+ 
+
+#6§WEXECUTIVE PRODUCER
+#4§YFredrik Malmberg
+ 
+
+#6§WPRODUCER / LEAD PROGRAMMER
+#4§YJohan Andersson
+ 
+
+#6§WASSOCIATE PRODUCER
+#4§YPatric Backlund
+ 
+
+#6§WGAME DESIGN
+#4§YHenrik Fåhraeus
+Joakim Bergqwist
+Johan Andersson
+ 
+
+#6§WPROGRAMMING
+#4§YJohan Andersson
+Henrik Fåhraeus
+Patric Backlund
+ 
+
+#6§WARTISTS
+#4§YDick Sjöström
+Stefan Thulin
+Marcus Edström
+ 
+
+#6§WSCENARIO DESIGN
+#4§YJohan Andersson
+Joakim Bergqwist
+Henrik Fåhreaus
+ 
+
+#6§WHISTORICAL EVENTS DESIGN
+#4§YJoakim Bergqwist
+Henrik Fåhreaus
+ 
+
+#6§WEVENTS SCRIPTING
+#4§YJoakim Bergqwist
+Henrik Fåhreaus
+ 
+#6§WADDITIONAL SUPPORT WORK
+#4§YOle Bergesen
+Maxime Penen
+Markus Herrmann
+Matthew Adams
+Christopher King
+Sascha Tesch
+Alan Allport
+Bill Thomas
+Simon Oeschner
+David Fallgren
+
+#6§WTUTORIAL DESIGN
+#4§YBjörn Raunio
+
+ 
+#6§WFMV SEQUENCES
+#4§YBOB 601
+ 
+
+#6§WORIGINAL MUSIC
+#4§YUnder Licence from Naxos
+ 
+
+#6§WMUSIC SELECTION
+#4§YFredrik Malmberg
+ 
+
+#6§WSOUND EFFECTS
+#4§YWave Generation
+ 
+
+#6§WMANUAL
+#4§YMark H. Walker
+ 
+
+#6§WLAYOUT
+#4§YStefan Thulin
+ 
+#6§WBETA TESTERS
+#4§YAaron Seltzer
+Adam Donaldson 
+Alan Allport
+Alexander Ignatiev
+Andrew C Taubman
+Anthony Ashbery
+Bill Thomas
+Birger Fjällman
+Bruce Durham
+Casey Malosh
+Chad E. Cowan
+Chad Olson
+Christian Benz
+Christopher King
+Daniel Clark
+Derek Pullem
+Evan Flower
+Fleming Nielsen
+Ioannis Kalafatis
+Jacob Kjaersgård Lester
+Jacob Lundgren
+Jarrod Allen
+Jean-Philippe DUFLOT
+Jeff Burton
+Jeff Heidman
+Jérôme Ouellet
+Joakim Nygren
+John Bounds
+John Slogick
+Jonathan Fox
+José María Aguirre García de la Noceda
+Kacper van den Heuvel
+K.C. Komosky
+Kevin Simmons
+Kristof Haekens 
+Maarten Smit
+Marcelo Junqueira
+Mark Johnson
+Markus Herrmann
+Mathias Forsberg
+Mathias Fritzson
+Matt Sanchez
+Matt Weisner
+Matthew Adams
+Matthieu Vallée
+Maxime Penen
+Michael Kohler
+Mikael Hagman 
+Mikael Olsson
+Mike Magee
+Nicholas Malouin
+Nico Krewitt
+Nicolai Thorning
+Ole Bergesen
+Ossi Toivonen
+Peter Doran
+Peter White
+Petter Carnbro
+Piotr Wroniecki
+Rajeev D. Majumdar
+Ratbag
+Rick McGregor
+Sascha Tesch
+Scott Johnson
+Scott Schaffer
+Scott Vibert
+Simon Oechsner
+Stefan Huszics
+Stefan Kreuger
+Steven Lee
+Thomas Johansson
+Timothy Linden
+Wesley Ferris
+Zachary Bunch
+ 
+ 
+
+§WUses Bink Video Technology. Copyright (C) 1997-2000 by RAD Game Tools Inc.
+ 
+
+#6§WSPECIAL THANKS
+#4§YAll the people at our forum.
+Mikael Segernäs
+-END 
+

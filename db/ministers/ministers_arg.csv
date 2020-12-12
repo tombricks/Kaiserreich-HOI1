@@ -1,0 +1,114 @@
+ARG;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+35001;Head of State;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35002;Head of Government;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35003;Foreign Minister;Carlos S.Lamas;NA;PA;Cloak and Dagger Schemer;High;unknown;x
+35004;Minister of Armament;Alberto Hueyo;NA;PA;Laissez Faires Capitalist;High;unknown;x
+35005;Minister of Security;Ramon Castillo;NA;PA;Prince of Terror;Medium;unknown;x
+35006;Head of Military Intelligence;Jorge de la Torre;NA;PA;Industrial Specialist;Medium;unknown;x
+35007;Chief of Staff;Manuel Rodriguez;NA;PA;School of Defence;Very High;unknown;x
+35008;Chief of Army;Manuel Rodriguez;NA;PA;Decisive Battle Doctrine;Very High;unknown;x
+35009;Chief of Navy;Pedro S. Casal;NA;PA;Open Seas Doctrine;Very High;unknown;x
+35010;Chief of Air Force;Manuel Rodriguez;NA;PA;Air Superiority Doctrine;Very High;unknown;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+35001;Head of State;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35002;Head of Government;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35003;Foreign Minister;Carlos S.Lamas;NA;PA;Cloak and Dagger Schemer;High;unknown;x
+35004;Minister of Armament;Alberto Hueyo;NA;PA;Laissez Faires Capitalist;High;unknown;x
+35005;Minister of Security;Ramon Castillo;NA;PA;Prince of Terror;Medium;unknown;x
+35006;Head of Military Intelligence;Jorge de la Torre;NA;PA;Industrial Specialist;Medium;unknown;x
+35007;Chief of Staff;Manuel Rodriguez;NA;PA;School of Defence;Very High;unknown;x
+35008;Chief of Army;Manuel Rodriguez;NA;PA;Decisive Battle Doctrine;Very High;unknown;x
+35009;Chief of Navy;Pedro S. Casal;NA;PA;Open Seas Doctrine;Very High;unknown;x
+35010;Chief of Air Force;Manuel Rodriguez;NA;PA;Air Superiority Doctrine;Very High;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+35011;Head of State;Marcelo T.Alvear;NA;RS;NA;NA;unknown;x
+35012;Head of Government;Marcelo T.Alvear;NA;RS;NA;NA;unknown;x
+35013;Foreign Minister;Horacio Hoyanarte;NA;RS;Ideological Crusader;Medium;unknown;x
+35014;Minister of Armament;Elpidio Gonzalez;NA;RS;Resource Industrialist;High;unknown;x
+35015;Minister of Security;Enrique Martinez;NA;RS;Man of the People;High;unknown;x
+35016;Head of Military Intelligence;Agustin Rodriguez;NA;RS;Political Specialist;Very High;unknown;x
+35017;Chief of Staff;Luis Dellepiane;NA;RS;School of Mass Combat;Medium;unknown;x
+35018;Chief of Army;Luis Dellepiane;NA;RS;Decisive Battle Doctrine;Medium;unknown;x
+35019;Chief of Navy;Tomas Zurueta;NA;RS;Open Seas Doctrine;High;unknown;x
+35020;Chief of Air Force;Luis Dellepiane;NA;RS;Air Superiority Doctrine;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+35001;Head of State;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35002;Head of Government;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35003;Foreign Minister;Carlos S.Lamas;NA;PA;Cloak and Dagger Schemer;High;unknown;x
+35004;Minister of Armament;Alberto Hueyo;NA;PA;Laissez Faires Capitalist;High;unknown;x
+35005;Minister of Security;Ramon Castillo;NA;PA;Prince of Terror;Medium;unknown;x
+35006;Head of Military Intelligence;Jorge de la Torre;NA;PA;Industrial Specialist;Medium;unknown;x
+35007;Chief of Staff;Manuel Rodriguez;NA;PA;School of Defence;Very High;unknown;x
+35008;Chief of Army;Manuel Rodriguez;NA;PA;Decisive Battle Doctrine;Very High;unknown;x
+35009;Chief of Navy;Pedro S. Casal;NA;PA;Open Seas Doctrine;Very High;unknown;x
+35010;Chief of Air Force;Manuel Rodriguez;NA;PA;Air Superiority Doctrine;Very High;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+35021;Head of State;Marcelo T.Alvear;NA;RS;NA;NA;unknown;x
+35022;Head of Government;Marcelo T.Alvear;NA;RS;NA;NA;unknown;x
+35023;Foreign Minister;Horacio Hoyanarte;NA;RS;Ideological Crusader;Medium;unknown;x
+35024;Minister of Armament;Jose Tamborni;NA;RS;Resource Industrialist;High;unknown;x
+35025;Minister of Security;Agustin Rodriguez;NA;RS;Man of the People;High;unknown;x
+35026;Head of Military Intelligence;Agustin Rodriguez;NA;RS;Political Specialist;Very High;unknown;x
+35027;Chief of Staff;Luis Dellepiane;NA;RS;School of Mass Combat;Medium;unknown;x
+35028;Chief of Army;Luis Dellepiane;NA;RS;Decisive Battle Doctrine;Medium;unknown;x
+35029;Chief of Navy;Tomas Zurueta;NA;RS;Open Seas Doctrine;High;unknown;x
+35030;Chief of Air Force;Luis Dellepiane;NA;RS;Air Superiority Doctrine;Medium;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+35001;Head of State;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35002;Head of Government;Agustín P. Justo;NA;PA;NA;NA;unknown;x
+35003;Foreign Minister;Carlos S.Lamas;NA;PA;Cloak and Dagger Schemer;High;unknown;x
+35004;Minister of Armament;Alberto Hueyo;NA;PA;Laissez Faires Capitalist;High;unknown;x
+35005;Minister of Security;Ramon Castillo;NA;PA;Prince of Terror;Medium;unknown;x
+35006;Head of Military Intelligence;Jorge de la Torre;NA;PA;Industrial Specialist;Medium;unknown;x
+35007;Chief of Staff;Manuel Rodriguez;NA;PA;School of Defence;Very High;unknown;x
+35008;Chief of Army;Manuel Rodriguez;NA;PA;Decisive Battle Doctrine;Very High;unknown;x
+35009;Chief of Navy;Pedro S. Casal;NA;PA;Open Seas Doctrine;Very High;unknown;x
+35010;Chief of Air Force;Manuel Rodriguez;NA;PA;Air Superiority Doctrine;Very High;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+35031;Head of State;Pedro Pablo Ramirez;NA;RS;NA;NA;unknown;x
+35032;Head of Government;Pedro Pablo Ramirez;NA;RS;NA;NA;unknown;x
+35033;Foreign Minister;Alberto Gilbert;NA;RS;Ideological Crusader;High;unknown;x
+35034;Minister of Armament;Juan Domingo Peron;NA;RS;Resource Industrialist;High;peron_juan_arg;x
+35035;Minister of Security;Agustin Rodriguez;NA;RS;Man of the People;High;unknown;x
+35036;Head of Military Intelligence;Gustavo Martinez;NA;RS;Political Specialist;Medium;unknown;x
+35037;Chief of Staff;Edelmiro Farrell;NA;RS;School of Mass Combat;Very High;unknown;x
+35038;Chief of Army;Edelmiro Farrell;NA;RS;Decisive Battle Doctrine;Very High;unknown;x
+35039;Chief of Navy;Benito Sueiro;NA;RS;Open Seas Doctrine;High;unknown;x
+35040;Chief of Air Force;Edelmiro Farrell;NA;RS;Air Superiority Doctrine;Very High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+35041;Head of State;Black Shadow;NA;FA;NA;NA;unknown;x
+35042;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+35043;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+35044;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+35045;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+35046;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+35047;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+35048;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+35049;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+35050;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+35051;Head of State;Red Shadow;NA;LWR;NA;NA;unknown;x
+35052;Head of Government;Red Shadow;NA;LWR;NA;NA;unknown;x
+35053;Foreign Minister;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+35054;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+35055;Minister of Security;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+35056;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+35057;Chief of Staff;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+35058;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+35059;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+35060;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+35061;Head of State;Roberto M.Ortiz;40;LC;NA;NA;unknown;x
+35062;Head of Government;Roberto M.Ortiz;40;LC;NA;NA;unknown;x
+35063;Head of State;Ramon Castillo;42;LC;NA;NA;unknown;x
+35064;Head of Government;Ramon Castillo;42;LC;NA;NA;unknown;x
+35065;Foreign Minister;Ruiz Guiñazu;40;LC;Cloak and Dagger Schemer;High;unknown;x
+35066;Minister of Armament;Federico Pinedo;40;LC;Laissez Faires Capitalist;High;unknown;x
+35067;Minister of Security;Jorge E. Coll;40;LC;Prince of Terror;Medium;unknown;x
+35068;Head of Military Intelligence;Diogenes Taboada;40;LC;Industrial Specialist;Medium;unknown;x
+35069;Chief of Staff;Pedro Pablo Ramirez;40;LC;School of Defence;Very High;unknown;x
+35070;Chief of Army;Carlos O. Marquez;40;LC;Decisive Battle Doctrine;Very High;unknown;x
+35071;Chief of Navy;Leon S.Scasso;40;LC;Open Seas Doctrine;Very High;unknown;x
+35072;Chief of Air Force;Carlos O. Marquez;40;LC;Air Superiority Doctrine;Very High;unknown;x
+35073;Head of State;Robustiano Costas;44;LC;NA;NA;unknown;x
+35074;Head of Government;Robustiano Costas;44;LC;NA;NA;unknown;x

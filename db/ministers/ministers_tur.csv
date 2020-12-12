@@ -1,0 +1,70 @@
+TUR;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+12001;Head of State;Kemal Atatürk;NA;PA LC CE RS;NA;NA;unknown;x
+12002;Head of Government;Mustafa Ismet;NA;LC;NA;NA;unknown;x
+12003;Foreign Minister;Tevfik Rüstü Aras;NA;LC;Undistinguished Suit;Medium;unknown;x
+12004;Minister of Armament;Fuat Agrali;NA;LC;Undistinguished Suit;Medium;unknown;x
+12005;Minister of Security;Sükrü Kaya;NA;LC;Undistinguished Suit;Medium;unknown;x
+12006;Head of Military Intelligence;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+12007;Chief of Staff;Fevzi Cakmak;NA;PA;Undistinguished Suit;Medium;unknown;x
+12008;Chief of Army;Mehmet Nuri Yamut;NA;PA;Undistinguished Suit;Medium;unknown;x
+12009;Chief of Navy;Mehmet Ali Üngen;NA;PA;Undistinguished Suit;Medium;unknown;x
+12010;Chief of Air Force;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1938;ELECT_B;;;;;;x
+12011;Head of State;Ismet Inönü;NA;PA LC CE RS;NA;NA;inonu_ismet2_tur;x
+12012;Head of Government;Mahmud Celal Bavar;NA;LC;NA;NA;unknown;x
+12013;Foreign Minister;Tevfik Rüstü Aras;NA;LC;Undistinguished Suit;Medium;unknown;x
+12014;Minister of Armament;Fuat Agrali;NA;LC;Undistinguished Suit;Medium;unknown;x
+12015;Minister of Security;Sükrü Kaya;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1938;ELECT_A;;;;;;x
+12016;Head of State;Mustafa Renda;NA;PA LC CE RS;NA;NA;unknown;x
+12017;Head of Government;Refik Saydam;NA;CE;NA;NA;unknown;x
+12018;Foreign Minister;Necmettin Sadik Sadak;NA;CE;Undistinguished Suit;Medium;unknown;x
+12019;Minister of Armament;Mustafa Renda;NA;CE;Undistinguished Suit;Medium;unknown;x
+12020;Minister of Security;Faik Öztrak;NA;CE;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1942;ELECT_B;;;;;;x
+12011;Head of State;Ismet Inönü;NA;PA LC CE RS;NA;NA;inonu_ismet2_tur;x
+12021;Head of Government;Sükrü Saracoglu;NA;LC;NA;NA;saracoglu_sukru_tur;x
+12022;Foreign Minister;Numan Memencioglu;NA;LC;Undistinguished Suit;Medium;unknown;x
+12023;Minister of Armament;Fuat Agrali;NA;LC;Undistinguished Suit;Medium;unknown;x
+12024;Minister of Security;Ahmet Fikri Tüzer;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1942;ELECT_A;;;;;;x
+12016;Head of State;Mustafa Renda;NA;PA LC CE RS;NA;NA;unknown;x
+12025;Head of Government;Recep Peker;NA;CE;NA;NA;unknown;x
+12026;Foreign Minister;Necmettin Sadik Sadak;NA;CE;Undistinguished Suit;Medium;unknown;x
+12027;Minister of Armament;Nurullah Esat Sümer;NA;CE;Undistinguished Suit;Medium;unknown;x
+12028;Minister of Security;Hilmi Uran;NA;CE;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1946;ELECT_B;;;;;;x
+12011;Head of State;Ismet Inönü;NA;PA LC CE RS;NA;NA;inonu_ismet2_tur;x
+12025;Head of Government;Recep Peker;NA;CE;NA;NA;unknown;x
+12029;Foreign Minister;Hasan Saka;NA;CE;Undistinguished Suit;Medium;unknown;x
+12030;Minister of Armament;Halit Nazmi Kesmir;NA;LC;Undistinguished Suit;Medium;unknown;x
+12031;Minister of Security;Sükrü Sökmensüer;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1946;ELECT_A;;;;;;x
+12016;Head of State;Mustafa Renda;NA;PA LC CE RS;NA;NA;unknown;x
+12032;Head of Government;Hasan Saka;NA;CE;NA;NA;unknown;x
+12029;Foreign Minister;Necmettin Sadik Sadak;NA;CE;Undistinguished Suit;Medium;unknown;x
+12033;Minister of Armament;Hasan Sevket Adalan;NA;CE;Undistinguished Suit;Medium;unknown;x
+12034;Minister of Security;Münir Hüsrev Göle;NA;CE;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+12035;Head of State;Nihal Atsiz;NA;NS FA PA;NA;NA;unknown;x
+12036;Head of Government;Zeki Velidi Togan;NA;FA;NA;NA;unknown;x
+12037;Foreign Minister;Nejdet Sancar;NA;FA;Undistinguished Suit;Medium;unknown;x
+12038;Minister of Armament;Sadi Özbek;NA;FA;Undistinguished Suit;Medium;unknown;x
+12039;Minister of Security;Orhan Gökyay;NA;FA;Undistinguished Suit;Medium;unknown;x
+12040;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+12041;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+12042;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+12043;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+12044;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+12045;Head of State;Sefik Hüsnü;NA;ST LE LWR;NA;NA;unknown;x
+12046;Head of Government;Pertev Naili Boratav;NA;ST;NA;NA;unknown;x
+12047;Foreign Minister;Nazim Hikmet Ran;NA;ST;Undistinguished Suit;Medium;unknown;x
+12048;Minister of Armament;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+12049;Minister of Security;Ahmet Cevat;NA;ST;Undistinguished Suit;Medium;unknown;x
+12050;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+12051;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+12052;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+12053;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+12054;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

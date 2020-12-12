@@ -1,0 +1,64 @@
+LUX;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+66001;Head of State;Blue Shadow;NA;PA LC CE RS;NA;NA;unknown;x
+66002;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+66003;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+66004;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+66005;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+66006;Head of Military Intelligence;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+66007;Chief of Staff;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+66008;Chief of Army;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+66009;Chief of Navy;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+66010;Chief of Air Force;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+66011;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+66012;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+66013;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+66014;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+66015;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+66016;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+66017;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+66018;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+66019;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+66020;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+66021;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+66022;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+66023;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+66024;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+66025;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+66026;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+66027;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+66028;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+66029;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+66030;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+66031;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+66032;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+66033;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+66034;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+66035;Head of State;Black Shadow;NA;NS FA;NA;NA;unknown;x
+66036;Head of Government;Black Shadow;NA;NS;NA;NA;unknown;x
+66037;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+66038;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+66039;Minister of Security;Black Shadow;NA;NS;Undistinguished Suit;Medium;unknown;x
+66040;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+66041;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+66042;Chief of Army;Black Shadow;NA;NS;Undistinguished Suit;Medium;unknown;x
+66043;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+66044;Chief of Air Force;Black Shadow;NA;NS;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+66045;Head of State;Red Shadow;NA;LWR LE ST;NA;NA;unknown;x
+66046;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+66047;Foreign Minister;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+66048;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+66049;Minister of Security;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+66050;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+66051;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+66052;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+66053;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+66054;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

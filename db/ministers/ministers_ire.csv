@@ -1,0 +1,71 @@
+IRE;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+25001;Head of State;Eamon de Valera;NA;LC CE RS;NA;NA;devalera_eamon_ira;x
+25002;Head of Government;Eamon de Valera;NA;CE;NA;NA;devalera_eamon_ira;x
+25003;Foreign Minister;Eamon de Valera;NA;CE;Undistinguished Suit;Undying;devalera_eamon_ira;x
+25004;Minister of Armament;Seán MacEntee;NA;CE;Undistinguished Suit;High;unknown;x
+25005;Minister of Security;Patrick J. Ruttledge;NA;CE;Undistinguished Suit;High;unknown;x
+25006;Head of Military Intelligence;Blue Shadow;NA;CE;Undistinguished Suit;High;unknown;x
+25007;Chief of Staff;Blue Shadow;NA;CE;Undistinguished Suit;High;unknown;x
+25008;Chief of Army;Blue Shadow;NA;CE;Undistinguished Suit;High;unknown;x
+25009;Chief of Navy;Blue Shadow;NA;CE;Undistinguished Suit;High;unknown;x
+25010;Chief of Air Force;Blue Shadow;NA;CE;Undistinguished Suit;High;unknown;x
+;A Cabinet - 1938;ELECT_A;;;;;;x
+25001;Head of State;Eamon de Valera;NA;LC CE RS;NA;NA;devalera_eamon_ira;x
+25002;Head of Government;Eamon de Valera;NA;CE;NA;NA;devalera_eamon_ira;x
+25003;Foreign Minister;Eamon de Valera;NA;CE;Undistinguished Suit;Undying;devalera_eamon_ira;x
+25004;Minister of Armament;Seán MacEntee;NA;CE;Undistinguished Suit;High;unknown;x
+25005;Minister of Security;Patrick J. Ruttledge;NA;CE;Undistinguished Suit;High;unknown;x
+;B Cabinet - 1938;ELECT_B;;;;;;x
+25006;Head of State;W.T Cosgrave;NA;LC CE RS;NA;NA;unknown;x
+25007;Head of Government;W.T Cosgrave;NA;LC;NA;NA;unknown;x
+25008;Foreign Minister;W.T Cosgrave;NA;LC;Undistinguished Suit;Undying;unknown;x
+25009;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+25010;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+;A Cabinet - 1943;ELECT_B;;;;;;x
+25001;Head of State;Eamon de Valera;NA;LC CE RS;NA;NA;devalera_eamon_ira;x
+25002;Head of Government;Eamon de Valera;NA;CE;NA;NA;devalera_eamon_ira;x
+25003;Foreign Minister;Eamon de Valera;NA;CE;Undistinguished Suit;Undying;devalera_eamon_ira;x
+25011;Minister of Armament;Seán T. Ó Ceallaigh;NA;CE;Undistinguished Suit;High;unknown;x
+25012;Minister of Security;Gerald Boland;NA;CE;Undistinguished Suit;High;unknown;x
+;B Cabinet - 1943;ELECT_A;;;;;;x
+25013;Head of State;William Norton;NA;LC CE RS;NA;NA;unknown;x
+25014;Head of Government;William Norton;NA;RS;NA;NA;unknown;x
+25015;Foreign Minister;William Norton;NA;RS;Undistinguished Suit;High;unknown;x
+25016;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;High;unknown;x
+25017;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;High;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+25001;Head of State;Eamon de Valera;NA;LC CE RS;NA;NA;devalera_eamon_ira;x
+25002;Head of Government;Eamon de Valera;NA;CE;NA;NA;devalera_eamon_ira;x
+25003;Foreign Minister;Eamon de Valera;NA;CE;Undistinguished Suit;Undying;devalera_eamon_ira;x
+25018;Minister of Armament;Frank Aiken;NA;CE;Undistinguished Suit;High;unknown;x
+25012;Minister of Security;Gerald Boland;NA;CE;Undistinguished Suit;High;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+25019;Head of State;Richard Mulcany;NA;LC CE RS;NA;NA;unknown;x
+25020;Head of Government;Richard Mulcany;NA;LC;NA;NA;unknown;x
+25021;Foreign Minister;Richard Mulcany;NA;LC;Undistinguished Suit;Undying;unknown;x
+25022;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+25023;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+25024;Head of State;Black Shadow;NA;PA FA;NA;NA;unknown;x
+25025;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+25026;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+25027;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+25028;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+25029;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+25030;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+25031;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+25032;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+25033;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+25034;Head of State;Red Shadow;NA;LWR LE ST;NA;NA;unknown;x
+25035;Head of Government;Red Shadow;NA;LWR;NA;NA;unknown;x
+25036;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;High;unknown;x
+25037;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+25038;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;High;unknown;x
+25039;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+25040;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;High;unknown;x
+25041;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+25042;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+25043;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+;Replacements;;;;;;;x
+25011;Minister of Armament;Seán T. Ó Ceallaigh;38;CE;Undistinguished Suit;High;unknown;x

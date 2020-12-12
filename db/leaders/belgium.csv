@@ -1,0 +1,26 @@
+Name;ID;Country;Rank;Traits;Skill;Experience;Loyalty;Type;Picture;x
+Bastin;68001;BEL;2;0;2;30;3;0;unknown;x
+Daumerie;68002;BEL;3;0;1;0;1;0;unknown;x
+Deffontaine;68003;BEL;2;0;1;10;1;0;unknown;x
+Keynaerts;68004;BEL;1;2;2;30;3;0;unknown;x
+Krake;68005;BEL;2;0;1;0;1;0;unknown;x
+Michiels;68006;BEL;1;2;1;10;4;0;michiels_bel;x
+Pire;68007;BEL;2;0;1;0;5;0;unknown;x
+Strydonck de Burkel;68008;BEL;1;2;3;60;5;0;strydonckdeburkel_bel;x
+Beernaert;68009;BEL;3;0;1;0;2;0;unknown;x
+Bielswick;68010;BEL;3;0;1;0;2;0;unknown;x
+Bourgois;68011;BEL;3;0;1;0;2;0;unknown;x
+Chardonne;68012;BEL;2;0;1;0;4;0;unknown;x
+Delvoie;68013;BEL;1;2;2;30;5;0;unknown;x
+Denis;68014;BEL;1;2;1;0;4;0;unknown;x
+Derousseaux;68015;BEL;1;2;1;0;3;0;unknown;x
+Dewé;68016;BEL;2;0;1;0;3;0;unknown;x
+Fromont;68017;BEL;1;0;1;0;4;0;unknown;x
+Graf;68018;BEL;3;0;1;0;2;0;unknown;x
+Neve de Roden;68019;BEL;3;0;1;0;2;0;unknown;x
+van Overstraeten;68020;BEL;1;2;2;0;5;0;vanoverstraeten_bel;x
+Phaff;68021;BEL;3;0;1;0;2;0;unknown;x
+Piron;68022;BEL;2;128;1;0;3;0;piron_jean_bel;x
+Veken;68023;BEL;1;2;2;0;3;0;unknown;x
+Wanty;68024;BEL;1;2;2;0;3;0;unknown;x
+Wibies;68025;BEL;3;0;1;0;2;0;unknown;x

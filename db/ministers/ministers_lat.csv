@@ -1,0 +1,70 @@
+LAT;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+27001;Head of State;Alberts Kviesis;NA;PA LC CE RS;NA;NA;unknown;x
+27002;Head of Government;Kàrlis Ulmanis;NA;PA;NA;NA;ulmanis_karlis_lat;x
+27003;Foreign Minister;Kàrlis Ulmanis;NA;PA;Undistinguished Suit;Undying;ulmanis_karlis_lat;x
+27004;Minister of Armament;Ludvigs Ctis;NA;CE;Infantry Proponent;Medium;unknown;x
+27005;Minister of Security;Vilis Gulbis;NA;CE;Crime Fighter;Medium;unknown;x
+27006;Head of Military Intelligence;Blue Shadow;NA;PA;Logistics Specialist;Medium;unknown;x
+27007;Chief of Staff;Jànis Balodis;NA;PA;School of Defense;Medium;balodis_janis_lat;x
+27008;Chief of Army;Berkis;NA;PA;Static Defence Doctrine;Medium;unknown;x
+27009;Chief of Navy;Spade;NA;PA;Undistinguished Suit;Medium;unknown;x
+27010;Chief of Air Force;Basko;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+27011;Head of State;Alfreds Valdmanis;NA;NS FA PA;NA;NA;unknown;x
+27012;Head of Government;Alfreds Valdmanis;NA;FA;NA;NA;unknown;x
+27013;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+27014;Minister of Armament;Jànis Skujevics;NA;FA;Resource Industrialist;Medium;unknown;x
+27015;Minister of Security;Alfreds Valdmanis;NA;FA;Crime Fighter;Medium;unknown;x
+27016;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+27017;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+27018;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+27019;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+27020;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+27021;Head of State;Augusts Kirhenšteins;NA;ST LE LWR;NA;NA;kirchenstein_lat;x
+27022;Head of Government;Augusts Kirhenšteins;NA;LE;NA;NA;kirchenstein_lat;x
+27023;Foreign Minister;Augusts Kirhenšteins;NA;LE;Ideological Crusader;Undying;kirchenstein_lat;x
+27024;Minister of Armament;Kàrlis Karlsons;NA;ST;Military Entrepreneur;Medium;unknown;x
+27025;Minister of Security;Vilis Làcis;NA;ST;Efficient Sociopath;Medium;unknown;x
+27026;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+27027;Chief of Staff;Peteris Kuzis ;NA;LE;School of Mass Combat;Medium;unknown;x
+27028;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+27029;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+27030;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+27031;Head of State;Kàrlis Ulmanis;36;CE;NA;NA;ulmanis_karlis_lat;x
+27032;Head of State;Ernests Kreišmanis;41;CE;NA;NA;unknown;x
+27033;Head of State;Bernhards Einbergs;41;CE;NA;NA;unknown;x
+27034;Head of State;Pauls Kalniñš;43;CE;NA;NA;unknown;x
+27035;Head of State;Janis Andersons;45;CE;NA;NA;unknown;x
+27036;Head of State;Oskars Dankers;41;NS FA PA;NA;NA;unknown;x
+27037;Head of State;Rudolfs Bangerskis;45;NS FA PA;NA;NA;unknown;x
+27038;Head of Government;Reinhold K. Zariñš;40;CE;NA;NA;unknown;x
+27039;Head of Government;Roberts Osis;45;CE;NA;NA;unknown;x
+27030;Head of Government;Oskars Dankers;41;FA;NA;NA;unknown;x
+27031;Head of Government;Rudolfs Bangerskis;45;FA;NA;NA;unknown;x
+27032;Head of Government;Vilis Lacis;40;ST;NA;NA;unknown;x
+27033;Foreign Minister;Vilhelms Munters ;36;CE;Undistinguished Suit;Medium;munters_lat;x
+27034;Foreign Minister;Alfreds Bïlmanis;40;CE;Undistinguished Suit;Medium;unknown;x
+27035;Foreign Minister;Arnolds Skrebers;45;CE;Undistinguished Suit;Medium;unknown;x
+27036;Foreign Minister;Peteris Valeskalns;44;ST;Ideological Crusader;Medium;unknown;x
+27037;Minister of Armament;Alfreds Valdmanis;38;CE;Undistinguished Suit;Medium;unknown;x
+27038;Minister of Armament;Jànis Kaminskis;39;CE;Undistinguished Suit;Medium;unknown;x
+27039;Minister of Armament;Aleksandrs Bulle;45;CE;Undistinguished Suit;Medium;unknown;x
+27040;Minister of Armament;Evalds Andersons;41;FA;Military Entrepreneur;High;unknown;x
+27041;Minister of Armament;Jànis Miezis;44;FA;Infantry Proponent;Very High;unknown;x
+27042;Minister of Armament;Arnolds Tabaks;40;ST;Resource Industrialist;Medium;unknown;x
+27043;Minister of Security;Kornelijs Veidnieks;39;CE;Undistinguished Suit;Medium;unknown;x
+27044;Minister of Security;Rodolfs Rocin;45;CE;Undistinguished Suit;Medium;unknown;x
+27045;Minister of Security;Oskars Dankers;41;FA;Back Stabber;Medium;unknown;x
+27046;Minister of Security;Màrtiñš Prïmanis;44;FA;Man of the People;Medium;unknown;x
+27047;Minister of Security;Rudolfs Kociñš;45;FA;Crime Fighter;Medium;unknown;x
+27048;Minister of Security;Andrejs Jablonskis;40;ST;Prince of Terror;Medium;unknown;x
+27049;Chief of Staff;Krišjànis Berkis;40;CE;Undistinguished Suit;Medium;unknown;x
+27050;Chief of Staff;Konstantins Cakste;43;CE;Undistinguished Suit;Medium;unknown;x
+27051;Chief of Staff;Bruno H. Kalniñš;44;CE;Undistinguished Suit;Medium;unknown;x
+27052;Chief of Staff;Verners Tepfers;44;CE;Undistinguished Suit;Medium;unknown;x
+27053;Chief of Staff;Roberts Osis;45;CE;Undistinguished Suit;Medium;unknown;x
+27054;Chief of Staff;Arturs M. Silgailis;44;FA;School of Fire Support;High;unknown;x
+27055;Chief of Staff;Roberts Dambïtis;40;ST;School of Fire Support;Medium;unknown;x
+27056;Chief of Staff;Arturs Sprogis;43;ST;School of Fire Support;High;unknown;x

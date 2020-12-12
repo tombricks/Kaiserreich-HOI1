@@ -1,0 +1,515 @@
+NAME;ID;COUNTRY;RANK;TRAITS;SKILL;EXPERIENCE;LOYALTY;TYPE;PICTURE;x
+A.A. White;60379;USA;3;0;1;0;5;0;unknown;x
+A.C. Smith;60351;USA;3;0;1;0;5;0;unknown;x
+A.M. Jones;60266;USA;3;0;1;0;5;0;unknown;x
+A.M. Patch;60319;USA;1;4;2;0;5;0;patch_alexander2_usa;x
+A.T. Brown;60076;USA;3;0;1;0;5;0;unknown;x
+A.W. Jones;60265;USA;3;0;1;0;5;0;unknown;x
+Adams;60000;USA;1;0;2;0;5;0;unknown;x
+Adams;60001;USA;3;0;1;0;5;0;unknown;x
+Alexander;60002;USA;3;0;1;0;5;0;patch_alexander3_usa;x
+Alfonte;60003;USA;3;0;1;0;5;0;unknown;x
+Allan;60006;USA;3;0;1;0;5;0;unknown;x
+Allen;60004;USA;3;0;2;0;5;0;unknown;x
+Allen;60005;USA;3;0;1;0;5;0;unknown;x
+Almond;60007;USA;3;0;1;0;5;0;unknown;x
+Althaus;60008;USA;3;0;1;0;5;0;unknown;x
+Andersen;60009;USA;3;0;1;0;5;0;unknown;x
+Anderson;60010;USA;3;0;1;0;5;0;unknown;x
+Anderson;60011;USA;2;0;1;0;5;0;unknown;x
+Anderson;60012;USA;2;0;2;0;5;0;unknown;x
+Anderson;60398;USA;3;0;2;0;5;1;unknown;x
+Andrus;60013;USA;3;0;1;0;5;0;unknown;x
+Ankcorn;60014;USA;3;0;1;0;5;0;unknown;x
+Arms;60015;USA;3;0;1;0;5;0;unknown;x
+Armstrong;60016;USA;3;0;1;0;5;0;unknown;x
+Arnold;60017;USA;3;0;2;0;5;0;unknown;x
+Arnold;60018;USA;2;0;3;0;5;0;unknown;x
+Arnold;60428;USA;0;32768;3;0;5;2;arnold_henry3_usa;x
+Arrowsmith;60019;USA;3;0;1;0;5;0;unknown;x
+B. Campbell;60097;USA;3;0;1;0;5;0;unknown;x
+B.C. Clark;60117;USA;3;0;2;0;5;0;unknown;x
+B.E. Moore;60309;USA;3;0;1;0;5;0;unknown;x
+B.O. Davis;60157;USA;3;0;1;0;5;0;unknown;x
+Baade;60020;USA;3;0;1;0;5;0;unknown;x
+Badger;60021;USA;3;0;1;0;5;0;unknown;x
+Baehr;60022;USA;3;0;2;0;5;0;unknown;x
+Baird;60023;USA;3;0;1;0;5;0;unknown;x
+Baker;60024;USA;3;0;1;0;5;0;unknown;x
+Baker;60423;USA;3;0;2;0;5;1;unknown;x
+Baldwin;60025;USA;3;0;1;0;5;0;unknown;x
+Barker;60026;USA;3;0;2;0;5;0;unknown;x
+Barnes;60027;USA;3;0;1;0;5;0;unknown;x
+Barnett;60028;USA;3;0;1;0;5;0;unknown;x
+Barnett;60029;USA;3;0;1;0;5;0;unknown;x
+Barnwell;60030;USA;2;0;1;0;5;0;unknown;x
+Barr;60031;USA;1;0;3;0;5;0;unknown;x
+Barrett;60032;USA;3;0;1;0;5;0;unknown;x
+Barton;60033;USA;2;0;2;0;5;0;unknown;x
+Beasly;60034;USA;3;0;1;0;5;0;unknown;x
+Beiderlinden;60035;USA;3;0;1;0;5;0;unknown;x
+Beightler;60036;USA;3;0;2;0;5;0;unknown;x
+Bellinger;60410;USA;3;0;2;0;5;1;unknown;x
+Benedict;60037;USA;2;0;2;0;5;0;unknown;x
+Berry;60038;USA;3;0;1;0;5;0;unknown;x
+Bidwell;60401;USA;3;0;1;0;5;1;unknown;x
+Birkhead;60039;USA;3;0;1;0;5;0;unknown;x
+Birks;60040;USA;3;0;1;0;5;0;unknown;x
+Bissell;60041;USA;3;0;1;0;5;0;bissel_usa;x
+Bixby;60042;USA;3;0;1;0;5;0;unknown;x
+Black;60043;USA;3;0;1;0;5;0;unknown;x
+Black;60044;USA;1;0;2;0;5;0;unknown;x
+Blakeley;60045;USA;3;0;2;0;5;0;unknown;x
+Blood;60046;USA;2;0;1;0;5;0;unknown;x
+Blount;60047;USA;3;0;1;0;5;0;unknown;x
+Bluemel;60048;USA;3;0;1;0;5;0;unknown;x
+Boatner;60049;USA;3;0;1;0;5;0;unknown;x
+Bohn;60050;USA;2;0;2;0;5;0;unknown;x
+Bolling;60051;USA;3;0;1;0;5;0;unknown;x
+Bolte;60052;USA;3;0;1;0;5;0;unknown;x
+Bonesteel;60053;USA;3;0;2;0;5;0;bonesteel_charles_usa;x
+Booth;60054;USA;3;0;3;0;5;0;unknown;x
+Boudinot;60055;USA;3;0;1;0;5;0;unknown;x
+Bowen;60056;USA;2;0;2;0;5;0;unknown;x
+Bowman;60057;USA;2;0;2;0;5;0;unknown;x
+Bowman;60058;USA;3;0;1;0;5;0;unknown;x
+Boyd;60059;USA;3;0;1;0;5;0;unknown;x
+Boye;60060;USA;3;0;1;0;5;0;unknown;x
+Bradford;60061;USA;3;0;1;0;5;0;unknown;x
+Bradford;60062;USA;3;0;1;0;5;0;unknown;x
+Bradley;60439;USA;3;0;1;0;5;2;unknown;x
+Bradshaw;60066;USA;3;0;1;0;5;0;unknown;x
+Brainard;60389;USA;1;0;2;0;5;1;unknown;x
+Brann;60067;USA;3;0;1;0;5;0;unknown;x
+Braun;60068;USA;3;0;1;0;5;0;unknown;x
+Brett;60070;USA;3;0;1;0;5;0;unknown;x
+Brewer;60069;USA;3;0;1;0;5;0;unknown;x
+Brink;60071;USA;3;0;1;0;5;0;unknown;x
+Brittingham;60072;USA;1;0;2;0;5;0;unknown;x
+Brock;60073;USA;3;0;1;0;5;0;unknown;x
+Brooks;60074;USA;2;0;2;0;5;0;unknown;x
+Brooks;60435;USA;3;0;1;0;5;2;unknown;x
+Brougher;60075;USA;3;0;1;0;5;0;unknown;x
+Brown;60425;USA;2;0;2;0;5;1;unknown;x
+Bruce;60081;USA;3;0;2;0;5;0;unknown;x
+Brush;60082;USA;3;0;1;0;5;0;unknown;x
+Bryden;60083;USA;2;0;2;0;5;0;unknown;x
+Bucher;60084;USA;3;0;1;0;5;0;unknown;x
+Buckner;60085;USA;3;32;1;0;5;0;buckner_simon_usa;x
+Buechler;60086;USA;3;0;1;0;5;0;unknown;x
+Bull;60087;USA;2;0;2;0;5;0;unknown;x
+Burress;60090;USA;3;0;2;0;5;0;unknown;x
+Busbee;60091;USA;3;0;1;0;5;0;unknown;x
+Butler;60092;USA;3;0;1;0;5;0;unknown;x
+Byers;60093;USA;3;0;2;0;5;0;unknown;x
+C.A. Martin;60300;USA;3;0;1;0;5;0;unknown;x
+C.C. Brown;60077;USA;2;0;1;0;5;0;unknown;x
+Caffey;60094;USA;3;0;1;0;5;0;unknown;x
+Camm;60095;USA;3;0;1;0;5;0;unknown;x
+Camp;60096;USA;3;0;1;0;5;0;unknown;x
+Candee;60445;USA;3;0;1;0;5;2;unknown;x
+Canham;60099;USA;3;0;2;0;5;0;unknown;x
+Cannon;60100;USA;2;0;1;0;5;0;unknown;x
+Carrington;60101;USA;3;0;1;0;5;0;unknown;x
+Carter;60102;USA;3;0;1;0;5;0;unknown;x
+Case;60103;USA;3;0;1;0;5;0;unknown;x
+Chamberlin;60105;USA;3;0;1;0;5;0;unknown;x
+Chandler;60106;USA;3;0;1;0;5;0;unknown;x
+Chapin;60107;USA;3;0;1;0;5;0;unknown;x
+Chapman;60104;USA;3;0;2;0;5;0;unknown;x
+Chase;60108;USA;3;0;1;0;5;0;unknown;x
+Cheshire;60109;USA;3;0;1;0;5;0;unknown;x
+Cheves;60110;USA;3;0;1;0;5;0;unknown;x
+Christian;60111;USA;3;0;1;0;5;0;unknown;x
+Christiansen;60112;USA;3;0;1;0;5;0;unknown;x
+Church;60113;USA;3;0;2;0;5;0;unknown;x
+Chynoweth;60114;USA;1;0;2;0;5;0;unknown;x
+Clarkson;60118;USA;2;0;2;0;5;0;unknown;x
+Cleland;60119;USA;3;0;1;0;5;0;unknown;x
+Clemens;60120;USA;3;0;1;0;5;0;unknown;x
+Cohen;60422;USA;3;0;2;0;5;1;unknown;x
+Colbern;60121;USA;3;0;1;0;5;0;unknown;x
+Colburn;60122;USA;3;0;1;0;5;0;unknown;x
+Collier;60123;USA;3;0;2;0;5;0;unknown;x
+Colson;60129;USA;3;0;1;0;5;0;unknown;x
+Cook;60130;USA;3;0;1;0;5;0;unknown;x
+Cook;60415;USA;2;0;2;0;5;1;unknown;x
+Copeland;60131;USA;3;0;1;0;5;0;copeland_robert_usa;x
+Corlett;60132;USA;3;0;1;0;5;0;unknown;x
+Coulter;60133;USA;3;0;2;0;5;0;unknown;x
+Cox;60134;USA;3;0;1;0;5;0;unknown;x
+Craig;60135;USA;3;0;1;0;5;0;unknown;x
+Cramer;60136;USA;3;0;1;0;5;0;unknown;x
+Crane;60137;USA;2;0;1;0;5;0;unknown;x
+Crawford;60138;USA;3;0;1;0;5;0;unknown;x
+Crichlow;60139;USA;3;0;1;0;5;0;unknown;x
+Crittenberger;60140;USA;2;0;3;0;5;0;unknown;x
+Crowell;60141;USA;3;0;1;0;5;0;unknown;x
+Cubbison;60142;USA;3;0;1;0;5;0;unknown;x
+Culbertson;60143;USA;3;0;1;0;5;0;unknown;x
+Culin;60144;USA;3;0;1;0;5;0;unknown;x
+Cummins;60145;USA;2;0;1;0;5;0;unknown;x
+Cunningham;60146;USA;3;0;1;0;5;0;unknown;x
+Curtis;60147;USA;3;0;1;0;5;0;lemay_curtis_usa;x
+Cutler;60148;USA;3;0;1;0;5;0;unknown;x
+D. MacArthur;60288;USA;0;1;3;0;5;0;macarthur_douglas_usa;x
+D.D. Eisenhower;60184;USA;0;128;4;0;5;0;eisenhower_dwight3_usa;x
+D.O. Hickey;60251;USA;3;0;1;0;5;0;unknown;x
+Dager;60149;USA;3;0;2;0;5;0;unknown;x
+Dahlquist;60150;USA;3;0;2;0;5;0;unknown;x
+Daley;60151;USA;2;0;1;0;5;0;unknown;x
+Dalton;60152;USA;3;0;1;0;5;0;unknown;x
+Daly;60153;USA;3;0;1;0;5;0;unknown;x
+Daniel;60154;USA;3;0;1;0;5;0;sultan_daniel_usa;x
+Dargue;60430;USA;2;0;2;0;5;2;unknown;x
+Dasher;60155;USA;2;0;2;0;5;0;unknown;x
+Daugherty;60156;USA;3;0;1;0;5;0;unknown;x
+Dawley;60159;USA;3;0;2;0;5;0;unknown;x
+Dean;60160;USA;3;0;1;0;5;0;unknown;x
+Decker;60161;USA;1;0;2;0;5;0;unknown;x
+Denson;60162;USA;3;0;1;0;5;0;unknown;x
+Devers;60163;USA;1;0;2;0;5;0;devers_jacob_usa;x
+DeWitt;60166;USA;1;0;2;0;5;0;unknown;x
+Doe;60167;USA;3;0;1;0;5;0;unknown;x
+Doran;60170;USA;3;0;1;0;5;0;unknown;x
+Dorn;60171;USA;3;0;1;0;5;0;unknown;x
+Doyle;60397;USA;3;0;2;0;5;1;unknown;x
+Doyle;60402;USA;3;0;2;0;5;1;unknown;x
+Draemel;60403;USA;3;0;2;0;5;1;unknown;x
+Drain;60172;USA;3;0;1;0;5;0;unknown;x
+Draper;60173;USA;3;0;1;0;5;0;unknown;x
+Drum;60174;USA;1;0;2;0;5;0;unknown;x
+Dulaney;60175;USA;3;0;1;0;5;0;unknown;x
+Duncan;60441;USA;3;0;1;0;5;2;unknown;x
+Dunckel;60176;USA;3;0;1;0;5;0;unknown;x
+Dunkelberg;60177;USA;3;0;1;0;5;0;unknown;x
+E. Martin;60301;USA;3;0;1;0;5;0;unknown;x
+E.F. Harding;60231;USA;3;0;1;0;5;0;unknown;x
+E.L. Harrison;60235;USA;3;0;1;0;5;0;unknown;x
+E.P. Parker Jr.;60318;USA;2;0;2;0;5;0;unknown;x
+Eagles;60178;USA;3;0;1;0;5;0;unknown;x
+Earnest;60179;USA;3;0;1;0;5;0;unknown;x
+Easley;60180;USA;3;0;1;0;5;0;unknown;x
+Eckfeldt;60181;USA;3;0;1;0;5;0;unknown;x
+Eddy;60182;USA;2;0;1;0;5;0;unknown;x
+Edwards;60427;USA;3;0;2;0;5;1;unknown;x
+Eichelberger;60183;USA;2;0;1;0;5;0;eichelberger_robert_usa;x
+Emmons;60429;USA;1;0;2;0;5;2;unknown;x
+Ennis;60185;USA;3;0;1;0;5;0;unknown;x
+F.A. Irwin;60261;USA;3;0;1;0;5;0;unknown;x
+F.L. Walker;60372;USA;3;0;1;0;5;0;unknown;x
+F.S. Clark;60115;USA;3;0;1;0;5;0;unknown;x
+Farrell;60188;USA;3;0;2;0;5;0;unknown;x
+Fickel;60442;USA;2;0;2;0;5;2;unknown;x
+Finley;60189;USA;3;0;1;0;5;0;unknown;x
+Fish;60190;USA;3;0;1;0;5;0;unknown;x
+Fitch;60400;USA;3;0;1;0;5;1;fitch_aubrey_usa;x
+Fletcher;60408;USA;3;8192;1;0;5;1;fletcher_frank3_usa;x
+Flory;60191;USA;3;0;1;0;5;0;unknown;x
+Forster;60194;USA;3;0;1;0;5;0;unknown;x
+Fort;60192;USA;3;0;1;0;5;0;unknown;x
+Fortier;60193;USA;3;0;1;0;5;0;unknown;x
+Frank;60438;USA;2;0;2;0;5;2;unknown;x
+Franke;60195;USA;3;0;1;0;5;0;unknown;x
+Fredendall;60196;USA;2;0;2;0;5;0;unknown;x
+Frederick;60197;USA;3;0;1;0;5;0;unknown;x
+French;60198;USA;3;0;1;0;5;0;unknown;x
+Fry;60199;USA;3;0;1;0;5;0;unknown;x
+Fuller;60200;USA;3;0;1;0;5;0;unknown;x
+Furlong;60405;USA;3;0;2;0;5;1;unknown;x
+Futch;60201;USA;2;0;1;0;5;0;unknown;x
+G.A. Taylor;60361;USA;3;0;1;0;5;0;unknown;x
+G.C. Marshall;60299;USA;0;4;3;0;5;0;marshall_george_usa;x
+G.S. Patton;60321;USA;1;128;4;0;5;0;patton_george3_usa;x
+Gaffey;60202;USA;3;0;1;0;5;0;unknown;x
+Gallagher;60203;USA;3;0;1;0;5;0;unknown;x
+Garvin;60204;USA;3;0;1;0;5;0;unknown;x
+Gavin;60205;USA;3;0;1;0;5;0;unknown;x
+Gay;60206;USA;1;0;2;0;5;0;unknown;x
+George;60207;USA;3;0;1;0;5;0;kenney_george_usa;x
+Gerhardt;60208;USA;3;0;1;0;5;0;unknown;x
+Giffen;60418;USA;3;0;1;0;5;1;giffen_robert_usa;x
+Gill;60211;USA;3;0;1;0;5;0;unknown;x
+Gillem;60212;USA;2;0;1;0;5;0;unknown;x
+Gillmore;60213;USA;3;0;1;0;5;0;unknown;x
+Glasford;60394;USA;3;0;2;0;5;1;unknown;x
+Goodman;60214;USA;3;0;1;0;5;0;unknown;x
+Greely;60215;USA;3;0;1;0;5;0;unknown;x
+Greene;60216;USA;3;0;1;0;5;0;unknown;x
+Grimes;60217;USA;3;0;1;0;5;0;unknown;x
+Griner;60218;USA;3;0;1;0;5;0;unknown;x
+Griswold;60219;USA;2;4;1;0;5;0;griswold_oscar_usa;x
+Groninger;60220;USA;2;0;1;0;5;0;unknown;x
+Grow;60221;USA;3;0;2;0;5;0;unknown;x
+Gruber;60222;USA;3;0;1;0;5;0;unknown;x
+Grunert;60223;USA;2;0;1;0;5;0;unknown;x
+Gurney;60224;USA;3;0;1;0;5;0;unknown;x
+H. Harding;60232;USA;2;0;1;0;5;0;unknown;x
+H.C. Evans;60187;USA;3;0;1;0;5;0;carlson_evans_usa;x
+H.J. Collins;60124;USA;3;0;1;0;5;0;unknown;x
+H.L.C. Jones;60267;USA;3;0;1;0;5;0;unknown;x
+Haffner;60225;USA;3;0;1;0;5;0;unknown;x
+Haislip;60226;USA;2;0;1;0;5;0;unknown;x
+Hall;60227;USA;2;0;1;0;5;0;unknown;x
+Halsey;60228;USA;3;0;1;0;5;0;unknown;x
+Halsey;60399;USA;2;4096;2;0;5;1;halsey_william3_usa;x
+Handy;60229;USA;1;0;2;0;5;0;unknown;x
+Hardaway;60230;USA;3;0;1;0;5;0;unknown;x
+Harmon;60233;USA;3;0;2;0;5;0;harmon_millard2_usa;x
+Harmon;60434;USA;2;131072;2;0;5;2;unknown;x
+Harper;60234;USA;2;0;1;0;5;0;unknown;x
+Harrold;60236;USA;3;0;1;0;5;0;unknown;x
+Hart;60391;USA;1;8192;3;0;5;1;hart_thomas2_usa;x
+Hartle;60237;USA;3;0;1;0;5;0;unknown;x
+Hartness;60238;USA;3;0;1;0;5;0;unknown;x
+Hays;60241;USA;3;0;2;0;5;0;unknown;x
+Hazlett;60242;USA;3;0;1;0;5;0;unknown;x
+Helmick;60243;USA;3;0;1;0;5;0;unknown;x
+Hendrix;60244;USA;2;0;1;0;5;0;unknown;x
+Henning;60245;USA;3;0;1;0;5;0;unknown;x
+Henry;60246;USA;3;0;1;0;5;0;unknown;x
+Herren;60247;USA;3;0;1;0;5;0;unknown;x
+Hess;60248;USA;3;0;1;0;5;0;unknown;x
+Hester;60249;USA;3;0;1;0;5;0;unknown;x
+Hewitt;60416;USA;2;0;2;0;5;1;hewitt_henry_usa;x
+Hibbs;60250;USA;3;0;1;0;5;0;unknown;x
+Hilldring;60253;USA;3;0;1;0;5;0;unknown;x
+Hinds;60254;USA;2;0;2;0;5;0;unknown;x
+Hobbs;60255;USA;2;0;2;0;5;0;unknown;x
+Hodge;60256;USA;2;0;2;0;5;0;unknown;x
+Hodges;60257;USA;1;128;3;0;5;0;hodges_courtney_usa;x
+Hoffmann;60258;USA;3;0;1;0;5;0;unknown;x
+Hoge;60259;USA;3;0;1;0;5;0;unknown;x
+Huebner;60260;USA;2;0;1;0;5;0;unknown;x
+I.D. White;60380;USA;3;0;1;0;5;0;unknown;x
+Ingram;60417;USA;3;0;1;0;5;1;ingram_james_usa;x
+J.C.H. Lee;60281;USA;3;0;1;0;5;0;unknown;x
+J.D. Patch;60320;USA;3;0;1;0;5;0;unknown;x
+J.E. Moore;60310;USA;1;0;3;0;5;0;unknown;x
+J.E. Wood;60383;USA;3;0;1;0;5;0;unknown;x
+J.F. Collins;60125;USA;2;0;2;0;5;0;unknown;x
+J.J. Devine;60165;USA;3;0;2;0;5;0;unknown;x
+J.L. Bradley;60063;USA;1;0;2;0;5;0;unknown;x
+J.L. Collins;60126;USA;2;16;2;0;5;0;collins_joseph_usa;x
+J.L. Devine;60164;USA;3;0;1;0;5;0;unknown;x
+J.S. Bradley;60064;USA;3;0;1;0;5;0;unknown;x
+J.S. Wood;60384;USA;3;0;2;0;5;0;unknown;x
+Jackson;60263;USA;3;0;1;0;5;0;unknown;x
+Johnson;60264;USA;3;0;1;0;5;0;unknown;x
+Jones;60446;USA;2;0;2;0;5;2;unknown;x
+Joyce;60269;USA;2;0;2;0;5;0;unknown;x
+Kean;60270;USA;3;0;2;0;5;0;unknown;x
+Keating;60271;USA;3;0;1;0;5;0;unknown;x
+Kendall;60272;USA;3;0;2;0;5;0;unknown;x
+Kepner;60433;USA;3;0;1;0;5;2;unknown;x
+Keyes;60273;USA;2;0;2;0;5;0;unknown;x
+Kimmel;60392;USA;1;0;3;0;5;1;kimmel_husband_usa;x
+King;60393;USA;1;4096;3;0;5;1;king_ernest3_usa;x
+Kramer;60274;USA;3;0;1;0;5;0;unknown;x
+Krogstad;60431;USA;3;0;1;0;5;2;unknown;x
+Krueger;60275;USA;1;4;2;0;5;0;krueger_walter_usa;x
+L. Donovan;60168;USA;3;0;1;0;5;0;unknown;x
+L.D. Brown;60078;USA;3;0;1;0;5;0;unknown;x
+L.E. Jones;60268;USA;3;0;1;0;5;0;unknown;x
+L.L. Davis;60158;USA;3;0;1;0;5;0;unknown;x
+L.P. Collins;60127;USA;3;0;1;0;5;0;unknown;x
+L.S. Gerow;60209;USA;3;0;1;0;5;0;gerow_leonard2_usa;x
+L.T. Gerow;60210;USA;1;0;2;0;5;0;unknown;x
+Lackland;60443;USA;3;0;1;0;5;2;unknown;x
+Landrum;60276;USA;3;0;1;0;5;0;unknown;x
+Lauer;60277;USA;3;0;1;0;5;0;unknown;x
+Lawrence;60278;USA;3;0;1;0;5;0;unknown;x
+Lawton;60279;USA;3;0;1;0;5;0;unknown;x
+Lear;60280;USA;1;0;2;0;5;0;unknown;x
+Lehman;60283;USA;3;0;1;0;5;0;unknown;x
+Lemnitzer;60284;USA;3;0;3;0;5;0;unknown;x
+Leonard;60285;USA;3;0;1;0;5;0;unknown;x
+Livesay;60286;USA;3;0;1;0;5;0;unknown;x
+Lucas;60287;USA;2;0;2;0;5;0;unknown;x
+M.D. Taylor;60362;USA;3;0;2;0;5;0;taylor_maxwell_usa;x
+M.W. Clark;60116;USA;1;4;2;0;5;0;clark_mark_usa;x
+MacKelvie;60292;USA;2;0;1;0;5;0;unknown;x
+Macon;60295;USA;3;0;1;0;5;0;unknown;x
+Magruder;60296;USA;3;0;1;0;5;0;unknown;x
+Mahin;60297;USA;3;0;1;0;5;0;unknown;x
+Marley;60298;USA;3;0;1;0;5;0;unknown;x
+McAuliffe;60289;USA;3;0;2;0;5;0;mcauliffe_anthony_usa;x
+McBride;60290;USA;2;0;2;0;5;0;unknown;x
+McCain;60409;USA;2;0;2;0;5;1;mccain_john_usa;x
+McClure;60291;USA;3;0;1;0;5;0;unknown;x
+McDonnell;60432;USA;3;0;1;0;5;2;unknown;x
+McLain;60293;USA;2;0;1;0;5;0;unknown;x
+McNair;60294;USA;1;0;2;0;5;0;mcnair_leslie_usa;x
+McWhorter;60419;USA;2;0;2;0;5;1;unknown;x
+Melasky;60302;USA;3;0;1;0;5;0;unknown;x
+Middleton;60303;USA;2;0;1;0;5;0;unknown;x
+Miles;60305;USA;2;0;1;0;5;0;unknown;x
+Miley;60306;USA;3;0;2;0;5;0;unknown;x
+Millburn;60304;USA;2;0;2;0;5;0;unknown;x
+Miller;60307;USA;3;0;1;0;5;0;unknown;x
+Millikin;60308;USA;2;0;1;0;5;0;unknown;x
+Moon;60421;USA;3;0;2;0;5;1;unknown;x
+Morris;60311;USA;2;0;1;0;5;0;unknown;x
+Mudge;60312;USA;3;0;1;0;5;0;unknown;x
+Mueller;60313;USA;3;0;1;0;5;0;unknown;x
+Muir;60314;USA;3;0;1;0;5;0;unknown;x
+Munroe;60413;USA;3;0;2;0;5;1;unknown;x
+Murray;60315;USA;3;0;2;0;5;0;unknown;x
+N.A. Burnell;60088;USA;3;0;1;0;5;0;unknown;x
+Newgarden;60316;USA;3;0;1;0;5;0;unknown;x
+Newton;60406;USA;3;0;1;0;5;1;unknown;x
+Nimitz;60390;USA;0;4096;4;0;5;1;nimitz_chester_usa;x
+O.N. Bradley;60065;USA;0;4;4;0;5;0;bradley_omar2_usa;x
+Oliver;60317;USA;3;0;1;0;5;0;unknown;x
+Paul;60322;USA;3;0;1;0;5;0;unknown;x
+Peabody;60437;USA;3;0;1;0;5;2;unknown;x
+Peek;60323;USA;2;0;1;0;5;0;unknown;x
+Persons;60324;USA;3;0;1;0;5;0;unknown;x
+Pierce;60325;USA;3;0;2;0;5;0;unknown;x
+Porter;60326;USA;3;0;1;0;5;0;unknown;x
+Prichard;60327;USA;3;0;1;0;5;0;unknown;x
+Prickett;60328;USA;3;0;1;0;5;0;unknown;x
+Prosser;60329;USA;3;0;1;0;5;0;unknown;x
+Pye;60426;USA;2;0;2;0;5;1;unknown;x
+R. Donovan;60169;USA;2;0;1;0;5;0;donovan_william_usa;x
+R.C. Smith;60352;USA;3;0;1;0;5;0;unknown;x
+R.L. Burnell;60089;USA;3;0;1;0;5;0;unknown;x
+R.W. Hasbrouck;60239;USA;3;0;1;0;5;0;unknown;x
+Ransom;60330;USA;3;0;1;0;5;0;unknown;x
+Reckord;60331;USA;2;0;1;0;5;0;unknown;x
+Reichsmuth;60420;USA;2;0;3;0;5;1;unknown;x
+Reinhardt;60332;USA;2;0;1;0;5;0;unknown;x
+Reinhart;60333;USA;3;0;1;0;5;0;unknown;x
+Richardson;60334;USA;2;0;2;0;5;0;unknown;x
+Ridgway;60335;USA;1;256;3;0;5;0;ridgway_matthew_usa;x
+Ridley;60336;USA;3;0;1;0;5;0;unknown;x
+Robertson;60337;USA;3;0;1;0;5;0;unknown;x
+Rodwell;60338;USA;3;0;1;0;5;0;unknown;x
+Rooks;60339;USA;3;0;1;0;5;0;unknown;x
+Rose;60340;USA;3;0;1;0;5;0;unknown;x
+Rowe;60411;USA;3;0;2;0;5;1;unknown;x
+Russell;60341;USA;3;0;1;0;5;0;unknown;x
+Ryan;60444;USA;3;0;1;0;5;2;unknown;x
+Ryder;60342;USA;2;0;1;0;5;0;ryder_charles_usa;x
+S.G. Collins;60128;USA;3;0;1;0;5;0;unknown;x
+S.L. Irwin;60262;USA;3;0;1;0;5;0;unknown;x
+S.V. Hasbrouck;60240;USA;3;0;1;0;5;0;unknown;x
+Schmidt;60343;USA;3;0;1;0;5;0;unknown;x
+Scott;60344;USA;2;0;1;0;5;0;scott_walter_usa;x
+Sharp;60345;USA;1;0;2;0;5;0;unknown;x
+Sharp Jr.;60414;USA;3;0;2;0;5;1;unknown;x
+Short;60346;USA;2;0;1;0;5;0;short_walter_usa;x
+Sibert;60347;USA;3;0;1;0;5;0;unknown;x
+Silvester;60348;USA;3;0;1;0;5;0;unknown;x
+Simpson;60349;USA;1;4;3;0;5;0;simpson_william2_usa;x
+Sloan;60350;USA;3;0;1;0;5;0;unknown;x
+Somervell;60354;USA;1;0;2;0;5;0;unknown;x
+Spragins;60355;USA;3;0;1;0;5;0;unknown;x
+Spruance;60407;USA;3;4096;1;0;5;1;spruance_raymond_usa;x
+Stark;60388;USA;0;8192;4;0;5;1;stark_harold_usa;x
+Stillwell;60356;USA;2;16;2;0;5;0;stilwell_joseph2_usa;x
+Stroh;60357;USA;3;0;1;0;5;0;unknown;x
+Strong;60358;USA;2;0;1;0;5;0;unknown;x
+Sultan;60359;USA;2;0;1;0;5;0;sultan_daniel2_usa;x
+Swift;60360;USA;3;0;1;0;5;0;unknown;x
+T.F. Hickey;60252;USA;2;0;2;0;5;0;unknown;x
+T.K. Brown;60079;USA;3;0;2;0;5;0;unknown;x
+Terrell;60363;USA;3;0;1;0;5;0;unknown;x
+Theobald;60404;USA;3;0;2;0;5;1;theobald_robert_usa;x
+Thompson;60364;USA;2;0;2;0;5;0;unknown;x
+Tinker;60440;USA;3;0;1;0;5;2;unknown;x
+Truesdell;60365;USA;2;0;1;0;5;0;unknown;x
+Truscott;60366;USA;3;4;2;0;5;0;truscott_lucian_usa;x
+Twaddle;60367;USA;3;0;1;0;5;0;unknown;x
+V. Evans;60186;USA;3;0;1;0;5;0;unknown;x
+Van Fleet;60368;USA;3;0;2;0;5;0;unknown;x
+Van Voorhis;60369;USA;2;0;1;0;5;0;unknown;x
+W.A. Campbell;60098;USA;3;0;1;0;5;0;unknown;x
+W.B. Smith;60353;USA;1;4;2;0;5;0;bedell-smith_walter_usa;x
+W.C. Lee;60282;USA;3;0;1;0;5;0;unknown;x
+W.D. Brown;60080;USA;3;0;1;0;5;0;unknown;x
+W.H. Walker;60373;USA;2;0;2;0;5;0;unknown;x
+Wagner;60396;USA;3;0;2;0;5;1;unknown;x
+Wainwright;60370;USA;2;2;2;0;5;0;wainwright_jonathan_usa;x
+Waldron;60371;USA;3;0;1;0;5;0;unknown;x
+Wallace;60374;USA;3;0;1;0;5;0;unknown;x
+Ward;60375;USA;3;0;2;0;5;0;unknown;x
+Wash;60436;USA;3;0;1;0;5;2;unknown;x
+Watson;60376;USA;3;0;1;0;5;0;unknown;x
+Weaver;60377;USA;3;0;1;0;5;0;unknown;x
+Wedemeyer;60378;USA;1;0;2;0;5;0;wedemeyer_albert_usa;x
+Wilcox Jr.;60412;USA;2;0;2;0;5;1;unknown;x
+Wiley;60395;USA;3;0;1;0;5;1;unknown;x
+Wilson;60381;USA;3;0;1;0;5;0;unknown;x
+Wing;60382;USA;3;0;1;0;5;0;unknown;x
+Withers Jr.;60424;USA;3;0;1;0;5;1;unknown;x
+Woodruff;60385;USA;3;0;2;0;5;0;unknown;x
+Wyche;60386;USA;3;0;1;0;5;0;unknown;x
+Wyman;60387;USA;3;0;2;0;5;0;unknown;x
+Doyle;60447;USA;3;0;0;0;5;1;unknown;x
+Wiley;60448;USA;3;0;0;0;5;1;unknown;x
+Rooks;60449;USA;3;0;0;0;5;1;unknown;x
+Robinson;60450;USA;3;0;0;0;5;1;unknown;x
+Scanland;60451;USA;3;0;0;0;5;1;unknown;x
+Cooke;60452;USA;3;0;0;0;5;1;unknown;x
+Reordan;60453;USA;3;0;0;0;5;1;unknown;x
+Bunkley;60454;USA;3;0;0;0;5;1;unknown;x
+Lindsay;60455;USA;3;0;0;0;5;1;unknown;x
+McKee;60456;USA;3;0;0;0;5;1;unknown;x
+Sherman;60457;USA;3;0;0;0;5;1;unknown;x
+Douglas;60458;USA;3;0;0;0;5;1;unknown;x
+Murray;60459;USA;3;0;0;0;5;1;unknown;x
+Richmond;60460;USA;3;0;0;0;5;1;unknown;x
+Sowell;60461;USA;3;0;0;0;5;1;unknown;x
+Brown;60462;USA;3;0;0;0;5;1;unknown;x
+Fischer;60463;USA;3;0;0;0;5;1;unknown;x
+Robinson;60464;USA;3;0;0;0;5;1;unknown;x
+Dodd;60465;USA;3;0;0;0;5;1;unknown;x
+Rood;60466;USA;3;0;0;0;5;1;unknown;x
+English;60467;USA;3;0;0;0;5;1;unknown;x
+Scott;60468;USA;3;0;0;0;5;1;unknown;x
+Zachanas;60469;USA;3;0;0;0;5;1;unknown;x
+Bieri;60470;USA;3;0;0;0;5;1;unknown;x
+Hanson;60471;USA;3;0;0;0;5;1;unknown;x
+Chandler;60472;USA;3;0;0;0;5;1;unknown;x
+Shock;60473;USA;3;0;0;0;5;1;unknown;x
+Nixon;60474;USA;3;0;0;0;5;1;unknown;x
+Van Hook;60475;USA;3;0;0;0;5;1;unknown;x
+Good;60476;USA;3;0;0;0;5;1;unknown;x
+Haines;60477;USA;3;0;0;0;5;1;unknown;x
+Lowry;60478;USA;3;0;0;0;5;1;unknown;x
+Callaghan;60479;USA;3;0;0;0;5;1;unknown;x
+Draemel;60480;USA;3;0;0;0;5;1;unknown;x
+Daubin;60481;USA;3;0;0;0;5;1;unknown;x
+McCann;60482;USA;3;0;0;0;5;1;unknown;x
+Brown;60483;USA;3;0;0;0;5;1;unknown;x
+Wright;60484;USA;3;0;0;0;5;1;unknown;x
+Raguet;60485;USA;3;0;0;0;5;1;unknown;x
+Bryant;60486;USA;3;0;0;0;5;1;unknown;x
+Ware;60487;USA;3;0;0;0;5;1;unknown;x
+Comstock;60488;USA;3;0;0;0;5;1;unknown;x
+Hustvedt;60489;USA;3;0;0;0;5;1;unknown;x
+Benson;60490;USA;3;0;0;0;5;1;unknown;x
+Harrill;60491;USA;3;0;0;0;5;1;unknown;x
+Reeves;60492;USA;3;0;0;0;5;1;unknown;x
+Buckmaster;60493;USA;3;0;0;0;5;1;unknown;x
+Mitscher;60494;USA;3;0;0;0;5;1;unknown;x
+Wright;60495;USA;3;0;0;0;5;1;unknown;x
+Johnson;60496;USA;3;0;0;0;5;1;unknown;x
+Battle;60497;USA;3;0;0;0;5;1;unknown;x
+Reifkohl;60498;USA;3;0;0;0;5;1;unknown;x
+Alexander;60499;USA;3;0;0;0;5;1;unknown;x
+Chandler;60500;USA;3;0;0;0;5;1;unknown;x
+Royal;60501;USA;3;0;0;0;5;1;unknown;x
+Graf;60502;USA;3;0;0;0;5;1;unknown;x
+Parrish;60503;USA;3;0;0;0;5;1;unknown;x
+Stone;60504;USA;3;0;0;0;5;1;unknown;x
+Moore;60505;USA;3;0;0;0;5;1;unknown;x
+Bennett;60506;USA;3;0;0;0;5;1;unknown;x
+Craven;60507;USA;3;0;0;0;5;1;unknown;x
+Kirk;60508;USA;3;0;0;0;5;1;unknown;x
+Moon;60509;USA;3;0;0;0;5;1;unknown;x
+Cutts;60510;USA;3;0;0;0;5;1;unknown;x
+Doyle;60511;USA;3;0;0;0;5;1;unknown;x
+Christie;60512;USA;3;0;0;0;5;1;unknown;x
+Longstaff;60513;USA;3;0;0;0;5;1;unknown;x

@@ -1,0 +1,12 @@
+model = {
+	cost 						= 20
+	buildtime					= { month = 4 }
+	manpower					= 0
+	maxspeed					= 900
+	surfacedefence				= 30
+	airdefence					= 30
+	strategicattack				= 20
+	range						= 2400
+	supplyconsumption 			= 5
+	fuelconsumption				= 30
+}

@@ -1,0 +1,111 @@
+IND;Shadow Democrat Cabinet;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+59001;Head of State;Rajendra Prasad  ;NA;PA, LC, CE,RS, LWR, LE;NA;NA;unknown;x
+59002;Head of Government;Rajendra Prasad  ;NA;CE;NA;NA;unknown;x
+59003;Foreign Minister;Netaji Subhas Chandra Bose ;NA;LWR;Cloak and Dagger Schemer;High;unknown;x
+59004;Minister of Armament;Bhulabhai Desai ;NA;LWR;Resource Industrialist;Very High;unknown;x
+59005;Minister of Security;Rafi Ahmed Kidwai;NA;LWR;Crime Fighter;Medium;unknown;x
+59006;Head of Military Intelligence;Jagjivan Ram;NA;PA;Political Specialist;Very High;unknown;x
+59007;Chief of Staff;Sardar Baldev Singh ;NA;PA;School of Psychology;Medium;unknown;x
+59008;Chief of Army;K. M. Carlappa ;NA;CE;Elastic Defense Doctrine;High;unknown;x
+59009;Chief of Navy;Ram Dass Katari ;NA;CE;Power Projection Doctrine;Very High;unknown;x
+59010;Chief of Air Force;Asghar Khan;NA;RS;Vertical Envelopment Doctrine ;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+59011;Head of State;Netaji Subhas Chandra Bose;NA;FA,PA, LC, CE,RS, LWR;NA;NA;unknown;x
+59012;Head of Government;Netaji Subhas Chandra Bose ;NA;LWR;NA;NA;unknown;x
+59003;Foreign Minister;Netaji Subhas Chandra Bose ;NA;LWR;Cloak and Dagger Schemer;Low;unknown;x
+59013;Minister of Armament;Iskander Mirza ;NA;FA;Infantry Proponent ;Medium;unknown;x
+59014;Minister of Security;Abid Hasan Safrani;NA;PA;Back Stabber ;Medium;unknown;x
+59015;Head of Military Intelligence;Rashbehari Basu ;NA;FA;Logistics Specialist;Very High;unknown;x
+59016;Chief of Staff;Shah Nawaz Khan ;NA;FA;School of Psychology ;Very High;unknown;x
+59017;Chief of Army;Bhonsle;NA;FA;Elastic Defense Doctrine;High;unknown;x
+59009;Chief of Navy;Ram Dass Katari ;NA;CE;Power Projection Doctrine;Very High;unknown;x
+59010;Chief of Air Force;Asghar Khan;NA;RS;Vertical Envelopment Doctrine ;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+59018;Head of State;Jyoti Basu;NA;CE, RS, LWR, LE, ST;NA;NA;unknown;x
+59019;Head of Government;Maneck Homi;NA;LE;NA;NA;unknown;x
+59020;Foreign Minister;Ajoy Ghosh ;NA;ST;Great Compromiser;Medium;unknown;x
+59021;Minister of Armament;Lal Bahadur Shastri;NA;LE;Administrative Genius;High;unknown;x
+59022;Minister of Security;Bhimrao Ramji Ambedkar;NA;LE;Man of the People;Very High;unknown;x
+59023;Head of Military Intelligence;Sir Chhotu Ram ;NA;LE;Industrial Specialist;High;unknown;x
+59024;Chief of Staff;Netaji Subhas Chandra Bose ;NA;LWR;School of Psychology ;Medium;unknown;x
+59025;Chief of Army;Mohan Singh;NA;LWR;Decisive Battle Doctrine;Very Low;unknown;x
+59009;Chief of Navy;Ram Dass Katari ;NA;CE;Power Projection Doctrine;Very High;unknown;x
+59010;Chief of Air Force;Asghar Khan;NA;RS;Vertical Envelopment Doctrine ;High;unknown;x
+;;;;;;;;x
+;Replacements;Name;Pool;;Personality;;;x
+59011;Head of State;Netaji Subhas Chandra Bose ;37;FA,PA, LC, CE,RS, LWR, LE, ST;NA;NA;unknown;x
+59026;Head of State;Panditji Jawahar Lal Nehru ;39;PA, LC, CE,RS, LWR, LE, ST;NA;NA;unknown;x
+59027;Head of State;Sardar Vallabhbhai Patel ;37;FA,PA, LC, CE,RS, LWR;NA;NA;unknown;x
+59028;Head of State;Mahatma Mohandas Karamchand Gandhi;41;LC, CE,RS, LWR, LE;NA;NA;unknown;x
+59029;Head of State;Quaid-i-Azam Mohammad Ali Jinnah ;41;FA,PA, LC, CE,RS;NA;NA;unknown;x
+59030;Head of State;Rashbehari Basu;43;FA, PA, CE;NA;NA;unknown;x
+59018;Head of State;Jyoti Basu;37;CE, RS, LWR, LE, ST;NA;NA;unknown;x
+59012;Head of Government;Netaji Subhas Chandra Bose ;37;LWR;NA;NA;unknown;x
+59031;Head of Government;Panditji Jawahar Lal Nehru ;37;RS;NA;NA;unknown;x
+59032;Head of Government;Sardar Vallabhbhai Patel ;37;LC;NA;NA;unknown;x
+59033;Head of Government;Lal Bahadur Shastri;46;LE;NA;NA;unknown;x
+59034;Head of Government;Quaid-i-Azam Mohammad Ali Jinnah ;43;PA;NA;NA;unknown;x
+59035;Head of Government;Nawabzada Liaquat Ali Khan;43;FA;NA;NA;unknown;x
+59036;Head of Government;Iskander Mirza ;47;FA;NA;NA;unknown;x
+59037;Head of Government;Sarat Chandra Bose;40;CE;NA;NA;unknown;x
+59019;Head of Government;Maneck Homi;37;LE;NA;NA;unknown;x
+59038;Head of Government;Jyoti Basu;37;ST;NA;NA;unknown;x
+59039;Foreign Minister;Panditji Jawahar Lal Nehru ;37;RS;Ideological Crusader;high;unknown;x
+59040;Foreign Minister;Bhimrao Ramji Ambedkar;37;LE;Biased Intellectual;Low;unknown;x
+59041;Foreign Minister;Quaid-i-Azam Mohammad Ali Jinnah ;37;PA;Ideological Crusader;Very High;unknown;x
+59042;Foreign Minister;Agha Khan III;37;PA;Great Compromiser;Medium;unknown;x
+59043;Foreign Minister;Nawabzada Liaquat Ali Khan;37;FA;Apologetic Clerk;High;unknown;x
+59044;Foreign Minister;Sarat Chandra Bose;37;CE;Great Compromiser;Very High;unknown;x
+59045;Foreign Minister;Maneck Homi;37;LE;Ideological Crusader;High;unknown;x
+59046;Foreign Minister;Sir Gopalaswami Ayyangar;37;LC;General Staffer ;Low;unknown;x
+59047;Foreign Minister;Abid Hasan Safrani;42;FA;Dismal Enigma;high;unknown;x
+59020;Foreign Minister;Ajoy Ghosh ;37;ST;Great Compromiser;Medium;unknown;x
+59048;Minister of Armament;Shyama Prasad Mookerjee ;37;FA;Military Entrepreneur;Very Low;unknown;x
+59021;Minister of Armament;Lal Bahadur Shastri;37;LE;Administrative Genius;Low;unknown;x
+59049;Minister of Armament;John Matthai;37;LE;Resource Industrialist;Medium;unknown;x
+59050;Minister of Armament;Quaid-i-Azam Mohammad Ali Jinnah ;37;PA;Laissez-Faires Capitalist ;high;unknown;x
+59013;Minister of Armament;Iskander Mirza ;37; FA;Infantry Proponent ;Very High;unknown;x
+59051;Minister of Armament;Sir Chhotu Ram ;37;LE;Infantry Proponent ;High;unknown;x
+59052;Minister of Armament;Jyoti Basu;37;ST;Administrative Genius;Very High;unknown;x
+59004;Minister of Armament;Bhulabhai Desai ;37;LWR;Resource Industrialist;Very High;unknown;x
+59053;Minister of Security;Rajendra Prasad ;37;CE;Man of the People;Medium;unknown;x
+59054;Minister of Security;Harilal J. Kania ;37;CE;Silent Lawyer;Low;unknown;x
+59055;Minister of Security;Sardar Vallabhbhai Patel ;37;LC;Compassionate Gentleman;Medium;unknown;x
+59022;Minister of Security;Bhimrao Ramji Ambedkar;37;LE;Man of the People;Very High;unknown;x
+59056;Minister of Security;Nawabzada Liaquat Ali Khan;37;FA;Prince of Terror;Very High;unknown;x
+59057;Minister of Security;Maneck Homi;37;LE;Man of the People;High;unknown;x
+59058;Minister of Security;Badshah Khan Abdul Ghaffar Khan;37;LWR;Man of the People;Very High;unknown;x
+59014;Minister of Security;Abid Hasan Safrani;42;PA;Back Stabber ;Medium;unknown;x
+59059;Minister of Security;Ajoy Ghosh ;37;ST;Efficient Sociopath ;Very High;unknown;x
+59060;Minister of Security;Sardar Vallabhbhai Patel ;47;LC;Compassionate Gentleman;Medium;unknown;x
+59061;Head of Military Intelligence;Sardar Vallabhbhai Patel ;37;RS;Industrial Specialist;Low;unknown;x
+59062;Head of Military Intelligence;Rafi Ahmed Kidwai;37;LWR;Political Specialist;Medium;unknown;x
+59063;Head of Military Intelligence;Homi Jehangir Bhabha ;45;CE;Technical Specialist;Medium;unknown;x
+59015;Head of Military Intelligence;Rashbehari Basu ;37;FA;Logistics Specialist;Very High;unknown;x
+59064;Head of Military Intelligence;Maneck Homi;37;LE;Political Specialist;Very High;unknown;x
+59023;Head of Military Intelligence;Sir Chhotu Ram ;37;LE;Industrial Specialist;High;unknown;x
+59065;Head of Military Intelligence;Abid Hasan Safrani;42;PA;Technical Specialist;Low;unknown;x
+59066;Chief of Staff;Rajendra Prasad ;37;CE;School of Defense;Low;unknown;x
+59067;Chief of Staff;K. M. Cariappa ;37;CE;School of Fire Support;High;unknown;x
+59068;Chief of Staff;Agha Muhammad Yahya Khan ;42;FA;School of Fire Support;Low;unknown;x
+59069;Chief of Staff;Iskander Mirza ;37;FA;School of Psychology ;High;unknown;x
+59070;Chief of Staff;Netaji Subhas Chandra Bose ;39;LWR;School of Psychology ;Medium;unknown;x
+59071;Chief of Staff;Mohan Singh;37;LWR;School of Mass Combat;Very Low;unknown;x
+59072;Chief of Staff;Sir Gopalaswami Ayyangar;37;LC;School of Defense;High;unknown;x
+59016;Chief of Staff;Shah Nawaz Khan ;37;FA;School of Psychology ;Very High;unknown;x
+59008;Chief of Army;K. M. Carlappa ;37;CE;Elastic Defense Doctrine;Low;unknown;x
+59073;Chief of Army;Maharaj Rajendra Sinhji ;41;PA;Static Defense Doctrine;Medium;unknown;x
+59074;Chief of Army;Agha Muhammad Yahya Khan ;37;FA;Armoured Spearhead Doctrine ;Medium;unknown;x
+59025;Chief of Army;Mohan Singh;37;LWR;Decisive Battle Doctrine;Very Low;unknown;x
+59075;Chief of Army;Ram Singh Thakur;37;LC;Guns and Butter Doctrine;Very High;unknown;x
+59017;Chief of Army;Bhonsle;42;FA;Elastic Defense Doctrine;High;unknown;x
+59009;Chief of Navy;Ram Dass Katari ;37;CE;Power Projection Doctrine;Medium;unknown;x
+59076;Chief of Navy;N.S. Tayabji ;37;CE;Base Control Doctrine;High;unknown;x
+59077;Chief of Navy;D.N Mukherji ;37;LC;Indirect Approach Doctrine ;Very High;unknown;x
+59078;Chief of Navy;B.S. Soman;42;CE;Decisive Battle Doctrine;Medium;unknown;x
+59010;Chief of Air Force;Asghar Khan;37;RS;Vertical Envelopment Doctrine ;Medium;unknown;x
+59079;Chief of Air Force;Subroto Mukerjee  ;37;CE;Army Aviation Doctrine;medium;unknown;x
+59080;Chief of Air Force;Ravindra Hari Darshan Singh;37;PA;Carpet Bombing Doctrine;High;unknown;x
+59081;Chief of Air Force;Aspy Merwan Engineer;43;CE;Naval Aviation Doctrine;medium;unknown;x
+59082;Chief of Air Force;Mehar Singh;45;LWR;Air Superiority Doctrine;medium;unknown;x
+59083;Chief of Air Force;Karun Krishna Majumdar;37;LWR;Carpet Bombing Doctrine;medium;unknown;x

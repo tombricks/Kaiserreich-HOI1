@@ -1,0 +1,76 @@
+BEL;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+15001;Head of State;Leopold III;NA;NS FA PA LC RS CE;NA;NA;leopoldIII_bel;x
+15002;Head of Government;Paul Van Zeeland;NA;LC;NA;NA;vanzeeland_paul_bel;x
+15003;Foreign Minister;Paul-Henri Spaak;NA;RS;Great Compromiser;Very High;spaak_paulhenri_bel;x
+15004;Minister of Armament;Camille Gutt;NA;CE;Laissez-Faire Capitalist;Medium;gutt_camille_bel;x
+15005;Minister of Security;Edmond Ronse;NA;LC;Compassionate Gentleman;High;unknown;x
+15006;Head of Military Intelligence;Victor de Laveleye;NA;LC;Logistics Specialist;High;delaveleye_victor_bel;x
+15007;Chief of Staff;Edouard van der Bergen;NA;LC;School of Defense;Medium;vandenbergen_bel;x
+15008;Chief of Army;Blue Shadow;NA;LC;Static Defense Doctrine;Medium;unknown;x
+15009;Chief of Navy;Blue Shadow;NA;LC;Indirect Approach Doctrine;Medium;unknown;x
+15010;Chief of Air Force;Blue Shadow;NA;LC;Vertical Envelopment Doctrine;Medium;unknown;x
+;A Cabinet – 1936;ELECT_B;;;;;;x
+15011;Head of Government;Paul-Emile Janson;NA;LC;NA;NA;unknown;x
+15012;Foreign Minister;Paul-Henri Spaak;NA;RS;Great Compromiser;Very High;spaak_paulhenri_bel;x
+15004;Minister of Armament;Camille Gutt;NA;CE;Laissez-Faire Capitalist;Medium;gutt_camille_bel;x
+15005;Minister of Security;Edmond Ronse;NA;LC;Compassionate Gentleman;High;unknown;x
+;B Cabinet – 1936;ELECT_A;;;;;;x
+15013;Head of Government;Paul-Henri Spaak;NA;RS;NA;NA;spaak_paulhenri_bel;x
+15014;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+15004;Minister of Armament;Camille Gutt;NA;CE;Laissez-Faire Capitalist;Medium;gutt_camille_bel;x
+15005;Minister of Security;Edmond Ronse;NA;LC;Compassionate Gentleman;High;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+15015;Head of Government;Hubert Pierlot;NA;LC;NA;NA;pierlot_hubert_bel;x
+15012;Foreign Minister;Paul-Henri Spaak;NA;RS;Great Compromiser;Very High;spaak_paulhenri_bel;x
+15004;Minister of Armament;Camille Gutt;NA;CE;Laissez-Faire Capitalist;Medium;gutt_camille_bel;x
+15005;Minister of Security;Edmond Ronse;NA;LC;Compassionate Gentleman;High;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+15013;Head of Government;Paul-Henri Spaak;NA;RS;NA;NA;spaak_paulhenri_bel;x
+15016;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+15004;Minister of Armament;Camille Gutt;NA;CE;Laissez-Faire Capitalist;Medium;gutt_camille_bel;x
+15005;Minister of Security;Edmond Ronse;NA;LC;Compassionate Gentleman;High;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+15015;Head of Government;Hubert Pierlot;NA;LC;NA;NA;pierlot_hubert_bel;x
+15012;Foreign Minister;Paul-Henri Spaak;NA;RS;Great Compromiser;Very High;spaak_paulhenri_bel;x
+15004;Minister of Armament;Camille Gutt;NA;CE;Laissez-Faire Capitalist;Medium;gutt_camille_bel;x
+15005;Minister of Security;Edmond Ronse;NA;LC;Compassionate Gentleman;High;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+15013;Head of Government;Paul-Henri Spaak;NA;RS;NA;NA;spaak_paulhenri_bel;x
+15017;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+15004;Minister of Armament;Camille Gutt;NA;CE;Laissez-Faire Capitalist;Medium;gutt_camille_bel;x
+15005;Minister of Security;Edmond Ronse;NA;LC;Compassionate Gentleman;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+15018;Head of Government;Jef van de Wiele;NA;NS;NA;NA;wiele_jef_bel;x
+15019;Foreign Minister;Jef van de Wiele;NA;NS;Ideological Crusader;Very High;wiele_jef_bel;x
+15020;Minister of Armament;Leon Degrelle;NA;NS;Military Entrepreneur;Medium;degrelle_leon_bel;x
+15019;Minister of Security;Leon Degrelle;NA;NS;Prince of Terror;High;degrelle_leon_bel;x
+15021;Head of Military Intelligence;Jef Francois;NA;NS;Political Specialist;Very High;francois_jef_bel;x
+15022;Chief of Staff;Jef Francois;NA;NS;School of Mass Combat;Very High;francois_jef_bel;x
+15023;Chief of Army;Réné Lagrou;NA;NS;Decisive Battle Doctrine;Medium;lagrou_rene_bel;x
+15024;Chief of Navy;Black Shadow;NA;NS;Undistinguished Suit;Low;unknown;x
+15025;Chief of Air Force;Black Shadow;NA;NS;Undistinguished Suit;Low;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+15026;Head of State;Joseph Jacquemotte;NA;ST LE LWR;NA;NA;unknown;x
+15027;Head of Government;Joseph Jacquemotte;NA;LE;NA;NA;unknown;x
+15028;Foreign Minister;Léon Lesoil;NA;LE;Biased Intellectual;High;unknown;x
+15029;Minister of Armament;Adhémar Hennaut;NA;LE;Administrative Genius;High;unknown;x
+15030;Minister of Security;Georges Vereecken;NA;LE;Undistinguished Suit;Medium;unknown;x
+15031;Head of Military Intelligence;War van Overstraeten;NA;LE;Undistinguished Suit;Medium;vanoverstraeten_bel;x
+15032;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+15033;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+15034;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+15035;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+15036;Head of State;Karel;44;LC RS CE;NA;NA;karel_bel;x
+15011;Head of Government;Paul-Emile Janson;37;LC;NA;NA;unknown;x
+15013;Head of Government;Paul-Henri Spaak;38;RS;NA;NA;spaak_paulhenri_bel;x
+15015;Head of Government;Hubert Pierlot;39;LC;NA;NA;pierlot_hubert_bel;x
+15037;Head of Government;Achille Van Acker;45;RS;NA;NA;vanacker_achille_bel;x
+15038;Head of Government;Camille Huysmans;46;RS;NA;NA;huysmans_camille_bel;x
+15039;Minister of Armament;Gaston Eyskens;45;LC;Resource Industrialist;Medium;eyskens_gastons_bel;x
+15040;Minister of Armament;Jean Vauthier;46;CE;Laissez-Faire Capitalist;Low;unknown;x
+15041;Minister of Security;Adolphe Van Glabbeke;45;LC;Silent Lawyer;Medium;unknown;x
+15042;Minister of Security;Auguste Buisseret;46;LC;Silent Lawyer;Medium;unknown;x
+15043;Head of Military Intelligence;Auguste Buisseret;45;LC;Logistics Specialist;Medium;unknown;x
+15044;Head of Military Intelligence;Herman Vos;46;RS;Political Specialist;Medium;unknown;x
+15045;Chief of Staff;Oscar Michiels;40;LC;School of Defense;Medium;michiels_bel;x

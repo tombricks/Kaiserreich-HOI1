@@ -1,0 +1,95 @@
+NOR;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+14001;Head of State;Haakon VII;NA;LC CE RS;NA;NA;haakon_VII3_nor;x
+14002;Head of Government;Johan Nygaardsvold;NA;RS;NA;NA;nygaardsvold_johan_nor;x
+14003;Foreign Minister;Halvdan Koht;NA;RS;Biased Intellectual;Medium;unknown;x
+14004;Minister of Armament;Adolf Indrebø;NA;RS;Undistinguished Suit;Medium;unknown;x
+14005;Minister of Security;Trygve H. Lie;NA;RS;Compassionate Gentleman;Medium;lie_trygve_nor;x
+14006;Head of Military Intelligence;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+14007;Chief of Staff;Otto Ruge;NA;LC;School of Defence;High;ruge_otto_nor;x
+14008;Chief of Army;Kristian K. Laake;NA;LC;Guns and Butter Doctrine;Medium;unknown;x
+14009;Chief of Navy;Henry Diesen;NA;LC;Undistinguished Suit;Medium;unknown;x
+14010;Chief of Air Force;Unknown;NA;LC;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+14002;Head of Government;Johan Nygaardsvold;NA;RS;NA;NA;nygaardsvold_johan_nor;x
+14003;Foreign Minister;Halvdan Koht;NA;RS;Biased Intellectual;Medium;unknown;x
+14004;Minister of Armament;Adolf Indrebø;NA;RS;Undistinguished Suit;Medium;unknown;x
+14005;Minister of Security;Trygve H. Lie;NA;RS;Compassionate Gentleman;Medium;lie_trygve_nor;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+14065;Head of Government;C.J. Hambro;NA;LC;NA;NA;unknown;x
+14066;Foreign Minister;J. L. Mowinckel;NA;CE;Ideological Crusader;Very High;unknown;x
+14067;Minister of Armament;Gunnar Jahn;NA;CE;Laissez Faires Capitalist;High;unknown;x
+14068;Minister of Security;Ole Ludvig Bærøe;NA;LC;Man of the People;Medium;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+14002;Head of Government;Johan Nygaardsvold;NA;RS;NA;NA;nygaardsvold_johan_nor;x
+14003;Foreign Minister;Halvdan Koht;NA;RS;Biased Intellectual;Medium;unknown;x
+14004;Minister of Armament;Adolf Indrebø;NA;RS;Undistinguished Suit;Medium;unknown;x
+14005;Minister of Security;Trygve H. Lie;NA;RS;Compassionate Gentleman;Medium;lie_trygve_nor;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+14069;Head of Government;J. L. Mowinckel;NA;CE;NA;NA;unknown;x
+14070;Foreign Minister;C.J. Hambro;NA;LC;Great Compromiser;High;unknown;x
+14071;Minister of Armament;Johan H. Andresen;NA;LC;Resource Industrialist;Medium;unknown;x
+14072;Minister of Security;Arne Sunde;NA;CE;Silent Lawyer;High;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+14002;Head of Government;Johan Nygaardsvold;NA;RS;NA;NA;nygaardsvold_johan_nor;x
+14003;Foreign Minister;Halvdan Koht;NA;RS;Biased Intellectual;Medium;unknown;x
+14004;Minister of Armament;Adolf Indrebø;NA;RS;Undistinguished Suit;Medium;unknown;x
+14005;Minister of Security;Trygve H. Lie;NA;RS;Compassionate Gentleman;Medium;lie_trygve_nor;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+14073;Head of Government;Jacob S. Worm-Müller;NA;CE;NA;NA;unknown;x
+14070;Foreign Minister;C.J. Hambro;NA;LC;Great Compromiser;High;unknown;x
+14071;Minister of Armament;Johan H. Andresen;NA;LC;Resource Industrialist;Medium;unknown;x
+14072;Minister of Security;Arne Sunde;NA;CE;Silent Lawyer;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+14015;Head of State;Josef Terboven;NA;NS FA PA CE;NA;NA;terboven_josef_ger;x
+14016;Head of Government;Vidkund Quisling;NA;NS;NA;NA;quisling_vidkun3_nor;x
+14017;Foreign Minister;Vidkund Quisling;NA;NS;Cloak and Dagger Schemer;High;quisling_vidkun3_nor;x
+14018;Minister of Armament;Erling Sandberg;NA;CE;Resource Industrialist;Very low;unknown;x
+14019;Minister of Security;Jonas Lie;NA;NS;Undistinguished Suit;High;lie_jonas_nor;x
+14020;Head of Military Intelligence;Oliver Møystad;NA;NS;Undistinguished Suit;High;unknown;x
+14021;Chief of Staff;Nikolaus von Falkenhorst;NA;NS;School of Defence;Low;vonfalkenhorst_nikolaus_ger;x
+14022;Chief of Army;Nikolaus von Falkenhorst;NA;NS;Static Defence Doctrine;Low;vonfalkenhorst_nikolaus_ger;x
+14023;Chief of Navy;Hermann Boehm;NA;NS;Open Seas Doctrine;Medium;boehm_ger;x
+14024;Chief of Air Force;Black Shadow;NA;NS;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+14025;Head of State;Henry Wilhelm Kristiansen;NA;ST LE LWR;NA;NA;unknown;x
+14026;Head of Government;Henry Wilhelm Kristiansen;NA;LWR;NA;NA;unknown;x
+14027;Foreign Minister;Peder Furubotn;NA;LWR;Undistinguished Suit;Medium;unknown;x
+14028;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+14029;Minister of Security;Ernst Wollweber;NA;LWR;Undistinguished Suit;Medium;unknown;x
+14030;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+14031;Chief of Staff;Olaf Helset;NA;LWR;School of Defence;High;unknown;x
+14032;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+14033;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+14034;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+14035;Head of State;Olav V;45;LC CE RS;NA;NA;olav_nor;x
+14036;Head of Government;Einar Gerhardsen;45;RS;NA;NA;unknown;x
+14073;Head of Government;Jacob S. Worm-Müller;43;CE;NA;NA;unknown;x
+14037;Head of Government;Paal Berg;45;CE;NA;NA;unknown;x
+14038;Head of Government;Jonas Lie;40;NS;NA;NA;lie_jonas_nor;x
+14039;Head of Government;Peder Furubotn;41;LWR;NA;NA;unknown;x
+14040;Foreign Minister;Trygve H. Lie;40;RS;Great Compromiser;High;lie_trygve_nor;x
+14041;Foreign Minister;Halvard Manthey Lange;46;RS;Great Compromiser;High;unknown;x
+14042;Foreign Minister;Ørnulf Egge;41;LWR;Undistinguished Suit;Medium;unknown;x
+14043;Foreign Minister;Neri Valen;44;CE;Biased Intellectual;Medium;unknown;x
+14044;Minister of Armament;Kornelius O.P. Bergsvik;36;RS;Undistinguished Suit;Medium;unknown;x
+14045;Minister of Armament;Oscar F. Torp;39;RS;Undistinguished Suit;Medium;unknown;x
+14046;Minister of Armament;Paul E.W. Hartmann;42;RS;Resource Industrialist;Low;unknown;x
+14047;Minister of Armament;Gunnar Jahn;45;CE;Laissez Faires Capitalist;Medium;unknown;x
+14048;Minister of Armament;Erik Brofoss;45;RS;Undistinguished Suit;High;unknown;x
+14049;Minister of Armament;Fredrik Prytz;42;FA;Administrative Genius;Medium;unknown;x
+14050;Minister of Armament;Per von Hirsch;45;NS;Laissez Faires Capitalist;Medium;unknown;x
+14051;Minister of Security;Terje Wold;39;RS;Silent Lawyer;Medium;unknown;x
+14052;Minister of Security;Johan Cappelen;45;RS;Man of the People;High;unknown;x
+14053;Minister of Security;Oscar Chr. Gundersen;45;RS;Undistinguished Suit;High;unknown;x
+14054;Minister of Security;Arthur Nordlie;40;LC;Man of the People;Medium;unknown;x
+14055;Head of Military Intelligence;Finn Nagell;41;LC;Undistinguished Suit;Medium;unknown;x
+14056;Head of Military Intelligence;AR. Roscher Lund;44;LC;Undistinguished Suit;Medium;unknown;x
+14057;Head of Military Intelligence;Karl A. Marthinsen;44;NS;Undistinguished Suit;Medium;unknown;x
+14058;Chief of Staff;Rasmus Hatledal;38;LC;School of Defence;High;unknown;x
+14059;Chief of Staff;Otto Ruge;40;LC;School of Defence;Medium;ruge_otto_nor;x
+14060;Chief of Staff;Wilhelm von T. Hansteen;42;LC;School of Defence;Very high;hansteen_wilhelm_nor;x
+14061;Chief of Staff;Crown Prince Olav;44;LC;School of Defence;High;olav_nor;x
+14062;Chief of Army;Olaf Helset;46;LWR;Elastic Defence Doctrine;Medium;unknown;x
+14063;Chief of Air Force;Bjarne Øen;40;LC;Undistinguished Suit;Medium;unknown;x
+14064;Chief of Air Force;Hjalmar Riiser-Larsen;41;LC;Undistinguished Suit;Medium;unknown;x

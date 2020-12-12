@@ -1,0 +1,624 @@
+# 0 - Pre-War tank
+model = {
+	cost 					= 10
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 3
+	airdefence				= 1
+	softattack				= 4
+	hardattack				= 4
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 1 - Early Tank (MG)
+model = {
+	cost 					= 13
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 4
+	airdefence				= 1
+	softattack				= 5
+	hardattack				= 4
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 2 - Basic Light Tank (MG)
+model = {
+	cost 					= 13
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 5
+	airdefence				= 1
+	softattack				= 6
+	hardattack				= 4
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 3 - Basic Light Tank (20+mm)
+model = {
+	cost 					= 13
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 5
+	airdefence				= 1
+	softattack				= 7
+	hardattack				= 4
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 4 - Basic Light Tank (30+mm)
+model = {
+	cost 					= 13
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 5
+	airdefence				= 1
+	softattack				= 7
+	hardattack				= 5
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 5 - Basic Light Tank (40+mm)
+model = {
+	cost 					= 13
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 5
+	airdefence				= 1
+	softattack				= 7
+	hardattack				= 6
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 6 - Improved Light Tank (20+mm)
+model = {
+	cost 					= 13
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	grounddefence 			= 6
+	airdefence				= 2
+	softattack				= 7
+	hardattack				= 5
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 7 - Improved Light Tank (30+mm)
+model = {
+	cost 					= 14
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	grounddefence 			= 6
+	airdefence				= 2
+	softattack				= 7
+	hardattack				= 6
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 8 - Improved Light Tank (40+mm)
+model = {
+	cost 					= 14
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	grounddefence 			= 6
+	airdefence				= 2
+	softattack				= 7
+	hardattack				= 7
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 9 - Advanded Light Tank (30+mm)
+model = {
+	cost 					= 14
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 25
+	defaultorganisation 	= 30
+	grounddefence 			= 8
+	airdefence				= 2
+	softattack				= 8
+	hardattack				= 7
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 10 - Advanded Light Tank (40+mm)
+model = {
+	cost 					= 14
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 25
+	defaultorganisation 	= 30
+	grounddefence 			= 8
+	airdefence				= 2
+	softattack				= 8
+	hardattack				= 8
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 11 - Advanded Light Tank (50+mm)
+model = {
+	cost 					= 14
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 25
+	defaultorganisation 	= 30
+	grounddefence 			= 8
+	airdefence				= 2
+	softattack				= 9
+	hardattack				= 8
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 12 - Advanded Light Tank (70+mm)
+model = {
+	cost 					= 14
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 25
+	defaultorganisation 	= 30
+	grounddefence 			= 8
+	airdefence				= 2
+	softattack				= 8
+	hardattack				= 9
+	airattack				= 2
+	transportweight			= 20
+	supplyconsumption 		= 2
+	fuelconsumption			= 2
+}
+# 13 - Basic Medium Tank (MG)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 10
+	airdefence				= 3
+	softattack				= 8
+	hardattack				= 5
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 14 - Basic Medium Tank (30+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 10
+	airdefence				= 3
+	softattack				= 9
+	hardattack				= 6
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 15 - Basic Medium Tank (40+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 10
+	airdefence				= 3
+	softattack				= 10
+	hardattack				= 6
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 16 - Basic Medium Tank (50+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 10
+	airdefence				= 3
+	softattack				= 10
+	hardattack				= 7
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 17 - Basic Medium Tank (70+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 10
+	airdefence				= 3
+	softattack				= 10
+	hardattack				= 9
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 18 - Improved Medium Tank (40+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 12
+	airdefence				= 3
+	softattack				= 11
+	hardattack				= 6
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 19 - Improved Medium Tank (50+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 12
+	airdefence				= 3
+	softattack				= 11
+	hardattack				= 7
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 20 - Improved Medium Tank (70+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 12
+	airdefence				= 3
+	softattack				= 11
+	hardattack				= 9
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 21 - Improved Medium Tank (80+mm)
+model = {
+	cost 					= 15
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 12
+	airdefence				= 3
+	softattack				= 11
+	hardattack				= 10
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 22 - Advanced Medium Tank (50+mm)
+model = {
+	cost 					= 16
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	grounddefence 			= 14
+	airdefence				= 4
+	softattack				= 12
+	hardattack				= 8
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 23 - Advanced Medium Tank (70+mm)
+model = {
+	cost 					= 16
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	grounddefence 			= 14
+	airdefence				= 4
+	softattack				= 12
+	hardattack				= 10
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 24 - Advanced Medium Tank (80+mm)
+model = {
+	cost 					= 16
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	grounddefence 			= 14
+	airdefence				= 4
+	softattack				= 12
+	hardattack				= 12
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 2.3
+	fuelconsumption			= 3
+}
+# 25 - Basic Heavy Tank (70+mm)
+model = {
+	cost 					= 18
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 16
+	airdefence				= 4
+	softattack				= 12
+	hardattack				= 10
+	airattack				= 3
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 26 - Basic Heavy Tank (80+mm)
+model = {
+	cost 					= 18
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 16
+	airdefence				= 4
+	softattack				= 12
+	hardattack				= 13
+	airattack				= 3
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 27 - Basic Heavy Tank (90+mm)
+model = {
+	cost 					= 18
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 16
+	airdefence				= 4
+	softattack				= 12
+	hardattack				= 14
+	airattack				= 3
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 28 - Improved Heavy Tank (70+mm)
+model = {
+	cost 					= 18
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 18
+	airdefence				= 5
+	softattack				= 14
+	hardattack				= 12
+	airattack				= 3
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 29 - Improved Heavy Tank (80+mm)
+model = {
+	cost 					= 18
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 18
+	airdefence				= 5
+	softattack				= 14
+	hardattack				= 14
+	airattack				= 3
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 30 - Improved Heavy Tank (90+mm)
+model = {
+	cost 					= 18
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 18
+	airdefence				= 5
+	softattack				= 14
+	hardattack				= 16
+	airattack				= 3
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 31 - Improved Heavy Tank (100+mm)
+model = {
+	cost 					= 19
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 12
+	defaultorganisation 	= 30
+	grounddefence 			= 18
+	airdefence				= 5
+	softattack				= 14
+	hardattack				= 18
+	airattack				= 3
+	transportweight			= 40
+	supplyconsumption 		= 2.6
+	fuelconsumption			= 4
+}
+# 32 - Advanced Heavy Tank (80+mm)
+model = {
+	cost 					= 19
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 20
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 15
+	airattack				= 4
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 33 - Advanced Heavy Tank (90+mm)
+model = {
+	cost 					= 19
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 20
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 17
+	airattack				= 4
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 34 - Advanced Heavy Tank (100+mm)
+model = {
+	cost 					= 19
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 20
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 19
+	airattack				= 4
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 35 - Advanced Heavy Tank (120+mm)
+model = {
+	cost 					= 20
+	buildtime	 			= 180
+	manpower 				= 7
+	maxspeed 				= 15
+	defaultorganisation 	= 30
+	grounddefence 			= 20
+	airdefence				= 7
+	softattack				= 19
+	hardattack				= 21
+	airattack				= 4
+	transportweight			= 40
+	supplyconsumption 		= 2.5
+	fuelconsumption			= 4
+}
+# 36 - Super-Heavy Tank (100+mm)
+model = {
+	cost 					= 22
+	buildtime	 			= 180
+	manpower 				= 9
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 23
+	airdefence				= 9
+	softattack				= 24
+	hardattack				= 20
+	airattack				= 4
+	transportweight			= 55
+	supplyconsumption 		= 3
+	fuelconsumption			= 6
+}
+# 37 - Super-Heavy Tank (120+mm)
+model = {
+	cost 					= 22
+	buildtime	 			= 180
+	manpower 				= 9
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 23
+	airdefence				= 9
+	softattack				= 24
+	hardattack				= 22
+	airattack				= 4
+	transportweight			= 55
+	supplyconsumption 		= 3
+	fuelconsumption			= 6
+}
+# 38 - Super-Heavy Tank (150+mm)
+model = {
+	cost 					= 22
+	buildtime	 			= 180
+	manpower 				= 9
+	maxspeed 				= 10
+	defaultorganisation 	= 30
+	grounddefence 			= 23
+	airdefence				= 9
+	softattack				= 25
+	hardattack				= 25
+	airattack				= 4
+	transportweight			= 55
+	supplyconsumption 		= 3.1
+	fuelconsumption			= 6
+}

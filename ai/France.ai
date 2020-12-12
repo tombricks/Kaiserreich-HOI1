@@ -1,0 +1,58 @@
+#
+# Hearts of Iron
+#
+#  France Preferences..
+#
+
+# 100 = Total warmonger, 0 = absolute pacifist
+war = 30
+
+military = {
+	infantry = 			20
+	cavalry = 			3
+	motorized = 		5
+	mechanized = 		5
+	panzer = 			15
+	paratrooper = 		0
+	marine =			0
+	bergsjaeger = 		2
+					  # 50 %
+	
+	fighter = 			14
+	strategic_bomber = 	0
+	tactical_bomber = 	5
+	naval_bomber = 		1
+	dive_bomber = 		8
+	transport_plane = 	1
+	torpedo_plane = 	1
+					  # 30 %
+	
+	battleship = 		2
+	carrier = 			0
+	destroyer = 		5
+	cruiser = 			2
+	submarine = 		1
+	transports = 		10
+					  # 20 %
+}
+
+technology = {
+
+	endgoal = {}
+	preference = {}
+
+	electronics = 		1.0
+	armor = 			1.1
+	infantry = 			1.5
+	industry = 			1.1
+	rocket = 			0.1
+	nuclear = 			0.1
+	heavy_aircraft = 	1.0
+	light_aircraft = 	1.0
+	naval = 			1.0
+	submarine = 		1.0
+	artillery = 		1.1
+	naval_doctrine = 	1.0
+	land_doctrine = 	1.2
+	air_doctrine = 		1.0
+}

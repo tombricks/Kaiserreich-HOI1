@@ -1,0 +1,34 @@
+SAU;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+63001;Head of State;Abd Al Aziz;NA;PA LC;NA;NA;unknown;x
+63002;Head of Government;Abd Al Aziz;NA;PA;NA;NA;unknown;x
+63003;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+63004;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+63005;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+63006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+63007;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+63008;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+63009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+63010;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+63001;Head of State;Abd Al Aziz;NA;PA LC;NA;NA;unknown;x
+63011;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+63012;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+63013;Minister of Armament;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+63014;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+63015;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+63016;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+63017;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+63018;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+63019;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+63020;Head of State;Red Shadow;NA;LWR LE;NA;NA;unknown;x
+63021;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+63022;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+63023;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+63024;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+63025;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+63026;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+63027;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+63028;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+63029;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

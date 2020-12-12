@@ -1,0 +1,625 @@
+# 
+# The Naval Doctrine Technology Group
+#
+
+#	
+#	
+#	
+technology = {
+	id = 13
+	category = naval_doctrine
+	name = TECH_NAVAL_DOC_NAME #Localized name
+	desc = TECH_NAVAL_DOC_DESC #Localized description
+	
+	level = { # 1 - Great War Analysis
+		id = 13000
+		name = TECH_LEVEL_NAVAL_DOC_1_NAME 
+		desc = TECH_LEVEL_NAVAL_DOC_1_DESC 
+		
+			cost = 40
+			time = 300
+			neg_offset = 75
+			pos_offset = 150
+
+		application = { # Blue Water Doctrine
+			id = 13001
+			name = TECH_APP_NAVAL_DOC_1_1_NAME
+			desc = TECH_APP_NAVAL_DOC_1_1_DESC
+			
+			required = { 6106 6107 6108 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 10 }
+				command = { type = max_organization which = cruiser when = now value = 5 }
+			}
+		}
+		application = { # Merchant Raider Doctrine
+			id = 13002
+			name = TECH_APP_NAVAL_DOC_1_2_NAME
+			desc = TECH_APP_NAVAL_DOC_1_2_DESC
+			
+			required = { 13001 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 5 }
+				command = { type = max_organization which = cruiser when = now value = 10 }
+				command = { type = max_organization which = submarine when = now value = 5 }
+			}
+		}
+		application = { # Naval Aviation Doctrine
+			id = 13003
+			name = TECH_APP_NAVAL_DOC_1_3_NAME
+			desc = TECH_APP_NAVAL_DOC_1_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = carrier when = now value = 10 }
+				command = { type = max_organization which = torpedo_plane when = now value = 5 }
+				command = { type = max_organization which = naval_bomber when = now value = 5 }
+			}
+		}
+		application = { # Combat Unit Transport Procedure
+			id = 13004
+			name = TECH_APP_NAVAL_DOC_1_4_NAME
+			desc = TECH_APP_NAVAL_DOC_1_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = activate_unit_type which = transports }
+				command = { type = max_organization which = transports when = now value = 10 }
+				command = { type = max_organization which = destroyer when = now value = 10 }
+			}
+		}
+		application = { # Sea Lanes Doctrine
+			id = 13005
+			name = TECH_APP_NAVAL_DOC_1_5_NAME
+			desc = TECH_APP_NAVAL_DOC_1_5_DESC
+			
+			required = { }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = carrier when = now value = 5 }
+				command = { type = max_organization which = cruiser when = now value = 5 }
+				command = { type = max_organization which = transports when = now value = 10 }
+				command = { type = max_organization which = destroyer when = now value = 10 }
+				command = { type = convoy_def_eff value = 25  } # 25% increased Def efficiency of Convoys
+			}
+		}
+		application = { # Base Defence Doctrine
+			id = 13006
+			name = TECH_APP_NAVAL_DOC_1_6_NAME
+			desc = TECH_APP_NAVAL_DOC_1_6_DESC
+			
+			required = { }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = coast_fort_eff value = 25  } # 25% Coastal Fort efficiency increase
+			}
+		}
+	} # Level 1
+	
+	level = { # 2 - Pre-War Field Testing
+		id = 13100
+		name = TECH_LEVEL_NAVAL_DOC_2_NAME 
+		desc = TECH_LEVEL_NAVAL_DOC_2_DESC 
+		
+			cost = 40
+			time = 300
+			neg_offset = 75
+			pos_offset = 150
+
+		application = { # Carrier Group Doctrine
+			id = 13101
+			name = TECH_APP_NAVAL_DOC_2_1_NAME
+			desc = TECH_APP_NAVAL_DOC_2_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = carrier_level value = 1  }
+				command = { type = max_organization which = carrier when = now value = 10 }
+				command = { type = max_organization which = torpedo_plane when = now value = 5 }
+			}
+		}
+		application = { # Unlimited Submarine Warfare Doctrine
+			id = 13102
+			name = TECH_APP_NAVAL_DOC_2_2_NAME
+			desc = TECH_APP_NAVAL_DOC_2_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = submarine when = now value = 15 }
+			}
+		}
+		application = { # Fleet Supply Convoy Organisation
+			id = 13103
+			name = TECH_APP_NAVAL_DOC_2_3_NAME
+			desc = TECH_APP_NAVAL_DOC_2_3_DESC
+			
+			required = { 6009 6010 6011 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = transports when = now value = 10 }
+				command = { type = max_organization which = destroyer when = now value = 10 }
+				command = { type = supply_consumption which = submarine when = now value = -2 } # 5%
+				command = { type = supply_consumption which = battleship when = now value = -2 } # 5%
+				command = { type = supply_consumption which = cruiser when = now value = -2 } # 5%
+				command = { type = supply_consumption which = destroyer when = now value = -2 } # 5%
+				command = { type = supply_consumption which = carrier when = now value = -2 } # 5%
+				command = { type = supply_consumption which = transports when = now value = -2 } # 5%
+			}
+		}
+		application = { # Naval Underway Replenishment
+			id = 13104
+			name = TECH_APP_NAVAL_DOC_2_4_NAME
+			desc = TECH_APP_NAVAL_DOC_2_4_DESC
+			
+			required = { 13103 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = supply_consumption which = submarine when = now value = -3 } # 10 %
+				command = { type = supply_consumption which = battleship when = now value = -3 } # 10 %
+				command = { type = supply_consumption which = cruiser when = now value = -3 } # 10 %
+				command = { type = supply_consumption which = destroyer when = now value = -3 } # 10 %
+				command = { type = supply_consumption which = carrier when = now value = -3 } # 10 %
+				command = { type = supply_consumption which = transports when = now value = -3 } # 10 %
+			}
+		}
+	} # Level 2
+	
+	level = { # 3 - Early War Experience Analysis
+		id = 13200
+		name = TECH_LEVEL_NAVAL_DOC_3_NAME 
+		desc = TECH_LEVEL_NAVAL_DOC_3_DESC 
+		
+		cost = 40
+		time = 300
+		neg_offset = 75
+		pos_offset = 150
+
+		application = { # Decisive Battle Doctrine
+			id = 13201
+			name = TECH_APP_NAVAL_DOC_3_1_NAME
+			desc = TECH_APP_NAVAL_DOC_3_1_DESC
+			
+			required = { 13001 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 15 }
+				command = { type = max_organization which = cruiser when = now value = 10 }
+			}
+		}
+		application = { # Indirect Approach Doctrine
+			id = 13202
+			name = TECH_APP_NAVAL_DOC_3_2_NAME
+			desc = TECH_APP_NAVAL_DOC_3_2_DESC
+			
+			required = { 13002 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 5 }
+				command = { type = max_organization which = cruiser when = now value = 10 }
+				command = { type = max_organization which = submarine when = now value = 5 }
+			}
+		}
+		application = { # Combat Air Patrol Doctrine
+			id = 13203
+			name = TECH_APP_NAVAL_DOC_3_3_NAME
+			desc = TECH_APP_NAVAL_DOC_3_3_DESC
+			
+			required = { 13101 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = carrier when = now value = 10 }
+				command = { type = air_detection which = carrier when = now value = 2 }
+				command = { type = max_organization which = torpedo_plane when = now value = 5 }
+			}
+		}
+		application = { # "Wolfpack" Doctrine
+			id = 13204
+			name = TECH_APP_NAVAL_DOC_3_4_NAME
+			desc = TECH_APP_NAVAL_DOC_3_4_DESC
+			
+			required = { 13004 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = submarine when = now value = 15 }
+			}
+		}
+		application = { # Base Control Doctrine
+			id = 13205
+			name = TECH_APP_NAVAL_DOC_3_5_NAME
+			desc = TECH_APP_NAVAL_DOC_3_5_DESC
+			
+			required = { 6203 13006 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = marine when = now value = 10 }
+			}
+		}
+		application = { # Tactical Beachhead Doctrine
+			id = 13206
+			name = TECH_APP_NAVAL_DOC_3_6_NAME
+			desc = TECH_APP_NAVAL_DOC_3_6_DESC
+			
+			required = { 6204 13205 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = marine when = now value = 10 }
+				command = { type = max_organization which = transports when = now value = 5 }
+				command = { type = max_organization which = destroyer when = now value = 5 }
+			}
+		}
+		application = { # Open Seas Doctrine
+			id = 13207
+			name = TECH_APP_NAVAL_DOC_3_7_NAME
+			desc = TECH_APP_NAVAL_DOC_3_7_DESC
+			
+			required = { 13005 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = cruiser when = now value = 5 }
+				command = { type = max_organization which = carrier when = now value = 5 }
+				command = { type = max_organization which = transports when = now value = 10 }
+				command = { type = max_organization which = destroyer when = now value = 10 }
+			}
+		}
+	} # Level 3
+	
+	level = { # 4 - Early War Combat Testing
+		id = 13300
+		name = TECH_LEVEL_NAVAL_DOC_4_NAME 
+		desc = TECH_LEVEL_NAVAL_DOC_4_DESC 
+		
+			cost = 40
+			time = 300
+			neg_offset = 75
+			pos_offset = 150
+
+		application = { # Carrier Battlegroup Doctrine
+			id = 13301
+			name = TECH_APP_NAVAL_DOC_4_1_NAME
+			desc = TECH_APP_NAVAL_DOC_4_1_DESC
+			
+			required = { 13101 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = carrier_level value = 2  }
+				command = { type = max_organization which = carrier when = now value = 10 }
+				command = { type = max_organization which = torpedo_plane when = now value = 5 }
+			}
+		}
+		application = { # Navy-Airforce Coordination
+			id = 13302
+			name = TECH_APP_NAVAL_DOC_4_2_NAME
+			desc = TECH_APP_NAVAL_DOC_4_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = cruiser when = now value = 10 }
+				command = { type = max_organization which = submarine when = now value = 10 }
+				command = { type = max_organization which = torpedo_plane when = now value = 5 }
+				command = { type = max_organization which = naval_bomber when = now value = 15 }
+			}
+		}
+		application = { # Navy-Army Coordination
+			id = 13303
+			name = TECH_APP_NAVAL_DOC_4_3_NAME
+			desc = TECH_APP_NAVAL_DOC_4_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = supply_consumption which = submarine when = now value = -2 } # 5 %
+				command = { type = supply_consumption which = battleship when = now value = -2 } # 5 %
+				command = { type = supply_consumption which = cruiser when = now value = -2 } # 5 %
+				command = { type = supply_consumption which = destroyer when = now value = -2 } # 5 %
+				command = { type = supply_consumption which = carrier when = now value = -2 } # 5 %
+				command = { type = supply_consumption which = transports when = now value = -2 } # 5 %
+			}
+		}
+	} # Level 4
+	
+	level = { # 5 - Late War Experience Analysis
+		id = 13400
+		name = TECH_LEVEL_NAVAL_DOC_5_NAME 
+		desc = TECH_LEVEL_NAVAL_DOC_5_DESC 
+		
+			cost = 40
+			time = 300
+			neg_offset = 75
+			pos_offset = 150
+
+		application = { # Sea-Lanes Denial Doctrine
+			id = 13401
+			name = TECH_APP_NAVAL_DOC_5_1_NAME
+			desc = TECH_APP_NAVAL_DOC_5_1_DESC
+			
+			required = { 13201 13202 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 15 }
+				command = { type = max_organization which = cruiser when = now value = 15 }
+			}
+		}
+		application = { # Maritime Air Superiority Doctrine
+			id = 13402
+			name = TECH_APP_NAVAL_DOC_5_2_NAME
+			desc = TECH_APP_NAVAL_DOC_5_2_DESC
+			
+			required = { 13101 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = carrier when = now value = 15 }
+				command = { type = air_detection which = carrier when = now value = 1 }
+				command = { type = carrier_level value = 3  }
+				command = { type = max_organization which = torpedo_plane when = now value = 5 }
+			}
+		}
+		application = { # Submarine-Airforce Coordination
+			id = 13403
+			name = TECH_APP_NAVAL_DOC_5_3_NAME
+			desc = TECH_APP_NAVAL_DOC_5_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = submarine when = now value = 10 }
+			}
+		}
+		application = { # "Island-Jumping" Doctrine
+			id = 13404
+			name = TECH_APP_NAVAL_DOC_5_4_NAME
+			desc = TECH_APP_NAVAL_DOC_5_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 5 }
+				command = { type = max_organization which = marine when = now value = 10 }
+			}
+		}
+		application = { # Maritime Invasion Organization
+			id = 13405
+			name = TECH_APP_NAVAL_DOC_5_5_NAME
+			desc = TECH_APP_NAVAL_DOC_5_5_DESC
+			
+			required = { }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 5 }
+				command = { type = max_organization which = marine when = now value = 10 }
+				command = { type = max_organization which = transports when = now value = 5 }
+				command = { type = max_organization which = destroyer when = now value = 5 }
+			}
+		}
+		application = { # Operational Beachhead Doctrine
+			id = 13406
+			name = TECH_APP_NAVAL_DOC_5_6_NAME
+			desc = TECH_APP_NAVAL_DOC_5_6_DESC
+			
+			required = { 13405 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = transports when = now value = 5 }
+				command = { type = max_organization which = destroyer when = now value = 5 }
+			}
+		}
+		application = { # "SLOC" Doctrine
+			id = 13407
+			name = TECH_APP_NAVAL_DOC_5_7_NAME
+			desc = TECH_APP_NAVAL_DOC_5_7_DESC
+			
+			required = { 13207 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = carrier when = now value = 5 }
+				command = { type = max_organization which = transports when = now value = 10 }
+				command = { type = max_organization which = destroyer when = now value = 10 }
+			}
+		}
+	} # Level 5
+	
+	level = { # 6 - Late War Combat Testing
+		id = 13500
+		name = TECH_LEVEL_NAVAL_DOC_6_NAME 
+		desc = TECH_LEVEL_NAVAL_DOC_6_DESC 
+		
+			cost = 40
+			time = 300
+			neg_offset = 75
+			pos_offset = 150
+
+		application = { # Maritime Power Projection Doctrine
+			id = 13501
+			name = TECH_APP_NAVAL_DOC_6_1_NAME
+			desc = TECH_APP_NAVAL_DOC_6_1_DESC
+			
+			required = { 13301 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = battleship when = now value = 10 }
+				command = { type = carrier_level value = 4  }
+				command = { type = max_organization which = torpedo_plane when = now value = 5 }
+			}
+		}
+		application = { # Submarine Underway Replenishment
+			id = 13502
+			name = TECH_APP_NAVAL_DOC_6_2_NAME
+			desc = TECH_APP_NAVAL_DOC_6_2_DESC
+			
+			required = { 6715 13104 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = submarine when = now value = 5 }
+				command = { type = supply_consumption which = submarine when = now value = -4 } # 20 %
+				command = { type = fuel_consumption which = submarine when = now value = -4 } # 20 %
+			}
+		}
+		application = { # Nuclear Support Organization
+			id = 13503
+			name = TECH_APP_NAVAL_DOC_6_3_NAME
+			desc = TECH_APP_NAVAL_DOC_6_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 6
+}

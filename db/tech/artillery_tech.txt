@@ -1,0 +1,1300 @@
+# 
+# The Artillery Technology Group
+#
+
+# 
+#	
+#	
+#	
+
+technology = {
+	id = 14
+	category = artillery
+	name = TECH_ARTILLERY_NAME #Localized name
+	desc = TECH_ARTILLERY_DESC #Localized description
+	
+	level = { # Basic Equipment and Ordinance
+		id = 14000
+		name = TECH_LEVEL_ARTILLERY_1_NAME 
+		desc = TECH_LEVEL_ARTILLERY_1_DESC 
+					
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Semi-Automatic Breech
+			id = 14001
+			name = TECH_APP_ARTILLERY_1_1_NAME
+			desc = TECH_APP_ARTILLERY_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Rangefinder Radar
+			id = 14002
+			name = TECH_APP_ARTILLERY_1_2_NAME
+			desc = TECH_APP_ARTILLERY_1_2_DESC
+			
+			required = { 3002 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Infantry Gun 30mm+
+			id = 14003
+			name = TECH_APP_ARTILLERY_1_3_NAME
+			desc = TECH_APP_ARTILLERY_1_3_DESC
+			
+			required = { 14001 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = ground_defense which = paratrooper when = now value = 1 }
+				command = { type = ground_defense which = bergsjaeger when = now value = 1 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+				command = { type = soft_attack which = paratrooper when = now value = 1 }
+				command = { type = soft_attack which = bergsjaeger when = now value = 1 }
+			}
+		}
+		application = { # Infantry Gun 70mm+
+			id = 14004
+			name = TECH_APP_ARTILLERY_1_4_NAME
+			desc = TECH_APP_ARTILLERY_1_4_DESC
+			
+			required = { 14003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = infantry when = now value = 1 }
+				command = { type = soft_attack which = motorized when = now value = 1 }
+			}
+		}
+		application = { # Field Artillery Gun 70mm+
+			id = 14005
+			name = TECH_APP_ARTILLERY_1_5_NAME
+			desc = TECH_APP_ARTILLERY_1_5_DESC
+			
+			required = { 3002 14001 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Field Artillery Gun 90mm+
+			id = 14006
+			name = TECH_APP_ARTILLERY_1_6_NAME
+			desc = TECH_APP_ARTILLERY_1_6_DESC
+			
+			required = { 14005 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Field Artillery Gun 100mm+
+			id = 14007
+			name = TECH_APP_ARTILLERY_1_7_NAME
+			desc = TECH_APP_ARTILLERY_1_7_DESC
+			
+			required = { 14006 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Anti-Tank Gun 30mm+
+			id = 14008
+			name = TECH_APP_ARTILLERY_1_8_NAME
+			desc = TECH_APP_ARTILLERY_1_8_DESC
+			
+			required = { 14001 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Anti-Tank Gun 40mm+
+			id = 14009
+			name = TECH_APP_ARTILLERY_1_9_NAME
+			desc = TECH_APP_ARTILLERY_1_9_DESC
+			
+			required = { 14008 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 20mm+
+			id = 14010
+			name = TECH_APP_ARTILLERY_1_10_NAME
+			desc = TECH_APP_ARTILLERY_1_10_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Tank Gun 30mm+
+			id = 14011
+			name = TECH_APP_ARTILLERY_1_11_NAME
+			desc = TECH_APP_ARTILLERY_1_11_DESC
+			
+			required = { 14010 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Anti-Air Gun 20mm+
+			id = 14012
+			name = TECH_APP_ARTILLERY_1_12_NAME
+			desc = TECH_APP_ARTILLERY_1_12_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = infantry when = now value = 1 }
+				command = { type = air_attack which = motorized when = now value = 1 }
+				command = { type = air_attack which = mechanized when = now value = 1 }
+				command = { type = air_attack which = armor when = now value = 1 }
+				command = { type = air_attack which = paratrooper when = now value = 1 }
+				command = { type = air_attack which = bergsjaeger when = now value = 1 }
+				command = { type = air_attack which = marine when = now value = 1 }
+				command = { type = air_attack which = anti_air when = now value = 1 }
+				command = { type = AA_batteries value = 10 }
+			}
+		}
+		application = { # Anti-Air Gun 30mm+
+			id = 14013
+			name = TECH_APP_ARTILLERY_1_13_NAME
+			desc = TECH_APP_ARTILLERY_1_13_DESC
+			
+			required = { 14012 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = infantry when = now value = 1 }
+				command = { type = air_attack which = motorized when = now value = 1 }
+				command = { type = air_attack which = mechanized when = now value = 1 }
+				command = { type = air_attack which = armor when = now value = 1 }
+				command = { type = air_attack which = paratrooper when = now value = 1 }
+				command = { type = air_attack which = bergsjaeger when = now value = 1 }
+				command = { type = air_attack which = marine when = now value = 1 }
+				command = { type = air_attack which = anti_air when = now value = 1 }
+				command = { type = AA_batteries value = 10 }
+			}
+		}
+		application = { # Naval Gun 120mm+
+			id = 14014
+			name = TECH_APP_ARTILLERY_1_14_NAME
+			desc = TECH_APP_ARTILLERY_1_14_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Naval Cruiser Gun 180mm+
+			id = 14015
+			name = TECH_APP_ARTILLERY_1_15_NAME
+			desc = TECH_APP_ARTILLERY_1_15_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Naval Battleship Gun 350mm+
+			id = 14016
+			name = TECH_APP_ARTILLERY_1_16_NAME
+			desc = TECH_APP_ARTILLERY_1_16_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 1
+	
+	level = { # Basic Artillery Pieces
+		id = 14100
+		name = TECH_LEVEL_ARTILLERY_2_NAME 
+		desc = TECH_LEVEL_ARTILLERY_2_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Basic Tank Gun Ammunition
+			id = 14101
+			name = TECH_APP_ARTILLERY_2_1_NAME
+			desc = TECH_APP_ARTILLERY_2_1_DESC
+			
+			required = { 14010 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Infantry Gun 100mm+
+			id = 14102
+			name = TECH_APP_ARTILLERY_2_2_NAME
+			desc = TECH_APP_ARTILLERY_2_2_DESC
+			
+			required = { 14004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = infantry when = now value = 1 }
+				command = { type = soft_attack which = motorized when = now value = 1 }
+			}
+		}
+		application = { # Field Artillery Gun 120mm+
+			id = 14103
+			name = TECH_APP_ARTILLERY_2_3_NAME
+			desc = TECH_APP_ARTILLERY_2_3_DESC
+			
+			required = { 14007 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Field Artillery Gun 150mm+
+			id = 14104
+			name = TECH_APP_ARTILLERY_2_4_NAME
+			desc = TECH_APP_ARTILLERY_2_4_DESC
+			
+			required = { 14103 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 40mm+
+			id = 14105
+			name = TECH_APP_ARTILLERY_2_5_NAME
+			desc = TECH_APP_ARTILLERY_2_5_DESC
+			
+			required = { 14011 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Anti-Air Gun 40mm+
+			id = 14106
+			name = TECH_APP_ARTILLERY_2_6_NAME
+			desc = TECH_APP_ARTILLERY_2_6_DESC
+			
+			required = { 14013 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = infantry when = now value = 1 }
+				command = { type = air_attack which = motorized when = now value = 1 }
+				command = { type = air_attack which = mechanized when = now value = 1 }
+				command = { type = air_attack which = armor when = now value = 1 }
+				command = { type = air_attack which = bergsjaeger when = now value = 1 }
+				command = { type = air_attack which = anti_air when = now value = 1 }
+				command = { type = AA_batteries value = 10 }
+			}
+		}
+		application = { # Anti-Air Gun 70mm+
+			id = 14107
+			name = TECH_APP_ARTILLERY_2_7_NAME
+			desc = TECH_APP_ARTILLERY_2_7_DESC
+			
+			required = { 14106 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = infantry when = now value = 1 }
+				command = { type = air_attack which = motorized when = now value = 1 }
+				command = { type = air_attack which = mechanized when = now value = 1 }
+				command = { type = air_attack which = armor when = now value = 1 }
+				command = { type = air_attack which = bergsjaeger when = now value = 1 }
+				command = { type = air_attack which = anti_air when = now value = 2 }
+				command = { type = hard_attack which = anti_air when = now value = 1 }
+				command = { type = AA_batteries value = 20 }
+			}
+		}
+	} # Level 2
+	
+	level = { # Self-Propelled Artillery
+		id = 14200
+		name = TECH_LEVEL_ARTILLERY_3_NAME 
+		desc = TECH_LEVEL_ARTILLERY_3_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Improved Tank Gun Ammunition
+			id = 14201
+			name = TECH_APP_ARTILLERY_3_1_NAME
+			desc = TECH_APP_ARTILLERY_3_1_DESC
+			
+			required = { 14101 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = armor when = now value = 1 }
+			}
+		}
+		application = { # Variable Time Fuse
+			id = 14202
+			name = TECH_APP_ARTILLERY_3_2_NAME
+			desc = TECH_APP_ARTILLERY_3_2_DESC
+			
+			required = { 14101 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Self-Propelled Artillery
+			id = 14203
+			name = TECH_APP_ARTILLERY_3_3_NAME
+			desc = TECH_APP_ARTILLERY_3_3_DESC
+			
+			required = { 11201 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Multi-Barrelled Anti-Air Guns
+			id = 14204
+			name = TECH_APP_ARTILLERY_3_4_NAME
+			desc = TECH_APP_ARTILLERY_3_4_DESC
+			
+			required = { 14012 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = infantry when = now value = 1 }
+				command = { type = air_attack which = motorized when = now value = 1 }
+				command = { type = air_attack which = mechanized when = now value = 1 }
+				command = { type = air_attack which = armor when = now value = 1 }
+				command = { type = air_attack which = bergsjaeger when = now value = 1 }
+				command = { type = air_attack which = anti_air when = now value = 2 }
+				command = { type = AA_batteries value = 20 }
+			}
+		}
+		application = { # Anti-Tank Gun 70mm+
+			id = 14205
+			name = TECH_APP_ARTILLERY_3_5_NAME
+			desc = TECH_APP_ARTILLERY_3_5_DESC
+			
+			required = { 14009 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = anti_tank when = now value = 1 }
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 50mm+
+			id = 14206
+			name = TECH_APP_ARTILLERY_3_6_NAME
+			desc = TECH_APP_ARTILLERY_3_6_DESC
+			
+			required = { 14105 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Tank Gun 70mm+
+			id = 14207
+			name = TECH_APP_ARTILLERY_3_7_NAME
+			desc = TECH_APP_ARTILLERY_3_7_DESC
+			
+			required = { 14206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Anti-Air Gun 80mm+
+			id = 14208
+			name = TECH_APP_ARTILLERY_3_8_NAME
+			desc = TECH_APP_ARTILLERY_3_8_DESC
+			
+			required = { 14107 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = anti_air when = now value = 2 }
+				command = { type = hard_attack which = anti_air when = now value = 1 }
+				command = { type = AA_batteries value = 20 }
+			}
+		}
+		application = { # Self-Propelled Artillery 70mm+
+			id = 14209
+			name = TECH_APP_ARTILLERY_3_9_NAME
+			desc = TECH_APP_ARTILLERY_3_9_DESC
+			
+			required = { 14005 14203 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		
+	} # Level 3
+	
+	level = { # Improved Equipment and Ordinance
+		id = 14300
+		name = TECH_LEVEL_ARTILLERY_4_NAME 
+		desc = TECH_LEVEL_ARTILLERY_4_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Advanced Tank Gun Ammunition
+			id = 14301
+			name = TECH_APP_ARTILLERY_4_1_NAME
+			desc = TECH_APP_ARTILLERY_4_1_DESC
+			
+			required = { 14201 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = armor when = now value = 1 }
+			}
+		}
+		application = { # Field Artillery Gun 170mm+
+			id = 14302
+			name = TECH_APP_ARTILLERY_4_2_NAME
+			desc = TECH_APP_ARTILLERY_4_2_DESC
+			
+			required = { 14104 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+				command = { type = hard_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Anti-Tank Gun 80mm+
+			id = 14303
+			name = TECH_APP_ARTILLERY_4_3_NAME
+			desc = TECH_APP_ARTILLERY_4_3_DESC
+			
+			required = { 14205 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 2 }
+			}
+		}
+		application = { # Anti-Tank Gun 90mm+
+			id = 14304
+			name = TECH_APP_ARTILLERY_4_4_NAME
+			desc = TECH_APP_ARTILLERY_4_4_DESC
+			
+			required = { 14303 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 2 }
+			}
+		}
+		application = { # Anti-Air Gun 120mm+
+			id = 14305
+			name = TECH_APP_ARTILLERY_4_5_NAME
+			desc = TECH_APP_ARTILLERY_4_5_DESC
+			
+			required = { 14208 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = AA_batteries value = 30 }
+			}
+		}
+		application = { # Self-Propelled Artillery 90mm+
+			id = 14306
+			name = TECH_APP_ARTILLERY_4_6_NAME
+			desc = TECH_APP_ARTILLERY_4_6_DESC
+			
+			required = { 14006 14209 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+				command = { type = soft_attack which = armor when = now value = 1 }
+			}
+		}
+		application = { # Rocket Artillery 100mm+
+			id = 14307
+			name = TECH_APP_ARTILLERY_4_7_NAME
+			desc = TECH_APP_ARTILLERY_4_7_DESC
+			
+			required = { 7001 7002 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 2 }
+				command = { type = hard_attack which = artillery when = now value = 1 }
+			}
+		}
+	} # Level 4
+	
+	level = { # Improved Artillery Pieces
+		id = 14400
+		name = TECH_LEVEL_ARTILLERY_5_NAME 
+		desc = TECH_LEVEL_ARTILLERY_5_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Very Advanced Tank Gun Ammunition
+			id = 14401
+			name = TECH_APP_ARTILLERY_5_1_NAME
+			desc = TECH_APP_ARTILLERY_5_1_DESC
+			
+			required = { 14301 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = armor when = now value = 1 }
+			}
+		}
+		application = { # Naval Cruiser Gun 200mm+
+			id = 14402
+			name = TECH_APP_ARTILLERY_5_2_NAME
+			desc = TECH_APP_ARTILLERY_5_2_DESC
+			
+			required = { 14015 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Naval Battleship Gun 400mm+
+			id = 14403
+			name = TECH_APP_ARTILLERY_5_3_NAME
+			desc = TECH_APP_ARTILLERY_5_3_DESC
+			
+			required = { 14016 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Self-Propelled Artillery 100mm+
+			id = 14404
+			name = TECH_APP_ARTILLERY_5_4_NAME
+			desc = TECH_APP_ARTILLERY_5_4_DESC
+			
+			required = { 14007 14306 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = armor when = now value = 1 }
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Self-Propelled Artillery 120mm+
+			id = 14405
+			name = TECH_APP_ARTILLERY_5_5_NAME
+			desc = TECH_APP_ARTILLERY_5_5_DESC
+			
+			required = { 14103 14404 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = armor when = now value = 1 }
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+			}
+		}
+		
+	} # Level 5
+	
+	level = { # Self-Propelled Rocket Artillery
+		id = 14500
+		name = TECH_LEVEL_ARTILLERY_6_NAME 
+		desc = TECH_LEVEL_ARTILLERY_6_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Anti-Tank Gun 100mm+
+			id = 14501
+			name = TECH_APP_ARTILLERY_6_1_NAME
+			desc = TECH_APP_ARTILLERY_6_1_DESC
+			
+			required = { 14304 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Anti-Tank Gun 120mm+
+			id = 14502
+			name = TECH_APP_ARTILLERY_6_2_NAME
+			desc = TECH_APP_ARTILLERY_6_2_DESC
+			
+			required = { 14501 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = anti_tank when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 80mm+
+			id = 14503
+			name = TECH_APP_ARTILLERY_6_3_NAME
+			desc = TECH_APP_ARTILLERY_6_3_DESC
+			
+			required = { 14207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Self-Propelled Rocket Artillery 100mm+
+			id = 14504
+			name = TECH_APP_ARTILLERY_6_4_NAME
+			desc = TECH_APP_ARTILLERY_6_4_DESC
+			
+			required = { 14203 14307 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+				command = { type = ground_defense which = armor when = now value = 1 }
+			}
+		}
+	} # Level 6
+	
+	level = { # Heavy Artillery Pieces
+		id = 14600
+		name = TECH_LEVEL_ARTILLERY_7_NAME 
+		desc = TECH_LEVEL_ARTILLERY_7_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Infantry Gun 150mm+
+			id = 14601
+			name = TECH_APP_ARTILLERY_7_1_NAME
+			desc = TECH_APP_ARTILLERY_7_1_DESC
+			
+			required = { 14102 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = infantry when = now value = 1 }
+				command = { type = soft_attack which = motorized when = now value = 1 }
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Field Artillery Gun 200mm+
+			id = 14602
+			name = TECH_APP_ARTILLERY_7_2_NAME
+			desc = TECH_APP_ARTILLERY_7_2_DESC
+			
+			required = { 14302 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+				command = { type = hard_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 90mm+
+			id = 14603
+			name = TECH_APP_ARTILLERY_7_3_NAME
+			desc = TECH_APP_ARTILLERY_7_3_DESC
+			
+			required = { 14503 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 7
+	
+	level = { # Advanced Equipment and Ordinance
+		id = 14700
+		name = TECH_LEVEL_ARTILLERY_8_NAME 
+		desc = TECH_LEVEL_ARTILLERY_8_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Radar Proximity Fuse
+			id = 14701
+			name = TECH_APP_ARTILLERY_8_1_NAME
+			desc = TECH_APP_ARTILLERY_8_1_DESC
+			
+			required = { 3702 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Basic Country-Battery Radar
+			id = 14702
+			name = TECH_APP_ARTILLERY_8_2_NAME
+			desc = TECH_APP_ARTILLERY_8_2_DESC
+			
+			required = { 3102 3702 14002 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 100mm+
+			id = 14703
+			name = TECH_APP_ARTILLERY_8_3_NAME
+			desc = TECH_APP_ARTILLERY_8_3_DESC
+			
+			required = { 14603 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Rocket Artillery 200mm+
+			id = 14704
+			name = TECH_APP_ARTILLERY_8_4_NAME
+			desc = TECH_APP_ARTILLERY_8_4_DESC
+			
+			required = { 14307 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+				command = { type = hard_attack which = artillery when = now value = 1 }
+			}
+		}
+	} # Level 8
+	
+	level = { # Advanced Artillery Pieces
+		id = 14800
+		name = TECH_LEVEL_ARTILLERY_9_NAME 
+		desc = TECH_LEVEL_ARTILLERY_9_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Rocket Assisted Projectiles
+			id = 14801
+			name = TECH_APP_ARTILLERY_9_1_NAME
+			desc = TECH_APP_ARTILLERY_9_1_DESC
+			
+			required = { 7401 14307 14602 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Improved Country-Battery Radar
+			id = 14802
+			name = TECH_APP_ARTILLERY_9_2_NAME
+			desc = TECH_APP_ARTILLERY_9_2_DESC
+			
+			required = { 3901 14702 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 120mm+
+			id = 14803
+			name = TECH_APP_ARTILLERY_9_3_NAME
+			desc = TECH_APP_ARTILLERY_9_3_DESC
+			
+			required = { 14703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Self-Propelled Artillery 150mm+
+			id = 14804
+			name = TECH_APP_ARTILLERY_9_4_NAME
+			desc = TECH_APP_ARTILLERY_9_4_DESC
+			
+			required = { 14104 14405 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = armor when = now value = 1 }
+				command = { type = soft_attack which = mechanized when = now value = 1 }
+			}
+		}
+		application = { # Self-Propelled Anti-Air 20mm+
+			id = 14805
+			name = TECH_APP_ARTILLERY_9_5_NAME
+			desc = TECH_APP_ARTILLERY_9_5_DESC
+			
+			required = { 14012 14203 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_attack which = armor when = now value = 1 }
+				command = { type = air_attack which = mechanized when = now value = 1 }
+				command = { type = air_attack which = anti_air when = now value = 1 }
+			}
+		}
+		application = { # Self-Propelled Anti-Air 30mm+
+			id = 14806
+			name = TECH_APP_ARTILLERY_9_6_NAME
+			desc = TECH_APP_ARTILLERY_9_6_DESC
+			
+			required = { 14013 14203 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_attack which = armor when = now value = 1 }
+				command = { type = air_attack which = mechanized when = now value = 1 }
+				command = { type = air_attack which = anti_air when = now value = 1 }
+			}
+		}
+	} # Level 9
+	
+	level = { # Heavy Rocket Artillery
+		id = 14900
+		name = TECH_LEVEL_ARTILLERY_10_NAME 
+		desc = TECH_LEVEL_ARTILLERY_10_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Rocket Artillery 300mm+
+			id = 14901
+			name = TECH_APP_ARTILLERY_10_1_NAME
+			desc = TECH_APP_ARTILLERY_10_1_DESC
+			
+			required = { 14704 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+				command = { type = hard_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Self-Propelled Rocket Artillery 200mm+
+			id = 14902
+			name = TECH_APP_ARTILLERY_10_2_NAME
+			desc = TECH_APP_ARTILLERY_10_2_DESC
+			
+			required = { 14504 14704 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = soft_attack which = artillery when = now value = 1 }
+				command = { type = ground_defense which = armor when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+			}
+		}
+	} # Level 10
+	
+	level = { # Semi-Modern Equipment and Ordinance
+		id = 14940
+		name = TECH_LEVEL_ARTILLERY_11_NAME 
+		desc = TECH_LEVEL_ARTILLERY_11_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Semi-Modern Tank Gun Ammunition
+			id = 14941
+			name = TECH_APP_ARTILLERY_11_1_NAME
+			desc = TECH_APP_ARTILLERY_11_1_DESC
+			
+			required = { 8701 8702 8703 8704 14401 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = armor when = now value = 1 }
+			}
+		}
+		application = { # Tank Gun 150mm+
+			id = 14942
+			name = TECH_APP_ARTILLERY_11_2_NAME
+			desc = TECH_APP_ARTILLERY_11_2_DESC
+			
+			required = { 14803 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 11
+	
+	level = { # Semi-Modern Artillery Pieces
+		id = 14970
+		name = TECH_LEVEL_ARTILLERY_12_NAME 
+		desc = TECH_LEVEL_ARTILLERY_12_DESC 
+							
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Self-Propelled Artillery 170mm+
+			id = 14971
+			name = TECH_APP_ARTILLERY_12_1_NAME
+			desc = TECH_APP_ARTILLERY_12_1_DESC
+			
+			required = { 14302 14804 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = ground_defense which = armor when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+		application = { # Self-Propelled Rocket Artillery 300mm+
+			id = 14972
+			name = TECH_APP_ARTILLERY_12_2_NAME
+			desc = TECH_APP_ARTILLERY_12_2_DESC
+			
+			required = { 14901 14902 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = ground_defense which = armor when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+				command = { type = soft_attack which = artillery when = now value = 1 }
+			}
+		}
+	} # Level 12
+}

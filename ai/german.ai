@@ -1,0 +1,58 @@
+#
+# Hearts of Iron
+#
+#  German Preferences..
+#
+
+# 100 = Total warmonger, 0 = absolute pacifist
+war = 80
+
+military = {
+	infantry = 			20
+	cavalry = 			0
+	motorized = 		5
+	mechanized = 		5
+	panzer = 			15
+	paratrooper = 		0
+	marine =			0
+	bergsjaeger = 		5
+					  # 50 %
+	
+	fighter = 			14
+	strategic_bomber = 	0
+	tactical_bomber = 	5
+	naval_bomber = 		1
+	dive_bomber = 		8
+	transport_plane = 	1
+	torpedo_plane = 	1
+					  # 30 %
+	
+	battleship = 		0
+	carrier = 			0
+	destroyer = 		2
+	cruiser = 			1
+	submarine = 		14
+	transports = 		3
+					  # 20 %
+}
+
+technology = {
+
+	endgoal = {}
+	preference = {}
+
+	electronics = 		1.1
+	armor = 			1.6
+	infantry = 			1.3
+	industry = 			1.5
+	rocket = 			1.3
+	nuclear = 			0.2
+	heavy_aircraft = 	0.5
+	light_aircraft = 	1.8
+	naval = 			0.1
+	submarine = 		1.7
+	artillery = 		1.3
+	naval_doctrine = 	0.1
+	land_doctrine = 	1.7
+	air_doctrine = 		1.2
+}

@@ -1,0 +1,87 @@
+HOL;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyality;Picture Name;x
+8001;Head of State;Wilhelmina;NA;LC CE RS;NA;NA;wilhelmina2_hol;x
+8002;Head of Government;Hendricus Colijn;NA;LC;NA;NA;colijn_hol;x
+8003;Foreign Minister;Andries Dirk;NA;CE;Great Compromiser;High;unknown;x
+8004;Minister of Armament;Pieter Oud;NA;CE;Submarine Proponent;Medium;unknown;x
+8005;Minister of Security;Josephus H.H. van Shaik;NA;LC;Silent Lawyer;High;unknown;x
+8006;Head of Military Intelligence;Johan W. van Ooschot;NA;LC;Dismal Enigma;Very High;unknown;x
+8007;Chief of Staff;Izaak Reynders;NA;LC;School of Defence;Very High;reijnders_hol;x
+8008;Chief of Army;Izaak Reynders;NA;LC;Static Defence Doctrine;Very High;reijnders_hol;x
+8009;Chief of Navy;Johannes Furstner;NA;LC;Indirect Approach Doctrine;High;unknown;x
+8010;Chief of Air Force;Petrus W. Best;NA;LC;Air Superiority Doctrine;High;unknown;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+8011;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+8012;Foreign Minister;Blue Shadow;NA;CE;General Staffer;Medium;unknown;x
+8013;Minister of Armament;Blue Shadow;NA;CE;Resource Industrialist;High;unknown;x
+8014;Minister of Security;Blue Shadow;NA;CE;Crime Fighter;Medium;unknown;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+8002;Head of Government;Hendricus Colijn;NA;LC;NA;NA;colijn_hol;x
+8003;Foreign Minister;Andries Dirk;NA;CE;Great Compromiser;High;unknown;x
+8004;Minister of Armament;Pieter Oud;NA;CE;Submarine Proponent;Medium;unknown;x
+8005;Minister of Security;Josephus H.H. van Shaik;NA;LC;Silent Lawyer;High;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+8015;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+8016;Foreign Minister;Blue Shadow;NA;CE;Apologetic Clerk;Low;unknown;x
+8017;Minister of Armament;Blue Shadow;NA;CE;Military Entrepreneur;Medium;unknown;x
+8018;Minister of Security;Blue Shadow;NA;CE;Man of the People;High;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+8002;Head of Government;Hendricus Colijn;NA;LC;NA;NA;colijn_hol;x
+8003;Foreign Minister;Andries Dirk;NA;CE;Great Compromiser;High;unknown;x
+8004;Minister of Armament;Pieter Oud;NA;CE;Submarine Proponent;Medium;unknown;x
+8005;Minister of Security;Josephus H.H. van Shaik;NA;LC;Silent Lawyer;High;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+8015;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+8016;Foreign Minister;Blue Shadow;NA;CE;Apologetic Clerk;Low;unknown;x
+8017;Minister of Armament;Blue Shadow;NA;CE;Military Entrepreneur;Medium;unknown;x
+8018;Minister of Security;Blue Shadow;NA;CE;Man of the People;High;unknown;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+8002;Head of Government;Hendricus Colijn;NA;LC;NA;NA;colijn_hol;x
+8003;Foreign Minister;Andries Dirk;NA;CE;Great Compromiser;High;unknown;x
+8004;Minister of Armament;Pieter Oud;NA;CE;Submarine Proponent;Medium;unknown;x
+8005;Minister of Security;Josephus H.H. van Shaik;NA;LC;Silent Lawyer;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+8019;Head of State;J.H. Carp;NA;NS FA;NA;NA;unknown;x
+8020;Head of Government;Folkert Posthuma;NA;FA;NA;NA;unknown;x
+8021;Foreign Minister;Karel Frederiks;NA;FA;Iron Fisted Brute;High;unknown;x
+8022;Minister of Armament;H. Reydon Hermannus;NA;FA;Infantry Proponent;High;unknown;x
+8023;Minister of Security;J.C. Tenkink;NA;FA;Prince of Terror;High;unknown;x
+8024;Head of Military Intelligence;Black Shadow;NA;NS;Logistics Specialist;High;unknown;x
+8025;Chief of Staff;Friedich Christiansen;NA;NS;School of Manoeuvre;Medium;unknown;x
+8026;Chief of Army;Hendrik Seyffradt;NA;NS;Elastic Defence Doctrine;High;unknown;x
+8027;Chief of Navy;Black Shadow;NA;NS;Base Control Doctrine;Medium;unknown;x
+8028;Chief of Air Force;Black Shadow;NA;NS;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+8029;Head of State;Red Shadow;NA;ST LE;NA;NA;unknown;x
+8030;Head of Government;Red Shadow;NA;ST;NA;NA;unknown;x
+8031;Foreign Minister;Red Shadow;NA;ST;Cloak and Dagger Schemer;High;unknown;x
+8032;Minister of Armament;Red Shadow;NA;ST;Resource Industrialist;High;unknown;x
+8033;Minister of Security;Red Shadow;NA;LE;Back Stabber;Medium;unknown;x
+8034;Head of Military Intelligence;Red Shadow;NA;LE;Political Specialist;High;unknown;x
+8035;Chief of Staff;Red Shadow;NA;ST;School of Mass Combat;High;unknown;x
+8036;Chief of Army;Red Shadow;NA;LE;Guns and Butter Doctrine;High;unknown;x
+8037;Chief of Navy;Red Shadow;NA;LE;Open Seas Doctrine;High;unknown;x
+8038;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picture Name;x
+8039;Head of State;Dirk Jan de Geer;39;LC CE RS;NA;NA;degeer_dirk_hol;x
+8040;Head of State;Pieter Gerbrandy;40;LC CE RS;NA;NA;gerbrandy_pieter_hol;x
+8041;Foreign Minister;Hendricus Colijn;37;LC;Ideological Crusader;Medium;colijn_hol;x
+8042;Foreign Minister;Eelco van Kleffens;39;CE;Biased Intellectual;Medium;unknown;x
+8043;Minister of Armament;Jacob de Wilde;37;LC;Submarine Proponent;High;unknown;x
+8044;Minister of Armament;Hendricus Colijn;39;LC;Battle fleet Proponent;Medium;colijn_hol;x
+8045;Minister of Armament;Christiaan Bodenhausen;39;CE;Laissez Faires Capitalist;Medium;unknown;x
+8046;Minister of Armament;Dirk Jan de Geer;39;LC;Infantry Proponent;High;degeer_dirk_hol;x
+8047;Minister of Armament;Charles Welter;40;RS;resource industrialist;Medium;unknown;x
+8048;Minister of Armament;Maximilien van Steenberghe;41;CE;Corrupt Kleptocrat;Medium;unknown;x
+8049;Minister of Armament;Johan Albarda;41;LC;Laissez Faires Capitalist;High;unknown;x
+8050;Minister of Armament;Johannes van den Broek;42;CE;Administrative Genius;Medium;unknown;x
+8051;Minister of Armament;Gerardus Huysmans;45;CE;resource industrialist;High;unknown;x
+8052;Minister of Security;Carvens Goseling;37;LC;Compassionate Gentleman;Medium;unknown;x
+8053;Minister of Security;Johannes de Visser;39;LC;Man of the People;Medium;unknown;x
+8054;Minister of Security;Pieter Gerbrandy;39;LC;Crime Fighter;Very High;gerbrandy_pieter_hol;x
+8055;Minister of Security;Johannes van Angeren;42;CE;Silent Lawyer;Medium;unknown;x
+8056;Minister of Security;Gerrit van Heuven Goedhart;44;LC;Compassionate Gentleman;High;unknown;x
+8057;Minister of Security;Pieter Gerbrandy;45;LC;Crime Fighter;Very High;gerbrandy_pieter_hol;x
+8058;Chief of Staff;General Henri Winkleman;40;LC;School of Defence;High;winkelman_hol;x
+8059;Chief of Army;Jan van Voorst tot Voorst;37;LC;Static Defence Doctrine;High;vanvoorsttotvoorst_hol;x
+8060;Chief of Army;Willem Roehl;40;LC;Decisive Battle Doctrine;High;unknown;x
+8061;Head of State;Juliana;44;LC CE RS;NA;NA;juliana_ho;x

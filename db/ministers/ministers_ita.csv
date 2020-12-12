@@ -1,0 +1,52 @@
+ITA;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+3001;Head of State;Vittorio Emmanuele III;NA;FA PA LC CE RS;NA;NA;viktor_emmanuel2_ita;x
+3002;Head of Government;Benito Mussolini;NA;FA;NA;NA;mussolini_benito2_ita;x
+3003;Foreign Minister;Gian Galeazzo Ciano;NA;PA;Ideological Crusader;Very High;ciano_galeazzo_ita;x
+3004;Minister of Armament;Benito Mussolini;NA;FA;Military Entrepreneur;Very High;mussolini_benito2_ita;x
+3005;Minister of Security;Benito Mussolini;NA;FA;Prince of Terror;Very High;mussolini_benito2_ita;x
+3006;Head of Military Intelligence;unknown;NA;FA;Undistinguished Suit;Medium;unknown;x
+3007;Chief of Staff;Pietro Bodoglio;NA;LC;School of Manuever;Medium;badoglio_pietro3_ita;x
+3008;Chief of Army;Rodolfo Graziani;NA;FA;Decisive Battle Doctrine;Very High;graziani_rudolfo_ita;x
+3009;Chief of Navy;Domenico Cavagnari;NA;FA;Decisive Battle Doctrine;Medium;unknown;x
+3010;Chief of Air Force;Italo Balbo;NA;FA;Naval Aviation Doctrine;Medium;balbo_italo_ita;x
+;Shadow Democratic Cabinet;;;;;;;x
+3011;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+3012;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+3013;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+3014;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+3015;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+3016;Chief of Staff;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+3017;Chief of Army;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+3018;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+3019;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+3020;Head of State;Red Shadow;NA;LE;NA;NA;unknown;x
+3021;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+3022;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+3023;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+3024;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+3025;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+3026;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+3027;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+3028;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+3029;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+3030;Head of State;Umberto II;46;PA LC CE RS;NA;NA;umberto_ita;x
+3031;Head of State;Benito Mussolini;43;NS FA PA;NA;NA;mussolini_benito2_ita;x
+3032;Foreign Minister;Giuseppe Bastianini;43;FA;Iron Fisted Brute;High;bastianini_guiseppe_ita;x
+3033;Foreign Minister;Benito Mussolini;43;FA;Ideological Crusader;Very High;mussolini_benito2_ita;x
+3034;Minister of Armament;Alberto Pariani;40;FA;Military Entrepreneur;High;unknown;x
+3035;Minister of Armament;Ubaldo Soddu;39;FA;Military Entrepreneur;Medium;soddu_ita;x
+3036;Minister of Armament;Alfredo Guzzoni;40;FA;Infantry Proponent;Low;unknown;x
+3037;Minister of Armament;Antonio Scuero;41;FA;Battle Fleet Proponent;High;unknown;x
+3038;Minister of Armament;Antonio Sorice;43;FA;Battle Fleet Proponent;High;unknown;x
+3039;Minister of Security;Guido Buffarini-Guidi           ;40;FA;Silent Lawyer;Low;unknown;x
+3040;Minister of Security;Umberto Albini;43;FA;Silent Lawyer;High;unknown;x
+3041;Chief of Staff;Ugo Cavallero;39;FA;School of Manuever;High;cavallero_ugo_ita;x
+3042;Chief of Staff;Vittorio Ambrosio;43;LC;School of Psychology;Low;ambrosio_vittorio_ita;x
+3043;Chief of Army;Mario Roatta;41;FA;Armoured Spearhead Doctrine;High;unknown;x
+3044;Chief of Army;Vittorio Ambrosio;42;LC;Static Defence Doctrine;Low;ambrosio_vittorio_ita;x
+3045;Chief of Navy;Arturo Riccardi;40;FA;Indirect Approach Doctrine;Medium;unknown;x
+3046;Chief of Air Force;Giuseppe Valle;40;FA;Vertical Envelopment Doctrine;Medium;unknown;x
+3047;Chief of Air Force;Francesco Pricolo;39;FA;Air Superiority Doctrine;High;pricolo_ita;x
+3048;Chief of Air Force;Rino Corso Fougier;41;LC;Air Superiority Doctrine;Low;unknown;x

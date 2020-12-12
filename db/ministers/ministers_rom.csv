@@ -1,0 +1,145 @@
+ROM;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+22001;Head of State;Carol II;NA;LC CE PA FA NS ;NA;NA;carol_II3_rom;x
+22002;Head of Government;Gheorghe Tatarescu;NA;LC;NA;NA;unknown;x
+22003;Foreign Minister;Nicholas Titulescu;NA;LC;Great Compromiser;Medium;unknown;x
+22004;Minister of Armament;Constantin Bratianu;NA;LC;Resource Industrialist;High;unknown;x
+22005;Minister of Security;Istrate Micescu;NA;LC;Silent Lawyer;Medium;unknown;x
+22006;Head of Military Intelligence;Mihail Moruzov;NA;LC;Logistics Specialist;Very High;unknown;x
+22007;Chief of Staff;Ion Antonescu;NA;FA;School of Psychology;High;unknown;x
+22008;Chief of Army;Ion Sichitiu;NA;PA;Static Defence Doctrine;Low;unknown;x
+22009;Chief of Navy;Radu Irimescu;NA;LC;Decisive Battle Doctrine;Low;unknown;x
+22010;Chief of Air Force;Nicolae Caranfil;NA;LC;Air Superiority Doctrine;Medium;unknown;x
+;A Cabinet – 1936;ELECT_B;;;;;;x
+22011;Head of Government;Octavian Goga;NA;PA;NA;NA;unknown;x
+22012;Foreign Minister;Octavian Goga;NA;PA;Undistinguished Suit;Medium;unknown;x
+22013;Minister of Armament;Alexander Cuza;NA;PA;Undistinguished Suit;Medium;unknown;x
+22014;Minister of Security;Alexander Cuza;NA;PA;Prince of Terror;Medium;unknown;x
+;B Cabinet – 1936;ELECT_A;;;;;;x
+22015;Head of Government;Iuliu Maniu;NA;CE;NA;NA;maniu_julius_rom;x
+22016;Foreign Minister;Grigore Niculescu-Buzesti;NA;CE;Biased Intellectual;Medium;unknown;x
+22017;Minister of Armament;Virgil Madgearu;NA;CE;Administrative Genius;Medium;unknown;x
+22018;Minister of Security;Armand Calinescu;NA;CE;Prince of Terror;High;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+22015;Head of Government;Iuliu Maniu;NA;CE;NA;NA;maniu_julius_rom;x
+22016;Foreign Minister;Grigore Niculescu-Buzesti;NA;CE;Biased Intellectual;Medium;unknown;x
+22017;Minister of Armament;Virgil Madgearu;NA;CE;Administrative Genius;Medium;unknown;x
+22019;Minister of Security;Ion Mihalache;NA;CE;Man of the People;Low;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+22020;Head of Government;Constantin Bratianu;NA;LC;NA;NA;unknown;x
+22021;Foreign Minister;Victor Antonescu;NA;LC;Ideological Crusader;Medium;antonescu_victor_rom;x
+22004;Minister of Armament;Constantin Bratianu;NA;LC;Resource Industrialist;High;unknown;x
+22005;Minister of Security;Istrate Micescu;NA;LC;Silent Lawyer;Medium;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+22015;Head of Government;Iuliu Maniu;NA;CE;NA;NA;maniu_julius_rom;x
+22016;Foreign Minister;Grigore Niculescu-Buzesti;NA;CE;Biased Intellectual;Medium;unknown;x
+22022;Minister of Armament;Nicolae Lupu;NA;CE;Resource Industrialist;Low;unknown;x
+22019;Minister of Security;Ion Mihalache;NA;CE;Man of the People;Low;unknown;x
+;B Cabinet – 1944;ELECT_B;;;;;;x
+22020;Head of Government;Constantin Bratianu;NA;LC;NA;NA;unknown;x
+22021;Foreign Minister;Victor Antonescu;NA;LC;Ideological Crusader;Medium;antonescu_victor_rom;x
+22004;Minister of Armament;Constantin Bratianu;NA;LC;Resource Industrialist;High;unknown;x
+22005;Minister of Security;Istrate Micescu;NA;LC;Silent Lawyer;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+22023;Head of State;Mihai I ;NA;LC CE FA NS PA ST LE;NA;NA;mihai_I_rom;x
+22024;Head of Government;Ion Antonescu;NA;FA;NA;NA;unknown;x
+22025;Foreign Minister;Mihail Sturdza;NA;NS;Ideological Crusader;Low;unknown;x
+22026;Minister of Armament;Constantin Papanace;NA;NS;Administrative Genius;Low;unknown;x
+22027;Minister of Security;Ion Petrovicescu;NA;NS;Efficient Sociopath;Low;unknown;x
+22028;Head of Military Intelligence;Eugen Cristescu;NA;FA;Dismal Enigma;Very High;unknown;x
+22007;Chief of Staff;Ion Antonescu;NA;FA;School of Psychology;High;unknown;x
+22029;Chief of Army;Alexandru Ioanitiu;NA;FA;Armoured Spearhead Doctrine;Medium;unknown;x
+22030;Chief of Navy;Horia Macellariu;NA;FA;Open Seas Doctrine;High;unknown;x
+22031;Chief of Air Force;Gheorghe Jienescu;NA;FA;Army Aviation Doctrine;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+22023;Head of State;Mihai I ;NA;LC CE FA NS PA ST LE;;;mihai_I_rom;x
+22032;Head of Government;Petru Groza;NA;ST;NA;NA;groza_petru_rom;x
+22033;Foreign Minister;Ana Pauker;NA;ST;Ideological Crusader;Very High;unknown;x
+22034;Minister of Armament;Vasile Luca;NA;ST;Administrative Genius;High;unknown;x
+22035;Minister of Security;Teohari Georgescu;NA;ST;Back Stabber;High;unknown;x
+22036;Head of Military Intelligence;Lucian Stupineanu;NA;ST;Political Specialist;Medium;unknown;x
+22037;Chief of Staff;Mihail Lascar;NA;ST;School of Mass Combat;Very High;lascar_rom;x
+22038;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+22039;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+22040;Chief of Air Force;Emanoil Ionescu;NA;ST;Army Aviation Doctrine;High;ionascu_rom;x
+;Replacements;;;;;;;x
+22041;Head of State;Constantin I. Parhon;45;ST LE CE LC;NA;NA;unknown;x
+22042;Head of Government;Gheorghe Gheorghiu-Dej;36;ST;NA;NA;unknown;x
+22020;Head of Government;Constantin Bratianu;36;LC;NA;NA;unknown;x
+22043;Head of Government;Miron Cristea;38;PA;NA;NA;unknown;x
+22044;Head of Government;Armand Calinescu;39;CE;NA;NA;unknown;x
+22045;Head of Government;Gheorghe Argesanu;39;PA;NA;NA;unknown;x
+22046;Head of Government;Constantin Argetoianu;39;PA;NA;NA;unknown;x
+22002;Head of Government;Gheorghe Tatarescu;40;LC;NA;NA;unknown;x
+22047;Head of Government;Ion Gigurtu;40;PA;NA;NA;unknown;x
+22015;Head of Government;Iuliu Maniu;36;CE;NA;NA;maniu_julius_rom;x
+22048;Head of Government;Constantin Sanatescu;44;CE;NA;NA;sanatescu_rom;x
+22049;Head of Government;Nicolae Radescu;44;CE;NA;NA;unknown;x
+22032;Head of Government;Petru Groza;45;ST;NA;NA;groza_petru_rom;x
+22050;Head of Government;Horia Sima;44;NS;NA;NA;sima_horia_rom;x
+22051;Head of Government;Corneliu Codreanu;36;NS;NA;NA;unknown;x
+22021;Foreign Minister;Victor Antonescu;36;LC;Ideological Crusader;Medium;antonescu_victor_rom;x
+22052;Foreign Minister;Gheorghe Tatarescu;38;LC;Undistinguished Suit;High;unknown;x
+22053;Foreign Minister;Nicolae Petrescu-Comnen;38;PA;Apologetic Clerk;Medium;unknown;x
+22054;Foreign Minister;Grigore Gafencu;38;PA;Biased Intellectual;Low;gafencu_grigore_rom;x
+22055;Foreign Minister;Ion Gigurtu;40;PA;Undistinguished Suit;Medium;unknown;x
+22056;Foreign Minister;Constantin Argetoianu;40;PA;Undistinguished Suit;Medium;unknown;x
+22057;Foreign Minister;Mihail Manoilsecu;40;PA;Apologetic Clerk;Medium;unknown;x
+22025;Foreign Minister;Mihail Sturdza;40;NS;Ideological Crusader;Medium;unknown;x
+22058;Foreign Minister;Ion Antonescu;40;FA;General Staffer;Medium;unknown;x
+22059;Foreign Minister;Mihai Antonescu;41;FA;Cloak and Dagger Schemer;Low;antonescu_mihai_rom;x
+22016;Foreign Minister;Grigore Niculescu-Buzesti;44;CE;Biased Intellectual;Medium;unknown;x
+22060;Foreign Minister;Constantin Visoianu;44;CE;Undistinguished Suit;Medium;unknown;x
+22033;Foreign Minister;Ana Pauker;47;ST;Ideological Crusader;Very High;unknown;x
+22034;Minister of Armament;Vasile Luca;36;ST;Administrative Genius;High;unknown;x
+22061;Minister of Armament;Gheorghe Potopeanu;41;FA;Military Entrepreneur;High;unknown;x
+22062;Minister of Armament;Gheorghe Dobre;42;FA;Infantry Proponent;High;unknown;x
+22017;Minister of Armament;Virgil Madgearu;36;CE;Administrative Genius;Medium;unknown;x
+22063;Minister of Armament;Nicolae Stoenescu;41;FA;Tank Proponent;Medium;unknown;x
+22004;Minister of Armament;Constantin Bratianu;36;LC;Resource Industrialist;Medium;unknown;x
+22019;Minister of Security;Ion Mihalache;39;CE;Man of the People;Low;unknown;x
+22064;Minister of Security;Gabriel Marinescu;40;NS;Back Stabber;Medium;unknown;x
+22065;Minister of Security;Dumitru Popescu;41;FA;Prince of Terror;Medium;unknown;x
+22018;Minister of Security;Armand Calinescu;37;CE;Prince of Terror;High;unknown;x
+22066;Minister of Security;Lucretiu Patrascanu;36;LE;Silent Lawyer;Low;unknown;x
+22067;Minister of Security;Nicolae Penescu;44;CE;Man of the People;High;unknown;x
+22068;Minister of Security;Nicolae Radescu;44;CE;Compassionate Gentleman;High;unknown;x
+22035;Minister of Security;Teohari Georgescu;45;ST;Back Stabber;High;unknown;x
+22069;Minister of Security;Aurel Aldea;44;CE;Back Stabber;Medium;unknown;x
+22070;Minister of Security;Horia Sima;36;NS;Prince of Terror;High;sima_horia_rom;x
+22028;Head of Military Intelligence;Eugen Cristescu;40;FA;Dismal Enigma;Very High;unknown;x
+22071;Head of Military Intelligence;Victor Siminel;44;CE;Technical Specialist;Low;unknown;x
+22072;Head of Military Intelligence;Ioan Lissievici;44;CE;Industrial Specialist;Low;unknown;x
+22073;Head of Military Intelligence;Ghorghe Savoiu;44;CE;Logistics Specialist;Low;unknown;x
+22074;Head of Military Intelligence;Nicolae Stanescu;45;CE;Political Specialist;Medium;unknown;x
+22036;Head of Military Intelligence;Lucian Stupineanu;45;ST;Political Specialist;Medium;unknown;x
+22075;Head of Military Intelligence;Serghei Nicolau;47;ST;Technical Specialist;High;unknown;x
+22007;Chief of Staff;Ion Antonescu;36;FA;School of Psychology;High;unknown;x
+22076;Chief of Staff;Constantin Ilasievici;37;LC;School of Defence;Low;unknown;x
+22077;Chief of Staff;Gheorghe Argeseanu;38;PA;School of Fire Support;Medium;unknown;x
+22078;Chief of Staff;Ioan Ilcus;39;PA;School of Manoeuvre;Medium;unknown;x
+22079;Chief of Staff;Iosif Iacobici;41;FA;School of Psychology;High;unknown;x
+22080;Chief of Staff;Constantin Pantazi;42;FA;School of Defence;High;unknown;x
+22081;Chief of Staff;Mihail Racovitza;44;CE;School of Manoeuvre;High;racovitza_rom;x
+22082;Chief of Staff;Constantin Sanatescu;44;CE;School of Fire Support;High;sanatescu_rom;x
+22083;Chief of Staff;Ion Negulescu;44;CE;School of Psychology;Medium;unknown;x
+22084;Chief of Staff;Constantin Vasiliu Rascanu;45;CE;School of Defence;High;unknown;x
+22037;Chief of Staff;Mihail Lascar;46;ST;School of Mass Combat;Very High;lascar_rom;x
+22085;Chief of Staff;Platon Chirnoaga;44;NS;School of Psychology;High;unknown;x
+22086;Chief of Army;Gh. Stefan Ionescu;37;LC;Static Defence Doctrine;Medium;unknown;x
+22087;Chief of Army;Constantin Sanatescu;37;CE;Elastic Defence Doctrine;High;sanatescu_rom;x
+22088;Chief of Army;Florea Tenescu;39;PA;Static Defence Doctrine;Low;unknown;x
+22089;Chief of Army;Gheorghe Mihail;40;PA;Decisive Battle Doctrine;Medium;unknown;x
+22029;Chief of Army;Alexandru Ioanitiu;40;FA;Armoured Spearhead Doctrine;Medium;unknown;x
+22090;Chief of Army;Iosif Iacobici;41;FA;Armoured Spearhead Doctrine;High;unknown;x
+22091;Chief of Army;Ilie Steflea;42;FA;Guns and Butter Doctrine;High;steflea_rom;x
+22092;Chief of Army;Nicolae Radescu ;44;CE;Decisive Battle Doctrine;High;unknown;x
+22093;Chief of Army;Costin Ionascu;45;CE;Static Defence Doctrine;High;unknown;x
+22094;Chief of Navy;Paul Teodorescu;38;PA;Open Seas Doctrine;Medium;unknown;x
+22030;Chief of Navy;Horia Macellariu;40;FA;Open Seas Doctrine;High;unknown;x
+22095;Chief of Navy;I. Georgescu;44;CE;Open Seas Doctrine;Medium;unknown;x
+22009;Chief of Navy;Radu Irimescu;36;LC;Air Superiority Doctrine;Low;unknown;x
+22096;Chief of Air Force;Paul Teodorescu;38;PA;Air Superiority Doctrine;Medium;unknown;x
+22031;Chief of Air Force;Gheorghe Jienescu;40;FA;Army Aviation Doctrine;High;unknown;x
+22097;Chief of Air Force;Ermil Gheorghiu;44;CE;Air Superiority Doctrine;Medium;unknown;x
+22098;Chief of Air Force;Gheorghe Vasiliu;45;CE;Army Aviation Doctrine;Low;unknown;x
+22040;Chief of Air Force;Emanoil Ionescu;46;ST;Army Aviation Doctrine;High;ionascu_rom;x

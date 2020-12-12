@@ -1,0 +1,78 @@
+SPA;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+10001;Head of State;Miguel Cabanellas Ferrer;NA;CE LC PA FA;NA;NA;unknown;x
+10002;Head of Government;Fidel Dávila Arrondo;NA;FA;NA;NA;unknown;x
+10003;Foreign Minister;Fernando Serrat y Bonastre;NA;FA;Ideological Crusader;High;unknown;x
+10004;Minister of Armament;Gérman Gil y Yuste;NA;FA;Undistinguished Suit;High;unknown;x
+10005;Minister of Security;Miguel Ponte Mansó de Zúñiga;NA;LC;Crime Fighter;High;unknown;x
+10006;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+10007;Chief of Staff;Fidel Dávila Arrondo;NA;PA;School of Psychology;High;unknown;x
+10008;Chief of Army;Emilio Mola;NA;FA;Decisive Battle Doctrine;Very High;unknown;x
+10009;Chief of Navy;Fransisco Moreno Fernández;NA;FA;Open Seas Doctrine;High;unknown;x
+10010;Chief of Air Force;Alfredo Kindelán Duany;NA;PA;Carpet Bombing Doctrine;High;unknown;x
+;Shadow LC Cabinet;;;;;;;x
+10011;Head of State;Juan III;NA;LC PA;NA;NA;unknown;x
+10012;Head of Government;José María Gil-Robles Quiñones;NA;LC;NA;NA;unknown;x
+10013;Foreign Minister;Juan Beigbéder Atienza;NA;PA;Apologetic Clerk;Medium;unknown;x
+10014;Minister of Armament;José Enrique Varela Iglesias;NA;PA;Military Entrepeneur;Medium;unknown;x
+10015;Minister of Security;Andrés Saliquet Zumeta;NA;PA;Man of the People;Medium;unknown;x
+10016;Head of Military Intelligence;Royal Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+10017;Chief of Staff;Luís Orgaz Yoldi;NA;PA;School of Defense;Medium;unknown;x
+10018;Chief of Army;Antonio Aranda Mata;NA;PA;Static Defense Doctrine;Low;unknown;x
+10019;Chief of Navy;Antonio Royo Villanova;NA;PA;Open Seas Doctrine;High;unknown;x
+10020;Chief of Air Force;Alfredo Kindelán Duany ;NA;PA;Carpet Bombing Doctrine;High;unknown;x
+;Shadow RS Cabinet;;;;;;;x
+10041;Head of State;Álvaro de Albornoz Liminiana;NA;CE RS LWR;NA;NA;unknown;x
+10042;Head of Government;Juan Negrín López;NA;LWR;NA;NA;unknown;x
+10043;Foreign Minister;José Giral Pereira;NA;LWR;Biased Intellectual;High;unknown;x
+10044;Minister of Armament;Juan Negrín López;NA;LWR;Administrative Genius;High;unknown;x
+10045;Minister of Security;Paulino Gómez Saiz;NA;LWR;Undistinguished Suit;High;unknown;x
+10046;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+10047;Chief of Staff;Vicente Rojo Lluch ;NA;CE;School of Manoeuvre;Very High;unknown;x
+10048;Chief of Army;Luis Castelló Pantoja;NA;CE;Elastic Defence Doctrine;High;unknown;x
+10049;Chief of Navy;González Ubieta;NA;RS;Indirect Approach Doctrine;High;unknown;x
+10050;Chief of Air Force;Miguel Nuñez de Prado;NA;CE;Naval Aviation Doctrine;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+10051;Head of State;José Díaz Ramos;NA;LE ST;NA;NA;unknown;x
+10052;Head of Government;José Díaz Ramos;NA;ST;NA;NA;unknown;x
+10053;Foreign Minister;Julio Álvarez del Vayo;NA;ST;Ideological Crusader;High;unknown;x
+10054;Minister of Armament;Enrique Castro Delgado;NA;ST;Infantry Proponent;High;unknown;x
+10055;Minister of Security;Santiago Carrillo Solares;NA;LE;Prince of Terror;Very High;unknown;x
+10056;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+10057;Chief of Staff;Miguel Tagüeña Lacorte;NA;LE;School of Manoeuvre;Very High;unknown;x
+10058;Chief of Army;Enrique Líster Forján;NA;LE;Decisive Battle Doctrine;Very High;unknown;x
+10059;Chief of Navy;Francisco Galán Rodríguez;NA;LE;Open Seas Doctrine;Medium;unknown;x
+10060;Chief of Air Force;Ignacio Hidalgo de Cisneros;NA;LE;Air Superiority Doctrine;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+10061;Head of State;Fransisco Franco Bahamonde;36;CE LC PA FA NS;NA;NA;franco_francisco_spa;x
+10062;Head of Government;Fransisco Franco Bahamonde;38;FA;NA;NA;franco_francisco_spa;x
+10063;Foreign Minister;Fransisco Gómez-Jordana y Souza;38;PA;General Staffer;High;unknown;x
+10064;Foreign Minister;Juan Luís Beigbeder Atienza;39;FA;Apologetic Clerk;High;unknown;x
+10065;Foreign Minister;Ramon Serrano Suñer;41;NS;Ideological Crusader;Medium;serrano_ramon_spa;x
+10066;Foreign Minister;José Félix Lequerica y Erquiza;44;FA;Undistinguished Suit;High;unknown;x
+10067;Foreign Minister;Alberto Martín-Artajo Álvarez;45;FA;Biased Intellectual;High;unknown;x
+10068;Minister of Security;Nicolás Franco Bahamonde;36;FA;Crime Fighter;Very High;unknown;x
+10069;Minister of Security;Ramon Serrano Suñer;38;NS;Efficient Sociopath;High;serrano_ramon_spa;x
+10070;Minister of Security;Valentín Galarza Morante;40;FA;Man of the People;High;unknown;x
+10071;Minister of Security;Blas Pérez González;42;FA;Crime Fighter;High;unknown;x
+10072;Minister of Armament;Joaquín Bau Nolla;36;LC;Military Entrepreneur;High;unknown;x
+10073;Minister of Armament;José Larraz López;39;FA;Resource Industrialist;High;unknown;x
+10074;Minister of Armament;Joaquín Benjumea Burín;41;FA;Undistinguished Suit;High;unknown;x
+10075;Head of Military Intelligence;José Ungría Jímenez;37;FA;Industrial Specialist;High;unknown;x
+10076;Chief of Staff;Juan Vigón Suerodíaz;40;PA;School of Fire Support;High;unknown;x
+10077;Chief of Staff;Carlos Asensio Cabanillas;42;FA;School of Manoeuvre;High;unknown;x
+10078;Chief of Army;Gonzalo Queipo de Llano;37;CE;Decisive Battle Doctrine;High;unknown;x
+10079;Chief of Army;José Enrique Varela Iglesias;39;PA;Guns and Butter Doctrine;High;unknown;x
+10080;Chief of Army;Carlos Asensio Cabanillas;42;FA;Elastic Defense Doctrine;High;unknown;x
+10081;Chief of Army;Fidel Dávila Arrondo;45;FA;Static Defense Doctrine;High;unknown;x
+10082;Chief of Navy;Salvador Moreno Fernández;39;PA;Undistinguished Suit;High;unknown;x
+10083;Chief of Navy;Fransisco Regalado Rodríguez;45;FA;Indirect Approach Doctrine;High;unknown;x
+10084;Chief of Air Force;Juan Yagüe Blanco;39;FA;Air Superiority Doctrine;Medium;unknown;x
+10085;Chief of Air Force;Juan Vigón Suerodíaz;40;PA;Army Aviation Doctrine;High;unknown;x
+10086;Chief of Air Force;Eduardo González Gallarza;45;FA;Vertical Envelopment Doctrine;High;unknown;x
+10021;Head of State;José Sanjurjo Sacanell;36;CE LC PA FA NS;NA;NA;unknown;x
+10022;Head of Government;José Sanjurjo Sacanell;36;FA;NA;NA;unknown;x
+10023;Foreign Minister;Juan Luís Beigbeder Atienza;39;PA;Apologetic Clerk;Medium;unknown;x
+10024;Foreign Minister;Alberto Martín-Artajo Álvarez;45;FA;Biased Intellectual;High;unknown;x
+10025;Minister of Security;Andrés Saliquet Zumeta;43;PA;Man of the People;Medium;unknown;x
+10026;Chief of Staff;Luís Orgaz Yoldi;45;PA;School of Defense;Medium;unknown;x
+10027;Chief of Army;Gonzalo Queipo de Llano;37;CE;Decisive Battle Doctrine;Medium;unknown;x

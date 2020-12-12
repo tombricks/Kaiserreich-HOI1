@@ -1,0 +1,12 @@
+SLO;Shadow Fascist Cabinet;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+31001;Head of State;Jozef Tiso;NA;PA FA;NA;NA;tiso_jozef_slo;x
+31002;Head of Government;Vojtech Tuka;NA;FA;NA;NA;tuka_vojtech_slo;x
+31003;Foreign Minister;Vojtech Tuka                                   ;NA;FA;Ideological Crusader;Low;tuka_vojtech_slo;x
+31004;Minister of Armament;Mikuláš Pružinský;NA;FA;Resource Industrialist;Medium;pruzinsky_mikulas_slo;x
+31005;Minister of Security;Alexander Mach;NA;FA;Efficient Sociopath ;Low;mach_alexander_slo;x
+31006;Head of Military Intelligence;Gustav Malar;NA;FA;Logistics Specialist;High;malar_gustav_ slo;x
+31007;Chief of Staff;Ferdinand Catlos;NA;PA;School of Manoeuvre;Low;catlos_ferdinand_cze;x
+31008;Chief of Army;Gustav Malar;NA;FA;Armoured Spearhead Doctrine;High;malar_gustav_ slo;x
+31009;Chief of Navy;Jozef Turanec;NA;PA;Undistinguished Suit ;Medium;turanec_jozef_ slo;x
+31010;Chief of Air Force;Jozef Turanec;NA;PA;Undistinguished Suit ;Medium;turanec_jozef_ slo;x
+;Replacements;;;;;;;x

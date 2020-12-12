@@ -1,0 +1,107 @@
+CZE;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+24001;Head of State;Edvard Beneš;NA;LC CE RS LWR;NA;NA;benes_edvard_cze;x
+24002;Head of Government;Milan Hodža;NA;RS;NA;NA;hodza_milan_cze;x
+24003;Foreign Minister;Kamil Krofta;NA;RS;Great Compromiser;High;krofta_kamil_cze;x
+24004;Minister of Armament;Josef Kalfus;NA;RS;Resource Industrialist;High;unknown;x
+24005;Minister of Security;Ivan Derer;NA;RS;Man of the People;Medium;derer_ivan_cze;x
+24006;Head of Military Intelligence;František Machník;NA;RS;Logistics Specialist;Very High;machnik_cze;x
+24007;Chief of Staff;František Machník;NA;RS;School of Defence;Very High;machnik_cze;x
+24008;Chief of Army;Ludvik Krejci;NA;RS;Static Defense Doctrine;Medium;krejci_cze;x
+24008;Chief of Navy;Ludvik Krejci;NA;RS;Undistinguished Suite;Medium;krejci_cze;x
+24010;Chief of Air Force;Ludvik Krejci;NA;RS;Army Aviation Doctrine;Medium;krejci_cze;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+24002;Head of Government;Milan Hodža;NA;RS;NA;NA;hodza_milan_cze;x
+24003;Foreign Minister;Kamil Krofta;NA;RS;Great Compromiser;High;krofta_kamil_cze;x
+24004;Minister of Armament;Josef Kalfus;NA;RS;Resource Industrialist;High;unknown;x
+24005;Minister of Security;Ivan Derer;NA;RS;Man of the People;Medium;derer_ivan_cze;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+24011;Head of Government;Emil Hacha;NA;LC;NA;NA;hacha_emil_cze;x
+24012;Foreign Minister;Ján Masaryk;NA;LC;General Staffer;Very High;masaryk_jan_cze;x
+24013;Minister of Armament;Bohumir Badrác;NA;LC;Infantry Proponent;High;unknown;x
+24014;Minister of Security;Ján Cerný;NA;LC;Silent Lawyer;Medium;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+24002;Head of Government;Milan Hodža;NA;RS;NA;NA;hodza_milan_cze;x
+24003;Foreign Minister;Kamil Krofta;NA;RS;Great Compromiser;High;krofta_kamil_cze;x
+24004;Minister of Armament;Josef Kalfus;NA;RS;Resource Industrialist;High;unknown;x
+24005;Minister of Security;Ivan Derer;NA;RS;Man of the People;Medium;derer_ivan_cze;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+24011;Head of Government;Emil Hacha;NA;LC;NA;NA;hacha_emil_cze;x
+24016;Foreign Minister;Stefan Osusky;NA;LC;Biased Intellectual;Very High;osusky_stefan_cze;x
+24017;Minister of Armament;Ján Masaryk;NA;LC;Military Entrepreneur;Very High;masaryk_jan_cze;x
+24018;Minister of Security;Juraj Slávik;NA;LC;Silent Lawyer;High;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+24002;Head of Government;Milan Hodža;NA;RS;NA;NA;hodza_milan_cze;x
+24003;Foreign Minister;Kamil Krofta;NA;RS;Great Compromiser;High;krofta_kamil_cze;x
+24004;Minister of Armament;Josef Kalfus;NA;RS;Resource Industrialist;High;unknown;x
+24005;Minister of Security;Ivan Derer;NA;RS;Man of the People;Medium;derer_ivan_cze;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+24011;Head of Government;Emil Hacha;NA;LC;NA;NA;hacha_emil_cze;x
+24016;Foreign Minister;Stefan Osusky;NA;LC;Biased Intellectual;Very High;osusky_stefan_cze;x
+24021;Minister of Armament;Ladislav Karel Feierabend;NA;LC;Theoretical Scientist;Medium;unknown;x
+24018;Minister of Security;Juraj Slávik;NA;LC;Silent Lawyer;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+24023;Head of State;Karl Hermann Frank;NA;NS PA FA RS;NA;NA;frank_karlhermann_cze;x
+24024;Head of Government;Rudolph Beran;NA;PA;NA;NA;beran_rudolph_cze;x
+24025;Foreign Minister;Konrad Henlein;PA;NS;Ideological Crusader;High;henlein_konrad_cze;x
+24026;Minister of Armament;Ernst Kundt;NA;NS;Resource Industrialist;High;unknown;x
+24027;Minister of Security;Jan Kapras;NA;PA;Prince of Terror;Medium;kapras_jan_cze;x
+24028;Head of Military Intelligence;Joseph Jezek;NA;PA;Political Specialist;Very High;unknown;x
+24029;Chief of Staff;Robert Rychtrmoc;NA;FA;School of Manoeuvre;Medium;unknown;x
+24030;Chief of Army;Otto Bláha;NA;PA;Armoured Spearhead Doctrine;Medium;unknown;x
+24031;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+24032;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+24033;Head of State;Klement Gottwald;NA;LWR ST LE RS;NA;NA;gottwald_klement_cze;x
+24034;Head of Government;Gustav Husak;NA;LWR;NA;NA;husak_gustav_cze;x
+24035;Foreign Minister;Vladimir Clementis;NA;LWR;Great Compromiser;Medium;clementis_vladimir_cze;x
+24036;Minister of Armament;Rudolf Slanský;NA;ST;Theoretical Scientist;Medium;slansky_rudolf_cze;x
+24037;Minister of Security;Prokop Drtina;NA;ST;Prince of Terror;High;drtina_prokop_cze;x
+24038;Head of Military Intelligence;Zdenak Fierlinger;NA;ST;Political Specialist;Very High;fierlinger_zdenak_cze;x
+24039;Chief of Staff;Ludvik Svoboda;NA;LWR;School of Mass Combat;High;svoboda_ludvik_cze;x
+24040;Chief of Army;Ludvik Svoboda;NA;LWR;School of Mass Combat;High;svoboda_ludvik_cze;x
+24041;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+24042;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+24043;Head of State;Emil Hácha;38;PA LC CE RS;NA;NA;hacha_emil_cze;x
+24044;Head of State;Klement Gottwald;38;LWR ST LE RS;NA;NA;gottwald_klement_cze;x
+24045;Head of State;Jan Syrový;38;RS CE LC;NA;NA;syrovy_jan_cze;x
+24046;Head of State;Konrad Henlein;38;FA NS PA;NA;NA;henlein_konrad_cze;x
+24047;Head of Government;Milan Hodža;38;PA;NA;NA;hodza_milan_cze;x
+24048;Head of Government;Jan Syrový;38;RS;NA;NA;syrovy_jan_cze;x
+24049;Head of Government;Rudolf Beran;38;PA;NA;NA;beran_rudolph_cze;x
+24050;Head of Government;Ján Šrámek;40;CE;NA;NA;unknown;x
+24051;Head of Government;Karl Hermann Frank;42;FA;NA;NA;frank_karlhermann_cze;x
+24052;Head of Government;Gustav Husak;45;LWR;NA;NA;husak_gustav_cze;x
+24053;Foreign Minister;Ján Masaryk;40;RS;Ideological Crusader;Very High;masaryk_jan_cze;x
+24054;Foreign Minister;Juraj Slávik;40;LC;Biased Intellectual;Medium;unknown;x
+24055;Foreign Minister;Jaroslav Stránský;40;LWR;Cloak-n-Dagger Schemer;High;unknown;x
+24056;Foreign Minister;Stefan Osusky;40;LC;Biased Intellectual;Very High;osusky_stefan_cze;x
+24057;Minister of Armament;Emil Franke;37;RS;Undistinguished Suit;High;unknown;x
+24058;Minister of Armament;Ladislav Karel Feierabend;41;LC;Theoretical Scientist;Medium;unknown;x
+24059;Minister of Armament;Vavro Ján Šrobár;45;RS;Military Entrepreneur;High;unknown;x
+24060;Minister of Security;Joseph Jezek;36;LC;Crime Fighter;Medium;unknown;x
+24061;Minister of Security;Otakar Eischer;38;PA;Compassionate Gentleman;Very High;unknown;x
+24062;Minister of Security;Juraj Slávik;40;RS;Silent Lawyer;High;unknown;x
+24063;Minister of Security;Václac Nosek;45;ST;Back Stabber;Very High;unknown;x
+24064;Head of Military Intelligence;Vladimír Fajnor;38;PA;Industrial Specialist;High;unknown;x
+24065;Head of Military Intelligence;Jaroslav Stránský;40;RS;Political Specialist;High;unknown;x
+24066;Head of Military Intelligence;František Nemec;45;RS;Technical Specialist;Very High;unknown;x
+24067;Head of Military Intelligence;Zdenek Fierlinger;45;ST;Technical Specialist;Very High;fierlinger_zdenak_cze;x
+24068;Chief of Staff;Jaroslav Cihak ;38;RS;School of Defense;Very High;unknown;x
+24069;Chief of Staff;Ferdinand Catlos;39;PA;School of Defense;Medium;catlos_ferdinand_cze;x
+24070;Chief of Staff;Jan Golian;40;PA;School of Manoeuvre;Very High;unknown;x
+24071;Chief of Staff;Sergej Ján Ingr ;41;RS;School of Manoeuvre;Very High;ingr_sergejjan_cze;x
+24072;Chief of Staff;Josef Turanec;44;FA;School of Psychology;Very High;turanec_jozef_ slo;x
+24073;Chief of Staff;Ludvik Svoboda;45;LWR;School of Mass Combat;High;svoboda_ludvik_cze;x
+24074;Chief of Army;Emil Fiala;38;RS;Guns and Butter Doctrine;Medium;unknown;x
+24075;Chief of Army;Jaroslav Eminger ;38;FA;Elastic Defence Doctrine;Medium;unknown;x
+24076;Chief of Army;Bedrich Homola;39;RS;Static Defense Doctrine;Very High;unknown;x
+24077;Chief of Army;Sergej Ján Ingr ;40;RS;Guns and Butter Doctrine;Very High;ingr_sergejjan_cze;x
+24078;Chief of Army;Rudolf Viest;42;RS;Armoured Spearhead Doctrine;Medium;viest_rudolf_cze;x
+24079;Chief of Army;Andrei Vlasov;44;PA;Decisive Battle Doctrine;High;vlasov_andrei_cze;x
+24080;Chief of Army;Ludvik Svoboda;45;LWR;Static Defense Doctrine;High;svoboda_ludvik_cze;x
+24081;Chief of Navy;Jaroslav Cihak ;38;RS;Undistinguished Suit;Medium;unknown;x
+24082;Chief of Navy;Ferdinand Catlos;39;PA;Undistinguished Suit;Medium;catlos_ferdinand_cze;x
+24083;Chief of Air Force;Joseph Frantisek;39;RS;Air Superiority Doctrine;Low;unknown;x
+24084;Chief of Air Force;Karel Kuttelwascher;40;RS;Army Aviation Doctrine;Very High;kuttelwascher_karel_cze;x
+24085;Chief of Air Force;Augustin Malar;44;FA;Vertical Envelopment Doctrine;High;malar_gustav_ slo;x

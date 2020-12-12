@@ -1,0 +1,6 @@
+model = {
+	cost 			= 2
+	buildtime	 	= 60
+	maxspeed 		= 2
+	supplyconsumption = 1
+}

@@ -1,0 +1,1195 @@
+# 
+# The Light Aircraft Technology Group
+#
+
+#
+#	
+#	
+#	
+technology = {
+	id = 10
+	category = light_aircraft
+	name = TECH_L_AIR_NAME #Localized name
+	desc = TECH_L_AIR_DESC #Localized description
+	
+	level = { # 1 - Basic Fighter Engine and Aerodynamic Design
+		id = 10000
+		name = TECH_LEVEL_L_AIR_1_NAME 
+		desc = TECH_LEVEL_L_AIR_1_DESC 
+		
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic Short Range Engines
+			id = 10001
+			name = TECH_APP_L_AIR_1_1_NAME
+			desc = TECH_APP_L_AIR_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = { }
+		}
+		application = { # Basic Medium Range Engines
+			id = 10004
+			name = TECH_APP_L_AIR_1_4_NAME
+			desc = TECH_APP_L_AIR_1_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = { }
+		}
+		application = { # Basic Long Range Engines
+			id = 10005
+			name = TECH_APP_L_AIR_1_5_NAME
+			desc = TECH_APP_L_AIR_1_5_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {	}
+		}
+		application = { # Basic Airframes
+			id = 10002
+			name = TECH_APP_L_AIR_1_2_NAME
+			desc = TECH_APP_L_AIR_1_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Basic Aerodynamics
+			id = 10003
+			name = TECH_APP_L_AIR_1_3_NAME
+			desc = TECH_APP_L_AIR_1_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+	} # Level 1
+	
+	level = { # 2 - Basic Fighter Development
+		id = 10100
+		name = TECH_LEVEL_L_AIR_2_NAME 
+		desc = TECH_LEVEL_L_AIR_2_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic SR Fighter Prototype Tests
+			id = 10101
+			name = TECH_APP_L_AIR_2_1_NAME
+			desc = TECH_APP_L_AIR_2_1_DESC
+			
+			required = { 10001 10002 10003 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Basic Interceptors
+			id = 10102
+			name = TECH_APP_L_AIR_2_2_NAME
+			desc = TECH_APP_L_AIR_2_2_DESC
+			
+			required = { 10101 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 1 }
+			}
+		}
+		application = { # Basic MR Fighter Prototype Tests
+			id = 10103
+			name = TECH_APP_L_AIR_2_3_NAME
+			desc = TECH_APP_L_AIR_2_3_DESC
+			
+			required = { 10004 10002 10003 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Basic Multirole Fighters
+			id = 10104
+			name = TECH_APP_L_AIR_2_4_NAME
+			desc = TECH_APP_L_AIR_2_4_DESC
+			
+			required = { 10103 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 2 }
+			}
+		}
+		application = { # Basic LR Fighter Prototype Tests
+			id = 10105
+			name = TECH_APP_L_AIR_2_5_NAME
+			desc = TECH_APP_L_AIR_2_5_DESC
+			
+			required = { 10005 10002 10003 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Basic Escort Fighters
+			id = 10106
+			name = TECH_APP_L_AIR_2_6_NAME
+			desc = TECH_APP_L_AIR_2_6_DESC
+			
+			required = { 10105 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 3 }
+			}
+		}
+	} # Level 2
+	
+	level = { # 3 - Basic Aviation and Anti-Air Radar
+		id = 10200
+		name = TECH_LEVEL_L_AIR_3_NAME 
+		desc = TECH_LEVEL_L_AIR_3_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic Decimetric Anti-Air Artillery Radar
+			id = 10201
+			name = TECH_APP_L_AIR_3_1_NAME
+			desc = TECH_APP_L_AIR_3_1_DESC
+			
+			required = { 3003 3102 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 10 }
+			}
+		}
+		application = { # Basic Decimetric Airborne Interceptor Radar
+			id = 10202
+			name = TECH_APP_L_AIR_3_2_NAME
+			desc = TECH_APP_L_AIR_3_2_DESC
+			
+			required = { 3003 3102 4204 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = fighter when = now value = 1 }
+				command = { type = night_attack which = fighter value = 10 }
+			}
+		}
+	} # Level 3
+	
+	level = { # 4 - Improved Fighter Engines
+		id = 10300
+		name = TECH_LEVEL_L_AIR_4_NAME 
+		desc = TECH_LEVEL_L_AIR_4_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Short Range Engines
+			id = 10301
+			name = TECH_APP_L_AIR_4_1_NAME
+			desc = TECH_APP_L_AIR_4_1_DESC
+			
+			required = { 10002 10003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {	}
+		}
+		application = { # Improved Medium Range Engines
+			id = 10305
+			name = TECH_APP_L_AIR_4_5_NAME
+			desc = TECH_APP_L_AIR_4_5_DESC
+			
+			required = { 10002 10003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {	}
+		}
+		application = { # Improved Long Range Engines
+			id = 10306
+			name = TECH_APP_L_AIR_4_6_NAME
+			desc = TECH_APP_L_AIR_4_6_DESC
+			
+			required = { 10002 10003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = { }
+		}
+		application = { # Improved Decimetric Anti-Air Artillery Radar
+			id = 10302
+			name = TECH_APP_L_AIR_4_2_NAME
+			desc = TECH_APP_L_AIR_4_2_DESC
+			
+			required = { 10201 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 10 }
+			}
+		}
+		application = { # Improved Decimetric Airborne Interceptor Radar
+			id = 10303
+			name = TECH_APP_L_AIR_4_3_NAME
+			desc = TECH_APP_L_AIR_4_3_DESC
+			
+			required = { 10202 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = fighter when = now value = 1 }
+				command = { type = night_attack which = fighter value = 10 }
+			}
+		}
+		application = { # Basic Centimetric Airborne Interceptor Radar
+			id = 10304
+			name = TECH_APP_L_AIR_4_4_NAME
+			desc = TECH_APP_L_AIR_4_4_DESC
+			
+			required = { 3501 10303 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = fighter when = now value = 2 }
+				command = { type = night_attack which = fighter value = 5 }
+				command = { type = rain_attack which = fighter value = 5 }
+				command = { type = snow_attack which = fighter value = 5 }
+			}
+		}
+	} # Level 4
+	
+	level = { # 5 - Improved Aerodynamic Design
+		id = 10400
+		name = TECH_LEVEL_L_AIR_5_NAME 
+		desc = TECH_LEVEL_L_AIR_5_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Airframes
+			id = 10401
+			name = TECH_APP_L_AIR_5_1_NAME
+			desc = TECH_APP_L_AIR_5_1_DESC
+			
+			required = { 10002 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Aerodynamics
+			id = 10402
+			name = TECH_APP_L_AIR_5_2_NAME
+			desc = TECH_APP_L_AIR_5_2_DESC
+			
+			required = { 10003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Decimetric Anti-Air Artillery Radar
+			id = 10403
+			name = TECH_APP_L_AIR_5_3_NAME
+			desc = TECH_APP_L_AIR_5_3_DESC
+			
+			required = { 3402 10302 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 10 }
+			}
+		}
+	} # Level 5
+	
+	level = { # 6 - Improved Fighter Development
+		id = 10500
+		name = TECH_LEVEL_L_AIR_6_NAME 
+		desc = TECH_LEVEL_L_AIR_6_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic Centimetric Anti-Air Artillery Radar
+			id = 10501
+			name = TECH_APP_L_AIR_6_1_NAME
+			desc = TECH_APP_L_AIR_6_1_DESC
+			
+			required = { 3501 10403 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 20 }
+			}
+		}
+		application = { # Improved SR Fighter Prototype Tests
+			id = 10502
+			name = TECH_APP_L_AIR_6_2_NAME
+			desc = TECH_APP_L_AIR_6_2_DESC
+			
+			required = { 10301 10401 10402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Interceptors
+			id = 10503
+			name = TECH_APP_L_AIR_6_3_NAME
+			desc = TECH_APP_L_AIR_6_3_DESC
+			
+			required = { 10502 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 4 }
+			}
+		}
+		application = { # Improved  MR Fighter Prototype Tests
+			id = 10504
+			name = TECH_APP_L_AIR_6_4_NAME
+			desc = TECH_APP_L_AIR_6_4_DESC
+			
+			required = { 10305 10401 10402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Multirole Fighters
+			id = 10505
+			name = TECH_APP_L_AIR_6_5_NAME
+			desc = TECH_APP_L_AIR_6_5_DESC
+			
+			required = { 10504 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 5 }
+			}
+		}
+		application = { # Improved LR Fighter Prototype Tests
+			id = 10506
+			name = TECH_APP_L_AIR_6_6_NAME
+			desc = TECH_APP_L_AIR_6_6_DESC
+			
+			required = { 10306 10401 10402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Escort Fighters
+			id = 10507
+			name = TECH_APP_L_AIR_6_7_NAME
+			desc = TECH_APP_L_AIR_6_7_DESC
+			
+			required = { 10506 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 6 }
+			}
+		}
+	} # Level 6
+	
+	level = { # 7 - Improved Aviation and Anti-Air Radar
+		id = 10600
+		name = TECH_LEVEL_L_AIR_7_NAME 
+		desc = TECH_LEVEL_L_AIR_7_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Centimetric Anti-Air Artillery Radar
+			id = 10601
+			name = TECH_APP_L_AIR_7_1_NAME
+			desc = TECH_APP_L_AIR_7_1_DESC
+			
+			required = { 3702 10501 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 20 }
+			}
+		}
+		application = { # Improved Centimetric Airborne Fighter Radar
+			id = 10602
+			name = TECH_APP_L_AIR_7_2_NAME
+			desc = TECH_APP_L_AIR_7_2_DESC
+			
+			required = { 3702 10304 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = fighter when = now value = 2 }
+				command = { type = night_attack which = fighter value = 5 }
+				command = { type = rain_attack which = fighter value = 5 }
+				command = { type = snow_attack which = fighter value = 5 }
+			}
+		}
+		application = { # Advanced Decimetric Airborne Fighter Radar
+			id = 10603
+			name = TECH_APP_L_AIR_7_3_NAME
+			desc = TECH_APP_L_AIR_7_3_DESC
+			
+			required = { 3402 10303 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = fighter when = now value = 2 }
+				command = { type = night_attack which = fighter value = 5 }
+				command = { type = rain_attack which = fighter value = 5 }
+				command = { type = snow_attack which = fighter value = 5 }
+			}
+		}
+		application = { # Advanced Centimetric Anti-Air Radar
+			id = 10604
+			name = TECH_APP_L_AIR_7_4_NAME
+			desc = TECH_APP_L_AIR_7_4_DESC
+			
+			required = { 3901 10601 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 20 }
+			}
+		}
+		application = { # Advanced Centimetric Airborne Fighter Radar
+			id = 10605
+			name = TECH_APP_L_AIR_7_5_NAME
+			desc = TECH_APP_L_AIR_7_5_DESC
+			
+			required = { 3901 10602 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = fighter when = now value = 2 }
+				command = { type = night_attack which = fighter value = 5 }
+				command = { type = rain_attack which = fighter value = 5 }
+				command = { type = snow_attack which = fighter value = 5 }
+			}
+		}
+	} # Level 7
+	
+	level = { # 8 - Advanced Fighter Engine and Aerodynamic Design
+		id = 10700
+		name = TECH_LEVEL_L_AIR_8_NAME 
+		desc = TECH_LEVEL_L_AIR_8_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Advanced Short Range Engines
+			id = 10701
+			name = TECH_APP_L_AIR_8_1_NAME
+			desc = TECH_APP_L_AIR_8_1_DESC
+			
+			required = { 10401 10402 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {	}
+		}
+		application = { # Advanced Medium Range Engines
+			id = 10706
+			name = TECH_APP_L_AIR_8_6_NAME
+			desc = TECH_APP_L_AIR_8_6_DESC
+			
+			required = { 10401 10402 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {	}
+		}
+		application = { # Advanced Long Range Engines
+			id = 10707
+			name = TECH_APP_L_AIR_8_7_NAME
+			desc = TECH_APP_L_AIR_8_7_DESC
+			
+			required = { 10401 10402 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {	}
+		}
+		application = { # Advanced Airframes
+			id = 10702
+			name = TECH_APP_L_AIR_8_2_NAME
+			desc = TECH_APP_L_AIR_8_2_DESC
+			
+			required = { 10401 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Aerodynamics
+			id = 10703
+			name = TECH_APP_L_AIR_8_3_NAME
+			desc = TECH_APP_L_AIR_8_3_DESC
+			
+			required = { 10402 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Rocket Fighter Engine
+			id = 10704
+			name = TECH_APP_L_AIR_8_4_NAME
+			desc = TECH_APP_L_AIR_8_4_DESC
+			
+			required = { 7303 10702 10703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Turbojet Fighter Engine
+			id = 10705
+			name = TECH_APP_L_AIR_8_5_NAME
+			desc = TECH_APP_L_AIR_8_5_DESC
+			
+			required = { 7701 10704 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 8
+	
+	level = { # 9 - Advanced Fighter Development
+		id = 10800
+		name = TECH_LEVEL_L_AIR_9_NAME 
+		desc = TECH_LEVEL_L_AIR_9_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Advanced SR Fighter Prototype Tests
+			id = 10801
+			name = TECH_APP_L_AIR_9_1_NAME
+			desc = TECH_APP_L_AIR_9_1_DESC
+			
+			required = { 10701 10702 10703 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Interceptors
+			id = 10802
+			name = TECH_APP_L_AIR_9_2_NAME
+			desc = TECH_APP_L_AIR_9_2_DESC
+			
+			required = { 10801 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 7 }
+			}
+		}
+		application = { # Advanced MR Fighter Prototype Tests
+			id = 10807
+			name = TECH_APP_L_AIR_9_7_NAME
+			desc = TECH_APP_L_AIR_9_7_DESC
+			
+			required = { 10706 10702 10703 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Multirole Fighters
+			id = 10808
+			name = TECH_APP_L_AIR_9_8_NAME
+			desc = TECH_APP_L_AIR_9_8_DESC
+			
+			required = { 10807 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 8 }
+			}
+		}
+		application = { # Advanced LR Fighter Prototype Tests
+			id = 10809
+			name = TECH_APP_L_AIR_9_9_NAME
+			desc = TECH_APP_L_AIR_9_9_DESC
+			
+			required = { 10707 10702 10703 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Escort Fighters
+			id = 10810
+			name = TECH_APP_L_AIR_9_10_NAME
+			desc = TECH_APP_L_AIR_9_10_DESC
+			
+			required = { 10809 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 9 }
+			}
+		}
+		application = { # Basic Rocket Fighter Prototype Tests
+			id = 10803
+			name = TECH_APP_L_AIR_9_3_NAME
+			desc = TECH_APP_L_AIR_9_3_DESC
+			
+			required = { 10702 10703 10704 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Rocket Fighters
+			id = 10804
+			name = TECH_APP_L_AIR_9_4_NAME
+			desc = TECH_APP_L_AIR_9_4_DESC
+			
+			required = { 10803 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 10 }
+			}
+		}
+		application = { # Basic Turbojet Fighter Prototype Tests
+			id = 10805
+			name = TECH_APP_L_AIR_9_5_NAME
+			desc = TECH_APP_L_AIR_9_5_DESC
+			
+			required = { 10702 10703 10705 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Turbojet Fighters
+			id = 10806
+			name = TECH_APP_L_AIR_9_6_NAME
+			desc = TECH_APP_L_AIR_9_6_DESC
+			
+			required = { 10805 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 11 }
+			}
+		}
+	} # Level 9
+	
+	level = { # 10 - Semi-Modern Fighter Engines and Aerodynamic Design
+		id = 10900
+		name = TECH_LEVEL_L_AIR_10_NAME 
+		desc = TECH_LEVEL_L_AIR_10_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Semi-Modern Rocket Engines
+			id = 10901
+			name = TECH_APP_L_AIR_10_1_NAME
+			desc = TECH_APP_L_AIR_10_1_DESC
+			
+			required = { 10803 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Semi-Modern Turbojet Engines
+			id = 10902
+			name = TECH_APP_L_AIR_10_2_NAME
+			desc = TECH_APP_L_AIR_10_2_DESC
+			
+			required = { 10805 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Semi-Modern Airframe
+			id = 10903
+			name = TECH_APP_L_AIR_10_3_NAME
+			desc = TECH_APP_L_AIR_10_3_DESC
+			
+			required = { 10702 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Semi-Modern Aerodynamics
+			id = 10904
+			name = TECH_APP_L_AIR_10_4_NAME
+			desc = TECH_APP_L_AIR_10_4_DESC
+			
+			required = { 10703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 10
+	
+	level = { # 11 - Semi-Modern Fighter Development
+		id = 10940
+		name = TECH_LEVEL_L_AIR_11_NAME 
+		desc = TECH_LEVEL_L_AIR_11_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Semi-Modern Rocket Fighter Prototype Tests
+			id = 10941
+			name = TECH_APP_L_AIR_11_1_NAME
+			desc = TECH_APP_L_AIR_11_1_DESC
+			
+			required = { 10901 10903 10904 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Semi-Modern Rocket Fighters
+			id = 10942
+			name = TECH_APP_L_AIR_11_2_NAME
+			desc = TECH_APP_L_AIR_11_2_DESC
+			
+			required = { 10941 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 12 }
+			}
+		}
+		application = { # Semi-Modern Turbojet Fighter Prototype Tests
+			id = 10943
+			name = TECH_APP_L_AIR_11_3_NAME
+			desc = TECH_APP_L_AIR_11_3_DESC
+			
+			required = { 10902 10903 10904 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = {  }
+			}
+		}
+		application = { # Semi-Modern Turbojet Fighters
+			id = 10944
+			name = TECH_APP_L_AIR_11_4_NAME
+			desc = TECH_APP_L_AIR_11_4_DESC
+			
+			required = { 10943 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 13 }
+			}
+		}
+	} # Level 11
+	
+	level = { # 12 - Turbo Shaft Design
+		number = 12
+		id = 10970
+		name = TECH_LEVEL_L_AIR_12_NAME 
+		desc = TECH_LEVEL_L_AIR_12_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Durable Helicopter Engine
+			id = 10971
+			name = TECH_APP_L_AIR_12_1_NAME
+			desc = TECH_APP_L_AIR_12_1_DESC
+			
+			required = { 10705 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Durable Helicopter Airframe
+			id = 10972
+			name = TECH_APP_L_AIR_12_2_NAME
+			desc = TECH_APP_L_AIR_12_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Helicopter Prototype Tests
+			id = 10973
+			name = TECH_APP_L_AIR_12_3_NAME
+			desc = TECH_APP_L_AIR_12_3_DESC
+			
+			required = { 10971 10972 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Helicopters
+			id = 10974
+			name = TECH_APP_L_AIR_12_4_NAME
+			desc = TECH_APP_L_AIR_12_4_DESC
+			
+			required = { 10973 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # VTOL Fighter Prototype Tests
+			id = 10975
+			name = TECH_APP_L_AIR_12_5_NAME
+			desc = TECH_APP_L_AIR_12_5_DESC
+			
+			required = { 10943 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # VTOL Fighters
+			id = 10976
+			name = TECH_APP_L_AIR_12_6_NAME
+			desc = TECH_APP_L_AIR_12_6_DESC
+			
+			required = { 10975 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = fighter value = 14 }
+			}
+		}
+	} # Level 12
+}

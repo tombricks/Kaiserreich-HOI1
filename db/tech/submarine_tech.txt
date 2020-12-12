@@ -1,0 +1,981 @@
+# 
+# The Submarine Technology Group
+#
+
+#
+#
+#	
+#	
+
+technology = {
+	id = 5
+	category = submarine
+	name = TECH_SUB_NAME #Localized name
+	desc = TECH_SUB_DESC #Localized description
+	
+	level = { # Basic Submarine Construction
+		id = 5000
+		name = TECH_LEVEL_SUB_1_NAME 
+		desc = TECH_LEVEL_SUB_1_DESC 
+		
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Nautical Gyrocompass
+			id = 5001
+			name = TECH_APP_SUB_1_1_NAME
+			desc = TECH_APP_SUB_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Improved Pressure Hull
+			id = 5002
+			name = TECH_APP_SUB_1_2_NAME
+			desc = TECH_APP_SUB_1_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Steel Periscope
+			id = 5003
+			name = TECH_APP_SUB_1_3_NAME
+			desc = TECH_APP_SUB_1_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Adequate Night Sights
+			id = 5004
+			name = TECH_APP_SUB_1_4_NAME
+			desc = TECH_APP_SUB_1_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Medium Range Submarine (Sub Model II)
+			id = 5005
+			name = TECH_APP_SUB_1_5_NAME
+			desc = TECH_APP_SUB_1_5_DESC
+			
+			required = { 5001 5002 5003 5004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = new_model which = submarine value = 1 } # The original sub template is 0.
+			}
+		}
+	} # Level 1
+	
+	level = { # 
+		id = 5100
+		name = TECH_LEVEL_SUB_2_NAME 
+		desc = TECH_LEVEL_SUB_2_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic Conventional Torpedo
+			id = 5101
+			name = TECH_APP_SUB_2_1_NAME
+			desc = TECH_APP_SUB_2_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Small Underwater Vehicle Testing
+			id = 5102
+			name = TECH_APP_SUB_2_2_NAME
+			desc = TECH_APP_SUB_2_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Basic Minisubs
+			id = 5103
+			name = TECH_APP_SUB_2_3_NAME
+			desc = TECH_APP_SUB_2_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = minisub_bonus value = 1 }
+			}
+		}
+		
+	} # Level 2
+	
+	level = { # Equipment Trials and Testing
+		id = 5200
+		name = TECH_LEVEL_SUB_3_NAME 
+		desc = TECH_LEVEL_SUB_3_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Closed Circle Engine Trials and Testing
+			id = 5201
+			name = TECH_APP_SUB_3_1_NAME
+			desc = TECH_APP_SUB_3_1_DESC
+			
+			required = { 5005 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Torpedo Correction Trials and Testing
+			id = 5202
+			name = TECH_APP_SUB_3_2_NAME
+			desc = TECH_APP_SUB_3_2_DESC
+			
+			required = { 5101 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = now value = 1 }
+			}
+		}
+		application = { # Streamlined Pressure Hulls Testing
+			id = 5203
+			name = TECH_APP_SUB_3_3_NAME
+			desc = TECH_APP_SUB_3_3_DESC
+			
+			required = { 5002 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Schnorkel Testing
+			id = 5204
+			name = TECH_APP_SUB_3_4_NAME
+			desc = TECH_APP_SUB_3_4_DESC
+			
+			required = { 5003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		
+	} # Level 3
+	
+	level = { # Improved Weaponry and Detection
+		id = 5300
+		name = TECH_LEVEL_SUB_4_NAME 
+		desc = TECH_LEVEL_SUB_4_DESC
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Torpedo Data Computer
+			id = 5301
+			name = TECH_APP_SUB_4_1_NAME
+			desc = TECH_APP_SUB_4_1_DESC
+			
+			required = { 3103 3003 3102 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Improved Conventional Torpedo
+			id = 5302
+			name = TECH_APP_SUB_4_2_NAME
+			desc = TECH_APP_SUB_4_2_DESC
+			
+			required = { 5202 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = now value = 1 }
+			}
+		}
+		application = { # Basic Submarine Sonar
+			id = 5303
+			name = TECH_APP_SUB_4_3_NAME
+			desc = TECH_APP_SUB_4_3_DESC
+			
+			required = { 5202 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = surface_detection which = submarine when = on_upgrade value = 1 }
+				command = { type = sub_detection which = submarine when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Long Range Radio Communication
+			id = 5304
+			name = TECH_APP_SUB_4_4_NAME
+			desc = TECH_APP_SUB_4_4_DESC
+			
+			required = { 3206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = surface_detection which = submarine when = on_upgrade value = 1 }
+				command = { type = max_organization which = submarine when = now value = 5 }
+			}
+		}
+	} # Level 4
+	
+	level = { # Improved Submarine Construction 
+		id = 5400
+		name = TECH_LEVEL_SUB_5_NAME 
+		desc = TECH_LEVEL_SUB_5_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Large Fuel Tank Design
+			id = 5401
+			name = TECH_APP_SUB_5_1_NAME
+			desc = TECH_APP_SUB_5_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Torpedo Chambers
+			id = 5402
+			name = TECH_APP_SUB_5_2_NAME
+			desc = TECH_APP_SUB_5_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Pressure Hull
+			id = 5403
+			name = TECH_APP_SUB_5_3_NAME
+			desc = TECH_APP_SUB_5_3_DESC
+			
+			required = { 5203 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Schnorkel
+			id = 5404
+			name = TECH_APP_SUB_5_4_NAME
+			desc = TECH_APP_SUB_5_4_DESC
+			
+			required = { 5204 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Excellent Night Sights
+			id = 5405
+			name = TECH_APP_SUB_5_5_NAME
+			desc = TECH_APP_SUB_5_5_DESC
+			
+			required = { 5004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Long Range Submarine (Sub Model II)
+			id = 5406
+			name = TECH_APP_SUB_5_6_NAME
+			desc = TECH_APP_SUB_5_6_DESC
+			
+			required = { 5401 5402 5403 5404 5405 5005 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = submarine value = 2 } 
+			}
+		}
+	} # Level 5
+	
+	level = { # Long Range Naval Recon Aircraft
+		id = 5500
+		name = TECH_LEVEL_SUB_6_NAME 
+		desc = TECH_LEVEL_SUB_6_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Submarine - Naval Aviation Cooperative Routine
+			id = 5501
+			name = TECH_APP_SUB_6_1_NAME
+			desc = TECH_APP_SUB_6_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } 
+			}
+		}
+		application = { # Basic LR Naval Recon Aircraft
+			id = 5502
+			name = TECH_APP_SUB_6_2_NAME
+			desc = TECH_APP_SUB_6_2_DESC
+			
+			required = { 5501 9106 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = surface_detection which = submarine when = now value = 0.5 }
+			}
+		}
+		application = { # LR Naval Fighter-Bomber Aircraft
+			id = 5503
+			name = TECH_APP_SUB_6_3_NAME
+			desc = TECH_APP_SUB_6_3_DESC
+			
+			required = { 5502 10509 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = surface_detection which = submarine when = now value = 0.5 }
+				command = { type = naval_attack which = submarine when = now value = 1 }
+			}
+		}
+		application = { # Improved LR Naval Recon Aircraft
+			id = 5504
+			name = TECH_APP_SUB_6_4_NAME
+			desc = TECH_APP_SUB_6_4_DESC
+			
+			required = { 5502 9506 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = surface_detection which = submarine when = now value = 1 }
+			}
+		}
+		application = { # VLR Naval Recon Aircraft
+			id = 5505
+			name = TECH_APP_SUB_6_5_NAME
+			desc = TECH_APP_SUB_6_5_DESC
+			
+			required = { 5502 9508 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = surface_detection which = submarine when = now value = 2 }
+			}
+		}
+	} # Level 6
+	
+	level = { # Advanced Weaponry and Detection
+		id = 5600
+		name = TECH_LEVEL_SUB_7_NAME 
+		desc = TECH_LEVEL_SUB_7_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic Acoustic Torpedo
+			id = 5601
+			name = TECH_APP_SUB_7_1_NAME
+			desc = TECH_APP_SUB_7_1_DESC
+			
+			required = { 5302 5402 3505 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = now value = 1 }
+			}
+		}
+		application = { # Basic Torpedo-pattern Apparatus
+			id = 5602
+			name = TECH_APP_SUB_7_2_NAME
+			desc = TECH_APP_SUB_7_2_DESC
+			
+			required = { 5301 5302 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = on_upgrade value = 0.5 }
+			}
+		}
+		application = { # Advanced Conventional Torpedo
+			id = 5603
+			name = TECH_APP_SUB_7_3_NAME
+			desc = TECH_APP_SUB_7_3_DESC
+			
+			required = { 5302 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = now value = 1 }
+			}
+		}
+		application = { # Basic Radar Warning System
+			id = 5604
+			name = TECH_APP_SUB_7_4_NAME
+			desc = TECH_APP_SUB_7_4_DESC
+			
+			required = { 3504 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_detection which = submarine when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Improved Minisubs
+			id = 5605
+			name = TECH_APP_SUB_7_5_NAME
+			desc = TECH_APP_SUB_7_5_DESC
+			
+			required = { 5103 5203 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = minisub_bonus value = 2 }
+			}
+		}
+	} # Level 7
+	
+	level = { # Advanced Submarine Construction
+		id = 5700
+		name = TECH_LEVEL_SUB_8_NAME 
+		desc = TECH_LEVEL_SUB_8_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Closed Circle Engine
+			id = 5701
+			name = TECH_APP_SUB_8_1_NAME
+			desc = TECH_APP_SUB_8_1_DESC
+			
+			required = { 5201 7202 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Air Condition and Cooling System
+			id = 5702
+			name = TECH_APP_SUB_8_2_NAME
+			desc = TECH_APP_SUB_8_2_DESC
+			
+			required = { 4204 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Streamlined Pressure Hull
+			id = 5703
+			name = TECH_APP_SUB_8_3_NAME
+			desc = TECH_APP_SUB_8_3_DESC
+			
+			required = { 5403 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Schnorkel
+			id = 5704
+			name = TECH_APP_SUB_8_4_NAME
+			desc = TECH_APP_SUB_8_4_DESC
+			
+			required = { 5404 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Hydralic Reload System
+			id = 5705
+			name = TECH_APP_SUB_8_5_NAME
+			desc = TECH_APP_SUB_8_5_DESC
+			
+			required = { 5402 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Electro Submarine (Sub Model III)
+			id = 5706
+			name = TECH_APP_SUB_8_6_NAME
+			desc = TECH_APP_SUB_8_6_DESC
+			
+			required = { 5701 5702 5703 5704 5705 5406 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = submarine value = 3 } 
+			}
+		}
+		application = { # Improved Radar Warning System
+			id = 5707
+			name = TECH_APP_SUB_8_7_NAME
+			desc = TECH_APP_SUB_8_7_DESC
+			
+			required = { 5604 3704 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = submarine value = 1 } 
+			}
+		}
+	} # Level 8
+	
+	level = { # Refined Equipment and Countermeasures
+		id = 5800
+		name = TECH_LEVEL_SUB_9_NAME 
+		desc = TECH_LEVEL_SUB_9_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Acoustic Torpedo
+			id = 5801
+			name = TECH_APP_SUB_9_1_NAME
+			desc = TECH_APP_SUB_9_1_DESC
+			
+			required = { 5601 3705 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = now value = 1 } 
+			}
+		}
+		application = { # Improved Torpedo-pattern Apparatus
+			id = 5802
+			name = TECH_APP_SUB_9_2_NAME
+			desc = TECH_APP_SUB_9_2_DESC
+			
+			required = { 5602 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = on_upgrade value = 0.5 } 
+			}
+		}
+		application = { # Advanced Radar Warning System
+			id = 5803
+			name = TECH_APP_SUB_9_3_NAME
+			desc = TECH_APP_SUB_9_3_DESC
+			
+			required = { 5707 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = submarine when = on_upgrade value = 2 } 
+			}
+		}
+		application = { # Basic Anti-Radar Rubber Coating
+			id = 5804
+			name = TECH_APP_SUB_9_4_NAME
+			desc = TECH_APP_SUB_9_4_DESC
+			
+			required = { 4204 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_defense which = submarine when = on_upgrade value = 2 } 
+			}
+		}
+	} # Level 9
+	
+	level = { # Special Vehicles and Detection Systems
+		id = 5900
+		name = TECH_LEVEL_SUB_10_NAME 
+		desc = TECH_LEVEL_SUB_10_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Submarine Sonar
+			id = 5901
+			name = TECH_APP_SUB_10_1_NAME
+			desc = TECH_APP_SUB_10_1_DESC
+			
+			required = { 5303 3702 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surface_detection which = submarine when = on_upgrade value = 1 } 
+				command = { type = sub_detection which = submarine when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Semi-Modern Radar Warning System
+			id = 5902
+			name = TECH_APP_SUB_10_2_NAME
+			desc = TECH_APP_SUB_10_2_DESC
+			
+			required = { 5803 3903 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_detection which = submarine when = on_upgrade value = 1 } 
+			}
+		}
+		application = { # Advanced Minisubs
+			id = 5903
+			name = TECH_APP_SUB_10_3_NAME
+			desc = TECH_APP_SUB_10_3_DESC
+			
+			required = { 5403 5605 5703 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = minisub_bonus value = 3 } 
+			}
+		}
+	} # Level 10
+	
+	level = { # Modern Equipment and Countermeasures
+		id = 5940
+		name = TECH_LEVEL_SUB_11_NAME 
+		desc = TECH_LEVEL_SUB_11_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Anti-Radar Rubber Coating
+			id = 5941
+			name = TECH_APP_SUB_11_1_NAME
+			desc = TECH_APP_SUB_11_1_DESC
+			
+			required = { 4204 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_defense which = submarine when = on_upgrade value = 2 } 
+			}
+		}
+		application = { # Advanced Acoustic Torpedo
+			id = 5942
+			name = TECH_APP_SUB_11_2_NAME
+			desc = TECH_APP_SUB_11_2_DESC
+			
+			required = { 5801 3904 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = submarine when = now value = 1 } 
+			}
+		}
+		application = { # Single Propeller Silent Engine
+			id = 5943
+			name = TECH_APP_SUB_11_3_NAME
+			desc = TECH_APP_SUB_11_3_DESC
+			
+			required = { 5706 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_defense which = submarine when = now value = 2 } 
+			}
+		}
+	} # Level 11
+	
+	level = { # Nuclear Submarine
+		id = 5970
+		name = TECH_LEVEL_SUB_12_NAME 
+		desc = TECH_LEVEL_SUB_12_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Emergency Shut-down System
+			id = 5971
+			name = TECH_APP_SUB_12_1_NAME
+			desc = TECH_APP_SUB_12_1_DESC
+			
+			required = { 8701 8702 8703 8704 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } 
+			}
+		}
+		application = { # Nuclear powered Submarine (Sub Model IV)
+			id = 5972
+			name = TECH_APP_SUB_12_2_NAME
+			desc = TECH_APP_SUB_12_2_DESC
+			
+			required = { 5971 8971 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = submarine value = 4 } 
+			}
+		}
+	} # Level 12
+}

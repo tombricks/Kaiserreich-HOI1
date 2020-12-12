@@ -1,0 +1,38 @@
+CUB;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+33001;Head of State;José A. Barnet;NA;PA LC CE RS;NA;NA;unknown;x
+33002;Head of Government;Fulgencio Batista;NA;PA;NA;NA;batista_fulgencio2_cub;x
+33003;Foreign Minister;Fulgencio Batista;NA;PA;Undistinguished Suit;Undying;batista_fulgencio2_cub;x
+33004;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+33005;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+33006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+33007;Chief of Staff;Fulgencio Batista;NA;PA;Undistinguished Suit;Undying;batista_fulgencio_cub;x
+33008;Chief of Army;Fulgencio Batista;NA;PA;Undistinguished Suit;Undying;batista_fulgencio_cub;x
+33009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+33010;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+33011;Head of State;Ramón Grau San Martín;NA;LC CE RS;NA;NA;unknown;x
+33012;Head of Government;Ramón Grau San Martín;NA;CE;NA;NA;unknown;x
+33013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+33014;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+33015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+33016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+33017;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+33018;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+33019;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+33020;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+33021;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+33022;Head of Government;Red Shadow;NA;LWR;NA;NA;unknown;x
+33023;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+33024;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+33025;Minister of Security;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+33026;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+33027;Chief of Staff;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+33028;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+33029;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+33030;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+33031;Head of State;Miguel M. Gómez;1936;PA LC CE RS;NA;NA;unknown;x
+33032;Head of State;Federuco L. Brú;1936;PA LC CE RS;NA;NA;unknown;x
+33033;Head of State;Gerardo Machado;1936;CE RS;NA;NA;unknown;x
+33034;Head of Government;Gerardo Machado;1936;RS;NA;NA;unknown;x

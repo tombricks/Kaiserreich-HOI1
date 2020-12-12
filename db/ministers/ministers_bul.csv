@@ -1,0 +1,86 @@
+BUL;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+19001;Head of State;Boris III;NA;PA CE LC;NA;NA;boris_III_bul;x
+19002;Head of Government;Georgi Kiosseivanov;NA;PA;NA;NA;unknown;x
+19003;Foreign Minister;Georgi Kiosseivanov;NA;PA;Biased Intellectual;High;unknown;x
+19004;Minister of Armament;Kiril Gounev;NA;PA;Administrative Genius;Medium;kyril_bul;x
+19005;Minister of Security;Dimitar Peshev;NA;PA;Compassionate Gentleman;Low;unknown;x
+19006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+19007;Chief of Staff;Hristo Lukov;NA;PA;School of Defence;Medium;unknown;x
+19008;Chief of Army;Gheorgi Popov;NA;PA;Static Defence Doctrine;Medium;unknown;x
+19009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+19010;Chief of Air Force;Vasil Boydev;NA;PA;Army Aviation Doctrine;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+19011;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+19012;Head of Government;Konstantin Muraviev;NA;CE;NA;NA;unknown;x
+19013;Foreign Minister;Konstantin Muraviev;NA;CE;Apologetic Clerk;Medium;unknown;x
+19014;Minister of Armament;Aleksandar Gerginov;NA;LC;Resource Industrialist;Medium;unknown;x
+19015;Minister of Security;Nikola Mushanov;NA;LC;Compassionate Gentleman;High;unknown;x
+19016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+19017;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+19018;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+19019;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+19020;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+19021;Head of State;Aleksandur Tsankov;NA;NS FA;NA;NA;unknown;x
+19022;Head of Government;Petur Gabrovski;NA;FA;NA;NA;unknown;x
+19023;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+19024;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+19025;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+19026;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+19027;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+19028;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+19029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+19030;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+19031;Head of State;Vasil P. Kolarov ;NA;ST LE LWR;NA;NA;unknown;x
+19032;Head of Government;Georgi Dimitrov;NA;ST;NA;NA;unknown;x
+19033;Foreign Minister;Vasil P. Kolarov;NA;ST;Ideological Crusader;High;unknown;x
+19034;Minister of Armament;Ivan Stefanov;NA;LE;Administrative Genius;Low;unknown;x
+19035;Minister of Security;Anton Yugov;NA;ST;Prince of Terror;High;unknown;x
+19036;Head of Military Intelligence;Traicho Kostov;NA;ST;Logistics Specialist;Medium;unknown;x
+19037;Chief of Staff;Hristo Mikhailov;NA;ST;School of Mass Combat;Medium;unknown;x
+19038;Chief of Army;Anton Ivanov;NA;ST;Decisive Battle Doctrine;High;unknown;x
+19039;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+19040;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+19041;Head of State;Simeon II;43;PA LC CE RS;NA;NA;simeon_II_bul;x
+19042;Head of State;Georgi Dimitrov;40;ST LE;NA;NA;unknown;x
+19043;Head of State;Vasil P. Kolarov;46;ST LE LWR PA;NA;NA;unknown;x
+19044;Head of State;Mincho Neychev;47;ST LE LWR PA;NA;NA;unknown;x
+19045;Head of Government;Bogdan Filov;40;PA;NA;NA;filov_bogdan_bul;x
+19046;Head of Government;Dobri Bojilov;43;PA;NA;NA;bozhilov_dobri_bul;x
+19047;Head of Government;Ivan I. Bagrianov;44;CE;NA;NA;unknown;x
+19048;Head of Government;Konstantin Muraviev;44;CE;NA;NA;unknown;x
+19049;Head of Government;Kimon Georgiev;44;LWR;NA;NA;georgiev_kimon_bul;x
+19050;Head of Government;Nikola Petkov;45;PA;NA;NA;unknown;x
+19051;Head of Government;Georgi Dimitrov;46;ST;NA;NA;unknown;x
+19052;Head of Government;Aleksandur Tsankov;36;NS;NA;NA;unknown;x
+19053;Foreign Minister;Ivan Popov;40;PA;Biased Intellectual;Medium;popov_bul;x
+19054;Foreign Minister;Bogdan Filov;42;PA;Biased Intellectual;Medium;filov_bogdan_bul;x
+19055;Foreign Minister;Dimitur Sismanov;43;PA;Apologetic Clerk;Medium;unknown;x
+19056;Foreign Minister;Ivan I. Bagrianov;44;CE;General Staffer;Medium;unknown;x
+19057;Foreign Minister;Parvan Draganov;44;PA;General Staffer;Medium;unknown;x
+19058;Foreign Minister;Konstantin Muraviev;44;CE;Apologetic Clerk;Medium;unknown;x
+19059;Foreign Minister;Petko Stainov;44;LWR;General Staffer;Medium;unknown;x
+19060;Foreign Minister;Kimon Georgiev;46;LWR;General Staffer;Medium;georgiev_kimon_bul;x
+19061;Foreign Minister;Vasil Kolarov;47;ST;Ideological Crusader;High;unknown;x
+19062;Minister of Armament;Petko Kounin;47;ST;Resource Industrialist;High;unknown;x
+19063;Minister of Armament;Dobri Bojilov;38;LC;Undistinguished Suit;Medium;bozhilov_dobri_bul;x
+19064;Minister of Armament;Aleksandar Gerginov;44;FA;Undistinguished Suit;Medium;unknown;x
+19065;Minister of Armament;Dimitar Savov;44;CE;Administrative Genius;Medium;unknown;x
+19066;Minister of Armament;Petko Stoyanov;44;LWR;Theoretical Scientist;Low;unknown;x
+19067;Minister of Armament;Stancho Cholakov;44;LWR;Administrative Genius;Medium;unknown;x
+19068;Minister of Armament;Ivan Stefanov;46;LE;Administrative Genius;Low;unknown;x
+19069;Minister of Security;Petur Gabrovski;40;PA;Prince of Terror;Low;unknown;x
+19070;Minister of Security;Anton Yugov;44;ST;Prince of Terror;High;unknown;x
+19071;Minister of Security;Aleksandar Gerginov;36;LC;Silent Lawyer;Medium;unknown;x
+19072;Minister of Security;Vulko Chervenkov;41;ST;Prince of Terror;High;unknown;x
+19073;Chief of Staff;Teodossi Daskalov;38;PA;School of Defence;Medium;unknown;x
+19074;Chief of Staff;Nikola Mihov;42;PA;School of Fire Support;Medium;unknown;x
+19075;Chief of Staff;Russi Russev;43;PA;School of Fire Support;High;unknown;x
+19076;Chief of Staff;Damian Velchev;44;LWR;School of Defence;Medium;unknown;x
+19077;Chief of Army;Stanchev;44;PA;Undistinguished Suit;Medium;unknown;x
+19078;Chief of Army;Nikola Hadzhi-Petkov;40;PA;Static Defence Doctrine;Low;unknown;x
+19079;Chief of Army;Vasil Boydev;41;PA;Elastic Defence Doctrine;Medium;unknown;x
+19080;Chief of Army;Konstantin Lukasch;41;PA;Guns and Butter Doctrine;Medium;unknown;x
+19081;Chief of Air Force;Dimitar Ayrianov;41;PA;Air Superiority Doctrine;Medium;unknown;x

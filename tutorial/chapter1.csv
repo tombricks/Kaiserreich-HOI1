@@ -1,0 +1,56 @@
+Action;Bool All;Num;Level;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data
+StopTime;;;;;;;;;;;;;;;;;;;;;;x
+AddArrowsPos;;;;713;581;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A1;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A2;;;;#;;;;;;;;;;;;;;x
+CenterMap;;574;;;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A3;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;690;540;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A4;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;610;580;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;760;580;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A5;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;250;560;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A6;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;300;30;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A7;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A8;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;730;45;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A9;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;600;45;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A10;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;640;45;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A11;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;775;45;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A12;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;686;45;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A13;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;607;;;;;;#;;;;;;;;;;;;;;x
+AddArrowsPid;;;;607;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A14;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;598;;;;;;#;;;;;;;;;;;;;;x
+AddArrowsPid;;;;598;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A15;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;590;536;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A16;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;710;580;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A17;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;660;580;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A18;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_1_A19;;;;#;;;;;;;;;;;;;;x
+EndTutorial;;;;;;;;;;;;;;;;;;;;;;x

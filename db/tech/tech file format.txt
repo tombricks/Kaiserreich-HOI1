@@ -1,0 +1,230 @@
+# Each file contains a whole tech-group (theoretical research type),
+# with all of its levels and applications.
+
+technology = {
+	id = [Y]
+	category = [industry/armor/artillery/infantry/heavy_aircraft/light_aircraft/nuclear/naval/rocket/submarine/electronics/land_doctrine/naval_doctrine/air_doctrine]
+	name = TECH_NAME #Localized name
+	desc = TECH_DESC #Localized description
+	
+	level = {
+		id = [Y]
+		name = LEVEL_NAME #Localized name
+		desc = LEVEL_DESC #Localized description
+		
+		cost = [IC]								# Optional
+		time = [nominal time]					# Optional
+		neg_offset = [negative random offset]	# Optional
+		pos_offset = [positive random offset]	# Optional
+		
+		application = {
+			id = [Y]
+			name = APP_NAME #Localized name
+			desc = APP_DESC #Localized description
+			required = { [List of pre-requisite application ids] }
+			
+			chance = [X] # Chance of this application appearing when the tech level is reached. Usually 1 (100%).
+			
+			cost = [IC]
+			time = [nominal time]
+			neg_offset = [negative random offset]
+			pos_offset = [positive random offset]
+			
+			effects = { # These commands should also be available as event commands
+				
+				#
+				# UNIT VALUES
+				#
+				# These bonuses are applied "now" or "on_upgrade".
+				#
+				# * "Now" usually represents doctrinal changes and improved munitions. 
+				# These bonuses are applied immediately and without cost to all existing 
+				# units of the type as well as added to the "upgrade template".
+				#
+				# * "On_upgrade" is used for bonuses resulting from physical modifications
+				# and additions to existing hardware. E.g. a longer gun barrel on a 
+				# tank, or a targeting computer on a ship. These bonuses are added to 
+				# the "upgrade template", but not to units in the field - 
+				# they need to be upgraded, which costs money and industrial capacity.
+				
+				
+				# Land unit bonuses
+				command = { type = [soft_attack/hard_attack/ground_defense/air_attack/air_defense/build_cost/build_time/manpower/speed/max_organization/transport_weight/supply_consumption/fuel_consumption] 
+							which = [armor/infantry/cavalry/motorized_infantry/mechanized_infantry/paratrooper/marine/bergsjaeger/artillery/anti_tank/anti_air/engineer]
+							when = [now/on_upgrade]
+							value = [relative values (modifiers) as applicable]
+				} 
+				# Air unit bonuses
+				command = { type = [air_attack/strategic_attack/tactical_attack/naval_attack/air_defense/build_cost/build_time/manpower/speed/surface_detection/air detection/transport_capacity/supply_consumption/fuel_consumption/range] 
+							which = [fighter/strategic_bomber/tactical_bomber/torpedo_plane/transport_plane/night_fighter]
+							when = [now/on_upgrade]
+							value = [relative values (modifiers) as applicable]
+				}
+				# Naval unit bonuses
+				command = { type = [naval_attack/air_attack/shore_attack/naval_defense/air_defense/build_cost/build_time/manpower/speed/surface_detection/air detection/visibility/transport_capacity/supply_consumption/fuel_consumption/range] 
+							which = [battleship/cruiser/destroyer/carrier/submarine/transports]
+							when = [now/on_upgrade]
+							value = [relative values (modifiers) as applicable]
+				}
+				
+				#
+				# NEW UNIT MODELS
+				#
+				# New models updates the current "division" template for a unit type. 
+				# Model names are country-specific (and historical as far as possible).
+				# Old air and land units can be equipped with new models, but not naval
+				# units (they have to be scrapped and rebuilt.)
+				
+				command = { type = [new_model] 
+							which = [armor/infantry/cavalry/motorized/mechanized/paratrooper/marine/bergsjaeger/fighter/strategic_bomber/tactical_bomber/torpedo_plane/transport_plane/battleship/cruiser/destroyer/carrier/submarine/transports]
+							value = [The model number]
+				}
+				
+				#
+				# ACTIVATE UNIT TYPE
+				#
+				# Some unit types (e.g. marines) cannot be built until they have been 
+				# researched.
+				
+				command = { type = activate_unit_type
+							which = [marine/paratrooper/flying_bomb/flying_rocket/ballistic_missile/ICBM/artillery/anti_tank/anti_air/motorized/mechanized]
+				}
+				
+				#
+				# ACTIVATE NUCLEAR CAPABILITY OF MISSILES
+				#
+				
+				command = { type = nuclear_carrier
+							which = [flying_bomb/flying_rocket]
+				}
+				
+				#
+				# ACTIVATE MISSILE CAPABILITY OF SUBMARINES
+				#
+				
+				command = { type = missile_carrier
+							which = [submarine]
+				}
+				
+				#
+				# UNIT COMBAT MODIFIERS
+				#
+				
+				# Terrain combat modifiers
+				command = { type = [desert_attack/desert_defense/mountain_attack/mountain_defense/hill_attack/hill_defense/forest_attack/forest_defense/swamp_attack/swamp_defense/urban_attack/urban_defense/river_attack/shore_attack/paradrop_attack]
+							which = [armor/infantry/cavalry/motorized/mechanized/paratrooper/marine/bergsjaeger/artillery/anti_tank/anti_air/engineer]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Terrain movement modifiers
+				command = { type = [desert_move/mountain_move/hill_move/forest_move/swamp_move/urban_move/river_crossing]
+							which = [armor/infantry/cavalry/motorized_infantry/mechanized_infantry/paratroopers/marines/mountaineers/artillery/anti-tank/anti-air/engineers]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Weather land-combat modifiers
+				command = { type = [frozen_attack/frozen_defense/snow_attack/snow_defense/blizzard_attack/blizzard_defense/rain_attack/rain_defense/storm_attack/storm_defense/muddy_attack/muddy_defense]
+							which = [armor/infantry/cavalry/motorized/mechanized/paratrooper/marine/bergsjaeger/artillery/anti_tank/anti_air/engineer]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Weather land-movement modifiers
+				command = { type = [frozen_move/snow_move/blizzard_move/rain_move/storm_move/muddy_move]
+							which = [armor/infantry/cavalry/motorized/mechanized/paratrooper/marine/bergsjaeger/artillery/anti_tank/anti_air/engineer]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Weather air-combat modifiers
+				command = { type = [snow_attack/rain_attack]
+							which = [fighter/strategic_bomber/tactical_bomber/torpedo_plane/night_fighter]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Weather air-movement modifiers
+				command = { type = [snow_move/blizzard_move/rain_move/storm_move]
+							which = [fighter/strategic_bomber/tactical_bomber/torpedo_plane/transport_plane/night_fighter]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Weather naval-combat modifiers
+				command = { type = [snow_attack/rain_attack]
+							which = [battleship/cruiser/destroyer/carrier/submarine/transports]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Weather naval-movement modifiers
+				command = { type = [snow_move/blizzard_move/rain_move/storm_move]
+							which = [battleship/cruiser/destroyer/carrier/submarine/transports]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				# Night modifiers
+				command = { type = night_move/night_attack/night_defense
+							which = [armor/infantry/cavalry/motorized/mechanized/paratrooper/marine/bergsjaeger/artillery/anti_tank/anti_air/engineer/battleship/cruiser/destroyer/carrier/submarine/transport/fighter/strategic_bomber/tactical_bomber/torpedo_plane/transport_plane/night_fighter]
+							value = [X] # Modifier in percent (+10 = 10%)
+				}
+				
+				#
+				# SPECIAL UNIT BONUSES
+				#
+				
+				# Minisubs (BBs and CVs attack ships in harbors with this bonus added to their sea attack value)
+				command = { type = minisub_bonus
+							value = [X] # NOT INCREMENTAL. This is the new value.
+				}
+				
+				#
+				# GLOBAL MODIFIERS
+				#
+				
+				# Surprise modifiers
+				command = { type = surprise
+							which = [naval/land/air]
+							value = [X] # Modifier in percents
+				}
+				# Intelligence Operation modifiers
+				command = { type = intelligence
+							which = [us/them]
+							value = [X] # Modifier in percents
+				}
+				# Army Detection modifiers
+				command = { type = army_detection
+							which = [us/them]
+							value = [X] # Modifier in percents
+				}
+				# Provincial AA batteries
+				command = { type = AA_batteries
+							value = [X] # Modifier in percents
+				}
+				
+				#
+				# RESEARCH MODIFIERS
+				#
+				
+				# Research modifiers
+				command = { type = [research_cost/research_time/research_pos_offset/research_neg_offset]
+							which = [application/theoretical] # Possibly all individual TR groups too?
+							value = [X] # Modifier in percents
+				}
+				
+				#
+				# INDUSTRIAL MODIFIERS
+				#
+				
+				# Industrial multipliers
+				# E.g. coal_to_oil 4 means four coal are needed to produce one oil. 0.5 means 1 coal produces 2 oil.
+				command = { type = industrial_multiplier
+							which = [coal_to_oil/oil_to_rubber]
+							value = [X]
+				}
+				# Industrial modifiers (additive)
+				# 'total' is the conversion factor from every built industry point into Industrial Capacity.
+				# 'supplies' is a modifier for the amount of supplies produced by every reserved IC unit.
+				command = { type = industrial_modifer
+							which = [total/supplies]
+							value = [X] # Percents
+				}
+			}
+		}
+		
+		application = {
+			...
+		}
+	}
+	
+	level = {
+		...
+	}
+}

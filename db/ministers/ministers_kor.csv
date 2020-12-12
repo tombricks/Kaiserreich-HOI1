@@ -1,0 +1,38 @@
+KOR;Shadow Democratic Cabinet;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+60001;Head of State;Syngman Rhee;NA;PA LC CE;NA;NA;unknown;x
+60002;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+60003;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+60004;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+60005;Minister of Security;Kim Ku;NA;LC;Crime Fighter;Medium;unknown;x
+60006;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+60007;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+60008;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+60009;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+60010;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+60011;Head of State;Black Shadow;NA;PA;NA;NA;unknown;x
+60012;Head of Government;Black Shadow;NA;PA;NA;NA;unknown;x
+60013;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+60014;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+60015;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+60016;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+60017;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+60018;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+60019;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+60020;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+60021;Head of State;Pak Hon-Yong;NA;ST LE LWR RS CE;NA;NA;unknown;x
+60022;Head of Government;Ho Ka-i;NA;LE;NA;NA;unknown;x
+60023;Foreign Minister;Nam Il;NA;ST;Undistinguished Suit;Medium;unknown;x
+60024;Minister of Armament;Cho Man-sik;NA;CE;Undistinguished Suit;Medium;unknown;x
+60025;Minister of Security;Kim Il Sung;NA;ST;Undistinguished Suit;Very Low;unknown;x
+60026;Head of Military Intelligence;Kim Il Sung;NA;ST;Undistinguished Suit;Very Low;unknown;x
+60027;Chief of Staff;Mu Chong;NA;ST;Undistinguished Suit;Medium;unknown;x
+60028;Chief of Army;Ch'oe Yong-gon;NA;ST;Undistinguished Suit;Medium;unknown;x
+60029;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+60030;Chief of Air Force;Red Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+60031;Chief of Staff;Pang Ho-san;36;ST;Undistinguished Suit;Medium;unknown;x
+60032;Head of State;Kim Il Sung;44;ST;NA;NA;unknown;x
+60033;Head of Government;Kim Il Sung;44;ST;NA;NA;unknown;x
+60034;Chief of Army;Kim Il Sung;44;ST;Undistinguished Suit;High;unknown;x

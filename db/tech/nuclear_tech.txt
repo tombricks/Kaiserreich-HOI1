@@ -1,0 +1,572 @@
+# 
+# The Nuclear Technology Group
+#
+
+#
+#	
+#	
+#	
+
+technology = {
+	id = 8
+	category = nuclear
+	name = TECH_NUCLEAR_NAME #Localized name
+	desc = TECH_NUCLEAR_DESC #Localized description
+	
+	level = { # Artificially produced Radioactivity
+		id = 8000
+		name = TECH_LEVEL_NUCLEAR_1_NAME 
+		desc = TECH_LEVEL_NUCLEAR_1_DESC 
+		
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		# No applications
+		
+	} # Level 1
+	
+	level = { # Experimental Proof of the Equivalence of Mass and Energy 
+		id = 8100
+		name = TECH_LEVEL_NUCLEAR_2_NAME 
+		desc = TECH_LEVEL_NUCLEAR_2_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		# No applications
+		
+	} # Level 2
+	
+	level = { # Laboratory produced Fission
+		id = 8200
+		name = TECH_LEVEL_NUCLEAR_3_NAME 
+		desc = TECH_LEVEL_NUCLEAR_3_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		# No applications
+		
+	} # Level 3
+	
+	level = { # Chain Reaction Process Discovered
+		id = 8300
+		name = TECH_LEVEL_NUCLEAR_4_NAME 
+		desc = TECH_LEVEL_NUCLEAR_4_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		# No applications
+		
+	} # Level 4
+	
+	level = { # Isotope Separation Process
+		id = 8400
+		name = TECH_LEVEL_NUCLEAR_5_NAME 
+		desc = TECH_LEVEL_NUCLEAR_5_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Isotope Separation Facility
+			id = 8401
+			name = TECH_APP_NUCLEAR_5_1_NAME
+			desc = TECH_APP_NUCLEAR_5_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Betatron Particle Accelerator
+			id = 8402
+			name = TECH_APP_NUCLEAR_5_2_NAME
+			desc = TECH_APP_NUCLEAR_5_2_DESC
+			
+			required = { 8401 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+	} # Level 5
+	
+	level = { # Nuclear Fuel and Bomb Material Analysis
+		id = 8500
+		name = TECH_LEVEL_NUCLEAR_6_NAME 
+		desc = TECH_LEVEL_NUCLEAR_6_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Fuel: Thorium 232
+			id = 8501
+			name = TECH_APP_NUCLEAR_6_1_NAME
+			desc = TECH_APP_NUCLEAR_6_1_DESC
+			
+			required = { 8402 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Fuel: Uranium 238
+			id = 8502
+			name = TECH_APP_NUCLEAR_6_2_NAME
+			desc = TECH_APP_NUCLEAR_6_2_DESC
+			
+			required = { 8402 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Material: Uranium 233
+			id = 8503
+			name = TECH_APP_NUCLEAR_6_3_NAME
+			desc = TECH_APP_NUCLEAR_6_3_DESC
+			
+			required = { 8501 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Material: Plutonium 239
+			id = 8504
+			name = TECH_APP_NUCLEAR_6_4_NAME
+			desc = TECH_APP_NUCLEAR_6_4_DESC
+			
+			required = { 8502 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		
+		application = { # Material: Uranium 235
+			id = 8505
+			name = TECH_APP_NUCLEAR_6_5_NAME
+			desc = TECH_APP_NUCLEAR_6_5_DESC
+			
+			required = { 8502 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		
+		application = { # Catalyzer: Tritium
+			id = 8506
+			name = TECH_APP_NUCLEAR_6_6_NAME
+			desc = TECH_APP_NUCLEAR_6_6_DESC
+			
+			required = { 8402 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		
+	} # Level 6
+	
+	level = { # Nuclear Reactor Design
+		id = 8600
+		name = TECH_LEVEL_NUCLEAR_7_NAME 
+		desc = TECH_LEVEL_NUCLEAR_7_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Thermal Diffusion Plant
+			id = 8601
+			name = TECH_APP_NUCLEAR_7_1_NAME
+			desc = TECH_APP_NUCLEAR_7_1_DESC
+			
+			required = { 8505 3302 }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Experimental Reactor
+			id = 8602
+			name = TECH_APP_NUCLEAR_7_2_NAME
+			desc = TECH_APP_NUCLEAR_7_2_DESC
+			
+			required = { 8503 8504 3302 }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Heavy Water Plant
+			id = 8603
+			name = TECH_APP_NUCLEAR_7_3_NAME
+			desc = TECH_APP_NUCLEAR_7_3_DESC
+			
+			required = { 8602 }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # TODO: Double the rate of nuclear bomb production.
+			}
+		}
+		
+	} # Level 7
+	
+	level = { # Nuclear Reactor Operability
+		id = 8700
+		name = TECH_LEVEL_NUCLEAR_8_NAME 
+		desc = TECH_LEVEL_NUCLEAR_8_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Moderator
+			id = 8701
+			name = TECH_APP_NUCLEAR_8_1_NAME
+			desc = TECH_APP_NUCLEAR_8_1_DESC
+			
+			required = { 8602 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Reflector
+			id = 8702
+			name = TECH_APP_NUCLEAR_8_2_NAME
+			desc = TECH_APP_NUCLEAR_8_2_DESC
+			
+			required = { 8602 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Core Structure
+			id = 8703
+			name = TECH_APP_NUCLEAR_8_3_NAME
+			desc = TECH_APP_NUCLEAR_8_3_DESC
+			
+			required = { 8602 }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Applied Rare Minerals
+			id = 8704
+			name = TECH_APP_NUCLEAR_8_4_NAME
+			desc = TECH_APP_NUCLEAR_8_4_DESC
+			
+			required = { 8602 }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 8
+	
+	level = { # Atomic Bomb Development
+		id = 8800
+		name = TECH_LEVEL_NUCLEAR_9_NAME 
+		desc = TECH_LEVEL_NUCLEAR_9_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Detonators
+			id = 8801
+			name = TECH_APP_NUCLEAR_9_1_NAME
+			desc = TECH_APP_NUCLEAR_9_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Nuclear Waste Bomb
+			id = 8802
+			name = TECH_APP_NUCLEAR_9_2_NAME
+			desc = TECH_APP_NUCLEAR_9_2_DESC
+			
+			required = { 8402 8801 }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = nuke_level value = 1 } # Trigger production of nuclear waste bombs.
+			}
+		}
+		application = { # Semi-Fission Bomb 235
+			id = 8803
+			name = TECH_APP_NUCLEAR_9_3_NAME
+			desc = TECH_APP_NUCLEAR_9_3_DESC
+			
+			required = { 8601 8505 8801 }
+			chance = 90
+			cost = 30
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = nuke_level value = 2 } # Trigger production of semi fission 235 bombs.
+			}
+		}
+	} # Level 9
+	
+	level = { # Atomic Bomb Testing
+		id = 8900
+		name = TECH_LEVEL_NUCLEAR_10_NAME 
+		desc = TECH_LEVEL_NUCLEAR_10_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Fission Bomb 233
+			id = 8901
+			name = TECH_APP_NUCLEAR_10_1_NAME
+			desc = TECH_APP_NUCLEAR_10_1_DESC
+			
+			required = { 8701 8702 8703 8704 8801 8503 }
+			chance = 90
+			cost = 30
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = nuke_level value = 3 } # Trigger production of True Fission 233 bombs.
+			}
+		}
+		application = { # Fission Bomb 239
+			id = 8902
+			name = TECH_APP_NUCLEAR_10_2_NAME
+			desc = TECH_APP_NUCLEAR_10_2_DESC
+			
+			required = { 8701 8702 8703 8704 8801 8504 }
+			chance = 90
+			cost = 30
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = nuke_level value = 4 } # Trigger production of True Fission 239 bombs.
+			}
+		}
+		application = { # Tritium Testing
+			id = 8903
+			name = TECH_APP_NUCLEAR_10_3_NAME
+			desc = TECH_APP_NUCLEAR_10_3_DESC
+			
+			required = { 8506 8901 }
+			chance = 90
+			cost = 25
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 10
+	
+	level = { # Advanced Nuclear Research
+		id = 8940
+		name = TECH_LEVEL_NUCLEAR_11_NAME 
+		desc = TECH_LEVEL_NUCLEAR_11_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Tritium Bomb
+			id = 8941
+			name = TECH_APP_NUCLEAR_11_1_NAME
+			desc = TECH_APP_NUCLEAR_11_1_DESC
+			
+			required = { 8903 }
+			chance = 90
+			cost = 30
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = nuke_level value = 5 } # Trigger production of Tritium bombs.
+			}
+		}
+		application = { # APDU Ammo
+			id = 8942
+			name = TECH_APP_NUCLEAR_11_2_NAME
+			desc = TECH_APP_NUCLEAR_11_2_DESC
+			
+			required = { 8701 8702 8703 8704 }
+			chance = 90
+			cost = 20
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = artillery when = now value = 2 } 
+			}
+		}
+		
+	} # Level 11
+	
+	level = { # Nuclear Power Production
+		id = 8970
+		name = TECH_LEVEL_NUCLEAR_12_NAME 
+		desc = TECH_LEVEL_NUCLEAR_12_DESC 
+				
+		cost = 40
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Nuclear Propulsion Engines
+			id = 8971
+			name = TECH_APP_NUCLEAR_12_1_NAME
+			desc = TECH_APP_NUCLEAR_12_1_DESC
+			
+			required = { 8701 8702 8703 8704 }
+			chance = 90
+			cost = 30
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } 
+			}
+		}
+		application = { # Industrial Nuclear Power Plants
+			id = 8972
+			name = TECH_APP_NUCLEAR_12_2_NAME
+			desc = TECH_APP_NUCLEAR_12_2_DESC
+			
+			required = { 8701 8702 8703 8704 4000 }
+			chance = 90
+			cost = 30
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 25 }
+			}
+		}
+	} # Level 12
+}

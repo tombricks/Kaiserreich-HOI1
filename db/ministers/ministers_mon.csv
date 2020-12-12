@@ -1,0 +1,36 @@
+MON;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+64001;Head of State;Red Shadow;NA;ST LE;NA;NA;unknown;x
+64002;Head of Government;Red Shadow;NA;ST;NA;NA;unknown;x
+64003;Foreign Minister;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+64004;Minister of Armament;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+64005;Minister of Security;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+64006;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+64007;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+64008;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+64009;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+64010;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+64011;Head of State;Black Shadow;NA;PA;NA;NA;unknown;x
+64012;Head of Government;Black Shadow;NA;PA;NA;NA;unknown;x
+64013;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+64014;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+64015;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+64016;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+64017;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+64018;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+64019;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+64020;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+64021;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+64022;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+64023;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+64024;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+64025;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+64026;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+64027;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+64028;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+64029;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+64030;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+64031;Head of Government;Chorloogijn Tjojbalsan;39;ST;NA;NA;unknown;x
+64032;Head of Government;Jumdjaagijn Tsedenbal;42;ST;NA;NA;unknown;x

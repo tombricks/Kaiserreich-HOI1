@@ -1,0 +1,66 @@
+AUS;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+23001;Head of State;Wilhelm Miklas;NA;LC PA;NA;NA;miklas_wilhelm_aus;x
+23002;Head of Government;Kurt Schuschnigg;NA;PA;NA;NA;schuschnigg_kurt_aus;x
+23003;Foreign Minister;Egon Berger-Waldenegg;NA;LC;Apologetic Clerk;High;berger-waldenegg_egon_aus;x
+23004;Minister of Armament;Julius Raab;NA;LC;Resource Industrialist;Medium;raab_julius_aus;x
+23005;Minister of Security;Eduard Baar-Baarenfels ;NA;PA;Man of the People;High;baar-baarenfels_eduard_aus;x
+23006;Head of Military Intelligence;Kurt Schuschnigg;NA;PA;Silent Lawyer;Undying;schuschnigg_kurt_aus;x
+23007;Chief of Staff;Kurt Schuschnigg;NA;PA;Undistinguished Suit;Undying;schuschnigg_kurt_aus;x
+23008;Chief of Army;Wilhelm Zehner;NA;LC;Decisive Battle Doctrine;High;zehner_wilhelm_aus;x
+23009;Chief of Navy;Unknown;NA;PA;Undistinguished Suit;High;unknown;x
+23010;Chief of Air Force;Alexander Löhr;NA;NS;Vertical Envelopment Doctrine;Medium;lohr_alexander_aus;x
+;Shadow Fascist Cabinet;;;;;;;x
+23011;Head of State;Arthur Seyss-Inquart;NA;NS;NA;NA;seyss-inquart_arthur_aus;x
+23012;Head of Government;Arthur Seyss-Inquart;NA;NS;NA;NA;seyss-inquart_arthur_aus;x
+23013;Foreign Minister;Wilhelm Wolf ;NA;NS;Ideological Crusader;High;unknown;x
+23014;Minister of Armament;Rudolf Neumayer;NA;NS;Resource Industrialist;Medium;unknown;x
+23015;Minister of Security;Arthur Seyss-Inquart;NA;NS;Man of the People;Undying;seyss-inquart_arthur_aus;x
+23016;Head of Military Intelligence;Arthur Seyss-Inquart;NA;NS;Efficient Sociopath;Undying;seyss-inquart_arthur_aus;x
+23017;Chief of Staff;Arthur Seyss-Inquart;NA;NS;Undistinguished Suit;Undying;seyss-inquart_arthur_aus;x
+23018;Chief of Army;Eugen Beyer;NA;NS;Armoured Spearhead Doctrine;High;unknown;x
+23019;Chief of Navy;Black Shadow ;NA;NS;Undistinguished Suit;Low;unknown;x
+23020;Chief of Air Force;Alexander Löhr;NA;NS;Vertical Envelopment Doctrine;High;lohr_alexander_aus;x
+;Shadow Democratic Cabinet;;;;;;;x
+23021;Head of State;Karl Renner;NA;PA LC CE RS LWR LE;NA;NA;renner_karl_aus;x
+23022;Head of Government;Adolf Schärf;NA;RS;NA;NA;schaerf_adolf_aus;x
+23023;Foreign Minister;Karl Gruber;NA;CE;General Staffer;Low;gruber_karl_aus;x
+23024;Minister of Armament;Eduard Heinl;NA;CE;Resource Industrialist;Undying;unknown;x
+23025;Minister of Security;Franz Honner;NA;LE;Prince of Terror;Low;unknown;x
+23026;Head of Military Intelligence;Franz Honner;NA;LE;Undistinguished Suit;High;unknown;x
+23027;Chief of Staff;Adolf Schärf;NA;RS;Undistinguished Suit;Medium;schaerf_adolf_aus;x
+23028;Chief of Army;Blue Shadow;NA;LC;Decisive Battle Doctrine;High;unknown;x
+23029;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+23030;Chief of Air Force;Otto Schöbel;NA;PA;Vertical Envelopment Doctrine;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+23031;Head of State;Otto Bauer;NA;LE;NA;NA;unknown;x
+23032;Head of Government;Otto Bauer;NA;LE;NA;NA;unknown;x
+23033;Foreign Minister;Alfred Klahr;NA;ST;Ideological Crusader;High;unknown;x
+23034;Minister of Armament;Erwin Puschmann;NA;LE;Infantry Proponent;High;unknown;x
+23035;Minister of Security;Willi Frank;NA;ST;Crime Fighter;High;unknown;x
+23036;Head of Military Intelligence;Franz Sebek;NA;ST;Political Specialist;High;unknown;x
+23037;Chief of Staff;Ferdinand Strasser;NA;LE;School of Mass Combat;High;unknown;x
+23038;Chief of Army;Richard Bernaschek;NA;LE;Static Defense Doctrine;High;unknown;x
+23039;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;High;unknown;x
+23040;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+23041;Head of State;Josef Bürckel;38;NS;NA;NA;buerckel_josef_aus;x
+23042;Head of State;Willi Frank;38;ST;NA;NA;unknown;x
+23043;Head of State;Josef Teufl;40;LE;NA;NA;unknown;x
+23044;Head of Government;Ludwig Huelgerth;36;LC PA;NA;NA;huelgerth_ludwig_aus;x
+23045;Head of Government;Edmund Glaise-Horstenau;38;NS;NA;NA;glaise_horstenau_edmund_aus;x
+23046;Head of Government;Josef Bürckel;40;NS;NA;NA;buerckel_josef_aus;x
+23047;Head of Government;Willi Frank;38;ST;NA;NA;unknown;x
+23048;Head of Government;Josef Teufl;40;LE;NA;NA;unknown;x
+23049;Foreign Minister;Kurt Schuschnigg;36;PA;Apologetic Clerk;Very High;schuschnigg_kurt_aus;x
+23050;Foreign Minister;Guido Schmidt;36;PA;Undistinguished Suit;High;unknown;x
+23051;Minister of Armament;Ludwig Draxler;36;PA;Laissez Fairez Capitalist;High;unknown;x
+23052;Minister of Armament;Rudolf Neumayer;36;NS;Resource Industrialist;Medium;unknown;x
+23053;Minister of Armament;Hams Fischböck;38;NS;Military Entrepreneur;High;unknown;x
+23054;Minister of Security;Kurt Schuschnigg;36;PA;Man of the People;High;schuschnigg_kurt_aus;x
+23055;Minister of Security;Edmund Glaise-Horstenau;36;NS;Compassionate Gentleman;Medium;glaise_horstenau_edmund_aus;x
+23056;Minister of Security;Arthur Seyss-Inquart;38;NS;Efficient Sociopath;High;seyss-inquart_arthur_aus;x
+23057;Chief of Staff;Ernst Walter;36;PA;School of Defense;High;unknown;x
+23058;Chief of Staff;Wilhelm Zehner;36;LC;School of Mass Combat;High;zehner_wilhelm_aus;x
+23059;Chief of Staff;Alfred Hubicki;36;NS;School of Manoeuvre;Medium;unknown;x
+23060;Chief of Staff;Eugen Beyer;36;NS;School of Psychology;Medium;unknown;x
+23061;Chief of Staff;Emil Hickmann;36;LC;Undistinguished Suit;High;unknown;x

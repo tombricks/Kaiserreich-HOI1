@@ -1,0 +1,120 @@
+HUN;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+21001;Head of State;Miklós Horthy;NA;LC CE RS FA NS PA;NA;NA;horthy_miklos2_hun;x
+21002;Head of Government;Gyula Gömbös;NA;FA;NA;NA;unknown;x
+21003;Foreign Minister;Kálmán Kánya;NA;PA;Great Compromiser;Medium;unknown;x
+21004;Minister of Armament;Tihamér Fabinyi;NA;PA;Undistinguished Suit;Medium;unknown;x
+21005;Minister of Security;Miklós Kozma;NA;PA;Prince of Terror;Medium;unknown;x
+21006;Head of Military Intelligence;Gustáv Hennyey;NA;FA;Logistics Specialist;High;unknown;x
+21007;Chief of Staff;Gyula Gömbös;NA;FA;School of Mass Combat;High;unknown;x
+21008;Chief of Army;István Shvoy;NA;PA;Undistinguished Suit;Medium;unknown;x
+21009;Chief of Navy;Tasnády;NA;FA;Undistinguished Suit;Medium;unknown;x
+21010;Chief of Air Force;Waldemár Kenese;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+21011;Head of State;Zoltán Tildy;NA;LC CE RS LWR LE ST PA;NA;NA;tildy_hun;x
+21012;Head of Government;Ferenc Nagy;NA;CE;NA;NA;unknown;x
+21013;Foreign Minister;János Gyöngyösi;NA;CE;Undistinguished Suit;Medium;unknown;x
+21014;Minister of Armament;István Vásáry;NA;CE;Undistinguished Suit;Medium;unknown;x
+21015;Minister of Security;Keresztes-Fischer Ferenc;NA;LC;Compassionate Gentleman;Medium;unknown;x
+21016;Head of Military Intelligence;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+21017;Chief of Staff;János Vörös;NA;PA;Undistinguished Suit;Medium;unknown;x
+21018;Chief of Army;János Vörös;NA;PA;Undistinguished Suit;Medium;unknown;x
+21019;Chief of Navy;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+21020;Chief of Air Force;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+21021;Head of State;Szálasi Ferenc ;NA;FA NS;NA;NA;szalasi_ferenc2_hun;x
+21022;Head of Government;Rácz Jenô;NA;NS;NA;NA;unknown;x
+21023;Foreign Minister;Szálasi Ferenc;NA;NS;Undistinguished Suit;Medium;szalasi_ferenc2_hun;x
+21024;Minister of Armament;Imrédy Béla;NA;FA;Undistinguished Suit;Medium;vonimredy_bela_hun;x
+21025;Minister of Security;Jaross Andor;NA;FA;Undistinguished Suit;Medium;unknown;x
+21026;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+21027;Chief of Staff;Szálasi Ferenc;NA;NS;Undistinguished Suit;Medium;szalasi_ferenc2_hun;x
+21028;Chief of Army;Szálasi Ferenc;NA;NS;Undistinguished Suit;Medium;szalasi_ferenc2_hun;x
+21029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+21030;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+21031;Head of State;Zsedényi Béla;NA;LWR LE ST;NA;NA;unknown;x
+21032;Head of Government;Rákosi Mátyás;NA;ST;NA;NA;rakosi_matyas_hun;x
+21033;Foreign Minister;Gyöngyösi János;NA;LE;Undistinguished Suit;Medium;unknown;x
+21034;Minister of Armament;Vas Zoltán;NA;LE;Undistinguished Suit;Medium;unknown;x
+21035;Minister of Security;Rajk László;NA;LE;Undistinguished Suit;Medium;unknown;x
+21036;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+21037;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+21038;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+21039;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+21040;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+21041;Head of State;Szálasi Ferenc ;44;NS FA PA;NA;NA;szalasi_ferenc2_hun;x
+21042;Head of State;Zoltán Tildy;46;LC CE RS LWR LE ST PA;NA;NA;tildy_hun;x
+21043;Head of State;Rajk László;39;RS LWR LE;NA;NA;unknown;x
+21044;Head of State;Rákosi Mátyás;44;LE ST;NA;NA;rakosi_matyas_hun;x
+21045;Head of State;Peyer Károly ;45;RS CE LWR;NA;NA;unknown;x
+21046;Head of Government;Kálmán Darányi;36;PA;NA;NA;unknown;x
+21047;Head of Government;Béla Imrédy;38;FA;NA;NA;vonimredy_bela_hun;x
+21048;Head of Government;Pál Teleki;39;PA;NA;NA;teleki_pal2_hun;x
+21049;Head of Government;László Bárdossy;41;FA;NA;NA;bardossy_laszlo_hun;x
+21050;Head of Government;Miklós Kállay;42;PA;NA;NA;kallay_miklos_hun;x
+21051;Head of Government;Döme Sztójay;44;NS;NA;NA;unknown;x
+21052;Head of Government;Géza Lakatos;44;PA;NA;NA;unknown;x
+21053;Head of Government;Ferenc Szálasi;44;NS;NA;NA;unknown;x
+21054;Head of Government;Béla Miklós;44;CE;NA;NA;unknown;x
+21055;Head of Government;Zoltán Tildy;45;CE;NA;NA;tildy_hun;x
+21056;Head of Government;Ferenc Nagy;44;CE;NA;NA;unknown;x
+21057;Head of Government;Szakasits Árpád ;45;RS;NA;NA;unknown;x
+21058;Head of Government;Bajcsy-Zsilinszky Endre;45;CE;NA;NA;unknown;x
+21059;Head of Government;Rajk László;39;LE;NA;NA;unknown;x
+21060;Foreign Minister;István Csáky;38;FA;The Cloak-n-Dagger Schemer;Medium;unknown;x
+21061;Foreign Minister;László Bárdossy;41;FA;Iron-fisted Brute;Medium;unknown;x
+21062;Foreign Minister;Miklós Kállay;42;PA;Biased Intellectual;Medium;kallay_miklos_hun;x
+21063;Foreign Minister;Jenô Ghyczy;43;PA;Apologetic Clerk;Medium;unknown;x
+21064;Foreign Minister;Döme Sztójay;44;NS;Undistinguished Suit;Medium;unknown;x
+21065;Foreign Minister;Gustáv Hennyey;44;FA;General Staffer;High;unknown;x
+21066;Foreign Minister;Gábor Kemény;44;CE;Undistinguished Suit;Medium;unknown;x
+21067;Foreign Minister;János Gyöngyösi;44;CE;Undistinguished Suit;Medium;unknown;x
+21068;Foreign Minister;Ernö Mihályfi;47;CE;Undistinguished Suit;Medium;unknown;x
+21069;Foreign Minister;Erik Molnár;47;ST;Undistinguished Suit;Medium;unknown;x
+21070;Minister of Armament;Lajos Reményi-Schneller;38;NS;Administrative Genius;Medium;unknown;x
+21071;Minister of Armament;Imre Oltványi;45;CE;Undistinguished Suit;Medium;unknown;x
+21072;Minister of Armament;Ferenc Gordon;45;CE;Undistinguished Suit;Medium;unknown;x
+21073;Minister of Armament;Jenö Rácz;46;CE;Undistinguished Suit;Medium;unknown;x
+21074;Minister of Armament;Gerô Ernô;40;ST;Undistinguished Suit;Medium;unknown;x
+21075;Minister of Security;Ferenc Erdei;44;ST;Prince of Terror;Medium;unknown;x
+21076;Minister of Security;László Rajk;46;ST;Prince of Terror;Medium;unknown;x
+21077;Minister of Security;Imre Nagy;45;LE;Undistinguished Suit;Medium;unknown;x
+21078;Minister of Security;Ferenc Keresztes-Fischer;38;PA;Silent Lawyer;High;unknown;x
+21079;Minister of Security;Andor Jaross;44;NS;Undistinguished Suit;Medium;unknown;x
+21080;Minister of Security;Peter Schell;44;FA;Undistinguished Suit;Medium;unknown;x
+21081;Minister of Security;Kálmán Darányi;37;PA;Undistinguished Suit;Medium;unknown;x
+21082;Minister of Security;József Széll;37;LC;Undistinguished Suit;Medium;unknown;x
+21083;Minister of Security;Miklós Bonczos;44;CE;Undistinguished Suit;Medium;unknown;x
+21084;Minister of Security;Gábor Vajna;44;NS;Undistinguished Suit;Medium;unknown;x
+21085;Minister of Security;Farkas Mihály;40;ST;Prince of Terror;Medium;unknown;x
+21086;Minister of Security;Baky László;44;NS;Undistinguished Suit;Medium;unknown;x
+21087;Head of Military Intelligence;Rezsö Andorka;37;NS;Undistinguished Suit;Medium;unknown;x
+21088;Head of Military Intelligence;István Újszászy;39;FA;Undistinguished Suit;High;unknown;x
+21089;Head of Military Intelligence;András Zákó;44;PA;Undistinguished Suit;Medium;unknown;x
+21090;Head of Military Intelligence;Kádár Gyula;41;PA;Undistinguished Suit;Medium;unknown;x
+21091;Chief of Staff;József Somkuthy;36;PA;School of Fire Support;Medium;unknown;x
+21092;Chief of Staff;Vilmos Röder;36;PA;Undistinguished Suit;Medium;unknown;x
+21093;Chief of Staff;Jenö Rátz;38;NS;Undistinguished Suit;Medium;unknown;x
+21094;Chief of Staff;Károly Bartha;38;FA;School of Psychology;Medium;unknown;x
+21095;Chief of Staff;Károlyi Beregffy;44;NS;School of Manoeuvre;Medium;unknown;x
+21096;Chief of Staff;Lajos Csatay;43;CE;School of Fire Support;Medium;unknown;x
+21097;Chief of Staff;Vilmos Nagy;42;PA;School of Defence;Medium;unknown;x
+21098;Chief of Staff;János Vörös;44;CE;School of Manoeuvre;Medium;unknown;x
+21099;Chief of Staff;Lajos Csatay;44;NS;Undistinguished Suit;Medium;unknown;x
+21100;Chief of Staff;Nagybaconi Nagy Vilmos;41;PA;Undistinguished Suit;Medium;unknown;x
+21101;Chief of Army;János Vörös;44;CE;Elastic Defence Doctrine;Medium;unknown;x
+21102;Chief of Army;Károlyi Beregffy;44;NS;Guns and Butter Doctrine;Medium;unknown;x
+21103;Chief of Army;Ferenc Szombathelyi;41;PA;Elastic Defence Doctrine;High;unknown;x
+21104;Chief of Army;Heinrich Werth;38;FA;Static Defence Doctrine;Medium;unknown;x
+21105;Chief of Army;Hugó Sónyi;36;PA;Undistinguished Suit;Medium;unknown;x
+21106;Chief of Army;Lajos Csatay;44;NS;Undistinguished Suit;Medium;unknown;x
+21107;Chief of Navy;Kálmán Hardy;43;PA;Undistinguished Suit;Medium;unknown;x
+21108;Chief of Air Force;Ferenc Feketehalmi;38;PA;Undistinguished Suit;Medium;unknown;x
+21109;Chief of Air Force;László Háry;38;PA;Undistinguished Suit;Medium;unknown;x
+21110;Chief of Air Force;Béla Rákosi;41;PA;Undistinguished Suit;Medium;unknown;x
+21111;Chief of Air Force;Sándor Magyarossy;43;PA;Undistinguished Suit;Medium;unknown;x
+21112;Chief of Air Force;István Bánfalvy;44;CE;Undistinguished Suit;Medium;unknown;x
+21113;Chief of Air Force;Sándor Illy;44;ST;Undistinguished Suit;Medium;unknown;x
+21114;Chief of Air Force;Edgar Keksz;44;PA;Undistinguished Suit;Medium;unknown;x
+21115;Chief of Air Force;Kálmán Ternegg;45;PA;Undistinguished Suit;Medium;unknown;x

@@ -1,0 +1,70 @@
+MEX;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+36001;Head of State;Lázaro Cárdenas;NA;PA LC CE RS LWR;NA;NA;unknown;x
+36002;Head of Government;Lázaro Cárdenas;NA;RS;NA;NA;unknown;x
+36003;Foreign Minister;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+36004;Minister of Armament;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+36005;Minister of Security;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+36006;Head of Military Intelligence;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+36007;Chief of Staff;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+36008;Chief of Army;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+36009;Chief of Navy;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+36010;Chief of Air Force;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+36011;Head of State;Lázaro Cárdenas;NA;PA LC CE RS LWR;NA;NA;unknown;x
+36012;Head of Government;Lázaro Cárdenas;NA;RS;NA;NA;unknown;x
+36013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+36014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+36015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+36016;Head of State;Plutarco E. Calles;NA;PA LC CE RS;NA;NA;unknown;x
+36017;Head of Government;Plutarco E. Calles;NA;LC;NA;NA;unknown;x
+36018;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+36019;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+36020;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+36021;Head of State;Manuel A. Camacho;NA;PA LC CE RS LWR;NA;NA;camacho_avila2_mex;x
+36022;Head of Government;Manuel A. Camacho;NA;RS;NA;NA;camacho_avila2_mex;x
+36023;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+36024;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+36025;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+36026;Head of State;Blue Shadow;NA;PA LC CE RS ;NA;NA;unknown;x
+36027;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+36028;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+36029;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+36030;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+36021;Head of State;Manuel A. Camacho;NA;PA LC CE RS LWR;NA;NA;camacho_avila2_mex;x
+36022;Head of Government;Manuel A. Camacho;NA;RS;NA;NA;camacho_avila2_mex;x
+36033;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+36034;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+36035;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+36036;Head of State;Blue Shadow;NA;PA LC CE RS ;NA;NA;unknown;x
+36037;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+36038;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+36039;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+36040;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+36041;Head of State;Plutarco E. Calles;NA;FA PA LC;NA;NA;unknown;x
+36042;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+36043;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+36044;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+36045;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+36046;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+36047;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+36048;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+36049;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+36050;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+36051;Head of State;Vicente Lombardo Toledano;NA;ST LE LWR;NA;NA;unknown;x
+36052;Head of Government;Vicente Lombardo Toledano;NA;LE;NA;NA;unknown;x
+36053;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+36054;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+36055;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+36056;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+36057;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+36058;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+36059;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+36060;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

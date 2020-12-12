@@ -1,0 +1,93 @@
+SWE;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+7001;Head of State;Gustav V;NA;RS CE LC PA;NA;NA;unknown;x
+7002;Head of Government;Per Albin Hansson;NA;RS;NA;NA;hansson_peralbin_swe;x
+7003;Foreign Minister;Richard Sandler;NA;RS;Biased Intellectual;Low;sandler_rickard_swe;x
+7004;Minister of Armament;Ernst Wigforss;NA;RS;Resource Industrialist;Low;wigforss_ernst_swe;x
+7005;Minister of Security;Karl Schlyter;NA;RS;Silent Lawyer;High;unknown;x
+7006;Head of Military Intelligence;Helge Jung;NA;LC;Political Specialist;Low;jung_helge_swe;x
+7007;Chief of Staff;Oscar Nygren;NA;PA;School of Defense;Medium;unknown;x
+7008;Chief of Army;Unknown;NA;PA;Static Defense Doctrine;Medium;unknown;x
+7009;Chief of Navy;Charles de Champs;NA;FA;Decisive Battle Doctrine;Very Low;unknown;x
+7010;Chief of Air Force;Torsten Friis;NA;PA;Army Aviation Doctrine;Very High;friis_torsten_swe;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+7002;Head of Government;Per Albin Hansson;NA;RS;NA;NA;hansson_peralbin_swe;x
+7045;Foreign Minister;Per Edvin Sköld;NA;RS;Ideological Crusader;Medium;skold_peredwin_swe;x
+7004;Minister of Armament;Ernst Wigforss;NA;RS;Resource Industrialist;Low;wigforss_ernst_swe;x
+7052;Minister of Security;K.G. Westman;NA;CE;Crime Fighter;Very High;westman_carlgustav_swe;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+7011;Head of Government;Axel Pehrsson-Bramstorp;NA;CE;NA;NA;brahmstorp_axel_swe;x
+7012;Foreign Minister;K.G. Westman;NA;CE;Ideological Crusader;High;westman_carlgustav_swe;x
+7013;Minister of Armament;Vilmar Ljungdahl;NA;CE;Undistinguished Suit;Very High;unknown;x
+7014;Minister of Security;Thorwald Bergquist;NA;CE;Compassionate Gentleman;Very High;berquist_torwald_swe;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+7002;Head of Government;Per Albin Hansson;NA;RS;NA;NA;hansson_peralbin_swe;x
+7046;Foreign Minister;Christian Günther;NA;RS;Apologetic Clerk;High;gunter_christian_swe;x
+7004;Minister of Armament;Ernst Wigforss;NA;RS;Resource Industrialist;Low;wigforss_ernst_swe;x
+7052;Minister of Security;K.G. Westman;NA;CE;Crime Fighter;Very High;westman_carlgustav_swe;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+7015;Head of Government;Gösta Bagge;NA;LC;NA;NA;bagge_gosta_swe;x
+7016;Foreign Minister;K.G. Westman;NA;CE;Ideological Crusader;Medium;westman_carlgustav_swe;x
+7017;Minister of Armament;Martin Skoglund;NA;LC;Laissez-Faires Capitalist;High;unknown;x
+7018;Minister of Security;Gustav Andersson-Rasjön;NA;CE;Compassionate Gentleman;Medium;andersson_gustav_swe;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+7002;Head of Government;Per Albin Hansson;NA;RS;NA;NA;hansson_peralbin_swe;x
+7046;Foreign Minister;Christian Günther;NA;RS;Apologetic Clerk;High;gunter_christian_swe;x
+7004;Minister of Armament;Ernst Wigforss;NA;RS;Resource Industrialist;Low;wigforss_ernst_swe;x
+7022;Minister of Security;Thorwald Bergquist;NA;CE;Compassionate Gentleman;High;berquist_torwald_swe;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+7019;Head of Government;Bertil Ohlin;NA;CE;NA;NA;unknown;x
+7020;Foreign Minister;Georg Andrén;NA;LC;Ideological Crusader;High;unknown;x
+7021;Minister of Armament;Fritjof Domö;NA;LC;Laissez-Faires Capitalist;High;domo_fritiof_swe;x
+7022;Minister of Security;Thorwald Bergquist;NA;CE;Compassionate Gentleman;High;berquist_torwald_swe;x
+;Shadow Fascist Cabinet;;;;;;;x
+7023;Head of State;Martin Ekström;NA;NS FA PA;NA;NA;ekstrom_martin_swe;x
+7024;Head of Government;Martin Ekström;NA;NS;NA;NA;ekstrom_martin_swe;x
+7025;Foreign Minister;Erik von Rosen;NA;NS;Ideological Crusader;Very High;unknown;x
+7026;Minister of Armament;Arthur Lindén;NA;NS;Laissez-Faires Capitalist;Medium;unknown;x
+7027;Minister of Security;Sven Hallström;NA;NS;Undistiguished Suit;Very High;unknown;x
+7028;Head of Military Intelligence;Black Shadow;NA;NS;Undistiguished Suit;Very High;unknown;x
+7029;Chief of Staff;Archibald Douglas;NA;NS;School of Maneouvre;High;douglas_archibald_swe;x
+7030;Chief of Army;Martin Ekström;NA;NS;Decisive Battle Doctrine;Very High;ekstrom_martin_swe;x
+7031;Chief of Navy;Charles de Champs;NA;FA;Decisive Battle Doctrine;Very High;unknown;x
+7032;Chief of Air Force;Axel Gyllenkrok;NA;PA;Army Aviation Doctrine;Low;gyllenkrok_axel_swe;x
+;Shadow Communist Cabinet;;;;;;;x
+7033;Head of State;Sven Linderot;NA;ST;NA;NA;unknown;x
+7034;Head of Government;Sven Linderot;NA;ST;NA;NA;unknown;x
+7035;Foreign Minister;Red Shadow;NA;ST;Undistiguished Suit;Very High;unknown;x
+7036;Minister of Armament;Hilding Hagberg;NA;ST;Resource Industrialist;Very High;unknown;x
+7037;Minister of Security;Red Shadow;NA;ST;Undistiguished Suit;Very High;unknown;x
+7038;Head of Military Intelligence;Red Shadow;NA;ST;Undistiguished Suit;Very High;unknown;x
+7039;Chief of Staff;Red Shadow;NA;ST;Undistiguished Suit;Very High;unknown;x
+7040;Chief of Army;Red Shadow;NA;ST;Undistiguished Suit;Very High;unknown;x
+7041;Chief of Navy;Red Shadow;NA;ST;Undistiguished Suit;Very High;unknown;x
+7042;Chief of Air Force;Red Shadow;NA;ST;Undistiguished Suit;Very High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+7043;Head of Government;Tage Erlander;46;RS;NA;NA;unknown;x
+7044;Head of Government;Gustav Möller;46;RS;NA;NA;unknown;x
+7045;Foreign Minister;Per Edvin Sköld;36;RS;Ideological Crusader;Medium;skold_peredwin_swe;x
+7046;Foreign Minister;Christian Günther;40;RS;Apologetic Clerk;High;gunter_christian_swe;x
+7047;Foreign Minister;Axel Pehrsson-Bramstorp;40;CE;Apologetic Clerk;Very High;brahmstorp_axel_swe;x
+7048;Foreign Minister;Östen Undén;45;RS;Great Compromiser;High;unknown;x
+7049;Minister of Armament;Gustav Möller;36;RS;Resource Industrialist;Medium;unknown;x
+7050;Minister of Armament;Gösta Bagge;40;LC;Laissez-Faires Capitalist;Medium;bagge_gosta_swe;x
+7051;Minister of Armament;Bertil Ohlin;44;CE;Resource Industrialist;Medium;unknown;x
+7052;Minister of Security;K.G. Westman;40;CE;Crime Fighter;Very High;westman_carlgustav_swe;x
+7053;Head of Military Intelligence;Carlos Adlercreutz;37;PA;Political Specialist;High;adlercreutz_carlos_swe;x
+7054;Chief of Staff;Olof Thörnell;37;PA;School of Defense;Very High;thornell_olof_swe;x
+7055;Chief of Staff;Axel Rappe;40;PA;School of Maneouvre;Low;rappe_axel_swe;x
+7056;Chief of Staff;Samuel Åkerhielm;41;PA;School of Defense;Medium;unknown;x
+7057;Chief of Staff;Axel Bredberg;42;LC;School of Defense;High;bredberg_axel_swe;x
+7058;Chief of Staff;Carl Gustav Ehrensvärd;44;LC;School of Fire Support;Medium;ehrensvard_carlaugust_swe;x
+7059;Chief of Staff;Nils Swedlund;47;LC;School of Fire Support;Very High;svedlund_nils_swe;x
+7060;Chief of Army;Per Sylwan;37;PA;Static Defense Doctrine;Medium;unknown;x
+7061;Chief of Army;Olof Thörnell;40;PA;Guns and Butter Doctrine;Very High;thornell_olof_swe;x
+7062;Chief of Army;Helge Jung;43;LC;Guns and Butter Doctrine;Medium;jung_helge_swe;x
+7063;Chief of Army;Archibald Douglas;43;PA;Decisive Battle Doctrine;Medium;douglas_archibald_swe;x
+7064;Chief of Army;Axel Rappe;43;PA;Elastic Defense Doctrine;Very Low;rappe_axel_swe;x
+7065;Chief of Army;Bengt Nordenskiöld;43;PA;Decisive Battle Doctrine;Low;nordenskiold_bengt_swe;x
+7066;Chief of Army;Axel Bredberg;43;LC;Static Defense Doctrine;High;bredberg_axel_swe;x
+7067;Chief of Navy;Fabian Tamm;39;PA;Open Seas Doctrine;Very High;unknown;x
+7068;Chief of Navy;Gösta Ehrensvärd;42;PA;Open Seas Doctrine;Medium;ehrensvard_gosta_swe;x
+7069;Chief of Navy;Helge Strömbäck;45;LC;Open Seas Doctrine;High;stromback_helge_swe;x
+7070;Chief of Air Force;Bengt Nordenskiöld;42;PA;Air Superiority Doctrine;High;nordenskiold_bengt_swe;x
+7071;Chief of Air Force;Axel Ljungdahl;44;LC;Air Superiority Doctrine;Very High;ljungdahl_axel_swe;x

@@ -1,0 +1,1305 @@
+# 
+# The Infantry Technology Group
+#
+
+#
+#
+#
+#
+
+technology = {
+	id = 1
+	category = infantry
+	name = TECH_INFANTRY_NAME #Localized name
+	desc = TECH_INFANTRY_DESC #Localized description
+	
+	level = { # 1 - Early Infantry Weapons
+		id = 1000
+		name = TECH_LEVEL_INF_1_NAME 
+		desc = TECH_LEVEL_INF_1_DESC 
+		
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Light Mortar
+			id = 1001
+			name = TECH_APP_INF_1_1_NAME
+			desc = TECH_APP_INF_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = infantry value = 1 }
+				command = { type = ground_defense which = cavalry when = now value = 1 }
+				command = { type = ground_defense which = paratrooper when = now value = 1 }
+				command = { type = ground_defense which = bergsjaeger when = now value = 1 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+			}
+		}
+	} # Level 1
+	
+	level = { # 2 - Special Warfare Equipment
+		id = 1100
+		name = TECH_LEVEL_INF_2_NAME 
+		desc = TECH_LEVEL_INF_2_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Paratrooper Warfare Equipment
+			id = 1101
+			name = TECH_APP_INF_2_1_NAME
+			desc = TECH_APP_INF_2_1_DESC
+			
+			required = { 4502 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = soft_attack which = paratrooper when = now value = 2 }
+				command = { type = ground_defense which = paratrooper when = now value = 2 }
+			}
+		}
+		application = { # Commando Warfare Equipment
+			id = 1102
+			name = TECH_APP_INF_2_2_NAME
+			desc = TECH_APP_INF_2_2_DESC
+			
+			required = { 4502 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = ground_defense which = paratrooper when = now value = 1 }
+				command = { type = ground_defense which = bergsjaeger when = now value = 1 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+			}
+		}
+		application = { # Amphibious Warfare Equipment
+			id = 1103
+			name = TECH_APP_INF_2_3_NAME
+			desc = TECH_APP_INF_2_3_DESC
+			
+			required = { 4502 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = ground_defense which = marine when = now value = 2 }
+			}
+		}
+		application = { # Arctic Warfare Equipment
+			id = 1104
+			name = TECH_APP_INF_2_4_NAME
+			desc = TECH_APP_INF_2_4_DESC
+			
+			required = { 4502 11004 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = frozen_attack which = infantry value = 10 }
+				command = { type = frozen_defense which = infantry value = 10 }
+				command = { type = frozen_attack which = motorized value = 10 }
+				command = { type = frozen_defense which = motorized value = 10 }
+				command = { type = frozen_attack which = bergsjaeger value = 10 }
+				command = { type = frozen_defense which = bergsjaeger value = 10 }
+				command = { type = frozen_attack which = paratrooper value = 10 }
+				command = { type = frozen_defense which = paratrooper value = 10 }
+				
+				command = { type = snow_attack which = infantry value = 10 }
+				command = { type = snow_defense which = infantry value = 10 }
+				command = { type = snow_attack which = motorized value = 10 }
+				command = { type = snow_defense which = motorized value = 10 }
+				command = { type = snow_attack which = bergsjaeger value = 10 }
+				command = { type = snow_defense which = bergsjaeger value = 10 }
+				command = { type = snow_attack which = paratrooper value = 10 }
+				command = { type = snow_defense which = paratrooper value = 10 }
+				
+				command = { type = blizzard_attack which = infantry value = 10 }
+				command = { type = blizzard_defense which = infantry value = 10 }
+				command = { type = blizzard_attack which = motorized value = 10 }
+				command = { type = blizzard_defense which = motorized value = 10 }
+				command = { type = blizzard_attack which = bergsjaeger value = 10 }
+				command = { type = blizzard_defense which = bergsjaeger value = 10 }
+				command = { type = blizzard_attack which = paratrooper value = 10 }
+				command = { type = blizzard_defense which = paratrooper value = 10 }
+			}
+		}
+		application = { # Desert Warfare Equipment
+			id = 1105
+			name = TECH_APP_INF_2_5_NAME
+			desc = TECH_APP_INF_2_5_DESC
+			
+			required = { 4502 11004 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = desert_attack which = infantry value = 25 }
+				command = { type = desert_defense which = infantry value = 25 }
+				command = { type = desert_attack which = motorized value = 25 }
+				command = { type = desert_defense which = motorized value = 25 }
+				command = { type = desert_attack which = bergsjaeger value = 25 }
+				command = { type = desert_defense which = bergsjaeger value = 25 }
+				command = { type = desert_attack which = paratrooper value = 25 }
+				command = { type = desert_defense which = paratrooper value = 25 }
+				command = { type = desert_attack which = marine value = 25 }
+				command = { type = desert_defense which = marine value = 25 }
+			}
+		}
+		application = { # Jungle Warfare Equipment
+			id = 1106
+			name = TECH_APP_INF_2_6_NAME
+			desc = TECH_APP_INF_2_6_DESC
+			
+			required = { 4502 11004 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = jungle_attack which = infantry value = 20 }
+				command = { type = jungle_defense which = infantry value = 20 }
+				command = { type = jungle_attack which = motorized value = 20 }
+				command = { type = jungle_defense which = motorized value = 20 }
+				command = { type = jungle_attack which = bergsjaeger value = 20 }
+				command = { type = jungle_defense which = bergsjaeger value = 20 }
+				command = { type = jungle_attack which = paratrooper value = 20 }
+				command = { type = jungle_defense which = paratrooper value = 20 }
+				command = { type = jungle_attack which = marine value = 20 }
+				command = { type = jungle_defense which = marine value = 20 }
+			}
+		}
+		application = { # Mountain Warfare Equipment
+			id = 1107
+			name = TECH_APP_INF_2_7_NAME
+			desc = TECH_APP_INF_2_7_DESC
+			
+			required = { 4502 11004 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = soft_attack which = bergsjaeger value = 1 }
+				command = { type = hard_attack which = bergsjaeger value = 1 }
+				command = { type = ground_defense which = bergsjaeger value = 2 }
+			}
+		}
+	} # Level 2
+	
+	level = { # 3 - Basic Infantry Weapons and Battlefield C3I
+		id = 1200
+		name = TECH_LEVEL_INF_3_NAME 
+		desc = TECH_LEVEL_INF_3_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Service Rifle
+			id = 1201
+			name = TECH_APP_INF_3_1_NAME
+			desc = TECH_APP_INF_3_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+
+			effects = {
+				command = { type = soft_attack which = cavalry value = 1 }
+				command = { type = ground_defense which = cavalry value = 1 }
+				command = { type = soft_attack which = infantry value = 1 }
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = soft_attack which = motorized value = 1 }
+				command = { type = ground_defense which = motorized value = 1 }
+				command = { type = soft_attack which = mechanized value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+				command = { type = soft_attack which = bergsjaeger value = 1 }
+				command = { type = ground_defense which = bergsjaeger value = 1 }
+				command = { type = soft_attack which = marine value = 1 }
+				command = { type = ground_defense which = marine value = 1 }
+			}
+		}
+		application = { # Modern Flamethrowers
+			id = 1202
+			name = TECH_APP_INF_3_2_NAME
+			desc = TECH_APP_INF_3_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+
+			effects = {
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = ground_defense which = motorized value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+			}
+		}
+		application = { # Anti-Tank Rifle
+			id = 1203
+			name = TECH_APP_INF_3_3_NAME
+			desc = TECH_APP_INF_3_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Effective Land Mines
+			id = 1204
+			name = TECH_APP_INF_3_4_NAME
+			desc = TECH_APP_INF_3_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+
+			effects = {
+				command = { type = soft_attack which = infantry value = 1 }
+				command = { type = ground_defense which = engineer value = 2 }
+			}
+		}
+		application = { # Basic Divisional Signal Command System
+			id = 1205
+			name = TECH_APP_INF_3_5_NAME
+			desc = TECH_APP_INF_3_5_DESC
+			
+			required = { 3005 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = ground_def_eff value = 5 } # Defense points have an additional 5% chance of deflecting hits.
+			}
+		}
+		application = { # Basic Corps Signal Command System
+			id = 1206
+			name = TECH_APP_INF_3_6_NAME
+			desc = TECH_APP_INF_3_6_DESC
+			
+			required = { 3006 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+
+			effects = {
+				command = { type = surprise which = land value = 10 }
+			}
+		}
+		application = { # Basic Army Signal Command System
+			id = 1207
+			name = TECH_APP_INF_3_7_NAME
+			desc = TECH_APP_INF_3_7_DESC
+			
+			required = { 3007 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = us value = 10 }
+			}
+		}
+		application = { # Army Long-Range Recon Battalion
+			id = 1208
+			name = TECH_APP_INF_3_8_NAME
+			desc = TECH_APP_INF_3_8_DESC
+			
+			required = { 11102 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = us value = 5 }
+			}
+		}
+	} # Level 3
+	
+	level = { # 4 - Combat Medical Service
+		id = 1300
+		name = TECH_LEVEL_INF_4_NAME 
+		desc = TECH_LEVEL_INF_4_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Medium Mortar
+			id = 1301
+			name = TECH_APP_INF_4_1_NAME
+			desc = TECH_APP_INF_4_1_DESC
+			
+			required = { 1001 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = ground_defense which = cavalry when = now value = 1 }
+				command = { type = ground_defense which = infantry when = now value = 1 }
+				command = { type = ground_defense which = paratrooper when = now value = 1 }
+				command = { type = ground_defense which = bergsjaeger when = now value = 1 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+			}
+		}
+		application = { # Penicillin, DDT and Mepacrine
+			id = 1302
+			name = TECH_APP_INF_4_2_NAME
+			desc = TECH_APP_INF_4_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Blood Transfusions
+			id = 1303
+			name = TECH_APP_INF_4_3_NAME
+			desc = TECH_APP_INF_4_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Front-Line Medical Station
+			id = 1304
+			name = TECH_APP_INF_4_4_NAME
+			desc = TECH_APP_INF_4_4_DESC
+			
+			required = { 1302 1303 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = ground_defense which = infantry when = now value = 1 }
+				command = { type = ground_defense which = motorized when = now value = 1 }
+				command = { type = ground_defense which = armor when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+				command = { type = ground_defense which = bergsjaeger when = now value = 1 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+			}
+		}
+		application = { # Bulldozer
+			id = 1305
+			name = TECH_APP_INF_4_5_NAME
+			desc = TECH_APP_INF_4_5_DESC
+			
+			required = { 2314 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = ground_defense which = engineer when = now value = 2 }
+			}
+		}
+	} # Level 4
+	
+	level = { # 5 - Improved Infantry Weapons
+		id = 1400
+		name = TECH_LEVEL_INF_5_NAME 
+		desc = TECH_LEVEL_INF_5_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic Submachinegun
+			id = 1401
+			name = TECH_APP_INF_5_1_NAME
+			desc = TECH_APP_INF_5_1_DESC
+			
+			required = { 1201 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = infantry value = 1 }
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = soft_attack which = motorized value = 1 }
+				command = { type = ground_defense which = motorized value = 1 }
+				command = { type = soft_attack which = mechanized value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+				command = { type = soft_attack which = bergsjaeger value = 1 }
+				command = { type = ground_defense which = bergsjaeger value = 1 }
+				command = { type = soft_attack which = marine value = 1 }
+				command = { type = ground_defense which = marine value = 1 }
+				command = { type = soft_attack which = paratrooper value = 1 }
+				command = { type = ground_defense which = paratrooper value = 1 }
+			}
+		}
+		application = { # Basic AT Magnetic Mines
+			id = 1402
+			name = TECH_APP_INF_5_2_NAME
+			desc = TECH_APP_INF_5_2_DESC
+			
+			required = { 1204 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = ground_defense which = cavalry value = 1 }
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = ground_defense which = motorized value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+				command = { type = ground_defense which = paratrooper value = 1 }
+				command = { type = ground_defense which = bergsjaeger value = 1 }
+				command = { type = ground_defense which = marine value = 1 }
+				
+				command = { type = ground_defense which = engineer value = 1 }
+			}
+		}
+		application = { # Basic Tube-launched Rocket
+			id = 1403
+			name = TECH_APP_INF_5_3_NAME
+			desc = TECH_APP_INF_5_3_DESC
+			
+			required = { 1203 7001 7002 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Tube-launched Rocket
+			id = 1404
+			name = TECH_APP_INF_5_4_NAME
+			desc = TECH_APP_INF_5_4_DESC
+			
+			required = { 1403 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = hard_attack which = mechanized value = 1 }
+				command = { type = hard_attack which = bergsjaeger value = 1 }
+				command = { type = hard_attack which = marine value = 1 }
+				command = { type = hard_attack which = paratrooper value = 1 }
+			}
+		}
+		application = { # Advanced Tube-launched Rocket
+			id = 1405
+			name = TECH_APP_INF_5_5_NAME
+			desc = TECH_APP_INF_5_5_DESC
+			
+			required = { 1404 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = hard_attack which = infantry value = 1 }
+				command = { type = hard_attack which = motorized value = 1 }
+				command = { type = hard_attack which = mechanized value = 1 }
+				command = { type = hard_attack which = bergsjaeger value = 1 }
+				command = { type = hard_attack which = marine value = 1 }
+				command = { type = hard_attack which = paratrooper value = 1 }
+			}
+		}
+		application = { # Portable Military Bridge
+			id = 1406
+			name = TECH_APP_INF_5_6_NAME
+			desc = TECH_APP_INF_5_6_DESC
+			
+			required = { }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = river_attack which = motorized value = 15 }
+				command = { type = river_attack which = mechanized value = 15 }
+				command = { type = river_attack which = armor value = 15 }
+				command = { type = river_attack which = marine value = 15 }
+			}
+		}
+		application = { # Mine-Clearing Equipment
+			id = 1407
+			name = TECH_APP_INF_5_7_NAME
+			desc = TECH_APP_INF_5_7_DESC
+			
+			required = { }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = ground_defense which = cavalry when = now value = 1 }
+				command = { type = ground_defense which = infantry when = now value = 1 }
+				command = { type = ground_defense which = motorized when = now value = 1 }
+				command = { type = ground_defense which = mechanized when = now value = 1 }
+				command = { type = ground_defense which = armor when = now value = 1 }
+				command = { type = ground_defense which = paratrooper when = now value = 1 }
+				command = { type = ground_defense which = bergsjaeger when = now value = 1 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+				
+				command = { type = ground_defense which = engineer when = now value = 1 }
+			}
+		}
+		application = { # Amphibious Crossing Equipment
+			id = 1408
+			name = TECH_APP_INF_5_8_NAME
+			desc = TECH_APP_INF_5_8_DESC
+			
+			required = { }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = river_attack which = motorized value = 15 }
+				command = { type = river_attack which = mechanized value = 15 }
+				command = { type = river_attack which = armor value = 15 }
+				command = { type = river_attack which = marine value = 15 }
+			}
+		}
+	} # Level 5
+	
+	level = { # 6 - Improved Battlefield C3I
+		id = 1500
+		name = TECH_LEVEL_INF_6_NAME 
+		desc = TECH_LEVEL_INF_6_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Divisional Signal Command System
+			id = 1501
+			name = TECH_APP_INF_6_1_NAME
+			desc = TECH_APP_INF_6_1_DESC
+			
+			required = { 1205 3204 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = ground_def_eff value = 5 } # Defense points have an additional 5% chance of deflecting hits.
+			}
+		}
+		application = { # Improved Corps Signal Command System
+			id = 1502
+			name = TECH_APP_INF_6_2_NAME
+			desc = TECH_APP_INF_6_2_DESC
+			
+			required = { 1206 3205 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = land value = 10 }
+			}
+		}
+		application = { # Improved Army Signal Command System
+			id = 1503
+			name = TECH_APP_INF_6_3_NAME
+			desc = TECH_APP_INF_6_3_DESC
+			
+			required = { 1207 3206 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = us value = 10 }
+			}
+		}
+		application = { # Basic Signal Interception and Jamming Units
+			id = 1504
+			name = TECH_APP_INF_6_4_NAME
+			desc = TECH_APP_INF_6_4_DESC
+			
+			required = { 3202 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = them value = -10 }
+			}
+		}
+		application = { # Corps LR Recon Battalion
+			id = 1505
+			name = TECH_APP_INF_6_5_NAME
+			desc = TECH_APP_INF_6_5_DESC
+			
+			required = { 1207 11303 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = us value = 5 }
+			}
+		}
+	} # Level 6
+	
+	level = { # 7 - Improved Logistics
+		id = 1600
+		name = TECH_LEVEL_INF_7_NAME 
+		desc = TECH_LEVEL_INF_7_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Standardized Ammunition
+			id = 1601
+			name = TECH_APP_INF_7_1_NAME
+			desc = TECH_APP_INF_7_1_DESC
+			
+			required = { 11305 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				# TODO: Calibrate this
+				command = { type = supply_consumption which = infantry when = now value = -0.3 }
+				command = { type = supply_consumption which = motorized when = now value = -1 }
+				command = { type = supply_consumption which = mechanized when = now value = -1 }
+				command = { type = supply_consumption which = armor when = now value = -1 }
+				command = { type = supply_consumption which = cavalry when = now value = -1 }
+				command = { type = supply_consumption which = marine when = now value = -1 }
+				command = { type = supply_consumption which = paratrooper when = now value = -1 }
+				command = { type = supply_consumption which = bergsjaeger when = now value = -1 }
+			}
+		}
+		application = { # Standardized Cargo Spaces
+			id = 1602
+			name = TECH_APP_INF_7_2_NAME
+			desc = TECH_APP_INF_7_2_DESC
+			
+			required = { 11305 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				# TODO: Calibrate this
+				command = { type = supply_consumption which = infantry when = now value = -0.3 }
+				command = { type = supply_consumption which = motorized when = now value = -1 }
+				command = { type = supply_consumption which = mechanized when = now value = -1 }
+				command = { type = supply_consumption which = armor when = now value = -1 }
+				command = { type = supply_consumption which = cavalry when = now value = -1 }
+				command = { type = supply_consumption which = marine when = now value = -1 }
+				command = { type = supply_consumption which = paratrooper when = now value = -1 }
+				command = { type = supply_consumption which = bergsjaeger when = now value = -1 }
+			}
+		}
+		application = { # Refuel and Ammo Teams
+			id = 1603
+			name = TECH_APP_INF_7_3_NAME
+			desc = TECH_APP_INF_7_3_DESC
+			
+			required = { 1601 1602 11306 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				# TODO: Calibrate this
+				command = { type = supply_consumption which = motorized when = now value = -1 }
+				command = { type = supply_consumption which = mechanized when = now value = -1 }
+				command = { type = supply_consumption which = armor when = now value = -1 }
+				command = { type = fuel_consumption which = motorized when = now value = -1 }
+				command = { type = fuel_consumption which = mechanized when = now value = -1 }
+				command = { type = fuel_consumption which = armor when = now value = -1 }
+			}
+		}
+		application = { # Tank Transportation Trucks
+			id = 1604
+			name = TECH_APP_INF_7_4_NAME
+			desc = TECH_APP_INF_7_4_DESC
+			
+			required = { 2314 11306 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				# TODO: Calibrate this
+				command = { type = supply_consumption which = mechanized when = now value = -1 }
+				command = { type = supply_consumption which = armor when = now value = -1 }
+			}
+		}
+		
+	} # Level 7
+	
+	level = { # 8 - Advanced Infantry Weapons
+		number = 8
+		id = 1700
+		name = TECH_LEVEL_INF_8_NAME 
+		desc = TECH_LEVEL_INF_8_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Submachinegun
+			id = 1701
+			name = TECH_APP_INF_8_1_NAME
+			desc = TECH_APP_INF_8_1_DESC
+			
+			required = { 1401 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+				command = { type = soft_attack which = bergsjaeger value = 1 }
+				command = { type = ground_defense which = bergsjaeger value = 1 }
+				command = { type = soft_attack which = marine value = 1 }
+				command = { type = ground_defense which = marine value = 1 }
+				command = { type = soft_attack which = paratrooper value = 1 }
+				command = { type = ground_defense which = paratrooper value = 1 }
+			}
+		}
+		application = { # Basic Assault Rifle
+			id = 1702
+			name = TECH_APP_INF_8_2_NAME
+			desc = TECH_APP_INF_8_2_DESC
+			
+			required = { 1701 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = soft_attack which = mechanized value = 2 }
+				command = { type = ground_defense which = mechanized value = 2 }
+			}
+		}
+		application = { # AT Recoilless Rocket Launcher
+			id = 1703
+			name = TECH_APP_INF_8_3_NAME
+			desc = TECH_APP_INF_8_3_DESC
+			
+			required = { 1405 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = ground_defense which = motorized value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+				command = { type = ground_defense which = bergsjaeger value = 1 }
+				command = { type = ground_defense which = marine value = 1 }
+				command = { type = ground_defense which = paratrooper value = 1 }
+			}
+		}
+		application = { # Wire-guided AT-Missile
+			id = 1704
+			name = TECH_APP_INF_8_4_NAME
+			desc = TECH_APP_INF_8_4_DESC
+			
+			required = { 1703 7003 7401 7402 7403 7302 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = hard_attack which = mechanized value = 2 }
+			}
+		}
+		application = { # Improved AT Magnetic Mine
+			id = 1705
+			name = TECH_APP_INF_8_5_NAME
+			desc = TECH_APP_INF_8_5_DESC
+			
+			required = { 1402 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = hard_attack which = infantry value = 1 }
+				command = { type = hard_attack which = mechanized value = 1 }
+				command = { type = hard_attack which = engineer value = 1 }
+				
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+				command = { type = ground_defense which = engineer value = 1 }
+			}
+		}
+	} # Level 8
+	
+	level = { # 9 - Advanced Battlefield C3I
+		id = 1800
+		name = TECH_LEVEL_INF_9_NAME 
+		desc = TECH_LEVEL_INF_9_DESC
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Near-Infrared Scope
+			id = 1801
+			name = TECH_APP_INF_9_1_NAME
+			desc = TECH_APP_INF_9_1_DESC
+			
+			required = { 3701 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = night_attack which = infantry value = 20 }
+				command = { type = night_defense which = infantry value = 13 }
+				command = { type = night_move which = infantry value = 10 }
+				command = { type = night_attack which = motorized value = 20 }
+				command = { type = night_defense which = motorized value = 13 }
+				command = { type = night_move which = motorized value = 10 }
+				command = { type = night_attack which = mechanized value = 20 }
+				command = { type = night_defense which = mechanized value = 13 }
+				command = { type = night_move which = mechanized value = 10 }
+				command = { type = night_attack which = marine value = 20 }
+				command = { type = night_defense which = marine value = 13 }
+				command = { type = night_move which = marine value = 10 }
+				command = { type = night_attack which = bergsjaeger value = 20 }
+				command = { type = night_defense which = bergsjaeger value = 13 }
+				command = { type = night_move which = bergsjaeger value = 10 }
+				command = { type = night_attack which = paratrooper value = 20 }
+				command = { type = night_defense which = paratrooper value = 13 }
+				command = { type = night_move which = paratrooper value = 10 }
+			}
+		}
+		application = { # Advanced Divisional Signal Command System
+			id = 1802
+			name = TECH_APP_INF_9_2_NAME
+			desc = TECH_APP_INF_9_2_DESC
+			
+			required = { 3404 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = ground_def_eff value = 5 } # Defense points have an additional 5% chance of deflecting hits.
+			}
+		}
+		application = { # Advanced Corps Signal Command System
+			id = 1803
+			name = TECH_APP_INF_9_3_NAME
+			desc = TECH_APP_INF_9_3_DESC
+			
+			required = { 1502 3405 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = land value = 10 }
+			}
+		}
+		application = { # Advanced Army Signal Command System
+			id = 1804
+			name = TECH_APP_INF_9_4_NAME
+			desc = TECH_APP_INF_9_4_DESC
+			
+			required = { 1503 3406 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = us value = 10 }
+			}
+		}
+		application = { # Improved Signal Interception and Jamming Units
+			id = 1805
+			name = TECH_APP_INF_9_5_NAME
+			desc = TECH_APP_INF_9_5_DESC
+			
+			required = { 1504 3501 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = them value = -10 }
+			}
+		}
+		application = { # Divisional LR Recon Battalion
+			id = 1806
+			name = TECH_APP_INF_9_6_NAME
+			desc = TECH_APP_INF_9_6_DESC
+			
+			required = { 1505 11502 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = us value = 10 }
+			}
+		}
+	} # Level 9
+	
+	level = { # 10 - Advanced Logistics
+		number = 10
+		id = 1900
+		name = TECH_LEVEL_INF_10_NAME 
+		desc = TECH_LEVEL_INF_10_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Tracked Ammunition Carriers
+			id = 1901
+			name = TECH_APP_INF_10_1_NAME
+			desc = TECH_APP_INF_10_1_DESC
+			
+			required = { 11306 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				# TODO: Calibrate this
+				command = { type = supply_consumption which = mechanized when = now value = -1 }
+				command = { type = supply_consumption which = armor when = now value = -1 }
+			}
+		}
+		application = { # Tracked Fuel Carriers
+			id = 1902
+			name = TECH_APP_INF_10_2_NAME
+			desc = TECH_APP_INF_10_2_DESC
+			
+			required = { 11306 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				# TODO: Calibrate this
+				command = { type = fuel_consumption which = mechanized when = now value = -1 }
+				command = { type = fuel_consumption which = armor when = now value = -1 }
+			}
+		}
+		application = { # Tracked Refuel and Ammunition Team
+			id = 1903
+			name = TECH_APP_INF_10_3_NAME
+			desc = TECH_APP_INF_10_3_DESC
+			
+			required = { 1901 1902 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				# TODO: Calibrate this
+				command = { type = fuel_consumption which = mechanized when = now value = -1 }
+				command = { type = fuel_consumption which = armor when = now value = -1 }
+				command = { type = supply_consumption which = mechanized when = now value = -1 }
+				command = { type = supply_consumption which = armor when = now value = -1 }
+			}
+		}
+	} # Level 10
+	
+	level = { # 11 - Semi-Modern Infantry Weapons
+		number = 11
+		id = 1940
+		name = TECH_LEVEL_INF_11_NAME 
+		desc = TECH_LEVEL_INF_11_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Assault Rifle
+			id = 1941
+			name = TECH_APP_INF_11_1_NAME
+			desc = TECH_APP_INF_11_1_DESC
+			
+			required = { 1702 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = ground_defense which = motorized value = 1 }
+				command = { type = soft_attack which = mechanized value = 2 }
+			}
+		}
+		application = { # Personal Body Armor
+			id = 1942
+			name = TECH_APP_INF_11_2_NAME
+			desc = TECH_APP_INF_11_2_DESC
+			
+			required = { 4902 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = ground_defense which = paratrooper value = 2 }
+				command = { type = ground_defense which = marine value = 2 }
+				command = { type = ground_defense which = bergsjaeger value = 2 }
+			}
+		}
+		application = { # Directed Blast-effect Mines
+			id = 1943
+			name = TECH_APP_INF_11_3_NAME
+			desc = TECH_APP_INF_11_3_DESC
+			
+			required = { 1705 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = hard_attack which = infantry value = 1 }
+				command = { type = soft_attack which = infantry value = 1 }
+				command = { type = ground_defense which = infantry value = 1 }
+				command = { type = hard_attack which = motorized value = 1 }
+				command = { type = soft_attack which = motorized value = 1 }
+				command = { type = ground_defense which = motorized value = 1 }
+				command = { type = hard_attack which = mechanized value = 1 }
+				command = { type = soft_attack which = mechanized value = 1 }
+				command = { type = ground_defense which = mechanized value = 1 }
+				command = { type = hard_attack which = paratrooper value = 1 }
+				command = { type = soft_attack which = paratrooper value = 1 }
+				command = { type = ground_defense which = paratrooper value = 1 }
+				command = { type = hard_attack which = bergsjaeger value = 1 }
+				command = { type = soft_attack which = bergsjaeger value = 1 }
+				command = { type = ground_defense which = bergsjaeger value = 1 }
+				command = { type = hard_attack which = marine value = 1 }
+				command = { type = soft_attack which = marine value = 1 }
+				command = { type = ground_defense which = marine value = 1 }
+				
+				command = { type = ground_defense which = engineer value = 1 }
+			}
+		}
+	} # Level 11
+	
+	level = { # 12 - Semi-Modern Battlefield C3I
+		number = 12
+		id = 1970
+		name = TECH_LEVEL_INF_12_NAME 
+		desc = TECH_LEVEL_INF_12_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Advanced Signal Interception and Jamming Units
+			id = 1971
+			name = TECH_APP_INF_12_1_NAME
+			desc = TECH_APP_INF_12_1_DESC
+			
+			required = { 1805 3702 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = them value = -10 }
+			}
+		}
+		
+		application = { # Forward Observer Ground Bomber Directing
+			id = 1972
+			name = TECH_APP_INF_12_2_NAME
+			desc = TECH_APP_INF_12_2_DESC
+			
+			required = { 3406 9602 9942 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = tactical_attack which = fighter when = now value = 1 }
+				command = { type = tactical_attack which = tactical_bomber when = now value = 1 }
+				command = { type = tactical_attack which = strategic_bomber when = now value = 1 }
+			}
+		}
+		
+		application = { # Helicopter Command System
+			id = 1973
+			name = TECH_APP_INF_12_3_NAME
+			desc = TECH_APP_INF_12_3_DESC
+			
+			required = { 10974 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = army_detection which = us value = 10 }
+			}
+		}
+		
+	} # Level 12
+}

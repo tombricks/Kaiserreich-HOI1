@@ -1,0 +1,115 @@
+# 0 - Coastal Submarine
+model = {
+	cost						= 3
+	buildtime					= 100
+	defaultorganisation 		= 30
+	manpower					= 1
+	maxspeed					= 12
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 30
+	seadefence					= 3
+	airdefence					= 1
+	seaattack					= 3
+	subattack					= 1
+	airattack					= 1
+	shorebombardment			= 0
+	transportcapability			= 0
+	aircraftcapacity			= 0
+	range						= 4500
+	supplyconsumption			= 0.2
+	fuelconsumption				= 0.5
+}
+# 1 - Medium-Range Submarine
+model = {
+	cost						= 3
+	buildtime					= 150
+	defaultorganisation 		= 30
+	manpower					= 1
+	maxspeed					= 16
+	surfacedetectioncapability	= 4
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 20
+	seadefence					= 4
+	airdefence					= 1
+	seaattack					= 5
+	subattack					= 1
+	airattack					= 1
+	shorebombardment			= 0
+	transportcapability			= 0
+	aircraftcapacity			= 0
+	range						= 12000
+	supplyconsumption			= 0.3
+	fuelconsumption				= 0.7
+}
+# 2 - Long-Range Submarine
+model = {
+	cost						= 4
+	buildtime					= 150
+	defaultorganisation 		= 30
+	manpower					= 1
+	maxspeed					= 18
+	surfacedetectioncapability	= 5
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 10
+	seadefence					= 6
+	airdefence					= 1
+	seaattack					= 6
+	subattack					= 1
+	airattack					= 1
+	shorebombardment			= 0
+	transportcapability			= 0
+	aircraftcapacity			= 0
+	range						= 18000
+	supplyconsumption			= 0.5
+	fuelconsumption				= 0.8
+}
+# 3 - Electro Submarine
+model = {
+	cost						= 5
+	buildtime					= 150
+	defaultorganisation 		= 30
+	manpower					= 1
+	maxspeed					= 18
+	surfacedetectioncapability	= 5
+	airdetectioncapability		= 1
+	subdetectioncapability		= 2
+	visibility					= 5
+	seadefence					= 6
+	airdefence					= 1
+	seaattack					= 8
+	subattack					= 2
+	airattack					= 1
+	shorebombardment			= 0
+	transportcapability			= 0
+	aircraftcapacity			= 0
+	range						= 21000
+	supplyconsumption			= 0.3
+	fuelconsumption				= 0.5
+}
+# 4 - Nuclear Submarine
+model = {
+	cost						= 5
+	buildtime					= 200
+	defaultorganisation 		= 30
+	manpower					= 1
+	maxspeed					= 25
+	surfacedetectioncapability	= 7
+	airdetectioncapability		= 1
+	subdetectioncapability		= 4
+	visibility					= 3
+	seadefence					= 8
+	airdefence					= 1
+	seaattack					= 10
+	subattack					= 2
+	airattack					= 1
+	shorebombardment			= 0
+	transportcapability			= 0
+	aircraftcapacity			= 0
+	range						= 200000
+	supplyconsumption			= 0.2
+	fuelconsumption				= 0
+}

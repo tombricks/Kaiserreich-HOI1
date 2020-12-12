@@ -1,0 +1,91 @@
+#
+# HoI - Sweden Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  The Finnish Winter War - Swedish Direct Intervention
+#########################################################################
+event = { 
+	id = 3300
+	random = no
+	country = SWE
+	
+	trigger = {
+		war = { country = SOV country = FIN }
+		OR = {
+			ideology = liberal_conservative
+			ideology = paternal_autocrat
+			ideology = fascist
+			ideology = nazi
+		}
+	}
+	
+	name = "EVT_3300_NAME"
+	desc = "EVT_3300_DESC"
+	style = 0
+	
+	date = { day = 17 month = july year = 1936 }
+	offset = 7
+	deathdate = { day = 31 month = december year = 1947 }
+	
+	action_a = {
+		name = "ACTIONNAME3300A" # Intervene for our brother people!
+		
+		command = { type = warentry which = SWE value = 100 }
+		command = { type = war which = SOV }
+		command = { type = access which = FIN }
+		command = { type = trigger which = 3202 } # FIN
+	}
+	action_b = {
+		name = "ACTIONNAME3300B" # Send volunteers and materiel
+		command = { type = manpowerpool value = -10 }
+		command = { type = supplies value = -50 }
+		command = { type = trigger which = 3201 } # FIN
+	}
+}
+
+#########################################################################
+#  The Finnish Winter War - Swedish Non-Intervention
+#########################################################################
+event = { 
+	id = 3301
+	random = no
+	country = SWE
+	
+	trigger = {
+		war = { country = SOV country = FIN }
+		atwar = no
+		NOT = {
+			OR = {
+				ideology = liberal_conservative
+				ideology = paternal_autocrat
+				ideology = fascist
+				ideology = nazi
+			}
+		}
+	}
+	
+	name = "EVT_3301_NAME"
+	desc = "EVT_3301_DESC"
+	style = 0
+	
+	date = { day = 17 month = july year = 1936 }
+	offset = 7
+	deathdate = { day = 31 month = december year = 1947 }
+	
+	action_a = {
+		name = "ACTIONNAME3301A" # Send volunteers and materiel
+		command = { type = manpowerpool value = -10 }
+		command = { type = supplies value = -50 }
+		command = { type = trigger which = 3201 } # FIN
+	}
+	action_b = {
+		name = "ACTIONNAME3301B" # Intervene for our brother people!
+		command = { type = warentry value = 100 }
+		command = { type = war which = SOV }
+		command = { type = access which = FIN }
+		command = { type = trigger which = 3202 } # FIN
+	}
+}

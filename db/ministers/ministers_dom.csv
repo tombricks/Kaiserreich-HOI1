@@ -1,0 +1,34 @@
+DOM;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+49001;Head of State;Black Shadow;NA;PA;NA;NA;unknown;x
+49002;Head of Government;Black Shadow;NA;PA;NA;NA;unknown;x
+49003;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+49004;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+49005;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+49006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+49007;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+49008;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+49009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+49010;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+49011;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+49012;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+49013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+49014;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+49015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+49016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+49017;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+49018;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+49019;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+49020;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+49021;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+49022;Head of Government;Red Shadow;NA;LWR;NA;NA;unknown;x
+49023;Foreign Minister;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+49024;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+49025;Minister of Security;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+49026;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+49027;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+49028;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+49029;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+49030;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

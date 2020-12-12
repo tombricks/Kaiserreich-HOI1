@@ -1,0 +1,82 @@
+Action;Bool All;Num;Level;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data
+StopTime;;;;;;;;;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A1;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;19;19;;;#Coal;;;;;;;;;;;;;;x
+AddArrowsPos;;;;81;19;;;#Steel;;;;;;;;;;;;;;x
+AddArrowsPos;;;;133;19;;;#Rubber;;;;;;;;;;;;;;x
+AddArrowsPos;;;;183;19;;;#Oil;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A2;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;506;19;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;732;39;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_3_A3;;;;#;;;;;;;;;;;;;;x
+IsIW;;14;;;;;;;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A4;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;625;96;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A5;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;625;150;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A6;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;625;195;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A7;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;625;250;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A8;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;675;325;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A9;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;685;463;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_3_A10;;;;#;;;;;;;;;;;;;;x
+IsIW;;12;;;;;;;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;675;130;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A11;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;1042;;;;;;;;;;;;;;;;;;;;x
+AddArrowsPid;;;;1042;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A12;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;497;;;;;;;;;;;;;;;;;;;;x
+AddArrowsPid;;;;502;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A13;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_3_A14;;;;#;;;;;;;;;;;;;;x
+IsIW;;13;;;;;;;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A15;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;732;39;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_3_A16;;;;#;;;;;;;;;;;;;;x
+IsIW;;14;;;;;;;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;685;484;;;#;;;;;;;;;;;;;;x
+IsIW;;26;;;;;;;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A17;;;;#;;;;;;;;;;;;;;x
+CenterMap;;528;;;;;;;;;;;;;;;;;;;;x
+SetProvinceIW;;;;499;;;;;;;;;;;;;;;;;;x
+AddArrowsPid;;;;499;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A18;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;685;380;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A19;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;670;400;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;685;420;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;700;440;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A20;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;685;460;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A21;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;685;485;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A22;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_3_A23;;;;#;;;;;;;;;;;;;;x
+EndTutorial;;;;;;;;;;;;;;;;;;;;;;x

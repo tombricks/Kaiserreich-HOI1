@@ -1,0 +1,62 @@
+UKR;Shadow Democratic Cabinet;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+67001;Head of State;Andrii Livytsky;NA;CE LC PA FA NS;NA;NA;unknown;x
+67002;Head of Government;Vyacheslav Prokopovch;NA;PA;NA;NA;unknown;x
+67003;Foreign Minister;Blue Shadow;NA;LC;Apologetic Clerk;Medium;unknown;x
+67004;Minister of Armament;Blue Shadow;NA;CE;Infantry Proponent;Medium;unknown;x
+67005;Minister of Security;Blue Shadow;NA;CE;Man of the People;Medium;unknown;x
+67006;Head of Military Intelligence;Petro Oliinyk;NA;PA;Logistics Specialist;Medium;unknown;x
+67007;Chief of Staff;Yevhen Konovalets;NA;PA;Undistinguished Suit;Medium;unknown;x
+67008;Chief of Army;Yevhen Konovalets;NA;PA;Undistinguished Suit;Medium;unknown;x
+67009;Chief of Navy;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+67010;Chief of Air Force;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+67001;Head of State;Andrii Livytsky;NA;CE LC PA FA NS;NA;NA;unknown;x
+67002;Head of Government;Vyacheslav Prokopovch;NA;PA;NA;NA;unknown;x
+67011;Foreign Minister;Yevhen Onatsky;NA;FA;Apologetic Clerk;Medium;unknown;x
+67012;Minister of Armament;Black Shadow;NA;FA;Infantry Proponent;Medium;unknown;x
+67013;Minister of Security;Dmytro Dontsov;NA;FA;Efficient Sociopath;Medium;unknown;x
+67006;Head of Military Intelligence;Petro Oliinyk;NA;PA;Logistics Specialist;Medium;unknown;x
+67007;Chief of Staff;Yevhen Konovalets;NA;PA;Undistinguished Suit;Medium;unknown;x
+67008;Chief of Army;Yevhen Konovalets;NA;PA;Undistinguished Suit;Medium;unknown;x
+67014;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+67015;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+67016;Head of State;Hrechukha;NA;ST LE LWR;NA;NA;unknown;x
+67017;Head of Government;Stanislav Kosior;NA;ST;NA;NA;unknown;x
+67018;Foreign Minister;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+67019;Minister of Armament;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+67020;Minister of Security;Savchenko;NA;ST;Prince of Terror;Medium;unknown;x
+67021;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+67022;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+67023;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+67024;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+67025;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+67026;Head of State;Yevhen Konovalets;36;CE LC PA FA;NA;NA;unknown;x
+67027;Head of State;Kyrylo Os'mak;42;CE LC PA FA;NA;NA;unknown;x
+67028;Head of State;Roman Shukhevych;44;CE LC PA FA;NA;NA;unknown;x
+67029;Head of State;Jaroslav Starukh;45;CE LC PA FA;NA;NA;unknown;x
+67030;Head of State;Pavlo Shandruk;45;PA FA NS;NA;NA;unknown;x
+67031;Head of Government;Nikita Khrushchev;38;ST;NA;NA;unknown;x
+67032;Head of Government;Mykola Stsiborsky;37;FA;NA;NA;unknown;x
+67033;Head of Government;Oleksandr Y. Shlhyn;39;CE;NA;NA;unknown;x
+67034;Head of Government;Andrij Melnyk;38;FA;NA;NA;unknown;x
+67035;Head of Government;Stepan Bandera;40;CE;NA;NA;unknown;x
+67036;Head of Government;Mykola Lebed;43;FA;NA;NA;unknown;x
+67037;Head of Government;Vasyl Mudryi;44;CE;NA;NA;unknown;x
+67038;Head of Government;P. Poltava;45;FA;NA;NA;unknown;x
+67039;Head of Government;V. Halas;45;CE;NA;NA;unknown;x
+67040;Foreign Minister;Mykola Lebed;43;FA;Undistinguished Suit;Medium;unknown;x
+67041;Minister of Security;Rostyslav Voloshyn;43;FA;Undistinguished Suit;Medium;unknown;x
+67042;Minister of Security;P. Fedoriv;45;CE;Undistinguished Suit;Medium;unknown;x
+67043;Chief of Staff;Roman Sushko;39;FA;Undistinguished Suit;Medium;unknown;x
+67044;Chief of Staff;Dmytro Kliachkivs'kyi;42;CE;Undistinguished Suit;Medium;unknown;x
+67045;Chief of Staff;Otaman T. Borovets;42;FA;Undistinguished Suit;Medium;unknown;x
+67046;Chief of Staff;Rostyslav Voloshyn;42;CE;Undistinguished Suit;Medium;unknown;x
+67047;Chief of Staff;Roman Shukhevych;43;FA;Undistinguished Suit;Medium;unknown;x
+67048;Chief of Staff;Pavlo Shandruk;45;FA;Undistinguished Suit;Medium;unknown;x
+67049;Chief of Army;Roman Sushko;39;FA;Undistinguished Suit;Medium;unknown;x
+67050;Chief of Army;Leonid Stupnyts'kyi;42;CE;Undistinguished Suit;Medium;unknown;x
+67051;Chief of Army;Roman Shukhevych;42;FA;Undistinguished Suit;Medium;unknown;x
+67052;Chief of Army;Dmytro Hrystai;42;CE;Undistinguished Suit;Medium;unknown;x
+67053;Chief of Army;Mykola Lebed;43;FA;Undistinguished Suit;Medium;unknown;x

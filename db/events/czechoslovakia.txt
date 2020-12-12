@@ -1,0 +1,103 @@
+#
+# HoI - Czechoslovakian Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  The Treaty of Munich
+#########################################################################
+event = { 
+	id = 2200
+	random = no
+	country = CZE
+	
+	# triggered by GER 2030
+	
+	name = "EVT_2200_NAME"
+	desc = "EVT_2200_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2200A" # Accept the Claims
+		command = { type = secedeprovince which = GER value = 578 }
+		command = { type = secedeprovince which = GER value = 613 }
+		command = { type = secedeprovince which = GER value = 614 }
+		command = { type = secedeprovince which = GER value = 616 }
+		command = { type = secedeprovince which = GER value = 617 }
+		command = { type = dissent which = 25 }
+		command = { type = trigger which = 2003 } # GER
+	}
+	action_b = {
+		name = "ACTIONNAME2200B" # Join the Axis
+		command = { type = alliance which = GER }
+		command = { type = alignment which = fascist value = 200 }
+		command = { type = dissent which = 25 }
+		command = { type = trigger which = 2004 } # GER
+	}
+	action_c = {
+		name = "ACTIONNAME2200C" # No way!
+		command = { type = dissent which = 25 }
+		command = { type = trigger which = 2005 } # GER
+	}
+}
+
+#########################################################################
+#  The End of Czechoslovakia - Slovakia Independent
+#########################################################################
+event = { 
+	id = 2201
+	random = no
+	country = CZE
+	name = "EVT_2201_NAME"
+	desc = "EVT_2201_DESC"
+	style = 0
+	
+	# Triggered by GER 2040
+	
+	action_a = {
+		name = "ACTIONNAME2201A" # Accept the inevitable (Game Over)
+		
+		command = { type = capital which = 618 } # Bratislava
+		command = { type = country which = SLO }
+		command = { type = trigger which = 2006 } # GER
+	}
+	action_b = {
+		name = "ACTIONNAME2201B" # Fight!
+		command = { type = dissent which = 30 }
+		command = { type = trigger which = 2007 } # GER
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia - Partitioning
+#########################################################################
+event = { 
+	id = 2202
+	random = no
+	country = CZE
+	name = "EVT_2202_NAME"
+	desc = "EVT_2202_DESC"
+	style = 0
+	
+	# Triggered by GER 2040
+	
+	action_a = {
+		name = "ACTIONNAME2202A" # Accept the inevitable (Game Over)
+		
+		command = { type = secedeprovince which = HUN value = 618 }
+		command = { type = secedeprovince which = HUN value = 619 }
+		command = { type = secedeprovince which = HUN value = 631 }
+		command = { type = secedeprovince which = HUN value = 632 }
+		command = { type = secedeprovince which = HUN value = 726 }
+		command = { type = secedeprovince which = HUN value = 727 }
+
+		command = { type = trigger which = 2011 } # GER
+		command = { type = trigger which = 2501 } # HUN
+	}
+	action_b = {
+		name = "ACTIONNAME2202B" # Fight!
+		command = { type = dissent which = 10 }
+		command = { type = trigger which = 2012 } # GER
+		command = { type = trigger which = 2502 } # HUN
+	}
+}

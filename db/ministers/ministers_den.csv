@@ -1,0 +1,106 @@
+DEN;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+16001;Head of State;Christian X;NA;LC CE RS;NA;NA;christian_X_den;x
+16002;Head of Government;Thorvald Stauning;NA;RS;NA;NA;stauning_thorvald_den;x
+16003;Foreign Minister;Peter Munch;NA;CE;Apologetic Clerk;High;munch_peter_den;x
+16004;Minister of Armament;Alsing Andersen;NA;RS;Laissez-Faires Capitalist;High;unknown;x
+16005;Minister of Security;Karl Kristian Steincke;NA;RS;Silent Lawyer;High;unknown;x
+16006;Head of Military Intelligence;H.M. Lunding;NA;CE;Logistics Specialist;High;unknown;x
+16007;Chief of Staff;Wilhelm W. Prior;NA;LC;School of Defence;Very High;unknown;x
+16008;Chief of Army;Erik With;NA;CE;Static Defence Doctrine;High;unknown;x
+16009;Chief of Navy;Hjalmar Rechnitzer;NA;LC;Indirect Approach Doctrine;High;unknown;x
+16010;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+16002;Head of Government;Thorvald Stauning;NA;RS;NA;NA;stauning_thorvald_den;x
+16003;Foreign Minister;Peter Munch;NA;CE;Apologetic Clerk;High;munch_peter_den;x
+16004;Minister of Armament;Alsing Andersen;NA;RS;Laissez-Faires Capitalist;High;unknown;x
+16005;Minister of Security;Karl Kristian Steincke;NA;RS;Silent Lawyer;High;unknown;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+16011;Head of Government;Christmas Møller;NA;LC;NA;NA;moller_christmas_den;x
+16012;Foreign Minister;Ernest Bevin;NA;LC;Undistinguished Suit;High;unknown;x
+16013;Minister of Armament;Ole Bjørn Kraft;NA;LC;Resource Industrialist;High;unknown;x
+16014;Minister of Security;Blue Shadow;NA;RS;Man of the People;Very High;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+16002;Head of Government;Thorvald Stauning;NA;RS;NA;NA;stauning_thorvald_den;x
+16003;Foreign Minister;Peter Munch;NA;CE;Apologetic Clerk;High;munch_peter_den;x
+16004;Minister of Armament;Alsing Andersen;NA;RS;Laissez-Faires Capitalist;High;unknown;x
+16005;Minister of Security;Karl Kristian Steincke;NA;RS;Silent Lawyer;High;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+16015;Head of Government;Knud Kristensen;NA;LC;NA;NA;unknown;x
+16012;Foreign Minister;Ernest Bevin;NA;RS;Ideological Crusader;High;unknown;x
+16013;Minister of Armament;Ole Bjørn Kraft;NA;LC;Resource Industrialist;High;unknown;x
+16014;Minister of Security;Blue Shadow;NA;RS;Man of the People;Very High;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+16002;Head of Government;Thorvald Stauning;NA;RS;NA;NA;stauning_thorvald_den;x
+16003;Foreign Minister;Peter Munch;NA;CE;Apologetic Clerk;High;munch_peter_den;x
+16004;Minister of Armament;Alsing Andersen;NA;RS;Laissez-Faires Capitalist;High;unknown;x
+16005;Minister of Security;Karl Kristian Steincke;NA;RS;Silent Lawyer;High;unknown;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+16015;Head of Government;Knud Kristensen;NA;LC;NA;NA;unknown;x
+16012;Foreign Minister;Ernest Bevin;NA;RS;Ideological Crusader;High;unknown;x
+16013;Minister of Armament;Ole Bjørn Kraft;NA;LC;Resource Industrialist;High;unknown;x
+16014;Minister of Security;Blue Shadow;NA;RS;Man of the People;Undying;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+16016;Head of State;Fritz Clausen;NA;FA NS;NA;NA;clausen_fritz_den;x
+16017;Head of Government;Fritz Clausen;NA;FA;NA;NA;clausen_fritz_den;x
+16018;Foreign Minister;Axel Christian Hartel;NA;FA;Undistinguished Suit;Low;unknown;x
+16019;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+16020;Minister of Security;Knud Bach;NA;NS;Prince of Terror;Low;unknown;x
+16021;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+16022;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+16023;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+16024;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+16025;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+16026;Head of State;Aksel Larsen;NA;LWR;NA;NA;unknown;x
+16027;Head of Government;Aksel Larsen;NA;LWR;NA;NA;unknown;x
+16028;Foreign Minister;Børge Houmann;NA;LWR;Ideological Crusader;High;unknown;x
+16029;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+16030;Minister of Security;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+16031;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+16032;Chief of Staff;Svend Wagner;NA;LWR;Undistinguished Suit;High;unknown;x
+16033;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+16034;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+16035;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+16036;Head of State;;;LC CE RS;NA;NA;unknown;x
+16037;Head of Government;H.C. Hansen;40;RS;NA;NA;unknown;x
+16038;Head of Government;Hans Hedtoft;45;RS;NA;NA;unknown;x
+16039;Head of Government;Erik Scavenius;40;CE;NA;NA;scavenius_erik_den;x
+16040;Head of Government;Henrik Hauch;42;LC;NA;NA;unknown;x
+16041;Foreign Minister;Erik Scavenius;40;CE;Biased Intellectual;Very High;scavenius_erik_den;x
+16042;Foreign Minister;Otto Carl Mohr;40;CE;Undistinguished Suit;High;unknown;x
+16043;Foreign Minister;Blue Shadow;44;RS;Ideological Crusader;High;unknown;x
+16044;Minister of Armament;Ole Bjørn Kraft;36;LC;Resource Industrialist;High;unknown;x
+16045;Minister of Armament;Blue Shadow;40;LC;Resource Industrialist;High;unknown;x
+16046;Minister of Armament;Blue Shadow;42;LC;Military Entrepreneur;Very High;unknown;x
+16047;Minister of Armament;Blue Shadow;43;LC;Resource Industrialist;High;unknown;x
+16048;Minister of Armament;Blue Shadow;46;LC;Theoretical Scientist;Very High;unknown;x
+16049;Minister of Armament;Blue Shadow;47;RS;Theoretical Scientist;Medium;unknown;x
+16050;Minister of Security;Harald Petersen;40;CE;Silent Lawyer;High;unknown;x
+16051;Minister of Security;Eigil T. Jacobsen;41;CE;Undistinguished Suit;High;unknown;x
+16052;Minister of Security;Blue Shadow;40;RS;Man of the People;Very High;unknown;x
+16053;Minister of Security;Blue Shadow;45;LC;Compassionate Gentleman;High;unknown;x
+16054;Minister of Security;Blue Shadow;45;LC;Crime Fighter;High;unknown;x
+16055;Minister of Security;Blue Shadow;45;RS;Man of the People;Very High;unknown;x
+16056;Head of Military Intelligence;Svend Truelsen;43;LC;Logistics Specialist;Very High;unknown;x
+16057;Head of Military Intelligence;E.M. Nordentoft;40;CE;Logistics Specialist;High;unknown;x
+16058;Head of Military Intelligence;Blue Shadow;40;ST;Technical Specialist;Very High;unknown;x
+16059;Chief of Staff;Ebbe Gørtz;37;LC;School of Psychology;Very High;unknown;x
+16060;Chief of Staff;Hans Rolsted;41;LC;Undistinguished Suit;High;unknown;x
+16061;Chief of Staff;Blue Shadow;39;LC;School of Manoeuvre;Very High;unknown;x
+16062;Chief of Staff;Blue Shadow;40;LC;School of Manoeuvre;Very High;unknown;x
+16063;Chief of Staff;Blue Shadow;41;LC;School of Manoeuvre;Very High;unknown;x
+16064;Chief of Staff;Blue Shadow;46;LC;School of Fire Support;Medium;unknown;x
+16065;Chief of Army;Wilhelm W. Prior;39;LC;Static Defence Doctrine;Very High;unknown;x
+16066;Chief of Army;Ebbe Gørtz;41;LC;Static Defence Doctrine;Very High;gortz_den;x
+16067;Chief of Army;Viggo Hjalf;43;LC;Static Defence Doctrine;High;unknown;x
+16068;Chief of Army;Blue Shadow;40;LC;Elastic Defense Doctrine;Very High;unknown;x
+16069;Chief of Army;Blue Shadow;41;LC;Armoured Spearhead Doctrine;Very High;unknown;x
+16070;Chief of Army;Blue Shadow;46;LC;Decisive Battle Doctrine;Medium;unknown;x
+16071;Chief of Navy;Aage H. Vedel;41;LC;Open Seas Doctrine;Very High;unknown;x
+16072;Chief of Navy;Blue Shadow;39;LC;Decisive Battle Doctrine;Very High;unknown;x
+16073;Chief of Navy;Blue Shadow;43;LC;Power Projection Doctrine;High;unknown;x
+16074;Chief of Navy;Blue Shadow;46;LC;Power Projection Doctrine;Very High;unknown;x
+16075;Chief of Air Force;Blue Shadow;37;LC;Carpet Bombing Doctrine;Very High;unknown;x
+16076;Chief of Air Force;Blue Shadow;40;LC;Carpet Bombing Doctrine;Very High;unknown;x
+16077;Chief of Air Force;Blue Shadow;46;LC;Army Aviation Doctrine;Very High;unknown;x

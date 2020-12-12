@@ -1,0 +1,22 @@
+Name;ID;Country;Rank;Traits;Skill;Experience;Loyalty;Type;Picture;x
+af Edholm;9014;SWE;2;512;1;0;5;0;unknown;x
+af Klercker;9000;SWE;2;512;1;0;5;0;unknown;x
+Åkerhielm;9006;SWE;3;0;1;0;4;0;unknown;x
+Bredberg;9015;SWE;3;0;1;0;5;0;bredberg_axel_swe;x
+Cederskiöld;9009;SWE;3;8;2;0;5;0;Hugo_Cedersköld;x
+Centerwall;9007;SWE;3;0;2;0;5;0;unknown;x
+Dyrssen;9004;SWE;2;512;1;0;5;0;unknown;x
+Gyllenkrok;9008;SWE;3;8;2;0;3;0;gyllenkrok_axel_swe;x
+Högberg;9002;SWE;3;0;2;0;5;0;unknown;x
+Lilliehöök;9010;SWE;2;512;1;0;5;0;unknown;x
+Nygren;9013;SWE;1;512;1;0;5;0;unknown;x
+Rappe;9003;SWE;3;8;3;50;3;0;rappe_axel_swe;x
+Rosenblad;9005;SWE;2;512;1;0;5;0;unknown;x
+Sylwan;9011;SWE;3;0;1;0;5;0;unknown;x
+Testrup;9012;SWE;3;0;1;0;5;0;unknown;x
+Tottle;9001;SWE;3;0;1;0;5;0;unknown;x
+Nordenskiöld;9016;SWE;2;0;2;0;3;2;nordenskiold_bengt_swe;x
+Strömbäck;9017;SWE;3;0;1;0;5;1;stromback_helge_swe;x
+CA. Ehrensvärd;9018;SWE;3;8;2;0;4;0;ehrensvard_carlaugust_swe;x
+G. Ehrensvärd;9019;SWE;2;0;2;0;4;1;ehrensvard_gosta_swe;x
+Ljungdahl;9020;SWE;3;0;1;0;5;2;ljungdahl_axel_swe;x

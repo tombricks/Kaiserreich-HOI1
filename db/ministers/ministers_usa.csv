@@ -1,0 +1,86 @@
+USA;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+6001;Head of State;Franklin D. Roosevelt;NA;RS CE LWR LC;NA;NA;roosevelt_franklin_usa;x
+6001;Head of Government;Franklin D. Roosevelt;NA;CE;NA;NA;roosevelt_franklin_usa;x
+6002;Foreign Minister;Cordell Hull;NA;CE;Great Compromiser;High;hull_cordell2_usa;x
+6003;Minister of Armament;Henry Morgenthau;NA;RS;Resource Industrialist;High;Henry_Morgenthau_usa;x
+6004;Minister of Security;Homer S. Cummings;NA;RS;Silent Lawyer;Very High;Homer_S_Cummings_usa;x
+6005;Head of Military Intelligence;Vacant;NA;LC;Undistinguished Suit;Very High;unknown;x
+6006;Chief of Staff;Malin Craig;NA;CE;School of Defense;High;Malin_Craig_usa;x
+6007;Chief of Army;Malin Craig;NA;CE;Guns and Butter Doctrine;High;Malin_Craig_usa;x
+6008;Chief of Navy;William Standley;NA;CE;Base Control Doctrine;High;unknown;x
+6009;Chief of Air Force;Oscar Westover;NA;LC;Army Aviation Doctrine;High;Oscar_Westover_usa;x
+;Shadow Communist Cabinet;;;;;;;x
+6010;Head of State;Norman Thomas;NA;LWR RS LE ST;NA;NA;thomas_norman_usa;x
+6011;Head of Government;Norman Thomas;NA;LWR;NA;NA;thomas_norman_usa;x
+6012;Foreign Minister;Gus Tyler;NA;LE;Undistinguished Suit;High;unknown;x
+6013;Minister of Armament;Harry C. Laidler;NA;LWR;Resource Industrialist;Very High;unknown;x
+6014;Minister of Security;Daniel Hoan;NA;RS;Man of the People;Medium;Daniel_Hoan_usa;x
+;Replacements;;;;;;;x
+6015;Head of State;John Nance Garner;40;CE RS LC;NA;NA;John_Nance_Garner_usa;x
+6016;Head of Government;John Nance Garner;40;CE;NA;NA;John_Nance_Garner_usa;x
+6017;Head of State;James Farley;40;CE;NA;NA;James_Farley_usa;x
+6018;Head of Government;James Farley;40;CE;NA;NA;James_Farley_usa;x
+6019;Head of State;Harry Byrd;44;CE;NA;NA;Harry_Byrd_usa;x
+6020;Head of Government;Harry Byrd;44;CE;NA;NA;Harry_Byrd_usa;x
+6021;Head of State;William O. Douglas;44;CE RS;NA;NA;William_O_Douglas_usa;x
+6022;Head of Government;William O. Douglas;44;CE;NA;NA;William_O_Douglas_usa;x
+6023;Head of State;James F. Byrnes;44;CE RS;NA;NA;James_F_Byrnes_usa;x
+6024;Head of Government;James F. Byrnes;44;CE;NA;NA;James_F_Byrnes_usa;x
+6025;Head of State;Henry Wallace;44;RS LWR CE;NA;NA;wallace_henry_usa;x
+6026;Head of Government;Henry Wallace;44;RS;NA;NA;wallace_henry_usa;x
+6027;Head of State;Harry S. Truman;45;CE RS LC;NA;NA;Harry_S_Truman_usa;x
+6028;Head of Government;Harry S. Truman;45;CE;NA;NA;Harry_S_Truman_usa;x
+6029;Foreign Minister;Edward Stettinius;44;CE;Great Compromiser;Very High;Edward_Stettinius_usa;x
+6030;Foreign Minister;James Byrnes;45;CE;Great Compromiser;Very High;byrnes_james3_usa;x
+6031;Foreign Minister;George C. Marshall;47;CE;Ideological Crusader;High;marshall_george_usa;x
+6032;Minister of Armament;Frederick Vinson;45;CE;Resource Industrialist;Very High;Frederick_Vinson_usa;x
+6033;Minister of Armament;John Snyder;46;CE;Laissez-Faire Capitalist;Very High;unknown;x
+6034;Minister of Security;Frank Murphy;39;RS;Crime Fighter;High;Frank_Murphy_usa;x
+6035;Minister of Security;Robert H. Jackson;40;CE;Compassionate Gentleman;High;Robert_H_Jackson_usa;x
+6036;Minister of Security;Francis Biddle;41;CE;Crime Fighter;High;Francis_Biddle_usa;x
+6037;Minister of Security;Tom C. Clark;45;CE;Silent Lawyer;Very High;Tom_C_Clark_usa;x
+6038;Head of Military Intelligence;William J. Donovan;41;LC;Political Specialist;High;William_J_ Donovan_usa;x
+6039;Head of Military Intelligence;Sidney Souers;46;CE;Undistinguished Suit;Very High;Sidney_Souers_usa;x
+6040;Head of Military Intelligence;Hoyt S. Vandenberg;46;LC;Political Specialist;High;vandenburg_usa;x
+6041;Head of Military Intelligence;Roscoe H. Hillenkoetter;47;CE;Political Specialist;Very High;Roscoe_H_Hillenkoetter_usa;x
+6042;Chief of Staff;George C. Marshall;39;CE;School of Fire Support;High;marshall_george_usa;x
+6043;Chief of Staff;Dwight D. Eisenhower;45;CE;School of Manoeuvre;High;eisenhower_dwight3_usa;x
+6044;Chief of Army;George C. Marshall;39;CE;Guns and Butter Doctrine;High;marshall_george_usa;x
+6045;Chief of Army;Dwight D. Eisenhower;45;CE;Guns and Butter Doctrine;High;eisenhower_dwight3_usa;x
+6046;Chief of Air Force;Henry H. Arnold;38;CE;Carpet Bombing Doctrine;High;arnold_henry_usa;x
+6047;Head of State;Earl Browder;36;ST LE LWR;NA;NA;Earl_Browder_usa;x
+6048;Head of Government;Earl Browder;36;ST;NA;NA;Earl_Browder_usa;x
+6049;Foreign Minister;Sam Darcy;36;ST;Ideological Crusader;Low;Sam_Darcy_usa;x
+6050;Minister of Armament;Wyndham Mortimer;36;LWR;Resource Industrialist;Low;unknown;x
+6051;Minister of Security;Alexander Bittelman;36;LE;Prince of Terror;Low;unknown;x
+6052;Head of State;Alf M. Landon;50;LC CE;NA;NA;Alf_M_Landon_usa;x
+6053;Head of Government;Alf M. Landon;50;LC;NA;NA;Alf_M_Landon_usa;x
+6054;Foreign Minister;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6055;Minister of Armament;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6056;Minister of Security;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6057;Head of State;Wendell Willkie;50;CE LE;NA;NA;Wendell_Willkie_usa;x
+6058;Head of Government;Wendell Willkie;50;LC;NA;NA;Wendell_Willkie_usa;x
+6059;Foreign Minister;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6060;Minister of Armament;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6061;Minister of Security;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6062;Head of State;Thomas E. Dewey;50;LC CE;NA;NA;Thomas_E_Dewey_usa;x
+6063;Head of Government;Thomas E. Dewey;50;LC;NA;NA;Thomas_E_Dewey_usa;x
+6064;Foreign Minister;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6065;Minister of Armament;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6065;Minister of Security;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6066;Head of State;Robert Taft;50;LC CE;NA;NA;Robert_Taft_usa;x
+6067;Head of Government;Robert Taft;50;LC;NA;NA;Robert_Taft_usa;x
+6068;Foreign Minister;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6069;Minister of Armament;Blue Shadow;50;LC;Undistinguished Suit;High;unknown;x
+6070;Minister of Security;Blue Shadow;50;LC;Undistinguished Suit;Very High;unknown;x
+6071;Head of State;Alfred E. Smith;50;LC CE;NA;NA;Alfred_E_Smith_usa;x
+6072;Head of Government;Alfred E. Smith;50;CE;NA;NA;Alfred_E_Smith_usa;x
+6073;Foreign Minister;Blue Shadow;50;CE;Undistinguished Suit;High;unknown;x
+6074;Minister of Armament;Blue Shadow;50;CE;Undistinguished Suit;High;unknown;x
+6075;Minister of Security;Blue Shadow;50;CE;Undistinguished Suit;High;unknown;x
+6076;Chief of Navy;William Leahy;37;CE;Open Seas Doctrine;Very High;leahy_william2_usa;x
+6077;Chief of Navy;Harold Stark;39;CE;Open Seas Doctrine;High;stark_harold2_usa;x
+6078;Chief of Navy;Ernest King;42;CE;Power Projection Doctrine;High;king_ernest2_usa;x
+6079;Chief of Navy;Chester Nimitz;45;CE;Power Projection Doctrine;High;nimitz_chester_usa;x
+6080;Chief of Navy;Louis Denfeld;47;CE;Base Control Doctrine;High;unknown;x
+6081;Chief of Army;Omar N. Bradley;45;CE;Armoured Spearhead Doctrine;High;bradley_omar_usa;x

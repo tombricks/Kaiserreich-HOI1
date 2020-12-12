@@ -1,0 +1,185 @@
+JAP;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;
+5000;Head of State;Emperor Showa;NA;NS FA PA LC CE RS;NA;NA;hirohito3_jap;x
+5001;Head of Government;Okada Keisuke;NA;LC;NA;NA;unknown;x
+5002;Foreign Minister;Hirota Koki;NA;FA;Great Compromiser;High;hirota_koki_jap;x
+5003;Minister of Armament;Machida Chuji;NA;CE;Laissez-Faires Capitalist;High;unknown;x
+5004;Minister of Security;Goto Fumio;NA;CE;Silent Lawyer;High;unknown;x
+5005;Head of Military Intelligence;Okamura Yasuji;NA;FA;Political Specialist;Very Low;unknown;x
+5006;Chief of Staff;Kanin Kotohito;NA;PA;School of Defense;Very Low;unknown;x
+5007;Chief of Army;Kanin Kotohito;NA;PA;Static Defense Doctrine;Very Low;unknown;x
+5008;Chief of Navy;Fushimi Hiroyasu;NA;PA;Power Projection Doctrine;Very High;unknown;x
+5009;Chief of Air Force;Yamamoto Isoroku;NA;PA;Naval Aviation Doctrine;Very High;yamamoto_isoruku_jap;x
+;A Cabinet - 1937;ELECT_B;;;;;;x
+5010;Head of Government;Konoe Fumimaro;NA;PA;NA;NA;konoe_fumimaro_jap;x
+5002;Foreign Minister;Hirota Koki;NA;FA;Great Compromiser;Very High;hirota_koki_jap;x
+5012;Minister of Armament;Yoshino Shinji;NA;CE;Administrative Genius;Very High;unknown;x
+5013;Minister of Security;Cho Keinosuke;NA;PA;Crime Fighter;Very High;unknown;x
+;B Cabinet - 1937;ELECT_A;;;;;;x
+5014;Head of Government;Suzuki Kisaburo;NA;LC;NA;NA;unknown;x
+5015;Foreign Minister;Yoshizawa Kenkichi;NA;LC;Ideological Crusader;High;unknown;x
+5016;Minister of Armament;Ikeda Seihin;NA;PA;Resource Industrialist;High;unknown;x
+5017;Minister of Security;Kawaharada Kakichi;NA;LC;Man of the People;High;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+5010;Head of Government;Konoe Fumimaro;NA;PA;NA;NA;konoe_fumimaro_jap;x
+5019;Foreign Minister;Matsuoka Yosuke;NA;PA;Ideological Crusader;High;matsuoka_yosuke3_jap;x
+5020;Minister of Armament;Kobayashi Juzo;NA;PA;Resource Industrialist;High;kobyashi_jap;x
+5021;Minister of Security;Yasui Eiji;NA;PA;Compassionate Gentleman;High;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+5022;Head of Government;Yonai Mitsumasa;NA;PA;NA;NA;unknown;x
+5023;Foreign Minister;Arita Hachiro;NA;FA;Ideological Crusader;Low;arita_hachiro_jap;x
+5024;Minister of Armament;Fujiwara Ginjiro;NA;PA;Resource Industrialist;Low;unknown;x
+5025;Minister of Security;Kodama Hideo;NA;PA;Silent Lawyer;Low;unknown;x
+;A Cabinet - 1945;ELECT_B;;;;;;x
+5026;Head of Government;Hatoyama Ichiro;NA;LC;NA;NA;unknown;x
+5027;Foreign Minister;Yoshida Shigeru;NA;LC;Great Compromiser;Very High;yoshida_shigeru_jap;x
+5028;Minister of Armament;Hoshijima Jiro;NA;LC;Resource Industrialist;Very High;unknown;x
+5029;Minister of Security;Omura Chitsu;NA;LC;Silent Lawyer;Very High;unknown;x
+;B Cabinet - 1945;ELECT_A;;;;;;x
+5030;Head of Government;Katayama Tetsu;NA;RS;NA;NA;katayama_tetsu_jap;x
+5031;Foreign Minister;Ashida Hitoshi;NA;CE;Apologetic Clerk;High;ashida_hitoshi_jap;x
+5032;Minister of Armament;Mizutani Chosaburo;NA;RS;Resource Industrialist;High;unknown;x
+5033;Minister of Security;Kimura Kozaiemon;NA;CE;Man of the People;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+5034;Head of State;Nosaka Sanzo;NA;CE RS LWR LE ST;NA;NA;unknown;x
+5035;Head of Government;Miyamoto Kenji;NA;LE;NA;NA;unknown;x
+5036;Foreign Minister;Shiga Yoshio;NA;LE;Great Compromiser;Medium;unknown;x
+5037;Minister of Armament;Tokuda Kyoichi;NA;LWR;Resource Industrialist;High;unknown;x
+5038;Minister of Security;Nosaka Sanzo;NA;ST;Man of the People;Very High;unknown;x
+5039;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+5040;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+5041;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+5042;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+5043;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;;x
+5044;Head of Government;Hirota Koki;36;FA;NA;NA;hirota_koki_jap;x
+5045;Head of Government;Goto Fumio;36;CE;NA;NA;unknown;x
+5010;Head of Government;Konoe Fumimaro;36;PA;NA;NA;konoe_fumimaro_jap;x
+5047;Head of Government;Hiranuma Kiichiro;36;FA;NA;NA;hiranuma_kiichiro2_jap;x
+5048;Head of Government;Hayashi Senjuro;37;PA;NA;NA;hayashi_senjuro_jap;x
+5049;Head of Government;Ugaki Kazunari;37;LC;NA;NA;unknown;x
+5050;Head of Government;Abe Nobuyuki;39;PA;NA;NA;abe_nobuyki_jap;x
+5051;Head of Government;Araki Sadao;39;NS;NA;NA;araki_sado_jap;x
+5052;Head of Government;Ikeda Seihin;39;PA;NA;NA;unknown;x
+5053;Head of Government;Shoda Kazue;39;FA;NA;NA;unknown;x
+5054;Head of Government;Sugiyama Hajime;40;FA;NA;NA;unknown;x
+5022;Head of Government;Yonai Mitsumasa;40;PA;NA;NA;unknown;x
+5056;Head of Government;Tojo Hideki;41;FA;NA;NA;Tojo_Hideki_jap;x
+5057;Head of Government;Higashikuni Naruhiko;41;PA;NA;NA;higashikuni_naruhiko_jap;x
+5058;Head of Government;Koiso Kuniaki;44;FA;NA;NA;koiso_kuniaki2_jap;x
+5059;Head of Government;Kobayashi Seizo;44;PA;NA;NA;kobyashi_jap;x
+5060;Head of Government;Umezu Yoshijiro;44;FA;NA;NA;umezo_yoshihiro_jap;x
+5061;Head of Government;Hata Shunroku;44;FA;NA;NA;unknown;x
+5062;Head of Government;Terauchi Hisaichi;44;PA;NA;NA;terauchi_hisaichi_jap;x
+5063;Head of Government;Shidehara Kijuro;45;LC;NA;NA;shidehara_kijyuro_jap;x
+5064;Head of Government;Anami Korechika;45;FA;NA;NA;anami_korechika_jap;x
+5065;Head of Government;Suzuki Kantaro;45;PA;NA;NA;suzuki_kantaro_jap;x
+5066;Head of Government;Yoshida Shigeru;45;LC;NA;NA;yoshida_shigeru_jap;x
+5023;Foreign Minister;Arita Hachiro;36;FA;Ideological Crusader;Medium;arita_hachiro_jap;x
+5069;Foreign Minister;Hayashi Senjuro;37;PA;General Staffer;Medium;hayashi_senjuro_jap;x
+5070;Foreign Minister;Sato Naotake;37;PA;Biased Intellectual;Medium;unknown;x
+5071;Foreign Minister;Ugaki Kazunari;37;LC;Biased Intellectual;Medium;unknown;x
+5072;Foreign Minister;Konoe Fumimaro;37;PA;Apologetic Clerk;Medium;konoe_fumimaro_jap;x
+5073;Foreign Minister;Abe Nobuyuki;39;PA;General Staffer;Medium;abe_nobuyki_jap;x
+5074;Foreign Minister;Nomura Kichisaburo;39;PA;General Staffer;Medium;nomura_jap;x
+5019;Foreign Minister;Matsuoka Yosuke;40;PA;Ideological Crusader;Medium;matsuoka_yosuke3_jap;x
+5076;Foreign Minister;Togo Shigenori;41;PA;Biased Intellectual;Medium;togo_shigenori3_jap;x
+5077;Foreign Minister;Toyoda Teijiro;41;PA;Ironfisted Brute;Medium;toyoda_teijiro_jap;x
+5078;Foreign Minister;Tojo Hideki;42;FA;Ironfisted Brute;Medium;Tojo_Hideki_jap;x
+5079;Foreign Minister;Tani Masayuki;42;PA;Biased Intellectual;Medium;unknown;x
+5080;Foreign Minister;Shigemitsu Mamoru;43;LC;Great Compromiser;Medium;unknown;x
+5027;Foreign Minister;Yoshida Shigeru;45;LC;Great Compromiser;Medium;yoshida_shigeru_jap;x
+5082;Foreign Minister;Suzuki Kantaro;45;PA;Biased Intellectual;Medium;suzuki_kantaro_jap;x
+5084;Minister of Armament;Ogawa Gotaro;36;LC;Resource Industrialist;Medium;unknown;x
+5085;Minister of Armament;Kawazaki Sadayoshi;36;PA;Resource Industrialist;Medium;unknown;x
+5086;Minister of Armament;Goto Takuo;37;LC;Resource Industrialist;Medium;unknown;x
+5012;Minister of Armament;Yoshino Shinji;37;CE;Administrative Genius;Medium;unknown;x
+5016;Minister of Armament;Ikeda Seihin;38;PA;Resource Industrialist;Medium;unknown;x
+5089;Minister of Armament;Hatta Yoshiaki;39;PA;Military Entrepreneur;Medium;unknown;x
+5024;Minister of Armament;Fujiwara Ginjiro;40;PA;Resource Industrialist;Medium;unknown;x
+5020;Minister of Armament;Kobayashi Juzo;40;PA;Resource Industrialist;Medium;kobyashi_jap;x
+5092;Minister of Armament;Kishi Nobusuke;41;PA;Resource Industrialist;Medium;unknown;x
+5093;Minister of Armament;Toyoda Teijiro;41;PA;Resource Industrialist;Medium;Toyoda_Teijiro_jap;x
+5094;Minister of Armament;Sakonji Seizo;41;PA;Resource Industrialist;Medium;unknown;x
+5095;Minister of Armament;Tojo Hideki;43;FA;Infantry Proponent;Medium;Tojo_Hideki_jap;x
+5096;Minister of Armament;Yoshida Shigeru;44;LC;Resource Industrialist;Medium;yoshida_shigeru_jap;x
+5097;Minister of Armament;Ogasawara Sankuro;45;LC;Resource Industrialist;Medium;unknown;x
+5098;Minister of Armament;Nakajima Chikuhei;45;PA;Air to Sea Proponent;Medium;unknown;x
+5028;Minister of Armament;Hoshijima Jiro;46;LC;Resource Industrialist;Medium;unknown;x
+5101;Minister of Security;Yamamoto Tatsuo;36;CE;Compassionate Gentleman;High;unknown;x
+5102;Minister of Security;Iwasa Rokuro;36;FA;Prince of Terror;Medium;unknown;x
+5103;Minister of Security;Nakajima Kesago;36;FA;Prince of Terror;Medium;unknown;x
+5013;Minister of Security;Cho Keinosuke;36;PA;Crime Fighter;Medium;unknown;x
+5105;Minister of Security;Suetsugu Nobumasa;37;PA;Silent Lawyer;Medium;unknown;x
+5017;Minister of Security;Kawaharada Kakichi;37;LC;Man of the People;Medium;unknown;x
+5107;Minister of Security;Baba Eiichi;37;PA;Compassionate Gentleman;Medium;unknown;x
+5108;Minister of Security;Fujie Keisuke;37;FA;Prince of Terror;Medium;unknown;x
+5109;Minister of Security;Tanaka Seiichi;38;FA;Prince of Terror;Medium;tanaka;x
+5110;Minister of Security;Kido Koichi;39;PA;Silent Lawyer;Medium;kido_koichi_jap;x
+5111;Minister of Security;Hirabayashi Morito;39;FA;Prince of Terror;Medium;unknown;x
+5112;Minister of Security;Kohara Nao;39;LC;Man of the People;Medium;unknown;x
+5025;Minister of Security;Kodama Hideo;40;PA;Silent Lawyer;Medium;unknown;x
+5114;Minister of Security;Hiranuma Kiichiro;40;FA;Efficient Sociopath;Medium;hiranuma_kiichiro2_jap;x
+5021;Minister of Security;Yasui Eiji;40;PA;Compassionate Gentleman;Medium;unknown;x
+5116;Minister of Security;Toyoshima Fusataro;40;FA;Prince of Terror;Medium;unknown;x
+5117;Minister of Security;Nakamura Aketo;41;FA;Prince of Terror;Medium;unknown;x
+5118;Minister of Security;Tojo Hideki;41;FA;Prince of Terror;Medium;Tojo_Hideki_jap;x
+5119;Minister of Security;Tanabe Harumichi;41;PA;Silent Lawyer;Medium;unknown;x
+5120;Minister of Security;Yuzawa Michio;42;PA;Compassionate Gentleman;Medium;unknown;x
+5121;Minister of Security;Kato Hakujiro;43;FA;Prince of Terror;Medium;unknown;x
+5122;Minister of Security;Ando Saburo;43;PA;Silent Lawyer;Medium;unknown;x
+5123;Minister of Security;Oki Shigeru;43;FA;Prince of Terror;Medium;unknown;x
+5124;Minister of Security;Okido Sanji;44;FA;Prince of Terror;Medium;unknown;x
+5125;Minister of Security;Odate Shigeo;44;FA;Prince of Terror;Medium;unknown;x
+5126;Minister of Security;Horikiri Zenjiro;45;LC;Compassionate Gentleman;Medium;unknown;x
+5127;Minister of Security;Abe Minamoto;45;PA;Silent Lawyer;Medium;unknown;x
+5128;Minister of Security;Yamasaki Iwao;45;LC;Man of the People;Medium;unknown;x
+5129;Minister of Security;Imura Yuzuru;45;FA;Prince of Terror;Medium;unknown;x
+5130;Minister of Security;Sando Tadahiro;46;LC;Compassionate Gentleman;Medium;unknown;x
+5029;Minister of Security;Omura Chitsu;46;LC;Silent Lawyer;Medium;unknown;x
+5132;Head of Military Intelligence;Takasu Shiro;36;PA;Naval Intelligence Specialist;Medium;unknown;x
+5134;Head of Military Intelligence;Nomura Naokuni;36;PA;Naval Intelligence Specialist;Medium;unknown;x
+5135;Head of Military Intelligence;Watari Hisao;36;FA;Political Specialist;Medium;unknown;x
+5136;Head of Military Intelligence;Honma Masaharu;37;FA;Political Specialist;Medium;unknown;x
+5137;Head of Military Intelligence;Abe Katsuo;38;PA;Naval Intelligence Specialist;Medium;unknown;x
+5138;Head of Military Intelligence;Higuchi Kiichiro;38;FA;Political Specialist;Medium;unknown;x
+5139;Head of Military Intelligence;Oka Takazumi;39;PA;Naval Intelligence Specialist;Medium;unknown;x
+5140;Head of Military Intelligence;Tsuchihashi Yuichi;39;FA;Political Specialist;Medium;unknown;x
+5141;Head of Military Intelligence;Maeda Minoru;40;PA;Naval Intelligence Specialist;Medium;unknown;x
+5142;Head of Military Intelligence;Wakamatsu Tadakazu;40;FA;Political Specialist;Medium;unknown;x
+5143;Head of Military Intelligence;Okamoto Kiyotomi;41;FA;Political Specialist;Medium;unknown;x
+5144;Head of Military Intelligence;Yano Hideo;42;PA;Naval Intelligence Specialist;Medium;unknown;x
+5145;Head of Military Intelligence;Ogawa Kanji;42;PA;Naval Intelligence Specialist;Medium;unknown;x
+5146;Head of Military Intelligence;Arisue Seizo;42;FA;Political Specialist;Medium;unknown;x
+5147;Head of Military Intelligence;Ono Takeji;44;PA;Naval Intelligence Specialist;Medium;unknown;x
+5148;Head of Military Intelligence;Nakase Noboru;45;PA;Naval Intelligence Specialist;Medium;unknown;x
+5150;Chief of Staff;Sugiyama Hajime;40;FA;School of Defense;Medium;unknown;x
+5151;Chief of Staff;Tojo Hideki;44;FA;School of Psychology;Medium;unknown;x
+5152;Chief of Staff;Umezu Yoshijiro;44;FA;School of Psychology;Medium;umezo_yoshihiro_jap;x
+5154;Chief of Army;Sugiyama Hajime;40;FA;Decisive Battle Doctrine;Medium;unknown;x
+5155;Chief of Army;Tojo Hideki;44;FA;Elastic Defence Doctrine;Medium;Tojo_Hideki_jap;x
+5156;Chief of Army;Umezu Yoshijiro;44;FA;Elastic Defence Doctrine;Medium;umezo_yoshihiro_jap;x
+5158;Chief of Navy;Nagano Osami;41;PA;Power Projection Doctrine;Medium;nagano_osami_jap;x
+5159;Chief of Navy;Shimada Shigetaro;44;PA;Decisive Battle Doctrine;Medium;shimada_shigetaro_jap;x
+5160;Chief of Navy;Oikawa Koshiro;44;PA;Decisive Battle Doctrine;Medium;oikawa_jap;x
+5161;Chief of Navy;Toyoda Soemu;45;PA;Decisive Battle Doctrine;Medium;toyoda_soemu_jap;x
+5162;Chief of Air Force;Hata Shunroku;36;FA;Army Aviation Doctrine;Medium;unknown;x
+5164;Chief of Air Force;Oikawa Koshiro;36;PA;Naval Aviation Doctrine;Medium;oikawa_jap;x
+5165;Chief of Air Force;Furusho Moto;36;FA;Army Aviation Doctrine;Medium;unknown;x
+5166;Chief of Air Force;Higashikuni Narubiko;37;PA;Army Aviation Doctrine;Medium;higashikuni_naruhiko_jap;x
+5167;Chief of Air Force;Toyoda Teijiro;38;PA;Naval Aviation Doctrine;Medium;toyoda_soemu_jap;x
+5168;Chief of Air Force;Tojo Hideki;38;FA;Army Aviation Doctrine;Medium;Tojo_Hideki_jap;x
+5169;Chief of Air Force;Inoue Shigeyoshi;40;PA;Naval Aviation Doctrine;Medium;unknown;x
+5170;Chief of Air Force;Suzuki Takamichi;40;FA;Army Aviation Doctrine;Medium;unknown;x
+5171;Chief of Air Force;Yamashita Tomoyuki;40;FA;Army Aviation Doctrine;Medium;yamashita_tomoyuki_jap;x
+5172;Chief of Air Force;Doihara Kenji;41;FA;Army Aviation Doctrine;Medium;unknown;x
+5173;Chief of Air Force;Sawamoto Yorio;41;PA;Naval Aviation Doctrine;Medium;unknown;x
+5174;Chief of Air Force;Katagiri Eikichi;41;PA;Naval Aviation Doctrine;Medium;unknown;x
+5175;Chief of Air Force;Tsuhara Nishizou;42;PA;Naval Aviation Doctrine;Medium;unknown;x
+5176;Chief of Air Force;Yasuda Takeo;43;FA;Army Aviation Doctrine;Medium;unknown;x
+5177;Chief of Air Force;Anami Korechika;44;FA;Army Aviation Doctrine;Medium;anami_korechika_jap;x
+5178;Chief of Air Force;Ushiromiya Jun;44;FA;Army Aviation Doctrine;Medium;unknown;x
+5179;Chief of Air Force;Sugahara Michio;44;FA;Army Aviation Doctrine;Medium;unknown;x
+5180;Chief of Air Force;Totsuka Michitaro;44;PA;Naval Aviation Doctrine;Medium;unknown;x
+5181;Chief of Air Force;Teramoto Kumaichi;45;FA;Army Aviation Doctrine;Medium;unknown;x
+5183;Chief of Air Force;Wada Masao;45;PA;Naval Aviation Doctrine;Medium;unknown;x
+5184;Chief of Air Force;Kawabe Shozo;45;FA;Army Aviation Doctrine;Medium;unknown;x

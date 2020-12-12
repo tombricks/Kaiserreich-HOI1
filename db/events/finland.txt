@@ -1,0 +1,76 @@
+#
+# HoI - Finland Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  The Winter War
+#########################################################################
+event = { 
+	id = 3200
+	random = no
+	country = FIN
+	
+	# Triggered by SOV 2620
+	
+	name = "EVT_3200_NAME"
+	desc = "EVT_3200_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME3200A" # Let them come if they dare!
+		command = { type = trigger which = 2621 } #SOV
+		command = { type = alignment which = fascist value = 100  }
+	}
+	action_b = {
+		name = "ACTIONNAME3200B" # Fold to Russian Pressure
+		command = { type = secedeprovince which = SOV value = 787 }
+		command = { type = secedeprovince which = SOV value = 803 }
+		command = { type = secedeprovince which = SOV value = 821 }
+		command = { type = trigger which = 2622 } #SOV
+		command = { type = alignment which = fascist value = 100  }
+	}
+}
+
+#########################################################################
+#  Swedish Material Aid
+#########################################################################
+event = { 
+	id = 3201
+	random = no
+	country = FIN
+	
+	# Triggered by SWE 3300 or 3301
+	
+	name = "EVT_3201_NAME"
+	desc = "EVT_3201_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Thanks for nothing!
+		command = { type = manpowerpool value = 10 }
+		command = { type = supplies value = 50 }	
+	}
+}
+#########################################################################
+#  Swedish Intervention
+#########################################################################
+event = { 
+	id = 3202
+	random = no
+	country = FIN
+	
+	# Triggered by SWE 3300 or 3301
+	
+	name = "EVT_3202_NAME"
+	desc = "EVT_3202_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Perhaps there is hope after all...
+		command = { type = access which = SWE }
+		command = { type = alignment which = fascist value = -50  }
+		command = { type = alignment which = democratic value = 50  }
+	}
+}

@@ -1,0 +1,95 @@
+# 0 - Pre-War
+model = {
+	cost 						= 17
+	buildtime					= 194
+	defaultorganisation 		= 30
+	manpower					= 4
+	maxspeed					= 240
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 2
+	surfacedefence				= 2
+	airdefence					= 1
+	airattack					= 1
+	strategicattack				= 4
+	tacticalattack				= 0
+	navalattack					= 0
+	range						= 600
+	supplyconsumption 			= 30
+	fuelconsumption				= 50
+}
+# 1 - Basic
+model = {
+	cost 						= 21
+	buildtime					= 198
+	defaultorganisation 		= 30
+	manpower					= 4
+	maxspeed					= 250
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 2
+	surfacedefence				= 2
+	airdefence					= 1
+	airattack					= 1
+	strategicattack				= 7
+	tacticalattack				= 2
+	navalattack					= 2
+	range						= 1050
+	supplyconsumption 			= 34
+	fuelconsumption				= 58
+}
+# 2 - Improved
+model = {
+	cost 						= 22
+	buildtime					= 210
+	defaultorganisation 		= 30
+	manpower					= 4
+	maxspeed					= 300
+	surfacedetectioncapability	= 4
+	airdetectioncapability		= 3
+	surfacedefence				= 3
+	airdefence					= 2
+	airattack					= 1
+	strategicattack				= 10
+	tacticalattack				= 3
+	navalattack					= 2
+	range						= 1300
+	supplyconsumption 			= 36
+	fuelconsumption				= 64
+}
+# 3 - Advanced
+model = {
+	cost 						= 23
+	buildtime					= 218
+	defaultorganisation 		= 30
+	manpower					= 4
+	maxspeed					= 350
+	surfacedetectioncapability	= 4
+	airdetectioncapability		= 3
+	surfacedefence				= 4
+	airdefence					= 3
+	airattack					= 2
+	strategicattack				= 14
+	tacticalattack				= 5
+	navalattack					= 3
+	range						= 1500
+	supplyconsumption 			= 38
+	fuelconsumption				= 68
+}
+# 4 - Turbojet
+model = {
+	cost 						= 25
+	buildtime					= 224
+	defaultorganisation 		= 30
+	manpower					= 4
+	maxspeed					= 650
+	surfacedetectioncapability	= 4
+	airdetectioncapability		= 3
+	surfacedefence				= 6
+	airdefence					= 5
+	airattack					= 3
+	strategicattack				= 18
+	tacticalattack				= 6
+	navalattack					= 4
+	range						= 1300
+	supplyconsumption 			= 30
+	fuelconsumption				= 80
+}

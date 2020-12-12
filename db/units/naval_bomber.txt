@@ -1,0 +1,76 @@
+# 0 - Pre-War Naval Bomber
+model = {
+	cost 						= 10
+	buildtime					= 150
+	defaultorganisation 		= 30
+	manpower					= 2
+	maxspeed					= 200
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 0
+	surfacedefence				= 3
+	airdefence					= 2
+	airattack					= 1
+	strategicattack				= 0
+	tacticalattack				= 1
+	navalattack					= 2
+	range						= 300
+	supplyconsumption 			= 10
+	fuelconsumption				= 30
+}
+# 1 - Basic Naval Bomber
+model = {
+	cost 						= 12
+	buildtime					= 150
+	defaultorganisation 		= 30
+	manpower					= 2
+	maxspeed					= 300
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	surfacedefence				= 4
+	airdefence					= 3
+	airattack					= 2
+	strategicattack				= 0
+	tacticalattack				= 1
+	navalattack					= 5
+	range						= 625
+	supplyconsumption 			= 15
+	fuelconsumption				= 32
+}
+# 2 - Improved Naval Bomber
+model = {
+	cost 						= 14
+	buildtime					= 150
+	defaultorganisation 		= 30
+	manpower					= 3
+	maxspeed					= 350
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	surfacedefence				= 6
+	airdefence					= 4
+	airattack					= 2
+	strategicattack				= 0
+	tacticalattack				= 2
+	navalattack					= 7
+	range						= 825
+	supplyconsumption 			= 18
+	fuelconsumption				= 36
+}
+# 3 - Advanced Naval Bomber
+model = {
+	cost 						= 16
+	buildtime					= 150
+	defaultorganisation 		= 30
+	manpower					= 3
+	maxspeed					= 400
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	surfacedefence				= 8
+	airdefence					= 4
+	airattack					= 3
+	strategicattack				= 2
+	tacticalattack				= 2
+	navalattack					= 9
+	range						= 1025
+	supplyconsumption 			= 20
+	fuelconsumption				= 40
+}

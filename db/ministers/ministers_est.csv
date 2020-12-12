@@ -1,0 +1,97 @@
+EST;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+26001;Head of State;Konstantin Päts;NA;PA LC CE RS;NA;NA;pats_konstantin2_est;x
+26002;Head of Government;Konstantin Päts;NA;CE;NA;NA;pats_konstantin2_est;x
+26003;Foreign Minister;Julius Friedrich Seljamaa;NA;CE;Undistinguished Suit;Medium;unknown;x
+26004;Minister of Armament;Karl Selter;NA;CE;Undistinguished Suit;Medium;selter2_est;x
+26005;Minister of Security;Kaarel Eenpalu;NA;CE;Undistinguished Suit;Medium;unknown;x
+26006;Head of Military Intelligence;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+26007;Chief of Staff;Paul Lill;NA;PA;Undistinguished Suit;Medium;unknown;x
+26008;Chief of Army;Johan Laidoner;NA;PA;Undistinguished Suit;Medium;laidoner_est;x
+26009;Chief of Navy;V. Mere ;NA;PA;Undistinguished Suit;Medium;unknown;x
+26010;Chief of Air Force;Tomberg;NA;PA;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+26001;Head of State;Konstantin Päts;NA;PA LC CE RS;NA;NA;pats_konstantin2_est;x
+26002;Head of Government;Konstantin Päts;NA;PA;NA;NA;pats_konstantin2_est;x
+26003;Foreign Minister;Julius Friedrich Seljamaa;NA;PA;Undistinguished Suit;Medium;unknown;x
+26004;Minister of Armament;Karl Selter;NA;PA;Undistinguished Suit;Medium;selter2_est;x
+26005;Minister of Security;Kaarel Eenpalu;NA;PA;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+26011;Head of State;August Rei;NA;LC CE RS;NA;NA;unknown;x
+26012;Head of Government;August Rei;NA;RS;NA;NA;unknown;x
+26013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+26014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+26015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+26001;Head of State;Konstantin Päts;NA;LC CE RS;NA;NA;pats_konstantin2_est;x
+26002;Head of Government;Konstantin Päts;NA;PA;NA;NA;pats_konstantin2_est;x
+26003;Foreign Minister;Julius Friedrich Seljamaa;NA;PA;Undistinguished Suit;Medium;unknown;x
+26004;Minister of Armament;Karl Selter;NA;PA;Undistinguished Suit;Medium;selter2_est;x
+26005;Minister of Security;Kaarel Eenpalu;NA;PA;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+26011;Head of State;August Rei;NA;LC CE RS;NA;NA;unknown;x
+26012;Head of Government;August Rei;NA;RS;NA;NA;unknown;x
+26013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+26014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+26015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+26001;Head of State;Konstantin Päts;NA;LC CE RS;NA;NA;pats_konstantin2_est;x
+26002;Head of Government;Konstantin Päts;NA;PA;NA;NA;pats_konstantin2_est;x
+26003;Foreign Minister;Julius Friedrich Seljamaa;NA;PA;Undistinguished Suit;Medium;unknown;x
+26004;Minister of Armament;Karl Selter;NA;PA;Undistinguished Suit;Medium;selter2_est;x
+26005;Minister of Security;Kaarel Eenpalu;NA;PA;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+26011;Head of State;August Rei;NA;LC CE RS;NA;NA;unknown;x
+26012;Head of Government;August Rei;NA;RS;NA;NA;unknown;x
+26013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+26014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+26015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+26016;Head of State;Hjalmar Mäe;NA;NS FA PA;NA;NA;unknown;x
+26017;Head of Government;Hjalmar Mäe;NA;FA;NA;NA;unknown;x
+26018;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+26019;Minister of Armament;Alfred Wendt;NA;FA;Undistinguished Suit;Medium;unknown;x
+26020;Minister of Security;Oskar Angelus;NA;FA;Undistinguished Suit;Medium;unknown;x
+26021;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+26022;Chief of Staff;Johannes Soodla;NA;NS;Undistinguished Suit;Medium;unknown;x
+26023;Chief of Army;Juhan Tuuling;NA;NS;Undistinguished Suit;Medium;unknown;x
+26024;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+26025;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+26026;Head of State;Johannes Vares;NA;ST LE LWR;NA;NA;unknown;x
+26027;Head of Government;Johannes Vares;NA;LE;NA;NA;unknown;x
+26028;Foreign Minister;Nigol Androzen;NA;LE;Undistinguished Suit;Medium;unknown;x
+26029;Minister of Armament;Juhan Narma;NA;LE;Undistinguished Suit;Medium;unknown;x
+26030;Minister of Security;Maksim Unt;NA;LE;Undistinguished Suit;Medium;unknown;x
+26031;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+26032;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+26033;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+26034;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+26035;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+26036;Head of State;Jüri Uluots;44;LC CE RS;Undistinguished Suit;Medium;unknown;x
+26037;Head of Government;Kaarel Eenpalu;38;CE;Undistinguished Suit;Medium;unknown;x
+26038;Head of Government;Jüri Uluots;39;LC;Undistinguished Suit;Medium;unknown;x
+26039;Head of Government;Kaarel Liidak;44;CE;Undistinguished Suit;Medium;unknown;x
+26040;Head of Government;Otto Tief ;44;CE;Undistinguished Suit;Medium;unknown;x
+26041;Head of Government;Johannes Lauristin;40;LWR;Undistinguished Suit;Medium;unknown;x
+26042;Head of Government;Oskar Sepre;42;ST;Undistinguished Suit;Medium;unknown;x
+26043;Head of Government;Arnold Veimer;44;LE;Undistinguished Suit;Medium;unknown;x
+26044;Foreign Minister;Friedrich Karl Akel;36;CE;Undistinguished Suit;Medium;unknown;x
+26045;Foreign Minister;Karl Selter;38;CE;Undistinguished Suit;Medium;selter2_est;x
+26046;Foreign Minister;Ants Piip;39;CE;Undistinguished Suit;Medium;unknown;x
+26047;Foreign Minister;August Rei;36;RS;Undistinguished Suit;Medium;unknown;x
+26048;Foreign Minister;Hans Kruus;44;ST;Undistinguished Suit;Medium;unknown;x
+26049;Minister of Armament;Leo Sepp;38;CE;Undistinguished Suit;Medium;unknown;x
+26050;Minister of Armament;Hugo Pärtelpoeg;44;CE;Undistinguished Suit;Medium;unknown;x
+26051;Minister of Armament;Paul Keerdo;40;ST;Undistinguished Suit;Medium;unknown;x
+26052;Minister of Security;Richard Veermaa;38;CE;Undistinguished Suit;Medium;unknown;x
+26053;Minister of Security;August Jürima;39;CE;Undistinguished Suit;Medium;unknown;x
+26054;Minister of Security;Johannes Klesment;44;CE;Undistinguished Suit;Medium;unknown;x
+26055;Minister of Security;Boris Kumm;40;ST;Undistinguished Suit;Medium;unknown;x
+26056;Minister of Security;Andres Murro;41;ST;Undistinguished Suit;Medium;unknown;x
+26057;Minister of Security;Aleksander Resev;44;ST;Undistinguished Suit;Medium;unknown;x
+26058;Chief of Staff;Nikolai Reek;39;CE;Undistinguished Suit;Medium;unknown;x
+26059;Chief of Staff;Johan Holberg;44;CE;Undistinguished Suit;Medium;unknown;x
+26060;Chief of Staff;Nikolay G. Karotamm;41;ST;Undistinguished Suit;Medium;unknown;x
+26061;Chief of Army;Alfons Rebane;44;NS;Undistinguished Suit;Medium;unknown;x
+26062;Chief of Navy;J. Santpank ;39;LC;Undistinguished Suit;Medium;unknown;x

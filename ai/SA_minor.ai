@@ -1,0 +1,57 @@
+# South-American Minor
+# 
+# Henrik Fåhraeus 07-10-02
+
+# 100 = Total warmonger, 0 = absolute pacifist
+war = 50
+
+military = {
+	infantry = 			40
+	cavalry = 			5
+	motorized = 		2
+	mechanized =		0
+	panzer = 			3
+	paratrooper = 		0
+	marine = 			0
+	bergsjaeger = 		10
+#						60%
+	
+	fighter = 			14
+	strategic_bomber = 	0
+	tactical_bomber = 	1
+	naval_bomber = 		0
+	dive_bomber = 		5
+	transport_plane = 	0 
+	torpedo_plane = 	0
+#						20%
+	
+	battleship = 		0
+	carrier = 			0
+	destroyer = 		7
+	cruiser = 			1
+	submarine = 		2
+	transports = 		10
+#						20%
+
+}
+
+technology = {
+
+	endgoal = {}
+	preference = {}
+
+	electronics = 		1.5
+	armor = 			1.0
+	infantry = 			1.9
+	industry = 			1.9
+	rocket = 			0.1
+	nuclear = 			0.1
+	heavy_aircraft = 	1.0
+	light_aircraft = 	1.0
+	naval = 			0.1
+	submarine = 		0.7
+	artillery = 		1.0
+	naval_doctrine = 	0.1
+	land_doctrine = 	1.7
+	air_doctrine = 		1.0
+}

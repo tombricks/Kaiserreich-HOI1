@@ -1,0 +1,346 @@
+Name;ID;Country;Rank;Traits;Skill;Experience;Loyalty;Type;Picture;x
+Rommel;1;GER;1;16;5;0;5;0;rommel_erwin_ger;x
+Guderian;2;GER;3;128;4;0;5;0;guderian_heinz3_ger;x
+von Manstein;3;GER;0;128;5;0;5;0;vonmanstein_erich3_ger;x
+Dönitz;4;GER;1;1024;4;0;3;1;donitz_karl3_ger;x
+Rudel;5;GER;3;4096;4;0;5;2;rudel_hans-ulrich3_ger;x
+Boehm;6;GER;0;1024;3;0;5;1;boehm_ger;x
+Densch;7;GER;2;0;2;0;5;1;unknown;x
+Marschall;8;GER;2;0;3;0;5;1;marschall_wilhelm_ger;x
+Eckermann;9;GER;3;0;2;0;5;0;unknown;x
+Ibbeken;10;GER;3;0;2;0;5;0;unknown;x
+Rösing;11;GER;3;0;2;0;5;0;unknown;x
+von Hartmann;12;GER;3;0;2;0;5;0;hartmann_alexander_ger;x
+Sobe;13;GER;3;0;2;0;5;0;unknown;x
+Beduhn;14;GER;3;0;2;0;5;0;unknown;x
+von Rundstedt;15;GER;0;4;4;0;5;0;vonrundstedt_gerd3_ger;x
+von Brauchitz;16;GER;2;4;3;0;5;0;vonbrauchitsch_walter3_ger;x
+Blaskowitz;17;GER;2;4;3;0;5;0;blaskowitz_johannes_ger;x
+von Witzleben;18;GER;1;4;3;0;5;0;vonwitzleben_erwin_ger;x
+von Kleist;19;GER;2;128;3;0;5;0;vonkleist_ewald3_ger;x
+von Leeb;20;GER;1;4;3;0;5;0;vonleeb_wilhelm4_ger;x
+Geyer;21;GER;2;0;2;0;5;0;unknown;x
+W. von Kluge;22;GER;2;4;2;0;5;0;vonkluge_gunther3_ger;x
+Dollman;23;GER;2;0;3;0;5;0;dollman_friedrich2_ger;x
+von Kressenstein;24;GER;2;4;2;0;5;0;unknown;x
+List;25;GER;1;4;3;0;5;0;list_wilhelm3_ger;x
+von Reichenau;26;GER;0;4;3;50;5;0;reichenau_walther_ger;x
+von Knochenhauer;27;GER;2;0;2;0;5;0;unknown;x
+Ulex;28;GER;2;0;2;0;5;0;unknown;x
+Lutz;29;GER;2;0;2;0;5;0;unknown;x
+Schroth;30;GER;3;0;2;0;5;0;unknown;x
+von Niebelschutz;31;GER;3;0;2;0;5;0;unknown;x
+Wodrig;32;GER;1;0;2;0;5;0;albert_wodrig_ger;x
+Gerke;33;GER;3;0;2;0;5;0;unknown;x
+von Falkenhorst;34;GER;3;4;3;0;5;0;vonfalkenhorst_nikolaus_ger;x
+Petzel;35;GER;3;0;2;0;5;0;unknown;x
+Busch;36;GER;2;0;3;50;5;0;busch4_ernst_ger;x
+Koch;37;GER;3;0;2;0;5;0;koch_erich_ger;x
+von Obstfelder;38;GER;1;0;3;0;5;0;von_obstfelder_ger;x
+Hahn;39;GER;3;0;2;0;5;0;unknown;x
+O. Hansen;40;GER;3;0;2;0;5;0;unknown;x
+Scheller;41;GER;3;0;2;0;5;0;unknown;x
+Kuntze;42;GER;3;0;3;0;5;0;kuntzen_adolf_ger;x
+Glokke;43;GER;3;0;2;0;5;0;unknown;x
+Kühne;44;GER;3;0;3;0;5;0;unknown;x
+Osswald;45;GER;3;0;2;0;5;0;unknown;x
+von Wietersheim;46;GER;3;0;2;0;5;0;vonwietersheim_gustav_ger;x
+von Schobert;47;GER;3;0;2;0;5;0;vonschobert_eugen_ger;x
+Lüdke;48;GER;3;0;2;0;5;0;luedke_ger;x
+Lindemann;49;GER;3;0;3;0;5;0;lindemann_georg3_ger;x
+Raschick;50;GER;3;0;2;0;5;0;unknown;x
+Weyer;51;GER;3;0;3;0;5;0;unknown;x
+Kienitz;52;GER;3;0;2;0;5;0;kienitz_werner_ger;x
+Haider;53;GER;3;0;3;0;5;0;unknown;x
+Wäger;54;GER;3;0;2;0;5;0;unknown;x
+K. Haase;55;GER;3;0;2;0;5;0;haase_curt_ger;x
+Reischle;56;GER;3;0;2;0;5;0;unknown;x
+Schwandner;57;GER;3;0;2;0;5;0;unknown;x
+Strauss;58;GER;3;0;2;0;5;0;strauss_adolf_ger;x
+von Stülpnagel;59;GER;3;0;3;0;5;0;stulpnagel_heinrich_ger;x
+Otto;60;GER;3;0;2;0;5;0;unknown;x
+von Gossler;61;GER;3;0;2;0;5;0;unknown;x
+Fischer;62;GER;3;0;2;0;5;0;fischer_michael_ger;x
+von Weichs;63;GER;0;0;3;0;5;0;vonweichs_maximilian_ger;x
+Fessman;64;GER;3;0;2;0;5;0;unknown;x
+Abraham;65;GER;3;0;2;0;5;0;unknown;x
+Allmendinger;66;GER;3;0;2;0;5;0;allmendinger_karl2_ger;x
+Angelis;67;GER;1;4;2;0;5;0;angelis_ger;x
+von Arnim;68;GER;1;128;2;0;5;0;vonarnim_hans-jurgen_ger;x
+Auleb;69;GER;3;0;2;0;5;0;unknown;x
+Bader;70;GER;2;0;2;0;5;0;bader_ger;x
+Balck;71;GER;3;128;2;0;5;0;balck_hermann_ger;x
+Behlendorff;72;GER;2;0;2;0;5;0;unknown;x
+Berlin;73;GER;3;0;2;0;5;0;unknown;x
+F. Beyer;74;GER;2;0;2;0;5;0;vonbeyer_franz_ger;x
+Bieler;75;GER;2;0;2;0;5;0;unknown;x
+Block;76;GER;2;0;2;0;5;0;unknown;x
+Blumentritt;77;GER;2;4;2;0;5;0;blumentritt_gunther_ger;x
+M. Bock;78;GER;3;0;2;0;5;0;unknown;x
+Böckmann;79;GER;2;0;2;0;5;0;unknown;x
+Boege;80;GER;2;0;2;0;5;0;unknown;x
+Boehme;81;GER;2;0;2;0;5;0;boehme_franz_ger;x
+Brandenberger;82;GER;1;4;2;0;5;0;brandenberger_erich_ger;x
+Brauchitsch;83;GER;0;4;3;50;5;0;vonbrauchitsch_walter3_ger;x
+Breith;84;GER;3;0;2;0;5;0;breith_hermann_ger;x
+Briesen;85;GER;3;0;2;0;5;0;unknown;x
+Busse;86;GER;1;0;2;0;5;0;busse_ger;x
+Chevallerie;87;GER;3;0;2;0;5;0;vonchevallerie_kurt_ger;x
+Clößner;88;GER;2;0;2;0;5;0;cloesner_ger;x
+Choltitz;89;GER;2;0;2;0;5;0;choltitz_ger;x
+Decker;90;GER;3;0;2;0;5;0;decker_karl_ger;x
+Dietl;91;GER;3;0;2;0;5;0;dietl_eduard2_ger;x
+Dostler;92;GER;2;0;2;0;5;0;anton_dostler_ger;x
+Eberbach;93;GER;2;0;2;0;5;0;eberbach_heinrich_ger;x
+Eglseer;94;GER;3;0;2;0;5;0;unknown;x
+Eibl;95;GER;3;0;2;0;5;0;eibl_karl_ger;x
+Falkenhorst;96;GER;1;4;2;0;5;0;vonfalkenhorst_nikolaus_ger;x
+Felber;97;GER;1;4;2;0;5;0;felber_ger;x
+Flörke;98;GER;3;0;2;0;5;0;unknown;x
+Föhrenbach;99;GER;2;0;2;0;5;0;foehrenbach_ger;x
+O.W. Förster;100;GER;2;0;2;0;5;0;unknown;x
+Foertsch ;101;GER;3;0;2;0;5;0;fortsch_friedrich_ger;x
+Foertsch;102;GER;1;4;2;0;5;0;fortsch_friedrich_ger;x
+Folttmann;103;GER;3;0;2;0;5;0;unknown;x
+Forst;104;GER;3;0;2;0;5;0;unknown;x
+Franek;105;GER;3;0;2;0;5;0;unknown;x
+Franke;106;GER;3;0;2;0;5;0;unknown;x
+Frankewitz;107;GER;3;0;2;0;5;0;unknown;x
+Franz;108;GER;2;0;2;0;5;0;unknown;x
+Fremerey;109;GER;2;0;2;0;5;0;unknown;x
+Frenking;110;GER;3;0;2;0;5;0;unknown;x
+Fretter-Pico;111;GER;2;0;2;0;5;0;fretter_pico_ger;x
+Freutel;112;GER;3;0;2;0;5;0;unknown;x
+Frießner;113;GER;1;4;2;0;5;0;friessner_ger;x
+Geyr von Schweppenburg;114;GER;2;4;3;0;5;0;vonschweppenburg_geyr2_ger;x
+Graeser;115;GER;2;0;2;0;5;0;graeser_ger;x
+Haarde;116;GER;3;0;2;0;5;0;unknown;x
+Haccius;117;GER;3;0;2;0;5;0;unknown;x
+Haeckel;118;GER;3;0;2;0;5;0;haeckel_ger;x
+Haehling;119;GER;3;0;2;0;5;0;unknown;x
+Hagemann;120;GER;2;0;2;0;5;0;unknown;x
+Hahm;121;GER;2;0;2;0;5;0;unknown;x
+Hammerstein-Equord;122;GER;2;2;2;0;5;0;hammerstein-equord_kurt_ger;x
+E. Hansen;123;GER;2;0;2;0;5;0;unknown;x
+Harpe;124;GER;1;4;2;0;5;0;harpe_josef_ger;x
+Harteneck;125;GER;3;0;2;0;5;0;harteneck_gustav_ger;x
+Hasse;126;GER;2;0;2;0;5;0;hasse_ger;x
+Heinrici;127;GER;2;64;2;0;5;0;heinrici_gotthard2_ger;x
+Herr;128;GER;2;0;2;0;5;0;herr_traugott_ger;x
+Hilpert;129;GER;2;0;2;0;5;0;hilpert_carl_ger;x
+Hoepner;130;GER;2;128;2;0;5;0;hoepner_ger;x
+Hollidt;131;GER;3;0;2;0;5;0;hollidt_adolf_ger;x
+Hoßbach;132;GER;3;0;2;0;5;0;hossbach_ger;x
+Hoth;133;GER;1;4;2;0;5;0;hoth_hermann_ger;x
+Hubicki;134;GER;1;0;2;0;5;0;hubicki_ger;x
+Jaenecke;135;GER;2;0;2;0;5;0;jaenecke_erwin_ger;x
+Jordan;136;GER;3;0;2;0;5;0;jordan_ger;x
+Keitel;137;GER;0;4;4;0;5;0;keitel_wilhelm4_ger;x
+Kempf;138;GER;2;0;2;0;5;0;kempf_werner2_ger;x
+Kleffel;139;GER;2;0;2;0;5;0;unknown;x
+Kleist;140;GER;0;128;4;0;5;0;vonkleist_ewald3_ger;x
+Kleemann;141;GER;3;0;2;0;5;0;kleemann_ulrich_ger;x
+H. von Kluge;142;GER;0;4;3;0;5;0;vonkluge_gunther5_ger;x
+Knobelsdorff;143;GER;2;0;2;0;5;0;vonknobelsdorff_otto3_ger;x
+Koch-Erpach;144;GER;2;0;2;0;5;0;koch_erpach_ger;x
+Konrad;145;GER;3;0;2;0;5;0;unknown;x
+Krause;146;GER;3;0;2;0;5;0;krause_johannes_ger;x
+Kreysing;147;GER;3;0;2;0;5;0;unknown;x
+Krüger;148;GER;3;0;2;0;5;0;kruger_walter_ger;x
+Kübler;149;GER;3;0;2;0;5;0;kubler_ludwig_ger;x
+Lanz;150;GER;1;4;2;0;5;0;lanz_ger;x
+Lasch;151;GER;3;0;2;0;5;0;unknown;x
+Laux;152;GER;2;0;2;0;5;0;laux_paul_ger;x
+Leeb;153;GER;2;4;2;0;5;0;unknown;x
+Lemelsen;154;GER;1;128;2;0;5;0;lemelsen_joachim_ger;x
+Leyser;155;GER;2;0;2;0;5;0;unknown;x
+Lichel;156;GER;3;0;2;0;5;0;unknown;x
+Liebenstein;157;GER;3;0;2;0;5;0;unknown;x
+Lucht;158;GER;2;0;2;0;5;0;lucht_ger;x
+Loch;159;GER;2;0;2;0;5;0;unknown;x
+von Lüttwitz;160;GER;3;0;2;0;5;0;vonluttwitz_smilo_ger;x
+Mackensen;161;GER;1;4;2;0;5;0;vonmackensen_eberhard_ger;x
+von Manteuffel;162;GER;1;128;3;0;5;0;vonmanteuffel_hasso2_ger;x
+Marcks;163;GER;2;0;2;0;5;0;marcks_erich_ger;x
+Materna;164;GER;2;0;2;0;5;0;materna_ger;x
+Mattenklott;165;GER;3;0;2;0;5;0;mattenklott_franz2_ger;x
+Model;166;GER;0;128;3;0;5;0;model_walter3_ger;x
+Müller;167;GER;3;0;2;0;5;0;muller_alfred_ger;x
+Nehring;168;GER;3;128;2;0;5;0;nehring_walther_ger;x
+Niehoff;169;GER;3;0;2;0;5;0;niehoff_hermann_ger;x
+Obstfelder;170;GER;2;0;2;0;5;0;obstfelder_ger;x
+Olbricht;171;GER;3;0;2;0;5;0;olbricht_friedrich_ger;x
+Paulus;172;GER;0;1;4;0;5;0;paulus_friedrich2_ger;x
+Rasp;173;GER;1;0;2;0;5;0;unknown;x
+Raus;174;GER;3;0;2;0;5;0;raus_erhard_ger;x
+Reinhardt;175;GER;1;4;2;0;5;0;reinhardt_hans-georg_ger;x
+Rendulic;176;GER;3;0;2;0;5;0;rendulic_lothar2_ger;x
+Rodenburg;177;GER;3;0;2;0;5;0;rodenburg_carl_ger;x
+Röhricht;178;GER;2;0;2;0;5;0;unknown;x
+Röpke;179;GER;3;0;2;0;5;0;unknown;x
+Röttiger;180;GER;1;4;2;0;5;0;rottiger_hans_ger;x
+Ruoff;181;GER;1;4;3;0;5;0;ruoff_richard_ger;x
+Salmuth;182;GER;1;4;2;0;5;0;vonsalmuth_hans_ger;x
+von Saucken;183;GER;3;0;2;0;5;0;vonsaucken_dietrich_ger;x
+Schaal;184;GER;3;0;2;0;5;0;schaal_ferdinand_ger;x
+Schlieben;185;GER;3;0;2;0;5;0;schlieben_kw_ger;x
+H. Schmidt;186;GER;3;0;2;0;5;0;schmidt_hans_ger;x
+Schörner;187;GER;0;128;3;50;5;0;schoerner_ferdinand_ger;x
+Schulz;188;GER;2;0;2;0;5;0;schulz_f_ger;x
+Senger und Etterlin;189;GER;3;0;2;0;5;0;vonsengeruntetterlin_frido_ger;x
+Seydlitz-Kurzback;190;GER;3;0;2;0;5;0;seydlitz_kurzback_ger;x
+Sinnhuber;191;GER;2;0;2;0;5;0;unknown;x
+von Sodenstern;192;GER;1;0;2;0;5;0;sodenstern_ger;x
+Straube;193;GER;2;0;2;0;5;0;straube_erich_ger;x
+Stumme;194;GER;3;4;2;0;5;0;stumme_georg_ger;x
+von Thoma;195;GER;3;128;2;0;5;0;vonthoma_ger;x
+von Tippelskirch;196;GER;1;8;2;0;5;0;tippelskirch_ger;x
+von Vaerst;197;GER;3;0;2;0;5;0;vonvaerst_ger;x
+von Vietinghoff ;198;GER;1;2;3;0;5;0;vonvietinghoff_heinrich3_ger;x
+Volckamer von Kirchensittenbach;199;GER;3;0;2;0;5;0;vonkirchensittenbach_volckamer_ger;x
+von Vormann;200;GER;2;0;2;0;5;0;unknown;x
+Weiß;201;GER;3;0;2;0;5;0;weiss_walter_ger;x
+Wenck;202;GER;1;0;2;0;5;0;wenck_ger;x
+Westphal;203;GER;1;0;2;0;5;0;westphal_siegfried2_ger;x
+Wiese;204;GER;3;0;2;0;5;0;wiese_ger;x
+von Wiktorin;205;GER;2;0;2;0;5;0;unknown;x
+Wöhler;206;GER;2;0;2;0;5;0;woehler_ger;x
+von Zangen;207;GER;3;0;2;0;5;0;zangen_ger;x
+Zeitzler;208;GER;2;2;2;0;5;0;zeitzler_kurt3_ger;x
+Ziegler;209;GER;2;0;2;0;5;0;ziegler_ger;x
+Zorn;210;GER;3;0;2;0;5;0;unknown;x
+E. Beyer;211;GER;2;0;2;0;5;0;unknown;x
+von Bock;212;GER;0;4;3;0;5;0;vonbock_fedor3_ger;x
+Boehm-Bezing;213;GER;3;0;2;0;5;0;unknown;x
+S. Förster;214;GER;1;0;3;0;5;0;unknown;x
+Fortner;215;GER;3;0;2;0;5;0;unknown;x
+Fouquet;216;GER;3;0;2;0;5;0;unknown;x
+Fox;217;GER;3;0;2;0;5;0;unknown;x
+Frantzius;218;GER;3;0;2;0;5;0;unknown;x
+Freytag;219;GER;1;0;2;0;5;0;unknown;x
+Fromm;220;GER;1;4;2;0;5;0;fromm_erich_ger;x
+Haack;221;GER;3;0;2;0;5;0;unknown;x
+Haas;222;GER;2;0;2;0;5;0;unknown;x
+C. Haase;223;GER;2;0;2;0;5;0;haase_curt_ger;x
+Habenicht;224;GER;3;0;2;0;5;0;unknown;x
+Hachtel;225;GER;3;0;2;0;5;0;unknown;x
+Hadeln;226;GER;3;0;2;0;5;0;unknown;x
+Haehling von Lanzenauer;227;GER;3;0;2;0;5;0;unknown;x
+Haehnle;228;GER;3;0;2;0;5;0;unknown;x
+Haenicke;229;GER;2;0;2;0;5;0;unknown;x
+von dem Hagen;230;GER;3;0;2;0;5;0;unknown;x
+Hagl;231;GER;3;0;2;0;5;0;unknown;x
+Hahne;232;GER;3;0;2;0;5;0;unknown;x
+Halder;233;GER;3;4;2;0;5;0;halder_franz3_ger;x
+Halm;234;GER;3;0;2;0;5;0;unknown;x
+Hamann;235;GER;3;0;2;0;5;0;unknown;x
+E. Hammer;236;GER;3;0;2;0;5;0;vonhammerstein-equordt_kurt_ger;x
+H. Hammer;237;GER;3;0;2;0;5;0;unknown;x
+von Hanneken;238;GER;1;0;3;0;5;0;vonhanneken_hermann_ger;x
+C. Hansen;239;GER;1;0;2;0;5;0;c_hansen_ger;x
+Harrendorf;240;GER;3;0;2;0;5;0;unknown;x
+Hartlieb;241;GER;3;0;2;0;5;0;unknown;x
+M. Hartmann;242;GER;3;0;2;0;5;0;unknown;x
+O. Hartmann;243;GER;2;0;2;0;5;0;unknown;x
+Wa. Hartmann;244;GER;3;0;2;0;5;0;hartmann_walter_ger;x
+Wi. Hartmann;245;GER;3;0;2;0;5;0;wi_hartmann_ger;x
+Heitz;246;GER;2;0;2;0;5;0;heitz_walter_ger;x
+Hitzfeld;247;GER;3;0;2;0;5;0;hitzfeld_otto_ger;x
+Hube;248;GER;3;128;3;0;5;0;hube_hans_ger;x
+A. Jodl;249;GER;1;4;3;0;5;0;jodl_alfred2_ger;x
+F. Jodl;250;GER;2;0;2;0;5;0;jodl_ferdinand_ger;x
+Kaupisch;251;GER;1;0;3;0;5;0;vonkaupisch_leonard_ger;x
+Köchling;252;GER;2;0;2;0;5;0;unknown;x
+Koetz;253;GER;3;0;2;0;5;0;unknown;x
+Korfes;254;GER;3;0;2;0;5;0;unknown;x
+Kriebel;255;GER;3;0;2;0;5;0;kriebel_karl_ger;x
+von Krosigk;256;GER;2;0;3;0;5;0;unknown;x
+von Küchler;257;GER;0;1;3;0;5;0;vonkuchler_georg4_ger;x
+Kuntzen;258;GER;2;0;2;0;5;0;kuntzen_adolf_ger;x
+Liebmann;259;GER;1;0;2;0;5;0;liebmann_ger;x
+von Lützov;260;GER;2;0;2;0;5;0;unknown;x
+Martinek;261;GER;2;0;2;0;5;0;martinek_ger;x
+Matzky;262;GER;2;0;2;0;5;0;matzky_gerhard_ger;x
+Neuhling;263;GER;3;0;2;0;5;0;unknown;x
+Pannwitz;264;GER;3;0;2;0;5;0;unknown;x
+Praun;265;GER;3;0;2;0;5;0;unknown;x
+Schlemmer;266;GER;3;0;2;0;5;0;unknown;x
+Schlieper;267;GER;3;0;2;0;5;0;schlieper_fritz_ger;x
+R. Schmidt;268;GER;1;0;3;0;5;0;schmidt_rudolf_ger;x
+Schobert;269;GER;3;0;2;0;5;0;vonschobert_eugen_ger;x
+von Sodenstern;270;GER;1;0;3;0;5;0;unknown;x
+Strecker;271;GER;2;0;2;0;5;0;strecker_karl2_ger;x
+Theißen;272;GER;3;0;2;0;5;0;unknown;x
+Raeder;273;GER;0;8192;4;0;5;1;raeder_erich4_ger;x
+Marschall;275;GER;3;0;3;0;5;1;marschall_wilhelm_ger;x
+Densch;276;GER;3;0;2;0;5;1;unknown;x
+Lütjens;277;GER;1;1024;4;0;5;1;lutjens_gunther_ger;x
+Meisel;278;GER;2;0;3;0;5;1;meisel_w_ger;x
+Bonte;279;GER;3;0;2;0;5;1;unknown;x
+Hartmann;280;GER;3;0;3;0;5;1;unknown;x
+Bey;281;GER;3;0;2;0;5;1;bey_erich_ger;x
+Heyke;282;GER;3;0;2;0;5;1;unknown;x
+Waue;283;GER;3;0;2;0;5;1;unknown;x
+Eckermann;285;GER;3;0;2;0;5;1;unknown;x
+Ibbeken;286;GER;3;0;2;0;5;1;unknown;x
+Rösing;287;GER;3;0;2;0;5;1;unknown;x
+Sobe;288;GER;3;0;2;0;5;1;unknown;x
+Bedunn;289;GER;3;0;2;0;5;1;unknown;x
+Saalwächter;290;GER;1;1024;3;0;5;1;saalwachter_ger;x
+Albrecht;291;GER;1;1024;3;0;5;1;schubert_albrecht_ger;x
+Göring;292;GER;0;32768;5;0;5;2;goring_hermann4_ger;x
+Student;293;GER;3;8192;2;0;5;2;student_kurt_ger;x
+Felmy;294;GER;1;4096;3;0;5;2;unknown;x
+Putzier;295;GER;3;0;2;0;5;2;unknown;x
+Keller;296;GER;3;0;2;0;5;2;keller_alfred_ger;x
+Wolff;297;GER;3;0;2;0;5;2;wolff_ludwig_ger;x
+Scmidt;298;GER;3;0;2;0;5;2;schmidt_winfried_ger;x
+Sperrle;299;GER;1;16384;4;0;5;2;sperrle_hugo2_ger;x
+von Greim;300;GER;3;0;2;0;5;2;vongreim_ritter_ger;x
+Dessloch;301;GER;3;0;2;0;5;2;dessloch_ger;x
+Zenetti;302;GER;3;0;2;0;5;2;unknown;x
+Weissmann;303;GER;3;0;2;0;5;2;unknown;x
+Heilingbrunner;304;GER;3;0;2;0;5;2;unknown;x
+Kesselring;305;GER;1;16384;4;0;5;2;kesselring_albert_ger;x
+Grauert;306;GER;3;0;2;0;5;2;grauert_ulrich_ger;x
+Wimmer;307;GER;3;0;2;0;5;2;wimmer_wilhelm_ger;x
+Förster;308;GER;3;0;2;0;5;2;unknown;x
+Mußhoff;309;GER;3;0;2;0;5;2;unknown;x
+Weise;310;GER;3;0;2;0;5;2;weise_hubert_ger;x
+Mayer;311;GER;3;0;2;0;5;2;unknown;x
+Löhr;312;GER;1;16384;3;0;5;2;unknown;x
+Loerzer;313;GER;3;0;2;0;5;2;loerzer_bruno_ger;x
+von Richthofen;314;GER;3;4096;2;0;5;2;vonrichthofen_wolfram_ger;x
+Waber;315;GER;3;0;2;0;5;2;unknown;x
+Ritter;316;GER;1;4096;3;0;5;2;vongreim_ritter_ger;x
+Bruch;317;GER;3;0;2;0;5;2;unknown;x
+Coeler;318;GER;3;0;2;0;5;2;unknown;x
+Bogatsch;319;GER;1;4096;3;0;5;2;unknown;x
+Bieneck;320;GER;3;0;2;0;5;2;unknown;x
+Krocker;321;GER;3;0;2;0;5;2;unknown;x
+Schulz;322;GER;3;0;2;0;5;2;schultz_adalbert_ger;x
+Ciliax;323;GER;1;0;3;0;5;1;ciliax_ger;x
+Krancke;324;GER;1;0;3;0;5;1;krancke_ger;x
+Carls;325;GER;1;0;2;0;5;1;unknown;x
+Schniewind;326;GER;1;0;2;0;5;1;unknown;x
+Förste;327;GER;1;0;2;0;5;1;unknown;x
+Albrecht;328;GER;1;0;3;0;5;1;unknown;x
+Karls;329;GER;1;0;3;0;5;1;unknown;x
+Schmundt;330;GER;2;0;2;0;5;0;schmundt_ger;x
+Kummetz;331;GER;1;0;2;0;5;1;unknown;x
+Schuster;332;GER;1;0;3;0;5;1;unknown;x
+Löwisch;333;GER;2;0;2;0;5;1;unknown;x
+Lietzmann;334;GER;2;0;2;0;5;1;unknown;x
+von Stosch;335;GER;2;0;2;0;5;1;unknown;x
+Lange;336;GER;2;0;2;0;5;1;unknown;x
+Schirlitz;337;GER;2;0;2;0;5;1;unknown;x
+Götting;338;GER;2;0;2;0;5;1;unknown;x
+Guse;339;GER;1;0;3;0;5;1;unknown;x
+Burchardi;340;GER;1;0;2;0;5;1;unknown;x
+Thiele;341;GER;2;0;2;0;5;1;unknown;x
+Schubert;342;GER;3;0;2;0;5;1;unknown;x
+von Arnauld de la Periere;343;GER;2;0;2;0;5;1;unknown;x
+Kienast;344;GER;3;0;2;0;5;1;unknown;x
+Hoffmann;345;GER;2;0;2;0;5;1;hoffmann_kc_ger;x
+Kleikamp;346;GER;2;0;2;0;5;1;unknown;x
+Stange;347;GER;2;0;2;0;5;1;unknown;x

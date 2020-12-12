@@ -1,0 +1,34 @@
+SAL;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+77001;Head of State;Black Shadow;NA;PA;NA;NA;unknown;x
+77002;Head of Government;Black Shadow;NA;PA;NA;NA;unknown;x
+77003;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+77004;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+77005;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+77006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+77007;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+77008;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+77009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+77010;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+77011;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+77012;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+77013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+77014;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+77015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+77016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+77017;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+77018;Chief of Army;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+77019;Chief of Navy;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+77020;Chief of Air Force;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+77021;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+77022;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+77023;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+77024;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+77025;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+77026;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+77027;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+77028;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+77029;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+77030;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

@@ -1,0 +1,57 @@
+#
+# HoI - Nationalist China Events
+#
+#		written by Henrik Fåhraeus
+#
+
+# ID series: 4100-4199
+
+#########################################################################
+#  The Nanking Massacre
+#########################################################################
+event = { 
+	id = 4100
+	random = no
+	country = CHI
+	
+	# Triggered by JAP 3802
+	
+	name = "EVT_4100_NAME"
+	desc = "EVT_4100_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Tragedy!
+		command = { type = province_manpower which = 1695 value = -30 }
+		command = { type = dissent value = -30 } # National cementation
+		command = { type = capital which = 1611 }
+	}
+}
+#########################################################################
+#  The Sian Incident (Chiang Kai-Shek kidnapped)
+#########################################################################
+event = { 
+	#id = 4101
+	#random = no
+	#country = CHI
+	
+	#trigger = {
+	#	exists = CHC
+	#}
+	
+	name = "EVT_4101_NAME"
+	desc = "EVT_4101_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME4101A" # Ally with the Commies
+		command = { type = peace which = CHC }
+		command = { type = access which = CHC }
+		command = { type = dissent value = -10 }
+	}
+	action_b = {
+		name = "ACTIONNAME4101B" # Refuse
+		command = { type = dissent value = 15 } 
+		# Kill off Chiang..?
+	}
+}

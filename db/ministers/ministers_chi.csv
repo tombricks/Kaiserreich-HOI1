@@ -1,0 +1,76 @@
+CHI;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+52001;Head of State;Lin Sen;NA;PA;NA;NA;unknown;x
+52002;Head of Government;Chiang Kai-shek;NA;PA;NA;NA;kai-shek_chiang_chn;x
+52003;Foreign Minister;Wang Ching-Wei;NA;PA;Biased Intellectual;Medium;wang_ching-wei_chn;x
+52004;Minister of Armament;Bai Chongxi;NA;PA;Resource Industrialist;Low;unknown;x
+52005;Minister of Security;Tai Li;NA;PA;Crooked Plutocrat;Very High;unknown;x
+52006;Head of Military Intelligence;Tai Li;NA;PA;Political Specialist;Very High;unknown;x
+52007;Chief of Staff;Chiang Kai-shek;NA;PA;School of Manoeuvre;Undying;kai-shek_chiang_chn;x
+52008;Chief of Army;Chang Hsiao-liang;NA;PA;Guns and Butter Doctrine;Low;unknown;x
+52009;Chief of Navy;Blue Shadow;NA;PA;Undistinguished Suit;Low;unknown;x
+52010;Chief of Air Force;Blue Shadow;NA;PA;Undistinguished Suit;Low;unknown;x
+;A Cabinet - 1936;ELECT_CHI_1A;;;;;;x
+52002;Head of Government;Chiang Kai-shek;NA;PA;NA;NA;kai-shek_chiang_chn;x
+52003;Foreign Minister;Wang Ching-Wei;NA;PA;Biased Intellectual;Medium;wang_ching-wei_chn;x
+52004;Minister of Armament;Bai Chongxi;NA;PA;Resource Industrialist;Low;unknown;x
+52005;Minister of Security;Tai Li;NA;PA;Crooked Plutocrat;Very High;unknown;x
+;B Cabinet - 1936;ELECT_CHI_1B;;;;;;x
+52011;Head of Government;Kong Xiangxi;NA;PA;NA;NA;unknown;x
+52012;Foreign Minister;T. V. Soong;NA;PA;Great Compromiser;Very High;soong_t-v_chn;x
+52013;Minister of Armament;Wong Wen-hao;NA;PA;Laissez Faires Capitalist;Medium;unknown;x
+52014;Minister of Security;Li-fu Chen;NA;PA;Silent Lawyer;Medium;unknown;x
+;A Cabinet - 1940;ELECT_CHI_1A;;;;;;x
+52002;Head of Government;Chiang Kai-shek;NA;PA;NA;NA;kai-shek_chiang_chn;x
+52003;Foreign Minister;Wang Ching-Wei;NA;PA;Biased Intellectual;Medium;wang_ching-wei_chn;x
+52004;Minister of Armament;Bai Chongxi;NA;PA;Resource Industrialist;Low;unknown;x
+52005;Minister of Security;Tai Li;NA;PA;Crooked Plutocrat;Very High;unknown;x
+;B Cabinet - 1940;ELECT_CHI_2B;;;;;;x
+52015;Head of Government;Zhang Qun;NA;PA;NA;NA;unknown;x
+52012;Foreign Minister;T. V. Soong;NA;PA;Great Compromiser;Very High;soong_t-v_chn;x
+52016;Minister of Armament;He Yingqin;NA;PA;Infantry Proponent;Medium;unknown;x
+52017;Minister of Security;Li Zongren;NA;PA;Back Stabber;Medium;unknown;x
+;A Cabinet - 1944;ELECT_CHI_1A;;;;;;x
+52002;Head of Government;Chiang Kai-shek;NA;PA;NA;NA;kai-shek_chiang_chn;x
+52003;Foreign Minister;Wang Ching-Wei;NA;PA;Biased Intellectual;Medium;wang_ching-wei_chn;x
+52004;Minister of Armament;Bai Chongxi;NA;PA;Resource Industrialist;Low;unknown;x
+52005;Minister of Security;Tai Li;NA;PA;Crooked Plutocrat;Very High;unknown;x
+;B Cabinet - 1944;ELECT_CHI_3B;;;;;;x
+52018;Head of Government;Li Tsong-jen;NA;PA;NA;NA;unknown;x
+52012;Foreign Minister;T. V. Soong;NA;PA;Great Compromiser;Very High;soong_t-v_chn;x
+52019;Minister of Armament;He Yingqin;NA;PA;Infantry Proponent;Medium;unknown;x
+52020;Minister of Security;Tsai Yuan-pei;NA;PA;Crime Fighter;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+52021;Head of State;Pu Yi;NA;PA FA;NA;NA;pu-yi_henry_man;x
+52022;Head of Government;Zhang Jinghui;NA;PA;NA;NA;unknown;x
+52023;Foreign Minister;Wang Kemin;NA;FA;Apologetic Clerk;Medium;unknown;x
+52024;Minister of Armament;Chen Gongbo;NA;PA;Laissez-Faires Capitalist;Medium;unknown;x
+52025;Minister of Security;Li Shiqun;NA;FA;Prince of Terror;Medium;unknown;x
+52026;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+52027;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Low;unknown;x
+52028;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Low;unknown;x
+52029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Low;unknown;x
+52953;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Low;unknown;x
+;Replacements;;;;;;;x
+52030;Head of State;Chiang Kai-shek;43;PA;NA;NA;kai-shek_chiang_chn;x
+52031;Foreign Minister;Song Ziwen;43;PA;General Staffer;Medium;unknown;x
+52032;Foreign Minister;Sun Fo;45;PA;Apologetic Clerk;Medium;unknown;x
+52033;Minister of Armament;Kuo-fu Chen;38;PA;Corrupt Kleptocrat;Low;unknown;x
+52034;Minister of Armament;Yan Xishan;42;PA;Corrupt Kleptocrat;Low;unknown;x
+52035;Minister of Security;Sung Tzu-wen;45;PA;Man of the People;Medium;unknown;x
+52036;Head of Military Intelligence;Wei Li-haung;38;PA;Dismal Enigma;Medium;unknown;x
+52037;Head of Military Intelligence;Tseng Wan-chung;40;PA;Political Specialist;Low;unknown;x
+52038;Head of Military Intelligence;Peng Wei-jen;43;PA;Dismal Enigma;Medium;unknown;x
+52039;Head of Military Intelligence;Ma Hung-pin;44;PA;Industrial Specialist;Medium;unknown;x
+52040;Chief of Staff;Chung-his Pai;38;PA;School of Mass Combat;Low;unknown;x
+52041;Chief of Staff;Li Tsung-jen;40;PA;School of Defence;Low;unknown;x
+52042;Chief of Staff;Yung-Chang Hsu;41;PA;School of Psychology;Medium;unknown;x
+52043;Chief of Staff;Cheng Chen;43;PA;School of Fire Support;Low;unknown;x
+52044;Chief of Army;Li Tsung-jên;37;PA;Static Defence Doctrine;High;unknown;x
+52045;Chief of Army;Chu-tung Ku;38;PA;Decisive Battle Doctrine;Low;unknown;x
+52046;Chief of Army;Fa-Kuei Chang;39;PA;Elastic Defence Doctrine;Medium;unknown;x
+52047;Chief of Army;Chu-Kuo Ho;41;PA;Armoured Spearhead Doctrine;Medium;unknown;x
+52048;Chief of Army;Tse-chung Chang;42;PA;Guns and Butter Doctrine;High;unknown;x
+52049;Chief of Navy;Undistinguished Suit;36;PA;Undistinguished Suit;Low;unknown;x
+52050;Chief of Navy;Undistinguished Suit;39;PA;Undistinguished Suit;Low;unknown;x
+52051;Chief of Air Force;Undistinguished Suit;36;PA;Undistinguished Suit;Low;unknown;x
+52052;Chief of Air Force;Undistinguished Suit;39;PA;Undistinguished Suit;Low;unknown;x

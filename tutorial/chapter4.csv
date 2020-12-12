@@ -1,0 +1,18 @@
+Action;Bool All;Num;Level;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data
+StopTime;;;;;;;;;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A1;;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_4_A2;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;600;50;;;#Tech;;;;;;;;;;;;;;x
+IsIW;;16;;;;;;;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;700;85;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A3;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A4;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A5;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A6;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A7;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A8;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_4_A9;;;;#;;;;;;;;;;;;;;x
+EndTutorial;;;;;;;;;;;;;;;;;;;;;;x

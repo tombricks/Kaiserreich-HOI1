@@ -1,0 +1,34 @@
+#
+# HoI - Slovakian Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  The End of Czechoslovakia
+#########################################################################
+event = { 
+	id = 2300
+	random = no
+	country = SLO
+	trigger = {
+		event = 2006 # German event for the End of Czecho-Slovakia
+	}
+	name = "EVT_2300_NAME"
+	desc = "EVT_2300_DESC"
+	style = 0
+	
+	date = { day = 15 month = march year = 1939 } # Real date March 14
+	
+	action_a = {
+		name = "OK" # Bohemia and Moravia to Germany
+		
+		command = { type = secedeprovince which = GER value = 612 }
+		command = { type = secedeprovince which = GER value = 615 }
+		command = { type = secedeprovince which = HUN value = 726 }
+		command = { type = trigger which = 2500 }#HUN
+		command = { type = alliance which = GER }
+		command = { type = alignment which = fascist value = 200 }
+		command = { type = dissent value = -30 }
+	}
+}

@@ -1,0 +1,10 @@
+model = {
+	cost 			= 3
+	buildtime	 	= 60
+	manpower 		= 3
+	maxspeed 		= -1
+	softattack		= 2
+	hardattack		= 1
+	supplyconsumption = 1
+}
+

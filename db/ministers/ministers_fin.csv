@@ -1,0 +1,92 @@
+FIN;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+29001;Head of State;Pehr E. Svinhufvud;NA;LC CE RS;NA;NA;unknown;x
+29002;Head of Government;Toivo M. Kivimäki;NA;LC;NA;NA;kivimaki_toivo_fin;x
+29003;Foreign Minister;Antti V. Hackzell;NA;LC;Undistinguished Suit;Medium;hackzell_antti_fin;x
+29004;Minister of Armament;Arvi A. Oksala;NA;LC;Undistinguished Suit;Medium;unknown;x
+29005;Minister of Security;Yrjö W. Puhakka;NA;LC;Undistinguished Suit;Medium;unknown;x
+29006;Head of Military Intelligence;Esko Riekki;NA;CE;Dismal Enigma;High;unknown;x
+29007;Chief of Staff;KL Oesch;NA;CE;School of Manoeuvre;High;oesch_fin;x
+29008;Chief of Army;Hugo Österman;NA;CE;Elastic Defense Doctrine;Medium;osterman_hugo_fin;x
+29009;Chief of Navy;Väinö Valve;NA;LC;Base Control Doctrine;High;unknown;x
+29010;Chief of Air Force;Jarl Lundqvist;NA;CE;Naval Aviation Doctrine;Very High;unknown;x
+;A Cabinet - 1937;ELECT_A;;;;;;x
+29011;Head of State;Kyösti Kallio;NA;LC CE RS PA;NA;NA;kalli_koysti_fin;x
+29012;Head of Government;Aimo Cajander;NA;CE;NA;NA;cajander_a_fin;x
+29013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+29014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+29015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1937;ELECT_B;;;;;;x
+29001;Head of State;Pehr E. Svinhufvud;NA;LC CE RS;NA;NA;unknown;x
+29002;Head of Government;Toivo M. Kivimäki;NA;LC;NA;NA;kivimaki_toivo_fin;x
+29016;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+29017;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+29018;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+29019;Head of State;Risto Ryti;NA;LC CE RS PA;NA;NA;ryti_risto_fin;x
+29020;Head of Government;Risto Ryti;NA;CE;NA;NA;ryti_risto_fin;x
+29021;Foreign Minister;Väinö A. Tanner;NA;RS;Undistinguished Suit;Medium;tanner_vaino_fin;x
+29022;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+29023;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+29011;Head of State;Kyösti Kallio;NA;LC CE RS PA;NA;NA;kalli_koysti_fin;x
+29024;Head of Government;Kyösti Kallio;NA;CE;NA;NA;kalli_koysti_fin;x
+29025;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+29026;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+29027;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+29028;Head of State;Carl G. Mannerheim;NA;LC CE RS FA PA;NA;NA;mannerheim_carl_fin;x
+29029;Head of Government;Edwin H. Linkomies;NA;PA;NA;NA;linkomies_edwin_fin;x
+29030;Foreign Minister;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+29031;Minister of Armament;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+29032;Minister of Security;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+29019;Head of State;Risto Ryti;NA;LC CE RS PA;NA;NA;ryti_risto_fin;x
+29033;Head of Government;Johan W. Rangell;NA;LC;NA;NA;ragnell_johan_fin;x
+29034;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+29035;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+29036;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+29037;Head of State;Blue Shadow;NA;NS FA PA;NA;NA;unknown;x
+29038;Head of Government;Blue Shadow;NA;FA;NA;NA;unknown;x
+29039;Foreign Minister;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+29040;Minister of Armament;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+29041;Minister of Security;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+29042;Head of Military Intelligence;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+29043;Chief of Staff;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+29044;Chief of Army;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+29045;Chief of Navy;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+29046;Chief of Air Force;Blue Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+29047;Head of State;Otto Ville Kuusinen ;NA;LE ST LWR RS;NA;NA;kuusinen_otto-ville_fin;x
+29048;Head of Government;Otto Ville Kuusinen ;NA;ST;NA;NA;kuusinen_otto-ville_fin;x
+29049;Foreign Minister;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+29050;Minister of Armament;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+29051;Minister of Security;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+29052;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+29053;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+29054;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+29055;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+29056;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+29057;Head of State;Juho K. Paasikivi;46;PA LC CE RS LWR;NA;NA;unknown;x
+29058;Head of Government;Antti V. Hackzell;44;PA;NA;NA;hackzell_antti_fin;x
+29059;Head of Government;Urho J. Castrén;44;PA;NA;NA;castren_urho_fin;x
+29060;Head of Government;Juho K. Paasikivi;44;LC;NA;NA;unknown;x
+29061;Head of Government;Mauno Pekkala;46;RS;NA;NA;unknown;x
+29062;Foreign Minister;Eino R. Holsti;36;CE;Undistinguished Suit;Medium;unknown;x
+29063;Foreign Minister;Kaarle V. Voionmaa;38;CE;Undistinguished Suit;Medium;unknown;x
+29064;Foreign Minister;Juho E. Erkko;38;CE;Undistinguished Suit;Medium;erkko_eljas_fin;x
+29065;Foreign Minister;Rolf J. Witting;40;CE;Undistinguished Suit;Medium;witting_rolf_fin;x
+29066;Foreign Minister;Carl Ramsay;43;CE;Undistinguished Suit;Medium;unknown;x
+29067;Foreign Minister;Carl J. Enckell;44;CE;Undistinguished Suit;Medium;unknown;x
+29068;Minister of Armament;Juho Niukkanen;37;CE;Undistinguished Suit;Medium;unknown;x
+29069;Minister of Armament;Karl R. Waldén;40;PA;Undistinguished Suit;Medium;unknown;x
+29070;Minister of Armament;Väinö L. Valve ;44;CE;Undistinguished Suit;Medium;unknown;x
+29071;Minister of Armament;Mauno Pekkala;45;RS;Undistinguished Suit;Medium;unknown;x
+29072;Minister of Security;Urho K. Kekkonen;37;RS;Undistinguished Suit;Medium;unknown;x
+29073;Minister of Security;Ernst V. Lorentz;39;CE;Undistinguished Suit;Medium;unknown;x
+29074;Minister of Security;Toivo J. Horelli;41;CE;Undistinguished Suit;Medium;unknown;x
+29075;Minister of Security;Leo R. Ehrnrooth;43;CE;Undistinguished Suit;Medium;unknown;x
+29076;Minister of Security;Kaarlo H. Hillilä;44;CE;Undistinguished Suit;Medium;unknown;x
+29077;Minister of Security;Yrjö K. Leino;45;CE;Undistinguished Suit;Medium;leino_yrjo_fin;x
+29078;Minister of Armament;KA Fagerholm;43;RS;Undistinguished Suit;Medium;fagerholm_ka_fin;x

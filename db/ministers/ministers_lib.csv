@@ -1,0 +1,70 @@
+LIB;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+69001;Head of State;Blue Shadow;NA;LC CE;NA;NA;unknown;x
+69002;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+69003;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69004;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69005;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69006;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69007;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69008;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69009;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69010;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+69001;Head of State;Blue Shadow;NA;LC CE;NA;NA;unknown;x
+69002;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+69003;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69004;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69005;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+69011;Head of State;Blue Shadow;NA;CE LC;NA;NA;unknown;x
+69012;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+69013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+69014;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+69015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+69001;Head of State;Blue Shadow;NA;LC CE;NA;NA;unknown;x
+69002;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+69003;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69004;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69005;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+69011;Head of State;Blue Shadow;NA;CE LC;NA;NA;unknown;x
+69012;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+69013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+69014;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+69015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+69001;Head of State;Blue Shadow;NA;LC CE;NA;NA;unknown;x
+69002;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+69003;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69004;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+69005;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+69011;Head of State;Blue Shadow;NA;CE LC;NA;NA;unknown;x
+69012;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+69013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+69014;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+69015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+69016;Head of State;Black Shadow;NA;PA;NA;NA;unknown;x
+69017;Head of Government;Black Shadow;NA;PA;NA;NA;unknown;x
+69018;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+69019;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+69020;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+69021;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+69022;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+69023;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+69024;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+69025;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+69026;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+69027;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+69028;Foreign Minister;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+69029;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+69030;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+69031;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+69032;Chief of Staff;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+69033;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+69034;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+69035;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

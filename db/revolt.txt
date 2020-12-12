@@ -1,0 +1,48 @@
+#
+# Information on how to create a country from revolt.
+#
+
+VIC = {
+	date = { day = 1 month = january year = 1936 }
+	expirydate = { day = 30 month = december year = 1947 }
+	minimum = { 
+# Main French
+		545 915 917 923 926 927 928 929 930 931 935 936 937 944 945 947 949 951 934 523
+# Vichy Colonies North Africa
+		31 1003 1004 1005 1006 1007 1011 1012 1022 1023 1024 1025 1026 1030 1033 
+		1041 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1056 1060 1061
+		1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1082 1083 1108 1109
+		1111 1112 1113 1114 1116 1117 1118 1120 1124 1126 1127 1128
+# Madagascar
+		1319 1322
+# French Indochine
+		1603 1604 1607 1608 1727 1728 1730 1731 1732 1733 1734 1735 1736 1739
+	}
+	extra = { }
+	capital = 915 # Vichy
+	ai = "France.ai"
+}
+SPA = {
+	date = { day = 1 month = january year = 1936 }
+	expirydate = { day = 30 month = december year = 1947 }
+	minimum = { 
+# Main Spanish
+		953 954 957 959 966 967 978 987 988 991 997 998 1000
+# Spanish Colonies
+		1009 1017 1018 1019 1020 1027 1121 1122 
+	}
+	extra = { }
+	capital = 957 # Burgos
+}
+IND = {
+	date = { day = 1 month = january year = 1936 }
+	expirydate = { day = 30 month = december year = 1947 }
+	minimum = { 
+		1417 1418 1434 1435 1438 1439 1442 1443 1444 1445 1446 1447 1448 1449 1450 1451 1456 1457
+		1458 1459 1460 1463 1464 1465 1466 1467 1468 1469 1478 1479 1480 1490 1491 1495 1496 1497 
+		1498 1499 1500 1501 1580 1582 1583 1584 1585 1586 1587 1588 1589 1590 1592 1593 1594 1599
+		1745
+	}
+	extra = { }
+	capital = 1446 # Delhi
+}

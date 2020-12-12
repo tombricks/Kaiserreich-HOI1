@@ -1,0 +1,58 @@
+#
+# Hearts of Iron
+#
+#  Japan Preferences..
+#
+
+# 100 = Total warmonger, 0 = absolute pacifist
+war = 50
+
+military = {
+	infantry = 			18
+	cavalry = 			0
+	motorized = 		1
+	mechanized = 		0
+	panzer = 			1
+	paratrooper = 		0
+	marine =			10
+	bergsjaeger = 		0
+					  # 30 %
+	
+	fighter = 			15
+	strategic_bomber = 	0
+	tactical_bomber = 	1
+	naval_bomber = 		2
+	dive_bomber = 		4
+	transport_plane = 	0
+	torpedo_plane = 	8
+					  # 30 %
+	
+	battleship = 		4
+	carrier = 			5
+	destroyer = 		10
+	cruiser = 			7
+	submarine = 		4
+	transports = 		10
+					  # 40 %
+}
+
+technology = {
+
+	endgoal = {}
+	preference = {}
+
+	electronics = 		1.0
+	armor = 			0.3
+	infantry = 			1.5
+	industry = 			1.4
+	rocket = 			0.1
+	nuclear = 			0.4
+	heavy_aircraft = 	1.0
+	light_aircraft = 	1.8
+	naval = 			1.9
+	submarine = 		0.9
+	artillery = 		0.6
+	naval_doctrine = 	1.7
+	land_doctrine = 	0.7
+	air_doctrine = 		1.6
+}

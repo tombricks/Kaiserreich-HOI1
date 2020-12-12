@@ -1,0 +1,32 @@
+#
+# HoI - Denmark Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  US Occupation of Iceland and Greenland
+#########################################################################
+event = { 
+	id = 3900
+	random = no
+	country = DEN
+	
+	# Triggered by USA 3705
+	
+	name = "EVT_3900_NAME"
+	desc = "EVT_3900_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME3900A" # Take them, we will soon fall.
+		command = { type = secedeprovince which = USA value = 432 } # Gothab
+		command = { type = secedeprovince which = USA value = 441 } # Reykjavik
+		command = { type = secedeprovince which = USA value = 442 } # Akureyri
+	}
+	action_b = {
+		name = "ACTIONNAME3900B" # Move capital to Reykjavik and fight on!
+		command = { type = capital which = 441 } # Reykjavik
+		command = { type = province_keypoints which = 441 value = 1 } 
+	}
+}

@@ -1,0 +1,148 @@
+#
+# HoI - Italy Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  Vichy France - Return of occupied provinces
+#########################################################################
+event = { 
+	id = 2900
+	random = no
+	country = ITA
+	
+	trigger = {
+		exists = VIC
+		alliance = { country = GER country = ITA }
+	} 
+	
+	name = "EVT_2900_NAME"
+	desc = "EVT_2900_DESC"
+	style = 0
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 4
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	action_a = {
+		name = "OK" # Return occupied provinces as per agreement
+		command = { type = control which = VIC value = 545 }
+		command = { type = control which = VIC value = 915 }
+		command = { type = control which = VIC value = 917 }
+		command = { type = control which = VIC value = 923 }
+		command = { type = control which = VIC value = 926 }
+		command = { type = control which = VIC value = 927 }
+		command = { type = control which = VIC value = 928 }
+		command = { type = control which = VIC value = 929 }
+		command = { type = control which = VIC value = 930 }
+		command = { type = control which = VIC value = 931 }
+		command = { type = control which = VIC value = 935 }
+		command = { type = control which = VIC value = 936 }
+		command = { type = control which = VIC value = 937 }
+		command = { type = control which = VIC value = 944 }
+		command = { type = control which = VIC value = 945 }
+		command = { type = control which = VIC value = 947 }
+		command = { type = control which = VIC value = 949 }
+		command = { type = control which = VIC value = 951 }
+	}
+}
+#########################################################################
+#  Spanish Civil War - Intervention
+#########################################################################
+event = { 
+	id = 2901
+	random = no
+	country = ITA
+	
+	# Triggered by SPA 3001
+	
+	name = "EVT_2901_NAME"
+	desc = "EVT_2901_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2901A" # Send materiel and volunteers
+		command = { type = manpowerpool value = -50 }
+		command = { type = supplies value = -200 }
+		command = { type = trigger which = 3003 } #SPA
+		command = { type = trigger which = 3720 } #USA
+	}
+	action_b = {
+		name = "ACTIONNAME2901B" # Franco needs no aid
+		command = { type = dissent value = 5 }
+	}
+}
+
+#########################################################################
+#  Annexation of Albania
+#########################################################################
+event = { 
+	id = 2902
+	random = no
+	country = ITA
+	
+	trigger = {
+		OR = {
+			event = 2006 # Germany annexes Bohemia and Moravia - Mussolini feels he must not be outdone...
+			event = 2011
+		}
+	}
+	name = "EVT_2902_NAME"
+	desc = "EVT_2902_DESC"
+	style = 0
+	
+	date = { day = 25 month = march year = 1939 }
+	
+	action_a = {
+		name = "ACTIONNAME2902A" # Send an Ultimatum to King Zog
+		command = { type = trigger which = 3500 } #Alb
+	}
+	action_b = {
+		name = "ACTIONNAME2902B" # We have no need of Albania
+		command = { }
+	}
+}
+#########################################################################
+#  Annexation of Albania - Zog refuses
+#########################################################################
+event = { 
+	id = 2903
+	random = no
+	country = ITA
+	
+	# Triggered by ALB 3500
+
+	name = "EVT_2903_NAME"
+	desc = "EVT_2903_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2903A" # Declare War
+		command = { type = war which = ALB }
+	}
+	action_b = {
+		name = "ACTIONNAME2903B" # We do not dare follow through
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Annexation of Albania - Zog accepts
+#########################################################################
+event = { 
+	id = 2904
+	random = no
+	country = ITA
+	
+	# Triggered by ALB 3500
+
+	name = "EVT_2904_NAME"
+	desc = "EVT_2904_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Great!
+		command = { type = inherit which = ALB }
+		command = { type = dissent value = -5 }
+	}
+}

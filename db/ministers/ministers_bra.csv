@@ -1,0 +1,69 @@
+BRA;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+34001;Head of State;Getulio Vargas;NA;PA LC CE;NA;NA;vargas_getulio_bra;x
+34002;Head of Government;Getulio Vargas;NA;PA;NA;NA;vargas_getulio_bra;x
+34003;Foreign Minister;Oswaldo Aranha;NA;CE;Biased Intellectual;Medium;unknown;x
+34004;Minister of Armament;Souza Costa;NA;LC;Administrative Genius;High;unknown;x
+34005;Minister of Security;Marcondes Filho;NA;PA;Crime Fighter;High;unknown;x
+34006;Head of Military Intelligence;Filinto Muller;NA;PA;Political Specialist;Very High;unknown;x
+34007;Chief of Staff;Gaspar Dutra;NA;PA;School of Defense;Medium;unknown;x
+34008;Chief of Army;Goes Monteiro;NA;PA;Static Defense Doctrine;Medium;unknown;x
+34009;Chief of Navy;Aristides Guilhem;NA;LC;Open Seas Doctrine;Medium;unknown;x
+34010;Chief of Air Force;Salgado Filho;NA;LC;Army Aviation Doctrine;Medium;unknown;x
+;Shadow LC Cabinet;;;;;;;x
+34011;Head of State;Gaspar Dutra;NA;LC;NA;NA;unknown;x
+34012;Head of Government;Gaspar Dutra;NA;LC;NA;NA;unknown;x
+34013;Foreign Minister;Raul Fernandes;NA;CE;Great Compromiser;Medium;unknown;x
+34014;Minister of Armament;Gastão Vidigal;NA;LC;Resource Industrialist;High;unknown;x
+34015;Minister of Security;Costa Neto;NA;CE;Compassionate Gentleman;Medium;unknown;x
+34016;Head of Military Intelligence;Costa Neto;NA;CE;Naval Intelligence Specialist;Medium;unknown;x
+34017;Chief of Staff;Goes Monteiro;NA;PA;School of Defense;High;unknown;x
+34018;Chief of Army;Goes Monteiro;NA;PA;Static Defense Doctrine;High;unknown;x
+34019;Chief of Navy;Sylvio de Noronha;NA;LC;Open Seas Doctrine;High;unknown;x
+34020;Chief of Air Force;Figueira de Almeida;NA;LC;Army Aviation Doctrine;High;unknown;x
+;Shadow CE Cabinet;;;;;;;x
+34021;Head of State;Eduardo Gomes;NA;LC CE;NA;NA;unknown;x
+34022;Head of Government;Eduardo Gomes;NA;CE;NA;NA;unknown;x
+34023;Foreign Minister;Oswaldo Aranha;NA;CE;Biased Intellectual;Medium;unknown;x
+34024;Minister of Armament;Americo de Almeida;NA;CE;Resource Industrialist;High;unknown;x
+34025;Minister of Security;Mesquita da Costa;NA;LC;Silent Lawyer;High;unknown;x
+34026;Head of Military Intelligence;Mesquita da Costa;NA;LC;Dismal Enigma;High;unknown;x
+34027;Chief of Staff;Teixeira Lott;NA;CE;School of Fire Support;High;unknown;x
+34028;Chief of Army;Teixeira Lott;NA;CE;Static Defense Doctrine;High;unknown;x
+34029;Chief of Navy;Jorge Martins;NA;CE;Base Control Doctrine;Medium;unknown;x
+34030;Chief of Air Force;Nero Moura;NA;CE;Vertical Envelopment Doctrine;Medium;unknown;x
+;Shadow RS Cabinet;;;;;;;x
+34031;Head of State;Yedo Fiuza;NA;RS LWR LE ST;NA;NA;unknown;x
+34032;Head of Government;Yedo Fiuza;NA;RS;NA;NA;unknown;x
+34033;Foreign Minister;Francisco Mangabeira;NA;RS;Great Compromiser;High;unknown;x
+34034;Minister of Armament;Café Filho;NA;RS;Theoretical Scientist;High;unknown;x
+34035;Minister of Security;Manuel Venâncio;NA;ST;Man of the People;High;unknown;x
+34036;Head of Military Intelligence;Manuel Venâncio;NA;ST;Technical Specialist;High;unknown;x
+34037;Chief of Staff;Magalhães Barata;NA;RS;School of Manoeuvre;Medium;unknown;x
+34038;Chief of Army;Magalhães Barata;NA;RS;Static Defense Doctrine;Medium;unknown;x
+34039;Chief of Navy;Moreira Lima;NA;RS;Open Seas Doctrine;Medium;unknown;x
+34040;Chief of Air Force;Aparicio Torelly;NA;RS;Air Superiority Doctrine;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+34041;Head of State;Plinio Salgado;NA;FA;NA;NA;unknown;x
+34042;Head of Government;Plinio Salgado;NA;FA;NA;NA;unknown;x
+34043;Foreign Minister;Miguel Costas;NA;FA;Iron Fisted Brute;High;unknown;x
+34044;Minister of Armament;Gustavo Barroso;NA;FA;Military Entrepreneur;Very High;unknown;x
+34045;Minister of Security;Richardo Cassiano;NA;FA;Efficient Sociopath;Very High;unknown;x
+34046;Head of Military Intelligence;Richardo Cassiano;NA;FA;Political Specialist;Very High;unknown;x
+34047;Chief of Staff;Newton Cavalcanti;NA;FA;School of Psychology;High;unknown;x
+34048;Chief of Army;Newton Cavalcanti;NA;FA;Decisive Battle Doctrine;High;unknown;x
+34049;Chief of Navy;Raymundo Padilha;NA;FA;Decisive Battle Doctrine;Very High;unknown;x
+34050;Chief of Air Force;Mourão Filho;NA;FA;Carpet Bombing Doctrine;Very High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+34051;Head of State;Luis Carlos Prestes;NA;ST LE LWR RS;NA;NA;unknown;x
+34052;Head of Government;Luis Carlos Prestes;NA;ST;NA;NA;unknown;x
+34053;Foreign Minister;Henry Berger;NA;ST;Ideological Crusader;High;unknown;x
+34054;Minister of Armament;Café Filho;NA;RS;Military Entrepreneur;High;unknown;x
+34055;Minister of Security;Abguar Bastos;NA;ST;Prince of Terror;High;unknown;x
+34056;Head of Military Intelligence;Herculino Carcardo;NA;ST;Political Specialist;High;unknown;x
+34057;Chief of Staff;Luis Carlos Prestes;NA;ST;School of Mass Combat;Undying;unknown;x
+34058;Chief of Army;Silo Meireles;NA;ST;Elastic Defense Doctrine;Very High;unknown;x
+34059;Chief of Navy;Alvaro de Souza;NA;ST;Open Seas Doctrine;Very High;unknown;x
+34060;Chief of Air Force;Agliberto Vieira;NA;ST;Army Aviation Doctrine;Very High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+34061;Chief of Staff;Gaspar Dutra;1941;LC;School of Defense;Medium;unknown;x
+34062;Chief of Army;Gaspar Dutra;1941;LC;Static Defense Doctrine;Medium;unknown;x

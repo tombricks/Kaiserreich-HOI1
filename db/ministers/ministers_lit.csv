@@ -1,0 +1,65 @@
+LIT;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+28001;Head of State;Antanas Smetona;NA;PA LC CE RS;NA;NA;smetona_antanas_lit;x
+28002;Head of Government;Juozas Tubelis;NA;PA;NA;NA;unknown;x
+28003;Foreign Minister;Stasys Lozoraitis;NA;PA;Undistinguished Suit;Medium;unknown;x
+28004;Minister of Armament;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+28005;Minister of Security;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+28006;Head of Military Intelligence;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+28007;Chief of Staff;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+28008;Chief of Army;St.Raštikis;NA;PA;Undistinguished Suit;Medium;rastikis_lit;x
+28009;Chief of Navy;Dirmantas;NA;PA;Undistinguished Suit;Medium;unknown;x
+28010;Chief of Air Force;Gustaitis;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+28011;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+28012;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+28013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+28014;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+28015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+28016;Head of Military Intelligence;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+28017;Chief of Staff;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+28018;Chief of Army;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+28019;Chief of Navy;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+28020;Chief of Air Force;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+28021;Head of State;Augustinas Voldemaras ;NA;FA NS;NA;NA;voldemaras_lit;x
+28022;Head of Government;Petras Kubiliunas;NA;NS;NA;NA;unknown;x
+28023;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+28024;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+28025;Minister of Security;Kazys Skirpa;NA;NS;Undistinguished Suit;Medium;unknown;x
+28026;Head of Military Intelligence;Kazys Skirpa;NA;NS;Undistinguished Suit;Medium;unknown;x
+28027;Chief of Staff;Petras Kubiliunas;NA;NS;Undistinguished Suit;Medium;unknown;x
+28028;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+28029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+28030;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+28031;Head of State;Justas Paleckis;NA;LWR LE ST;NA;NA;unknown;x
+28032;Head of Government;Justas Paleckis;NA;LE;NA;NA;unknown;x
+28033;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+28034;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+28035;Minister of Security;Povilas Pakarklis ;NA;LE;Undistinguished Suit;Medium;unknown;x
+28036;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+28037;Chief of Staff;Antanas Snieckus;NA;ST;Undistinguished Suit;Medium;unknown;x
+28038;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+28039;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+28040;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+28041;Head of State;Kazys Skirpa;40;FA NS;NA;NA;unknown;x
+28042;Head of Military Intelligence;P. Ceponis;44;FA;Undistinguished Suit;Medium;unknown;x
+28043;Head of Government;Vincas Kreve-Mickevicius;40;ST;NA;NA;unknown;x
+28044;Minister of Security;Antanas Snieckus;40;ST;Undistinguished Suit;Medium;unknown;x
+28045;Minister of Security;Kêstutis  Domaševièius;45;ST;Undistinguished Suit;Medium;unknown;x
+28046;Head of State;Antanas Merkys;40;PA LC CE RS;NA;NA;merkys2_lit;x
+28047;Head of State;Kazys Skiroa;40;PA LC CE RS;NA;NA;unknown;x
+28048;Head of State;Steponas Kairys;43;PA LC CE RS;NA;NA;unknown;x
+28049;Head of Government;Vladas Mironas;38;CE;NA;NA;unknown;x
+28050;Head of Government;Jonas Cernius;39;CE;NA;NA;unknown;x
+28051;Head of Government;Antanas Merkys;39;CE;NA;NA;merkys2_lit;x
+28052;Head of Government;Juozas Ambrazevièius;41;CE;NA;NA;unknown;x
+28053;Minister of Armament;Jonas Matulionis;41;CE;Undistinguished Suit;Medium;unknown;x
+28054;Minister of Security;J. Šlepetys;41;CE;Undistinguished Suit;Medium;unknown;x
+28055;Chief of Staff;St.Raštikis;41;PA;Undistinguished Suit;Medium;rastikis_lit;x
+28056;Chief of Staff;P. Plechavicius;44;PA;Undistinguished Suit;Medium;unknown;x
+28057;Chief of Staff;M. Peciulionis;44;PA;Undistinguished Suit;Medium;unknown;x
+28058;Foreign Minister;Juozas Urbšys;38;PA;Undistinguished Suit;Medium;urbsys_lit;x
+28059;Foreign Minister;Vincas Kreve-Mickevicius;40;PA;Undistinguished Suit;Medium;unknown;x
+28060;Foreign Minister;Stasys Lozoraitis;41;PA;Undistinguished Suit;Medium;unknown;x

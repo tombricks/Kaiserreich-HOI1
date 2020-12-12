@@ -1,0 +1,210 @@
+header = {
+	name = "Kaiserreich - Legacy of the Weltkrieg"
+    startyear = 1936
+    endyear = 1949
+
+	selectable = { U00 ENG FRA GER HOL POR ITA SOV SWE TUR JAP CHI POL NOR BEL DEN SCH CUB GRE BUL YUG HUN ROM AUS CZE IRE LAT LIT FIN PER AFG BRA ARG MEX COL VEN PRU ECU URU PAR BOL CHL NZL CAN AST MAN USA ETH SPR CHC ALB SIA SAU MON GUA COS NIC DOM PHI BHU SAL HAI HON IRQ LIB LUX NEP OMN PAN SIK SAF TAN TIB YEM BLR UKR }
+
+	FRA        = { }
+    GER        = { }
+    ENG        = { }
+    RUS        = { }
+    JAP        = { }
+    USA        = { }
+    CAN        = { }
+    CHI        = { }
+}
+
+
+
+globaldata = { 
+    startdate = { 
+        year = 1936
+        month = january
+        day = 0
+        } 
+    enddate = { 
+        year = 1949
+        month = january 
+        day = 0 
+        } 
+
+		allies = { 
+	        id = { type = 15000 id = 1 } 
+			participant = { CAN AST CAN } 
+		}
+		axis = 	{
+	        id = { type = 15000 id = 2 } 
+			participant = { GER } 
+		}
+
+		comintern = 	{
+	        id = { type = 15000 id = 3 } 
+			participant = { FRA } 
+		}
+
+	war = {
+	        id = { type = 9430 id = 1 } 
+        	attackers = { 
+        	    id = { type = 9430 id = 2 } 
+        	    participant = { ITA }
+        	} 
+	        defenders = { 
+       			id = { type = 9430 id = 3 } 
+            		participant = { ETH } 
+        	} 
+	}
+	war = {
+	        id = { type = 9430 id = 4 } 
+        	attackers = { 
+        	    id = { type = 9430 id = 5 } 
+        	    participant = { CHC }
+        	} 
+	        defenders = { 
+       			id = { type = 9430 id = 6 } 
+            		participant = { CHI } 
+        	} 
+	}
+	war = {
+	        id = { type = 9430 id = 7 } 
+        	attackers = { 
+        	    id = { type = 9430 id = 8 } 
+        	    participant = { CHI }
+        	} 
+	        defenders = { 
+       			id = { type = 9430 id = 9 } 
+            		participant = { SIK } 
+        	} 
+	}
+	worldmarket =
+	{
+		trade = 
+		{
+	        id = { type = 12439 id = 1 } 
+			country = ger
+			from = steel
+			to = oil
+			price = 2
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 2 } 
+			country = ger
+			from = coal
+			to = rubber
+			price = 2
+			amount = 20
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 3 } 
+			country = swe
+			from = steel
+			to = coal
+			price = 2
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 4 } 
+			country = swe
+			from = steel
+			to = rubber
+			price = 2
+			amount = 1
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 5 } 
+			country = swe
+			from = steel
+			to = oil
+			price = 2
+			amount = 1
+		}
+	}
+
+
+    } 
+
+include = "db\events.txt"
+include = "scenarios/Kaiserreich/vp.inc"
+include = "scenarios/Kaiserreich/germany.inc"
+include = "scenarios/Kaiserreich/holland.inc"
+include = "scenarios/Kaiserreich/belgium.inc"
+include = "scenarios/Kaiserreich/denmark.inc"
+include = "scenarios/Kaiserreich/uk.inc"
+include = "scenarios/Kaiserreich/ireland.inc"
+include = "scenarios/Kaiserreich/france.inc"
+include = "scenarios/Kaiserreich/poland.inc"
+include = "scenarios/Kaiserreich/italy.inc"
+include = "scenarios/Kaiserreich/swiss.inc"
+include = "scenarios/Kaiserreich/austria.inc"
+include = "scenarios/Kaiserreich/czech.inc"
+include = "scenarios/Kaiserreich/spain.inc"
+include = "scenarios/Kaiserreich/portugal.inc"
+include = "scenarios/Kaiserreich/sweden.inc"
+include = "scenarios/Kaiserreich/norway.inc"
+include = "scenarios/Kaiserreich/finland.inc"
+include = "scenarios/Kaiserreich/estonia.inc"
+include = "scenarios/Kaiserreich/lithuania.inc"
+include = "scenarios/Kaiserreich/latvia.inc"
+include = "scenarios/Kaiserreich/hungary.inc"
+include = "scenarios/Kaiserreich/romania.inc"
+include = "scenarios/Kaiserreich/yugoslavia.inc"
+include = "scenarios/Kaiserreich/greece.inc"
+include = "scenarios/Kaiserreich/bulgaria.inc"
+include = "scenarios/Kaiserreich/turkey.inc"
+include = "scenarios/Kaiserreich/soviet.inc"
+include = "scenarios/Kaiserreich/japan.inc"
+include = "scenarios/Kaiserreich/china.inc"
+include = "scenarios/Kaiserreich/commies.inc"
+include = "scenarios/Kaiserreich/usa.inc"
+include = "scenarios/Kaiserreich/canada.inc"
+include = "scenarios/Kaiserreich/mexico.inc"
+include = "scenarios/Kaiserreich/cuba.inc"
+include = "scenarios/Kaiserreich/brazil.inc"
+include = "scenarios/Kaiserreich/argentina.inc"
+include = "scenarios/Kaiserreich/uruguay.inc"
+include = "scenarios/Kaiserreich/colombia.inc"
+include = "scenarios/Kaiserreich/peru.inc"
+include = "scenarios/Kaiserreich/chile.inc"
+include = "scenarios/Kaiserreich/bolivia.inc"
+include = "scenarios/Kaiserreich/ecuador.inc"
+include = "scenarios/Kaiserreich/paraguay.inc"
+include = "scenarios/Kaiserreich/ethiopia.inc"
+include = "scenarios/Kaiserreich/southafrica.inc"
+include = "scenarios/Kaiserreich/australia.inc"
+include = "scenarios/Kaiserreich/newzealand.inc"
+include = "scenarios/Kaiserreich/siam.inc"
+include = "scenarios/Kaiserreich/persia.inc"
+include = "scenarios/Kaiserreich/venezuela.inc"
+include = "scenarios/Kaiserreich/saudi.inc"
+include = "scenarios/Kaiserreich/mon.inc"
+include = "scenarios/Kaiserreich/phi.inc"
+include = "scenarios/Kaiserreich/dom.inc"
+include = "scenarios/Kaiserreich/gua.inc"
+include = "scenarios/Kaiserreich/cos.inc"
+include = "scenarios/Kaiserreich/nic.inc"
+include = "scenarios/Kaiserreich/afg.inc"
+include = "scenarios/Kaiserreich/alb.inc"
+include = "scenarios/Kaiserreich/man.inc"
+include = "scenarios/Kaiserreich/lux.inc"
+include = "scenarios/Kaiserreich/lib.inc"
+include = "scenarios/Kaiserreich/yem.inc"
+include = "scenarios/Kaiserreich/omn.inc"
+include = "scenarios/Kaiserreich/tan.inc"
+include = "scenarios/Kaiserreich/pan.inc"
+include = "scenarios/Kaiserreich/hai.inc"
+include = "scenarios/Kaiserreich/sal.inc"
+include = "scenarios/Kaiserreich/hon.inc"
+include = "scenarios/Kaiserreich/irq.inc"
+include = "scenarios/Kaiserreich/bhu.inc"
+include = "scenarios/Kaiserreich/nep.inc"
+include = "scenarios/Kaiserreich/tib.inc"
+include = "scenarios/Kaiserreich/sik.inc"
+include = "scenarios/Kaiserreich/ukraine.inc"
+include = "scenarios/Kaiserreich/whiteruthenia.inc"
+include = "scenarios/Kaiserreich/croatia.inc"
+include = "scenarios/Kaiserreich/galicia.inc"

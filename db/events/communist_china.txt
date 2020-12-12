@@ -1,0 +1,7 @@
+#
+# HoI - Communist China Events
+#
+#		written by Henrik Fåhraeus
+#
+
+# ID series: 4200-4299

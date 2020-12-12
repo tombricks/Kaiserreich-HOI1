@@ -1,0 +1,182 @@
+Germany
+---------------
+
+2000 - March 7, 1936 - Reoccupation of the Rhineland (effects?)
+2020, 2001, 2002 - March 12, 1938 - Anschluss of Austria (Austria annexed by Germany)
+2030, 2003, 2004, 2005 - Sep 29, 1938 - Treaty of Munich (Sudetenland to Germany)
+2040, 2006, 2007 - March 14, 1939 - Slovakia declares independence, Bohemia and Moravia to Germany, Ruthenia to Hungary
+2040, 2011, 2012 - March 14, 1939 - Czecho-Slovakia partitioned between Germany and Hungary
+2008, 2009, 2010 - March 23, 1939 - Memel to Germany (province really too large in the game.)
+2050, 2013, 2014, 2015, 2016, 2017, 2018 - Aug 23, 1939 - Molotov-Ribbentrop Pact
+2019 - Sep 4, 1940 - The Vienna Diktat (German position on the Transylvanian issue)
+2021, 2022 - Creation of Vichy France (if Paris is taken)
+2023 - Intervention in Spanish Civil War
+2025, 2025 - 1944 Assasination of Hitler (Ia=assasintion,Ib= Democrats or Nazis?)
+2024 - The Soviet Union sues for Seperate Peace with Germany (German control of Paris, Leningrad, Stalingrad and Moscow)
+2027, 2028, 2029 - Aug 30, 1939 - Final demand for Danzig - WAR!
+
+Austria
+-----------------
+2100 - March 12, 1938 - Anschluss of Austria (triggers GER 2001 or 2002)
+
+Czechoslovakia
+-----------------
+2200 - Sep 29, 1938 - The Treaty of Munich (Sudetenland to Germany)
+2201 - March 14, 1939 - Slovakia declares independence under German protection
+2202 - March 14, 1939 - Czecho-Slovakia partitioned between Germany and Hungary 
+
+Slovakia
+-----------------
+2300 - March 14, 1939 - Bohemia and Moravia annexed by Germany, Ruthenia to Hungary (happens as soon as CZE 2201 has happened).
+
+Italy
+-----------------
+2901 - Intervention in Spanish Civil War
+2902, 2903, 2904 - April 7, 1939 - Italy annexes Albania
+
+Albania
+-----------------
+
+3500 - Annexation by Italy.
+
+Poland
+-----------------
+
+3600 - March 31, 1939 - Poland guaranteed independence by the Allies. (Becomes an allied Power for game purposes.)
+3601 - Aug 30, 1939 - Final demand for Danzig - WAR!
+(Aug 25, 1939 - Poland joins the Allies (somewhat dependent on the MR pact.))
+
+USSR
+-----------------
+
+2609-2612 - 1937 - Stalin purges military officers
+
+(May 1939, The Battle of Khalkin Gol (Soviet-Japanese undeclared war of 1939))
+
+2600, 2601, 2602, 2603, 2604, 2605 - Aug 23, 1939 - Molotov-Ribbentrop Pact
+2620, 2621, 2622 - Nov 30, 1939 - Finnish Winter War (Negotiations broke down Nov 13)
+2606, 2607, 2608 - June 26, 1940 - Bessarabia (Chisinau, Beltsy) to USSR
+2623 - Intervention in Spanish Civil War
+2624, 2625 - The Soviet Union sues for Seperate Peace with Germany (German control of Paris, Leningrad, Stalingrad and Moscow)
+2626 - Lend-Lease shipments from the USA
+
+
+Sweden
+-----------------
+3300, 3301 - Nov 30, 1939 - Finnish Winter War
+
+Finland
+-----------------
+
+3200, 3201, 3202 - Nov 30, 1939 - Finnish Winter War (Negotiations broke down Nov 13)
+
+Hungary
+-----------------
+
+2500 - March 14, 1939 - Ruthenia to Hungary (Munkacs province in the game).
+2501, 2502 - March 14, 1939 - Czecho-Slovakia partitioned between Germany and Hungary
+2503, 2504, 2505, 2506 - Sep 4, 1940 - "Vienna Diktat", Transylvania (Oradea, Cluj-Napoca, Piatra Neamt) to Hungary
+
+Romania
+-----------------
+(April 13, 1939 - Romania guaranteed independence by the Allies.)
+2700 - June 26, 1940 - Bessarabia (Chisinau, Beltsy) to USSR (if granted in MR outcome)
+2701, 2702 - Sep 4, 1940 - "Vienna Diktat", Transylvania (Oradea, Cluj-Napoca, Piatra Neamt) to Hungary
+
+Greece
+------------------
+(April 13, 1939 - Greece guaranteed independence by the Allies.)
+
+France
+------------------
+2800 - Vichy is Created and France Occupied.
+2801 - Intervention in Spanish Civil War
+2802 - Liberation of France (if Paris is retaken)
+
+Vichy France
+------------------
+4000, 4001, 4002 - Japan makes demands on SE Asian colonies
+
+UK
+------------------
+3400 - Intervention in Spanish Civil War
+3401, 3402, 3403 - March 31, 1939 - Poland guaranteed independence (alliance for game purposes)
+3404, 3405 - Lend-Lease shipments from the USA
+3406 - India demands independence within Commonwealth
+
+(Sep 3, 1940 - USA gives 50 destroyers to UK)
+
+Japan
+-------------------
+
+(XIII. The Russo-Japanese War of 1939 - Too difficult to implement )
+
+3803, 3804, 3805 - Japan annexes Vichy French territories.
+3800 - US Oil Embargo against Japan
+3801 - April 18, 1943 - Assasination of Yamamoto
+3802 - The Nanking Massacre (Real dates 1937, Dec 13 - Jan 30)
+(XIV. The Japanese Emperor abdicates!)
+
+
+USA
+-------------------
+
+3700 - March 11, 1941 - The Lend-Lease Act
+3701 - July 1941, US Oil Embargo against Japan
+3702 - Lend-Lease Shipment to the UK
+3703 - Lend-Lease Shipment to the USSR
+3704 - April 18, 1943, Assasination of Yamamoto 
+3705 - US occupation of Iceland and Greenland (on Danish war with Germany)
+3706 - FDR dies!!! (5% chance every week from Dec 1944.)
+3707 - Japanese expansion in the Pacific raises war tension
+3708 - Japanese expansion in the Pacific raises war tension more
+
+(XI. US War Appropriations Bill)
+
+Denmark
+-------------------
+3900 - US occupation of Iceland and Greenland (on Danish war with Germany)
+
+
+Nationalist China
+-------------------
+4101 - Chiang Kai-shek captured by Generals demanding alliance with the Communists
+
+Communist China
+-------------------
+
+
+Republican Spain
+-------------------
+
+3100, 3102, 3103, 3104 - July 17, 1936 - Civil War. Nationalist forces rise up in Spain and Morocco.
+3101 - May 3, 1937 - Communists coup the Spanish Republic
+
+Nationalist Spain
+-------------------
+3000 - Return of occupied provinces to Vichy, if Axis power
+3001, 3002, 3003 - July 17, 1936 - Civil War. Nationalist forces rise up in Spain and Morocco.
+
+
+Random
+-------------------
+
+1000 - Research sabotaged
+1010 - Industry sabotaged
+1020 - Land Fort sabotaged
+1030 - Coastal Fort sabotaged
+1040 - Technology Stolen from enemy or neighbor
+1050 - Military leader assassinated by enemy commandos
+1060 - Military Leader defects
+1070 - Secret Police Report (Loyalty of ministers and commanders revealed)
+1080 - Military Leader executed for treason
+1090 - Parliamentary Scandal
+1100 - Minister defects
+1110 - War tension rises (democracies only - war entry increased)
+1120 - War tension subsides (democracies only - war entry increased)
+1130-33 - Partisan uprising (should create partisan militia units)
+1140 - A Coup Fails (leaders and ministers executed)
+1150 - The Regime Falls (dissent >= 60)
+
+- Minister suffers nervous breakdown (Can't easily implement)
+- Power Struggle in the Government (Can't easily implement)

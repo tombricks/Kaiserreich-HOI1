@@ -1,0 +1,16 @@
+model = {
+	cost 					= 8
+	buildtime	 			= 120
+	manpower 				= 10
+	maxspeed 				= 8
+	defaultorganisation 	= 30
+	grounddefence 			= 4
+	airdefence				= 1
+	softattack				= 3
+	hardattack				= 2
+	airattack				= 2
+	transportweight			= 30
+	supplyconsumption 		= 1.5
+	fuelconsumption			= 4
+}
+

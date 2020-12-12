@@ -1,0 +1,82 @@
+BUR;Shadow Democratic Cabinet;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+80001;Head of State;Sao Shwe Thaik ;NA;PA LC CE RS LWR LE;NA;NA;unknown;x
+80002;Head of Government;Aung San;NA;RS;NA;NA;unknown;x
+80003;Foreign Minister;Thakin U Nu;NA;PA;Ideological Crusader;Medium;unknown;x
+80004;Minister of Armament;Aung Gyi;NA;RS;Laissez-Faires Capitalist;Very High;unknown;x
+80005;Minister of Security;Aung San;NA;RS;Compassionate Gentleman;Very High;unknown;x
+80006;Head of Military Intelligence;Hla Myaing;NA;LWR;Dismal Enigma;High;unknown;x
+80007;Chief of Staff;Sao Gnar Kham;NA;LC;School of Defence;Low;unknown;x
+80008;Chief of Army;Ba Thein Tin;NA;LC;Elastic Defence Doctrine;Low;unknown;x
+80009;Chief of Navy;Maung Maung Khin ;NA;CE;Base Control Doctrine;High;unknown;x
+80010;Chief of Air Force;Myint Swe;NA;CE;Army Aviation Doctrine;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+80011;Head of State;Ba Maw;NA;FA PA LC CE RS LWR;NA;NA;unknown;x
+80012;Head of Government;Ba Maw;NA;FA;NA;NA;unknown;x
+80013;Foreign Minister;Thakin U Nu;NA;PA;Ideological Crusader;Low;unknown;x
+80014;Minister of Armament;Aung San;NA;RS;Administrative Genius;Very Low;unknown;x
+80015;Minister of Security;Ne Win;NA;LWR;Efficient Sociopath;Very Low;unknown;x
+80016;Head of Military Intelligence;Keneko Toyoji;NA;FA;Political Specialist;Very High;unknown;x
+80017;Chief of Staff;Suzuki Keiji ;NA;FA;School of Psychology;Very High;unknown;x
+80018;Chief of Army;Ne Win;NA;LWR;Armoured Spearhead Doctrine;Very Low;unknown;x
+80019;Chief of Navy;Heitaro Kimura                        ;NA;FA;Base Control Doctrine;Very High;unknown;x
+80020;Chief of Air Force;Suzuki Keiji ;NA;FA;Vertical Envelopment Doctrine;Very High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+80021;Head of State;Ne Win;NA;PA LC CE RS LWR LE ST;NA;NA;unknown;x
+80022;Head of Government;Thakin Soe ;NA;LE;NA;NA;unknown;x
+80023;Foreign Minister;Aung San;NA;RS;Ideological Crusader;High;unknown;x
+80024;Minister of Armament;Thakin Soe;NA;LE;Administrative Genius;High;unknown;x
+80025;Minister of Security;A. N. Ghoshal ;NA;LE;Silent Lawyer;High;unknown;x
+80026;Head of Military Intelligence;Hla Myaing;NA;LWR;Dismal Enigma;High;unknown;x
+80027;Chief of Staff;Ba Thein Tin;NA;LE;School of Manoeuvre;Medium;unknown;x
+80028;Chief of Army;Naw Seng ;NA;LWR;Decisive Battle Doctrine;Medium;unknown;x
+80029;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+80030;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+80031;Head of State;Ba Oo;45;PA LC CE RS LWR;NA;NA;unknown;x
+80032;Head of State;Wing Maung;45;PA LC CE RS  LWR  LE ST;NA;NA;unknown;x
+80033;Head of State;Galon U Saw Oo;37;FA PA LC CE RS;NA;NA;unknown;x
+80021;Head of State;Ne Win;37;PA LC CE RS LWR LE ST;NA;NA;unknown;x
+80011;Head of State;Ba Maw;37;FA PA LC CE RS;NA;NA;unknown;x
+80034;Head of Government;Ne Win;37;LWR;NA;NA;unknown;x
+80035;Head of Government;Galon U Saw Oo;37;PA;NA;NA;unknown;x
+80022;Head of Government;Thakin Soe ;37;LE;NA;NA;unknown;x
+80036;Head of Government;Thein Pe;45;LE;NA;NA;unknown;x
+80037;Head of Government;Than Tun;46;LE;NA;NA;unknown;x
+80038;Head of Government;Thakin U Nu;40;PA;NA;NA;unknown;x
+80039;Head of Government;Ba Swe;42;LWR;NA;NA;unknown;x
+80012;Head of Government;Ba Maw;37;FA;NA;NA;unknown;x
+80040;Foreign Minister;U Thant ;37;LC;Great Compromiser;High;unknown;x
+80041;Foreign Minister;Aung Gyi;40;RS;Apologetic Clerk;Very High;unknown;x
+80042;Foreign Minister;Hla Myaing;37;LWR;The Cloak and Dagger Schemer;High;unknown;x
+80023;Foreign Minister;Aung San;37;RS;Ideological Crusader;High;unknown;x
+80043;Foreign Minister;Galon U Saw Oo;37;PA;The Cloak and Dagger Schemer;Low;unknown;x
+80014;Minister of Armament;Aung San;37;RS;Military Entrepreneur;Very High;unknown;x
+80044;Minister of Armament;Hem Chandra Mazumdar;37;CE;Administrative Genius;Medium;unknown;x
+80045;Minister of Armament;Ba Khin;42;CE;Resource Industrialist;Medium;unknown;x
+80046;Minister of Armament;Ba Thein Tin;45;LC;Infantry Proponent;Low;unknown;x
+80024;Minister of Armament;Thakin Soe;37;LE;Administrative Genius;High;unknown;x
+80047;Minister of Armament;Naag;37;LE;Resource Industrialist;High;unknown;x
+80048;Minister of Security;Sein Lwin ;45;PA;Prince of Terror;High;unknown;x
+80049;Minister of Security;Wing Maung;37;CE;Crime Fighter;High;unknown;x
+80050;Minister of Security;Ba Thein Tin;40;LC;Man of the People;Low;unknown;x
+80015;Minister of Security;Ne Win;37;LWR;Efficient Sociopath;Low;unknown;x
+80051;Minister of Security;Smith Dun;37;LC;Prince of Terror;Very Low;unknown;x
+80025;Minister of Security;A. N. Ghoshal ;37;LE;Silent Lawyer;High;unknown;x
+80052;Head of Military Intelligence;Sein Lwin ;46;PA;Logistics Specialist;High;unknown;x
+80053;Head of Military Intelligence;Aung Gyi;40;RS;Industrial Specialist;Very High;unknown;x
+80054;Head of Military Intelligence;Ba Thein Tin;37;LC;Political Specialist;Low;unknown;x
+80026;Head of Military Intelligence;Hla Myaing;37;LWR;Dismal Enigma;High;unknown;x
+80055;Chief of Staff;Ne Win;39;LWR;School of Psychology;Low;unknown;x
+80056;Chief of Staff;Aung San;39;RS;School of Defence;Very High;unknown;x
+80027;Chief of Staff;Ba Thein Tin;45;LE;School of Manoeuvre;Medium;unknown;x
+80057;Chief of Staff;Bo Mya;40;CE;School of Fire Support;Medium;unknown;x
+80058;Chief of Staff;Wing Maung;37;CE;School of Manoeuvre;High;unknown;x
+80059;Chief of Staff;Smith Dun;37;LC;School of Manoeuvre;Low;unknown;x
+80060;Chief of Army;Phon Kyar Shin;45;LWR;Elastic Defence Doctrine;Low;unknown;x
+80028;Chief of Army;Naw Seng ;45;LWR;Decisive Battle Doctrine;Low;unknown;x
+80061;Chief of Army;Maung Maung ;37;CE;Static Defence Doctrine;Very High;unknown;x
+80062;Chief of Army;Sein Lwin ;43;PA;Armoured Spearhead Doctrine;High;unknown;x
+80018;Chief of Army;Ne Win;37;LWR;Armoured Spearhead Doctrine;Medium;unknown;x
+80063;Chief of Army;Maung Maung;37;RS;Undistinguished Suit;Low;unknown;x
+80064;Chief of Navy;Hsaya Maung Thaw Ka ;40;CE;Open Seas Doctrine;Low;unknown;x
+80065;Chief of Air Force;Tin Tun ;40;CE;Air Superiority Doctrine;Medium;unknown;x

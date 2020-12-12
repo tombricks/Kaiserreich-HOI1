@@ -1,0 +1,70 @@
+PRU;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+39001;Head of State;Unknown;NA;PA LC CE RS LWR;NA;NA;unknown;x
+39002;Head of Government;Unknown;NA;RS;NA;NA;unknown;x
+39003;Foreign Minister;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+39004;Minister of Armament;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+39005;Minister of Security;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+39006;Head of Military Intelligence;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+39007;Chief of Staff;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+39008;Chief of Army;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+39009;Chief of Navy;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+39010;Chief of Air Force;Unknown;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1939;ELECT_A;;;;;;x
+39011;Head of State;Blue Shadow;NA;PA LC CE RS LWR;NA;NA;unknown;x
+39012;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+39013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+39014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+39015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1939;ELECT_B;;;;;;x
+39016;Head of State;Blue Shadow;NA;PA LC CE RS;NA;NA;unknown;x
+39017;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+39018;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+39019;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+39020;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+39021;Head of State;Blue Shadow;NA;PA LC CE RS LWR;NA;NA;unknown;x
+39022;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+39023;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+39024;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+39025;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+39026;Head of State;Blue Shadow;NA;PA LC CE RS ;NA;NA;unknown;x
+39027;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+39028;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+39029;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+39030;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+39031;Head of State;Blue Shadow;NA;PA LC CE RS LWR;NA;NA;unknown;x
+39032;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+39033;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+39034;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+39035;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+39036;Head of State;Blue Shadow;NA;PA LC CE RS ;NA;NA;unknown;x
+39037;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+39038;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+39039;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+39040;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+39041;Head of State;Black Shadow;NA;FA PA LC;NA;NA;unknown;x
+39042;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+39043;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+39044;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+39045;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+39046;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+39047;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+39048;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+39049;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+39050;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+39051;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+39052;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+39053;Foreign Minister;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+39054;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+39055;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+39056;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+39057;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+39058;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+39059;Chief of Navy;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+39060;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

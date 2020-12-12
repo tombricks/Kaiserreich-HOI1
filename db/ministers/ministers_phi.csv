@@ -1,0 +1,133 @@
+PHI;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+50001;Head of State;Manuel Quezon;NA;PA LC CE RS;NA;NA;quezon_manuel_phi;x
+50002;Head of Government;Sergio Osmeña;NA;CE;NA;NA;osmena_sergio_phi;x
+50003;Foreign Minister;Quintin Paredes;NA;LC;Apologetic Clerk;Low;unknown;x
+50004;Minister of Armament;Elpidio Quirino;NA;LC;Laissez Faires Capitalist;Medium;unknown;x
+50005;Minister of Security;Jose Yulo;NA;LC;Compassionate Gentleman;Medium;unknown;x
+50006;Head of Military Intelligence;Jose de los Reyes;NA;CE;Logistics Specialist;Medium;unknown;x
+50007;Chief of Staff;Jose de los Reyes;NA;CE;School of Psychology;Medium;unknown;x
+50008;Chief of Army;Jose de los Reyes;NA;CE;Guns and Butter Doctrine;Medium;unknown;x
+50009;Chief of Navy;Jose de los Reyes;NA;CE;Open Seas Doctrine;Medium;unknown;x
+50010;Chief of Air Force;C.A. Backes;NA;CE;Army Aviation Doctrine;Medium;unknown;x
+;A Cabinet - 1936;ELECT_B;;;;;;x
+50001;Head of State;Manuel Quezon;NA;PA LC CE RS;NA;NA;quezon_manuel_phi;x
+50002;Head of Government;Sergio Osmeña;NA;CE;NA;NA;osmena_sergio_phi;x
+50003;Foreign Minister;Quintin Paredes;NA;LC;Apologetic Clerk;Low;unknown;x
+50004;Minister of Armament;Elpidio Quirino;NA;LC;Laissez Faires Capitalist;Medium;unknown;x
+50005;Minister of Security;Jose Yulo;NA;LC;Compassionate Gentleman;Medium;unknown;x
+50006;Head of Military Intelligence;Jose de los Reyes;NA;CE;Logistics Specialist;Medium;unknown;x
+50007;Chief of Staff;Jose de los Reyes;NA;CE;School of Psychology;Medium;unknown;x
+50008;Chief of Army;Jose de los Reyes;NA;CE;Guns and Butter Doctrine;Medium;unknown;x
+50009;Chief of Navy;Jose de los Reyes;NA;CE;Open Seas Doctrine ;Medium;unknown;x
+50010;Chief of Air Force;C.A. Backes;NA;CE;Army Aviation Doctrine ;Medium;unknown;x
+;B Cabinet - 1936;ELECT_A;;;;;;x
+50011;Head of State;Emilio Aguinaldo;NA;RS;NA;NA;unknown;x
+50012;Head of Government;Raymundo Milleza;NA;RS;NA;NA;unknown;x
+50013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50016;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50017;Chief of Staff;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50018;Chief of Army;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50019;Chief of Navy;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50020;Chief of Air Force;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+50001;Head of State;Manuel Quezon;NA;PA LC CE RS;NA;NA;quezon_manuel_phi;x
+50002;Head of Government;Sergio Osmeña;NA;CE;NA;NA;osmena_sergio_phi;x
+50003;Foreign Minister;Quintin Paredes;NA;LC;Apologetic Clerk;Low;unknown;x
+50004;Minister of Armament;Elpidio Quirino;NA;LC;Laissez Faires Capitalist;Medium;unknown;x
+50005;Minister of Security;Jose Yulo;NA;LC;Compassionate Gentleman;Medium;unknown;x
+50006;Head of Military Intelligence;Jose de los Reyes;NA;CE;Logistics Specialist;Medium;unknown;x
+50007;Chief of Staff;Jose de los Reyes;NA;CE;School of Psychology;Medium;unknown;x
+50008;Chief of Army;Jose de los Reyes;NA;CE;Guns and Butter Doctrine;Medium;unknown;x
+50009;Chief of Navy;Jose de los Reyes;NA;CE;Open Seas Doctrine ;Medium;unknown;x
+50010;Chief of Air Force;C.A. Backes;NA;CE;Army Aviation Doctrine ;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+50021;Head of State;Juan Sumulong;NA;RS;NA;NA;unknown;x
+50022;Head of Government;Blue Shadow;NA;RS;NA;NA;unknown;x
+50023;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50024;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50025;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50026;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50027;Chief of Staff;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50028;Chief of Army;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50029;Chief of Navy;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+50030;Chief of Air Force;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1944;ELECT_B;;;;;;x
+50001;Head of State;Manuel Quezon;NA;PA LC CE RS;NA;NA;quezon_manuel_phi;x
+50002;Head of Government;Sergio Osmeña;NA;CE;NA;NA;osmena_sergio_phi;x
+50003;Foreign Minister;Quintin Paredes;NA;LC;Apologetic Clerk;Low;unknown;x
+50004;Minister of Armament;Elpidio Quirino;NA;LC;Laissez Faires Capitalist;Medium;unknown;x
+50005;Minister of Security;Jose Yulo;NA;LC;Compassionate Gentleman;Medium;unknown;x
+50006;Head of Military Intelligence;Jose de los Reyes;NA;CE;Logistics Specialist;Medium;unknown;x
+50007;Chief of Staff;Jose de los Reyes;NA;CE;School of Psychology;Medium;unknown;x
+50008;Chief of Army;Jose de los Reyes;NA;CE;Guns and Butter Doctrine;Medium;unknown;x
+50009;Chief of Navy;Jose de los Reyes;NA;CE;Open Seas Doctrine ;Medium;unknown;x
+50010;Chief of Air Force;C.A. Backes;NA;CE;Army Aviation Doctrine ;Medium;unknown;x
+;B Cabinet - 1944;ELECT_A;;;;;;x
+50031;Head of State;Manuel Roxas;NA;RS CE LC;NA;NA;unknown;x
+50032;Head of Government;Elpidio Quirion;NA;LC;NA;NA;unknown;x
+50033;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+50034;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+50035;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+50036;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+50037;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+50038;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+50039;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+50040;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+50041;Head of State;Jorge Vargas;NA;FA;NA;NA;unknown;x
+50042;Head of Government;Jorge Vargas;NA;FA;NA;NA;unknown;x
+50043;Foreign Minister;Claro Recto;NA;FA;Undistinguished Suit;Medium;unknown;x
+50044;Minister of Armament;Antonio de la Alas;NA;FA;Undistinguished Suit;Medium;unknown;x
+50045;Minister of Security;Benigno Aquino;NA;FA;Undistinguished Suit;Medium;unknown;x
+50046;Head of Military Intelligence;Benigno Ramos;NA;FA;Undistinguished Suit;Medium;unknown;x
+50047;Chief of Staff;Arternio Ricarte;NA;FA;Undistinguished Suit;Medium;unknown;x
+50048;Chief of Army;Arternio Ricarte;NA;FA;Undistinguished Suit;Medium;unknown;x
+50049;Chief of Navy;Arternio Ricarte;NA;FA;Undistinguished Suit;Medium;unknown;x
+50050;Chief of Air Force;Arternio Ricarte;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+50051;Head of State;Crisanto Evangelista;NA;RS LWR LE ST;NA;NA;unknown;x
+50052;Head of Government;Pedro Abad Santos;NA;LE;NA;NA;unknown;x
+50053;Foreign Minister;Casto Alejandrino;NA;LE;Undistinguished Suit;Medium;unknown;x
+50054;Minister of Armament;Casto Alejandrino;NA;LE;Undistinguished Suit;Medium;unknown;x
+50055;Minister of Security;Mariano Balgos;NA;LE;Undistinguished Suit;Medium;unknown;x
+50056;Head of Military Intelligence;Luis Taruc;NA;LE;Undistinguished Suit;Medium;unknown;x
+50057;Chief of Staff;Luis Taruc;NA;LE;Undistinguished Suit;Medium;unknown;x
+50058;Chief of Army;Jesus Lava;NA;LE;Undistinguished Suit;Medium;unknown;x
+50059;Chief of Navy;Luis Taruc;NA;LE;Undistinguished Suit;Medium;unknown;x
+50060;Chief of Air Force;Luis Taruc;NA;LE;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+50061;Head of State;Sergio Osmeña;36;PA LC CE RS;NA;NA;osmena_sergio_phi;x
+50031;Head of State;Manuel Roxas;36;PA LC CE;NA;NA;unknown;x
+50062;Head of State;Elpidio Quirino;36;PA LC CE;NA;NA;unknown;x
+50032;Head of Government;Elpidio Quirino;36;LC;NA;NA;unknown;x
+50063;Foreign Minister;Joaquin Elizalde;38;CE;Great Compromiser;High;unknown;x
+50064;Foreign Minister;Elpidio Quirino;44;LC;Ideological Crusader;Medium;unknown;x
+50044;Minister of Armament;Antonio de Las Alas;36;PA;Laissez Faires Capitalist;Medium;unknown;x
+50065;Minister of Armament;Manuel Roxas;38;PA;Laissez Faires Capitalist;Medium;unknown;x
+50066;Minister of Armament;Serafin Marabut;41;LC;Administrative Genius;Medium;unknown;x
+50067;Minister of Armament;Jose Abad Santos ;41;RS;Administrative Genius;Medium;unknown;x
+50068;Minister of Armament;Andres Soriano;42;PA;Resource Industrialist;Medium;unknown;x
+50069;Minister of Armament;Miguel Cuaderno;46;LC;Resource Industrialist;Medium;unknown;x
+50070;Minister of Security;Jose Abad Santos;38;RS;Man of the People;Medium;unknown;x
+50071;Minister of Security;Teofilo Sison;41;LC;Compassionate Gentleman;Medium;unknown;x
+50072;Minister of Security;Jose Laurel;41;PA;Compassionate Gentleman;Medium;laurel_jose_phi;x
+50073;Minister of Security;Delfin Jaranilla;45;LC;Silent Lawyer;Medium;unknown;x
+50074;Minister of Security;Ramon Quisumbing;46;CE;Man of the People;Medium;unknown;x
+50075;Minister of Security;Roman Ozaeta;46;LC;Compassionate Gentleman;Medium;unknown;x
+50076;Chief of Staff;Paulino Santos;36;LC;School of Psychology;High;unknown;x
+50077;Chief of Staff;Basilio Valdes;39;CE;School of Psychology;High;unknown;x
+50078;Chief of Staff;Rafael Jalandoni;44;CE;School of Defense;Medium;unknown;x
+50079;Chief of Staff;Ruperto Kangleon;45;CE;School of Defense;High;unknown;x
+50080;Chief of Army;Guillermo Francisco;36;CE;Decisive Battle Doctrine;Medium;unknown;x
+50081;Chief of Army;Vicente Lim ;39;CE;Elastic Defense Doctrine;Medium;unknown;x
+50082;Chief of Army;Rafael Jalandoni;44;CE;Guns and Butter Doctrine;High;unknown;x
+50083;Chief of Army;Ruperto Kangleon;45;CE;Guns and Butter Doctrine;Medium;unknown;x
+50084;Head of Military Intelligence;Fidel Segundo;36;CE;Logistics Specialist;High;unknown;x
+50085;Chief of Navy;Rafael Ramos;38;LC;Open Seas Doctrine;Very Low;unknown;x
+50086;Chief of Navy;Jose Andrada;38;CE;Open Seas Doctrine;Low;unknown;x
+50087;Chief of Navy;Enrique Jurado;41;CE;Open Seas Doctrine;Medium;unknown;x
+50088;Chief of Air Force;Basilio Fernando;43;CE;Army Aviation Doctrine;High;unknown;x
+50089;Chief of Air Force;Edwin Andrews;45;PA;Army Aviation Doctrine;Medium;unknown;x
+50090;Chief of Air Force;Pelagio Cruz;46;LC;Army Aviation Doctrine;High;unknown;x

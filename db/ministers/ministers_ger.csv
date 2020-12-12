@@ -1,0 +1,85 @@
+GER;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+1;Head of State;Adolf Hitler;NA;NS FA;NA;NA;hitler_adolf_ger;x
+2;Head of Government;Adolf Hitler;NA;NS;NA;NA;hitler_adolf_ger;x
+3;Foreign Minister;Constantin v. Neurath;NA;PA;Great Compromiser;Medium;constantin_neurath_ger;x
+4;Minister of Armament;Hjalmar Schacht;NA;PA;Administrative Genius;Low;hjalmar_schacht_ger;x
+5;Minister of Security;Wilhelm Frick;NA;NS;Prince of Terror;High;frick_wilhelm_ger;x
+6;Head of Military Intelligence;Wilhelm Canaris;NA;PA;Dismal Enigma;Medium;canaris_wilhelm2_ger;x
+7;Chief of Staff;Ludwig Beck;NA;PA;School of Defense;Low;ludwig_beck_ger;x
+8;Chief of Army;Werner von Fritsch;NA;PA;Static Defense Doctrine;Low;werner_fritsch_ger;x
+9;Chief of Navy;Erich Raeder;NA;FA;Decisive Naval Doctrine;High;raeder_erich_ger;x
+10;Chief of Air Force;Hermann G�ring;NA;NS;Army Aviation Doctrine;Very High;goring_hermann3_ger;x
+;Shadow LC Cabinet;;;;;;;x
+11;Head of State;Ludwig Beck;NA;PA LC;NA;NA;ludwig_beck_ger;x
+12;Head of Government;Carl Friedrich Goerdeler;NA;PA;NA;NA;goerdeler_karl-friedrich_ger;x
+13;Foreign Minister;Hans Gisevius;NA;PA;Undistinguished Suit;Medium;hans_gisevius_ger;x
+14;Minister of Armament;Claus Schenk von Stauffenberg;NA;PA;Undistinguished Suit;Medium;schenk_stauffenberg_ger;x
+15;Minister of Security;Julius Leber;NA;PA;Undistinguished Suit;Medium;julius_leber_ger;x
+16;Head of Military Intelligence;Georg Holmster;NA;PA;Undistinguished Suit;Medium;unknown;x
+17;Chief of Staff;Erwin von Witzleben;NA;PA;Undistinguished Suit;Medium;vonwitzleben_erwin2_ger;x
+18;Chief of Army;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+19;Chief of Navy;Wilhelm Canaris;NA;PA;Undistinguished Suit;Medium;canaris_wilhelm2_ger;x
+20;Chief of Air Force;Blue Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow CE Cabinet;;;;;;;x
+21;Head of State;Blue Shadow;NA;RS CE LC;NA;NA;unknown;x
+22;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+23;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+24;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+25;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+26;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+27;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+28;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+29;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+30;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+31;Head of State;Ludwig Renn;NA;LWR LE ST;NA;NA;ludwig_renn;x
+32;Head of Government;Ernst Th�lmann;NA;LE;NA;NA;thalmann_ernst_ger;x
+33;Foreign Minister;Helmet Herzfelde;NA;LWR;Ideological Crusader;High;helmet_herzfelde_ger;x
+34;Minister of Armament;Willie Muzenberg;NA;LE;Administrative Genius;High;willie_muzenberg_ger;x
+35;Minister of Security;Ernst Toller;NA;ST;Man of the People;Low;ernst_toller_ger;x
+36;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Very High;unknown;x
+37;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Very High;unknown;x
+38;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Very High;unknown;x
+39;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Very High;unknown;x
+40;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Very High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+41;Head of State;Karl D�nitz;45;NS FA PA;NA;NA;donitz_karl2_ger;x
+42;Head of State;Hermann G�ring;44;NS FA PA;NA;NA;goring_hermann3_ger;x
+43;Head of State;Heinrich Himmler;44;NS FA PA;NA;NA;himmler_heinrich2_ger;x
+44;Head of Government;Joseph Goebbels;45;NS;NA;NA;gobbels_joseph2_ger;x
+45;Head of Government;Johann Schwerin v. Krosigk ;45;PA;NA;NA;johann_krosigk_ger;x
+46;Foreign Minister;Joachim von Ribbentrop;38;NS;Biased Intellectual;High;vonribbentrop_joachim2_ger;x
+47;Foreign Minister;Johann Schwerin v. Krosigk ;45;PA;Apologetic Clerk;High;johann_krosigk_ger;x
+48;Minister of Armament;Hermann G�ring;38;NS;Air-to-Ground Proponent;Very High;goring_hermann3_ger;x
+49;Minister of Armament;Walter Funk;38;NS;Undistinguished Suit;Very High;funk_walter2_ger;x
+50;Minister of Armament;Fritz Todt;40;NS;Resource Industrialist;High;todt_fritz_ger;x
+51;Minister of Armament;Albert Speer;42;NS;Administrative Genius;Medium;speer_albert_ger;x
+52;Minister of Armament;Friedrich Flick;38;NS;Laissez-Faires Capitalist;Medium;friedrich_flick_ger;x
+53;Minister of Armament;Georg Thomas;40;PA;Military Entrepreneur;Low;unknown;x
+54;Minister of Security;Heinrich Himmler;36;NS;Efficient Sociopath;Very High;himmler_heinrich2_ger;x
+55;Minister of Security;Karl Hanke;45;NS;Crime Fighter;Very Low;karl_hanke_ger;x
+56;Head of Military Intelligence;Georg Hansen;44;PA;Technical Specialist;Medium;unknown;x
+57;Head of Military Intelligence;Ernst Kaltenbrunner;44;NS;Political Specialist;High;kaltenbrunner_ernst_ger;x
+58;Chief of Staff;Franz Halder;38;PA;School of Fire Support;Medium;halder_franz_ger;x
+59;Chief of Staff;Kurt Zeitzler;42;NS;School of Manoeuvre;Medium;zeitzler_kurt4_ger;x
+60;Chief of Staff;Adolf Heusinger;44;PA;School of Manoeuvre;Low;heusinger_adolf_ger;x
+61;Chief of Staff;Heinz Guderian;44;PA;School of Manoeuvre;Medium;guderian_heinz_ger;x
+62;Chief of Staff;Hans Krebs;45;PA;School of Defense;Medium;krebs_hans_ger;x
+63;Chief of Army;Walther von Brauchitsch;38;PA;Armoured Spearhead Doctrine;High;vonbrauchitsch_walter3_ger;x
+64;Chief of Army;Adolf Hitler;42;NS;Decisive Battle Doctrine;Very High;hitler_adolf_ger;x
+65;Chief of Army;Ferdinand Sch�rner;45;NS;Elastic Defense Doctrine;Very High;schorner_ferdinand_ger;x
+66;Chief of Navy;Karl D�nitz;43;NS;Indirect Approach Doctrine;Very High;donitz_karl2_ger;x
+67;Chief of Navy;Hans-Georg von Friedeburg;45;PA;Decisive Naval Doctrine;Medium;friedeburg_hans-georg_ger;x
+68;Chief of Air Force;Robert Ritter von Greim;45;NS;Army Aviation Doctrine;Medium;vongreim_ritter_ger;x
+69;Chief of Air Force;Wilhelm Oxenius;45;PA;Air Superiority Doctrine;Medium;oxenius_ger;x
+70;Chief of Air Force;Eberhard Milch;42;NS;Air Superiority Doctrine;Medium;milch_erhard2_ger;x
+71;Chief of Air Force;Hugo Sperrle;39;NS;Army Aviation Doctrine;High;sperrle_hugo2_ger;x
+72;Chief of Air Force;Albert Kesselring;41;FA;Vertical Envelopement Doctrine;High;kesselring_albert4_ger;x
+73;Foreign Minister;Friedrich-Werner von der Schulenberg;37;PA;Undistinguished Suit;Medium;vonschulenberg_friedrich;x
+74;Foreign Minister;Ulrich von Hassel;37;PA;Undistinguished Suit;Medium;ulrich_hassel_ger;x
+75;Minister of Armament;Paul Lejeune-Jung;37;PA;Undistinguished Suit;Medium;unknown;x
+76;Minister of Armament;Fritz Tornow;37;PA;Undistinguished Suit;Medium;unknown;x
+77;Minister of Security;Karl Sack;37;PA;Undistinguished Suit;Medium;unknown;x
+78;Minister of Security;Josef Wirmer;37;PA;Undistinguished Suit;Medium;josef_wirmer_ger;x
+79;Chief of Staff;Erich Hoepner;37;PA;Undistinguished Suit;Medium;hopner_erich_ger;x
+80;Head of Government;Ernst Toller;40;ST;NA;NA;ernst_toller_ger;x

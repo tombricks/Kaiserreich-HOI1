@@ -1,0 +1,76 @@
+# 0 - Pre-War
+model = {
+	cost 						= 11
+	buildtime					= 130
+	defaultorganisation 		= 100
+	manpower					= 4
+	maxspeed					= 240
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 1
+	airdefence					= 1
+	airattack					= 0
+	strategicattack				= 0
+	tacticalattack				= 0
+	navalattack					= 0
+	transportcapability			= 1
+	range						= 600
+	fuelconsumption				= 22
+}
+# 1 - Basic
+model = {
+	cost 						= 13
+	buildtime					= 130
+	defaultorganisation 		= 100
+	manpower					= 4
+	maxspeed					= 250
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 2
+	airdefence					= 1
+	airattack					= 0
+	strategicattack				= 0
+	tacticalattack				= 0
+	navalattack					= 0
+	transportcapability			= 1
+	range						= 1050
+	fuelconsumption				= 24
+}
+# 2 - Improved
+model = {
+	cost 						= 14
+	buildtime					= 132
+	defaultorganisation 		= 100
+	manpower					= 4
+	maxspeed					= 300
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 3
+	airdefence					= 1
+	airattack					= 0
+	strategicattack				= 0
+	tacticalattack				= 0
+	navalattack					= 0
+	transportcapability			= 1
+	range						= 1300
+	fuelconsumption				= 26
+}
+# 3 - Advanced
+model = {
+	cost 						= 15
+	buildtime					= 134
+	defaultorganisation 		= 100
+	manpower					= 4
+	maxspeed					= 350
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 4
+	airdefence					= 2
+	airattack					= 0
+	strategicattack				= 0
+	tacticalattack				= 0
+	navalattack					= 0
+	transportcapability			= 1
+	range						= 1500
+	fuelconsumption				= 28
+}

@@ -1,0 +1,58 @@
+#
+# Hearts of Iron
+#
+#  UK Preferences..
+#
+
+# 100 = Total warmonger, 0 = absolute pacifist
+war = 50
+
+military = {
+	infantry = 			0
+	cavalry = 			0
+	motorized = 		5
+	mechanized = 		5
+	panzer = 			10
+	paratrooper = 		0
+	marine =			5
+	bergsjaeger = 		0
+					  # 25 %
+	
+	fighter = 			20
+	strategic_bomber = 	10
+	tactical_bomber = 	10
+	naval_bomber = 		5
+	dive_bomber = 		0
+	transport_plane = 	0
+	torpedo_plane = 	0
+					  # 45 %
+	
+	battleship = 		2
+	carrier = 			0
+	destroyer = 		10
+	cruiser = 			2
+	submarine = 		1
+	transports = 		15
+					  # 30 %
+}
+
+technology = {
+
+	endgoal = {}
+	preference = {}
+
+	electronics = 		1.5
+	armor = 			1.0
+	infantry = 			1.0
+	industry = 			0.7
+	rocket = 			0.3
+	nuclear = 			0.1
+	heavy_aircraft = 	1.4
+	light_aircraft = 	1.9
+	naval = 			1.5
+	submarine = 		0.8
+	artillery = 		0.7
+	naval_doctrine = 	1.6
+	land_doctrine = 	1.0
+	air_doctrine = 		1.6
+}

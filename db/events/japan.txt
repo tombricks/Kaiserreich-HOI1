@@ -1,0 +1,143 @@
+#
+# HoI - Japan Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  US Oil Embargo
+#########################################################################
+event = { 
+	id = 3800
+	random = no
+	country = JAP
+	
+	# Triggered by USA 3701
+	
+	name = "EVT_3800_NAME"
+	desc = "EVT_3800_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # A very bad thing this is
+	#	command = { type = hate which = USA value = 10 } #TODO_add the commands and system#
+	}
+}
+#########################################################################
+#  The USA Assassinates Admiral Isoroku Yamamoto
+#########################################################################
+event = { 
+	id = 3801
+	random = no
+	country = JAP
+	
+	# Triggered by USA 3704
+	
+	name = "EVT_3801_NAME"
+	desc = "EVT_3801_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # A very, very bad thing this is
+		command = { type = sleepleader which = 101000 }
+	}
+}
+
+#########################################################################
+#  The Nanking Massacre
+#########################################################################
+event = { 
+	id = 3802
+	random = no
+	country = JAP
+	
+	trigger = {
+		war = { country = JAP country = CHI }
+		control = { province = 1695 data = -1 } # We control Nanjing
+	}
+	
+	name = "EVT_3802_NAME"
+	desc = "EVT_3802_DESC"
+	style = 0
+	
+	date = { day = 2 month = january year = 1936 }
+	offset = 7
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	action_a = {
+		name = "ACTIONNAME3802A" # That will hurt us more than them!
+		
+		command = { type = trigger which = 4100 } # CHI
+		command = { type = trigger which = 3724 } # USA
+		command = { type = influence value = -5 }
+	}
+}
+
+#########################################################################
+#  Japan and the SE Asian Colonies of Vichy France
+#########################################################################
+event = { 
+	id = 3803
+	random = no
+	country = JAP
+	
+	# Triggered by FRA 2800
+	
+	name = "EVT_3803_NAME"
+	desc = "EVT_3803_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME3803A" # Demand Airbases in French Indochine
+		command = { type = trigger which = 4000 }
+	}
+	action_b = {
+		name = "ACTIONNAME3803B" # Demand French Indochine
+		command = { type = trigger which = 4001 }
+		command = { type = trigger which = 3707 } # USA - war entry raised
+	}
+	action_c = {
+		name = "ACTIONNAME3803C" # Demand French Indochine and Madagascar
+		command = { type = trigger which = 4002 }
+		command = { type = trigger which = 3708 } # USA - war entry raised more
+	}
+}
+#########################################################################
+#  Vichy accepts our demands
+#########################################################################
+event = { 
+	id = 3804
+	random = no
+	country = JAP
+	
+	# Triggered by VIC 4000, 4001 or 4002
+	
+	name = "EVT_3804_NAME"
+	desc = "EVT_3804_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Very Good!
+		command = { }
+	}
+}
+#########################################################################
+#  Vichy refuses our demands
+#########################################################################
+event = { 
+	id = 3805
+	random = no
+	country = JAP
+	
+	# Triggered by VIC 4000, 4001 or 4002
+	
+	name = "EVT_3805_NAME"
+	desc = "EVT_3805_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Curses!
+		command = { type = influence value = -3 }
+		command = { type = dissent value = 3 }
+	}
+}

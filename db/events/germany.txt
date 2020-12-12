@@ -1,0 +1,872 @@
+#
+# HoI - German Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  Re-occupation of the Rhineland
+#########################################################################
+event = { 
+	id = 2000
+	random = no
+	country = GER
+	trigger = {
+				NOT = {
+						war = { country = GER country = FRA }
+						alliance = { country = GER country = FRA }
+						}
+				}
+	
+	name = "EVT_2000_NAME"
+	desc = "EVT_2000_DESC"
+	style = 0
+	
+	date = { day = 7 month = march year = 1936 }
+	
+	action_a = {
+			name = "OK"
+			command = { type = warentry which = FRA value = 10 }
+			command = { type = warentry which = ENG value = 5 }
+	}
+}
+
+#########################################################################
+#  Anschluss of Austria
+#########################################################################
+event = { 
+	id = 2020
+	random = no
+	country = GER
+	trigger = {
+		exists = AUS
+		NOT = {
+			atwar = AUS # Austria is not at war
+		}
+	}
+	name = "EVT_2020_NAME"
+	desc = "EVT_2020_DESC"
+	style = 0
+	
+	date = { day = 1 month = march year = 1938 } # Real Date: March 12
+	offset = 30
+	deathdate = { day = 12 month = march year = 1940 }
+	
+	action_a = {
+		name = "ACTIONNAME2020A" # Press for Anschluss
+		command = { type = trigger which = 2100 }
+	}
+	action_b = {
+		name = "ACTIONNAME2020B" # Do not create more tension
+		command = { type = warentry which = USA value = -5 }
+		command = { type = warentry which = FRA value = -5 }
+		command = { type = warentry which = ENG value = -5 }
+		command = { type = dissent value = 5 }
+	}
+}
+
+#########################################################################
+#  Anschluss of Austria - Annexation
+#########################################################################
+event = { 
+	id = 2001
+	random = no
+	country = GER
+	# Triggered by AUS 2100
+	name = "EVT_2001_NAME"
+	desc = "EVT_2001_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = inherit which = AUS }
+		command = { type = manpowerpool value = 300 }
+		command = { type = dissent value = -10 }
+		command = { type = warentry which = USA value = 5 }
+		command = { type = warentry which = FRA value = 5 }
+		command = { type = warentry which = ENG value = 5 }
+	}
+}
+
+#########################################################################
+#  Anschluss of Austria - Alliance
+#########################################################################
+event = { 
+	id = 2002
+	random = no
+	country = GER
+	# Triggered by AUS 2100
+	name = "EVT_2002_NAME"
+	desc = "EVT_2002_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = access which = AUS }
+	}
+}
+
+#########################################################################
+#  The Treaty of Munich
+#########################################################################
+event = { 
+	id = 2030
+	random = no
+	country = GER
+	trigger = {
+		exists = CZE
+		OR = {
+			control = { province = 578 data = CZE }
+			control = { province = 613 data = CZE }
+			control = { province = 616 data = CZE }
+			control = { province = 617 data = CZE }
+		}
+		NOT = {
+			alliance = { country = CZE country = GER }
+			ispuppet = GER
+			puppet = { country = CZE country = GER }
+		}
+	}
+	name = "EVT_2030_NAME"
+	desc = "EVT_2030_DESC"
+	style = 0
+	
+	date = { day = 29 month = september year = 1938 }
+	
+	action_a = {
+		name = "ACTIONNAME2030A" # Demand Sudetenland!
+		command = { type = trigger which = 2200 } # CZE
+		# Also trigger events for England and France that allow them to declare war?
+	}
+	action_b = {
+		name = "ACTIONNAME2030B" # Leave well enough alone
+		command = { type = warentry which = USA value = -10 }
+		command = { type = warentry which = FRA value = -10 }
+		command = { type = warentry which = ENG value = -10 }
+		command = { type = dissent value = 5 }
+	}
+}
+
+#########################################################################
+#  The Treaty of Munich - Sudetenland to Germany
+#########################################################################
+event = { 
+	id = 2003
+	random = no
+	country = GER
+	# Triggered by CZE 2200
+	name = "EVT_2003_NAME"
+	desc = "EVT_2003_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = -10 }
+		command = { type = influence value = 5 }
+		command = { type = manpowerpool value = 100 }
+	}
+}
+
+#########################################################################
+#  The Treaty of Munich - Czechoslovakia joins the Axis
+#########################################################################
+event = { 
+	id = 2004
+	random = no
+	country = GER
+	# Triggered by CZE 2200
+	name = "EVT_2004_NAME"
+	desc = "EVT_2004_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { }
+	}
+}
+#########################################################################
+#  The Treaty of Munich - Czechoslovakia refuses claims
+#########################################################################
+event = { 
+	id = 2005
+	random = no
+	country = GER
+	# Triggered by CZE 2200
+	name = "EVT_2005_NAME"
+	desc = "EVT_2005_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2005A" # We dare not attack them outright
+		command = { type = dissent value = 5 } 
+	}
+	action_b = {
+		name = "ACTIONNAME2005B" # What they will not give, we shall take!
+		command = { type = war which = CZE }
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia
+#########################################################################
+event = { 
+	id = 2040
+	random = no
+	country = GER
+	trigger = {
+		event = 2003 # German event signalling annexation of Sudetenland
+		exists = CZE
+		NOT = {
+			exists = SLO
+			alliance = { country = CZE country = GER }
+		}
+	}
+	name = "EVT_2040_NAME"
+	desc = "EVT_2040_DESC"
+	style = 0
+	
+	date = { day = 14 month = march year = 1939 }
+
+	action_a = {
+		name = "ACTIONNAME2040A" # Install Tiso in Slovakia
+		command = { type = trigger which = 2201 } # CZE
+	}
+	action_b = {
+		name = "ACTIONNAME2040B" # Partition Czecho-Slovakia with Hungary
+		command = { type = trigger which = 2202 } # CZE
+	}
+	action_c = {
+		name = "ACTIONNAME2040B" # Honor the Munich Agreement
+		command = { type = influence value = 3 }
+		command = { type = warentry which = USA value = -2 }
+		command = { type = warentry which = FRA value = -2 }
+		command = { type = warentry which = ENG value = -2 }
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia - Czechs annexed
+#########################################################################
+event = { 
+	id = 2006
+	random = no
+	country = GER
+	# Triggered by CZE 2201
+	name = "EVT_2006_NAME"
+	desc = "EVT_2006_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = -10 }
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia - Czechs wish a fight!
+#########################################################################
+event = { 
+	id = 2007
+	random = no
+	country = GER
+	# Triggered by CZE 2201
+	name = "EVT_2007_NAME"
+	desc = "EVT_2007_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = war which = CZE }
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia - Czecho-Slovakia partitioned
+#########################################################################
+event = { 
+	id = 2011
+	random = no
+	country = GER
+	# Triggered by CZE 2202
+	name = "EVT_2011_NAME"
+	desc = "EVT_2011_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = inherit which = CZE }
+		command = { type = dissent value = -10 }
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia - Czechs fight!
+#########################################################################
+event = { 
+	id = 2012
+	random = no
+	country = GER
+	# Triggered by CZE 2202
+	name = "EVT_2012_NAME"
+	desc = "EVT_2012_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = alliance which = HUN }
+		command = { type = war which = CZE }
+	}
+}
+#########################################################################
+#  Claiming Memel
+#########################################################################
+event = { 
+	id = 2008
+	random = no
+	country = GER
+	trigger = {
+			control = { province = 711 data = LIT }
+		NOT = {
+			alliance = { country = GER country = LIT }
+			ispuppet = LIT
+			ispuppet = GER
+		}
+	}
+	
+	name = "EVT_2008_NAME"
+	desc = "EVT_2008_DESC"
+	style = 0
+	
+	date = { day = 23 month = march year = 1939 } # Real Date: Sep 29
+	
+	action_a = {
+		name = "ACTIONNAME2008A" # Claim Memel
+		command = { type = trigger which = 2400 } # LIT
+	}
+	action_b = {
+		name = "ACTIONNAME2008B" # Let them keep it
+		command = {  }
+	}
+}
+#########################################################################
+#  Claiming Memel - Lithuania Agrees!
+#########################################################################
+event = { 
+	id = 2009
+	random = no
+	country = GER
+	# Triggered by LIT 2400
+	name = "EVT_2009_NAME"
+	desc = "EVT_2009_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = -5 }
+		command = { type = manpowerpool value = 10 }
+	}
+}
+#########################################################################
+#  Claiming Memel - Lithuania Refuses!
+#########################################################################
+event = { 
+	id = 2010
+	random = no
+	country = GER
+	# Triggered by LIT 2400
+	name = "EVT_2010_NAME"
+	desc = "EVT_2010_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = 2 }
+	}
+}
+
+#########################################################################
+#  The Molotov-Ribbentrop Pact
+#########################################################################
+event = { 
+	id = 2050
+	random = no
+	country = GER
+	trigger = {
+		exists = SOV
+		exists = POL
+		NOT = {
+			war = { country = SOV country = GER  }
+			alliance = { country = GER country = POL }
+			alliance = { country = GER country = SOV }
+			ispuppet = GER
+			ispuppet = SOV
+			ispuppet = POL
+		}
+	}
+	name = "EVT_2050_NAME"
+	desc = "EVT_2050_DESC"
+	style = 0
+	
+	date = { day = 23 month = august year = 1939 }
+
+	action_a = {
+		name = "ACTIONNAME2050A" # Historical Agreement
+		command = { type = trigger which = 2600 } # SOV
+	}
+	action_b = {
+		name = "ACTIONNAME2050B" # Only agree to partition Poland
+		command = { type = trigger which = 2601 } # SOV
+	}
+	action_c = {
+		name = "ACTIONNAME2050C" # No deals with the Bolsheviks!
+		command = {  }
+	}
+}
+#########################################################################
+#  The Molotov-Ribbentrop Pact - Historical Outcome
+#########################################################################
+event = { 
+	id = 2013
+	random = no
+	country = GER
+	# Triggered by SOV 2600
+	name = "EVT_2013_NAME"
+	desc = "EVT_2013_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { }
+	}
+}
+#########################################################################
+#  The Molotov-Ribbentrop Pact - Soviet Refusal to Historical Pact
+#########################################################################
+event = { 
+	id = 2014
+	random = no
+	country = GER
+	# Triggered by SOV 2600
+	name = "EVT_2014_NAME"
+	desc = "EVT_2014_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+			#	command = { type = hate which = SOV value = 10 } #TODO_add the commands and system# 
+	}
+}
+#########################################################################
+#  The Molotov-Ribbentrop Pact - Soviets Propose Alliance
+#########################################################################
+event = { 
+	id = 2015
+	random = no
+	country = GER
+	# Triggered by SOV 2600
+	name = "EVT_2015_NAME"
+	desc = "EVT_2015_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2015A" # Refuse alliance, but stand by pact
+		command = { type = trigger which = 2602 }
+	}
+	action_b = {
+		name = "ACTIONNAME2015B" # Let the world tremble!
+		command = { type = alliance which = SOV }
+		command = { type = dissent value = 15 }
+		command = { type = trigger which = 2603 }
+	}
+}
+#########################################################################
+#  The Molotov-Ribbentrop Pact - Limited Pact
+#########################################################################
+event = { 
+	id = 2016
+	random = no
+	country = GER
+	# Triggered by SOV 2601
+	name = "EVT_2016_NAME"
+	desc = "EVT_2016_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		command = { }
+	}
+}
+#########################################################################
+#  The Molotov-Ribbentrop Pact - Soviet Refusal to Limited Pact
+#########################################################################
+event = { 
+	id = 2017
+	random = no
+	country = GER
+	# Triggered by SOV 2601
+	name = "EVT_2017_NAME"
+	desc = "EVT_2017_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK"
+		#	command = { type = hate which = SOV value = 10 } #TODO_add the commands and system#
+	}
+}
+#########################################################################
+#  The Molotov-Ribbentrop Pact - Eastern Poland to Soviets
+#########################################################################
+event = { 
+	id = 2018
+	random = no
+	country = GER
+	
+	trigger = {
+		control = { province = 643 data = -1 } # Warzaw
+		NOT = {
+			exists = POL
+		}
+		OR = {
+			event = 2013
+			event = 2015
+			event = 2016
+		}
+	}
+	
+	name = "EVT_2018_NAME"
+	desc = "EVT_2018_DESC"
+	style = 0
+	
+	date = { day = 24 month = august year = 1939 }
+	offset = 3 # Check for trigger conditions every three days
+	deathdate = { day = 24 month = may year = 1940 }
+	
+	action_a = {
+		name = "ACTIONNAME2018A" # Honor the Pact
+		command = { type = secedeprovince which = SOV value = 716 }
+		command = { type = secedeprovince which = SOV value = 717 }
+		command = { type = secedeprovince which = SOV value = 718 }
+		command = { type = secedeprovince which = SOV value = 719 }
+		command = { type = secedeprovince which = SOV value = 721 }
+		command = { type = secedeprovince which = SOV value = 722 }
+		command = { type = secedeprovince which = SOV value = 725 }
+		command = { type = dissent value = 3 }
+		command = { type = trigger which = 2604 }
+	}
+	action_b = {
+		name = "ACTIONNAME2018B" # Dishonor the Pact
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 2605 }
+	}
+}
+
+#########################################################################
+#  The Vienna Diktat
+#########################################################################
+event = { 
+	id = 2019
+	random = no
+	country = GER
+	
+	# Triggered by HUN 2503
+	
+	name = "EVT_2019_NAME"
+	desc = "EVT_2019_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2019A" # Force Romanian acceptance
+		command = { type = trigger which = 2701 } # ROM
+	}
+	action_b = {
+		name = "ACTIONNAME2019B" # Deny the Hungarian request
+		command = { type = trigger which = 2504 } # HUN
+		command = { type = trigger which = 2702 } # ROM
+	}
+}
+
+#########################################################################
+#  Vichy France
+#########################################################################
+event = { 
+	id = 2021
+	random = no
+	country = GER
+	
+	trigger = {
+		control = { province = 527 data = -1 } # Paris
+		war = { country = GER country = FRA }
+		NOT = {
+			puppet = { country = VIC country = GER }
+			puppet = { country = FRA country = GER }
+		}
+	}
+	
+	name = "EVT_2021_NAME"
+	desc = "EVT_2021_DESC"
+	style = 0
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 3 # Check for trigger conditions every three days
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	action_a = {
+		name = "ACTIONNAME2021A" # Set up French Puppet Government in Vichy
+		command = { type = trigger which = 2800 } # FRA
+	}
+	action_b = {
+		name = "ACTIONNAME2021B" # Total conquest is preferable
+		command = { }
+	}
+}
+
+#########################################################################
+#  Vichy France - Return of occupied provinces
+#########################################################################
+event = { 
+	id = 2022
+	random = no
+	country = GER
+	
+	trigger = {
+		exists = VIC
+	}
+	
+	name = "EVT_2022_NAME"
+	desc = "EVT_2022_DESC"
+	style = 0
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 4
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	action_a = {
+		name = "OK" # Return occupied provinces as per agreement
+		command = { type = control which = VIC value = 545 }
+		command = { type = control which = VIC value = 915 }
+		command = { type = control which = VIC value = 917 }
+		command = { type = control which = VIC value = 923 }
+		command = { type = control which = VIC value = 926 }
+		command = { type = control which = VIC value = 927 }
+		command = { type = control which = VIC value = 928 }
+		command = { type = control which = VIC value = 929 }
+		command = { type = control which = VIC value = 930 }
+		command = { type = control which = VIC value = 931 }
+		command = { type = control which = VIC value = 935 }
+		command = { type = control which = VIC value = 936 }
+		command = { type = control which = VIC value = 937 }
+		command = { type = control which = VIC value = 944 }
+		command = { type = control which = VIC value = 945 }
+		command = { type = control which = VIC value = 947 }
+		command = { type = control which = VIC value = 949 }
+		command = { type = control which = VIC value = 951 }
+#		command = { type = make_puppet which = VIC }
+	}
+}
+#########################################################################
+#  Spanish Civil War - Intervention
+#########################################################################
+event = { 
+	id = 2023
+	random = no
+	country = GER
+	
+	# Triggered by SPA 3001
+	
+	name = "EVT_2023_NAME"
+	desc = "EVT_2023_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2023A" # Send materiel and volunteers
+		command = { type = manpowerpool value = -50 }
+		command = { type = supplies value = -200 }
+		command = { type = trigger which = 3002 } #SPA
+		command = { type = trigger which = 3719 } #USA
+	}
+	action_b = {
+		name = "ACTIONNAME2023B" # Franco needs no aid
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Stalin sues for Peace
+#########################################################################
+event = { 
+	id = 2024
+	random = no
+	country = GER
+	
+	# Triggered by SOV 2624
+	
+	name = "EVT_2024_NAME"
+	desc = "EVT_2024_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME2024A" # Accept the conditions
+		command = { type = trigger which = 2625 } #SOV
+		command = { type = dissent value = -50 } # This is a _major_ victory.
+	}
+	action_b = {
+		name = "ACTIONNAME2024B" # No peace with the bolsheviks!
+		command = { type = dissent value = 15 }
+	}
+}
+#########################################################################
+#  Hitler has been assasinated!
+#########################################################################
+event = { 
+	id = 2025
+	random = no
+	country = GER
+	
+	trigger = {
+		government = fascist
+		minister = 1 # AH alive
+		dissent = 25
+		random = 5
+		NOT = {
+			OR = {
+				event = 2025
+				event = 2026
+			}
+		}
+	}
+	
+	name = "EVT_2025_NAME"
+	desc = "EVT_2025_DESC"
+	style = 0
+	
+	date = { day = 1 month = june year = 1944 }
+	offset = 7 # Check for trigger conditions every seven days
+	deathdate = { day = 1 month = january year = 1945 }
+	
+	action_a = {
+		name = "OK" # 
+		command = { type = sleepminister which = 1 } # AH
+		command = { type = sleepminister which = 2 } # AH
+		command = { type = sleepminister which = 64 } # AH
+		command = { type = dissent value = 15 } 
+		command = { type = headofstate which = 11 }
+		command = { type = headofgovernment which = 12 }
+		command = { type = foreignminister which = 13 }
+		command = { type = armamentminister which = 14 }
+		command = { type = ministerofsecurity which = 15 }
+		command = { type = ministerofintelligence which = 16 }
+		command = { type = chiefofstaff which = 17 }
+		command = { type = chiefofarmy which = 18 }
+		command = { type = chiefofnavy which = 19 }
+		command = { type = chiefofair which = 20 }
+	}
+}
+#########################################################################
+#  Failed Assassination of Hitler
+#########################################################################
+event = { 
+	id = 2026
+	random = no
+	country = GER
+	
+	trigger = {
+		government = fascist
+		minister = 1 # AH alive
+		dissent = 25
+		random = 5
+		NOT = {
+			OR = {
+				event = 2025
+				event = 2026
+			}
+		}
+	}
+	
+	name = "EVT_2026_NAME"
+	desc = "EVT_2026_DESC"
+	style = 0
+	
+	date = { day = 1 month = june year = 1944 }
+	offset = 7 # Check for trigger conditions every seven days
+	deathdate = { day = 1 month = january year = 1945 }
+	
+	action_a = {
+		name = "OK" # 
+		command = { type = sleepleader which = -2 }
+		command = { type = sleepleader which = -2 }
+		command = { type = sleepleader which = -1 }
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  Danzig or War (Last chance for peace)
+#########################################################################
+event = { 
+	id = 2027
+	random = no
+	country = GER
+	
+	trigger = {
+		government = fascist
+		NOT = {
+			owned = { province = 645 data = -1 } # Danzig
+			alliance = { country = GER country = POL }
+			war = { country = GER country = POL }
+			puppet = { country = POL country = GER }
+			ispuppet = GER
+		}
+	}
+
+	name = "EVT_2027_NAME"
+	desc = "EVT_2027_DESC"
+	style = 0
+	
+	date = { day = 30 month = august year = 1939 }
+	
+	action_a = {
+		name = "ACTIONNAME2027A" # Final Ultimatum - Danzig or War
+		command = { type = trigger which = 3601 } # POL
+	}
+	action_b = {
+		name = "ACTIONNAME2027B" # Time to back down
+		command = { type = warentry which = ENG value = -2 }
+		command = { type = warentry which = FRA value = -2 }
+		command = { type = warentry which = USA value = -2 }
+	}
+}
+#########################################################################
+#  Danzig or War - WAR!
+#########################################################################
+event = { 
+	id = 2028
+	random = no
+	country = GER
+	
+	# Triggered by POL 3601
+	
+	name = "EVT_2028_NAME"
+	desc = "EVT_2028_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Fortune will grant us victory!
+		command = { type = war which = POL }
+	}
+}
+#########################################################################
+#  Danzig or War - The Poles fold
+#########################################################################
+event = { 
+	id = 2029
+	random = no
+	country = GER
+	
+	# Triggered by POL 3601
+	
+	name = "EVT_2029_NAME"
+	desc = "EVT_2029_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Excellent!
+		command = { type = dissent value = -10 }
+		command = { type = warentry which = ENG value = -1 }
+		command = { type = warentry which = FRA value = -1 }
+		command = { type = warentry which = USA value = -1 }
+		command = { type = manpowerpool value = 30 }
+	}
+}

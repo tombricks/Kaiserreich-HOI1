@@ -1,0 +1,55 @@
+POR;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;Country
+9001;Head of State;António Carmona;NA;FA PA LC;NA;NA;carmona_antonio_por;x
+9002;Head of Government;A.Oliveira Salazar;NA;FA;NA;NA;salazar_antonio_por;x
+9003;Foreign Minister;A.Oliveira Salazar;NA;FA;Ideological Crusader;Very High;salazar_antonio_por;x
+9004;Minister of Armament;A.Oliveira Salazar;NA;FA;Laissez-Faires Capitalist;Very High;salazar_antonio_por;x
+9005;Minister of Security;Mario Pais de Sousa;NA;PA;Crooked Plutocrat;High;unknown;x
+9006;Head of Military Intelligence;Pedro Teotónio Perera;NA;PA;Dismal Enigma;High;unknown;x
+9007;Chief of Staff;Unknown;NA;PA;Undistinguished Suite;Very Low;unknown;x
+9008;Chief of Army;J.A.Lobato Guerra;NA;PA;Guns and Butter Doctrine;High;unknown;x
+9009;Chief of Navy;Ortins de Bettencourt;NA;PA;Base Control Doctrine;Very High;unknown;x
+9010;Chief of Air Force;Manuel Gouveia;NA;PA;Vertical Envelopment Doctrine;High;unknown;x
+;Shadow RS Cabinet;;;;;;;x
+9011;Head of State;Gastão de Sousa Dias ;NA;LC CE RS;NA;NA;unknown;x
+9012;Head of Government;Jaime Cortesão;NA;RS;NA;NA;unknown;x
+9013;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;High;unknown;x
+9014;Minister of Armament;Jaime Cortesão;NA;RS;Administrative Genius;High;unknown;x
+9015;Minister of Security;Raul Proença;NA;RS;Back Stabber;Low;unknown;x
+9016;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Very High;unknown;x
+9017;Chief of Staff;Gastão de Sousa Dias ;NA;LC;School of Defence;Medium;unknown;x
+9018;Chief of Army;J.Sarmento Pimentel;NA;LC;Static Defence Doctrine;Low;unknown;x
+9019;Chief of Navy;Herculano Gallardo;NA;RS;Base Control Doctrine;High;unknown;x
+9020;Chief of Air Force;J.M.Sarmento de Beires;NA;RS;Naval Aviation Doctrine;High;unknown;x
+;Shadow LC Cabinet;;;;;;;x
+9021;Head of State;Duarte II;NA;FA PA LC CE ;NA;NA;duarteII_por;x
+9022;Head of Government;D.Fezas Vital;NA;LC;NA;NA;unknown;x
+9023;Foreign Minister;Rui Ulrich;NA;LC;Great Compromiser;High;unknown;x
+9024;Minister of Armament;F.Santos Costa;NA;PA;Administrative Genius;Very High;unknown;x
+9025;Minister of Security;Afonso Lucas;NA;LC;Silent Lawyer;Very High;unknown;x
+9026;Head of Military Intelligence;Alfredo Pimenta;NA;PA;Political Specialist;Very High;unknown;x
+9027;Chief of Staff;Blue Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+9028;Chief of Army;H.M.de Paiva Couceiro;NA;LC;Guns and Butter Doctrine;Very High;unknown;x
+9029;Chief of Navy;Manuel A. Moreira;NA;PA;Base Control Doctrine;Very High;unknown;x
+9030;Chief of Air Force;Blue Shadow;NA;PA;Undistinguished Suit;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+9031;Head of State;Bento Gonçalves;NA;RS LWR ST LE;NA;NA;unknown;x
+9032;Head of Government;Bento Gonçalves;NA;LE;NA;NA;unknown;x
+9033;Foreign Minister;Domingos Monteiro;NA;LWR;Ideological Crusader;Very Low;unknown;x
+9034;Minister of Armament;F.Salgado Zenha;NA;LE;Military Entrepreneur;Medium;unknown;x
+9035;Minister of Security;Álvaro Cunhal;NA;LE;Man of the People;High;unknown;x
+9036;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;High;unknown;x
+9037;Chief of Staff;Red Shadow;NA;LE;Undistinguished Suit;Very High;unknown;x
+9038;Chief of Army;Red Shadow;NA;LE;Undistinguished Suit;Very High;unknown;x
+9039;Chief of Navy;Bento Gonçalves;NA;LE;Power Projection Doctrine;Very High;unknown;x
+9040;Chief of Air Force;Red Shadow;NA;LE;Undistinguished Suit;Very High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+9041;Foreign Minister;Caeiro da Mata;44;PA;Biased Intellectual;Medium;unknown;x
+9024;Minister of Armament;F.Santos Costa;44;PA;Administrative Genius;Very High;unknown;x
+9043;Minister of Security;J.Costa Leite;41;PA;Back Stabber;High;unknown;x
+9044;Minister of Security;J.Botelho Moniz;44;FA;Back Stabber;High;unknown;x
+9045;Minister of Security;A.Cancela de Abreu;47;LC;Silent Lawyer;Medium;unknown;x
+9046;Chief of Navy;Americo Tomaz;44;PA;Open Seas Doctrine;High;unknown;x
+9042;Foreign Minister;Alfredo Pimenta;45;PA;Ideological Crusader;High;unknown;x
+9047;Minister of Armament;Manuel Pastana;37;RS;Theoretical Scientist;Medium;unknown;x
+9048;Minister of Security;F.Vieira de Almeida;37;LC;Crime Fighter;High;unknown;x
+9049;Chief of Army;J.Barros Rodrigues;45;FA;Elastic Defence Doctrine;Very High;unknown;x

@@ -1,0 +1,5 @@
+model = {
+	buildtime					= 60
+	airdetectioncapability		= 2
+	airattack					= -1
+}

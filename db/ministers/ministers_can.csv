@@ -1,0 +1,81 @@
+CAN;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+45001;Head of State;George VI;NA;CE RS LC;NA;NA;unknown;x
+45002;Head of Government;William L. King;NA;CE;NA;NA;mackenzie_william_can;x
+45003;Foreign Minister;William L. King;NA;CE;Great Compromiser;Undying;mackenzie_william_can;x
+45004;Minister of Armament;Ian A. MacKenzie;NA;CE;Administrative Genius;High;unknown;x
+45005;Minister of Security;Ernest Lapointe;NA;LC;Silent Lawyer;Very High;unknown;x
+45006;Head of Military Intelligence;Henry Crerar;NA;CE;Technical Specialist;High;crerar_henry_can;x
+45007;Chief of Staff;Ernest Ashton;NA;CE;School of Fire Support;Very High;unknown;x
+45008;Chief of Army;Ernest Ashton;NA;CE;Guns and Butter Doctrine;Very High;unknown;x
+45009;Chief of Navy;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+45010;Chief of Air Force;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+;A Cabinet - 1936;ELECT_A;;;;;;x
+45002;Head of Government;William L. King;NA;CE;NA;NA;mackenzie_william_can;x
+45003;Foreign Minister;William L. King;NA;CE;Great Compromiser;Undying;mackenzie_william_can;x
+45004;Minister of Armament;Ian A. MacKenzie;NA;CE;Administrative Genius;High;unknown;x
+45005;Minister of Security;Ernest Lapointe;NA;LC;Silent Lawyer;Very High;unknown;x
+;B Cabinet - 1936;ELECT_B;;;;;;x
+45011;Head of Government;Ernest Lapointe;NA;LC;NA;NA;unknown;x
+45012;Foreign Minister;Ernest Lapointe;NA;LC;Biased Intellectual;Undying;unknown;x
+45013;Minister of Armament;Charles Dunning;NA;LC;Resource Industrialist;High;unknown;x
+45014;Minister of Security;Thomas A. Crerar;NA;LC;Crime Fighter;Very High;unknown;x
+;A Cabinet - 1940;ELECT_A;;;;;;x
+45002;Head of Government;William L. King;NA;CE;NA;NA;mackenzie_william_can;x
+45003;Foreign Minister;William L. King;NA;CE;Great Compromiser;Undying;mackenzie_william_can;x
+45015;Minister of Armament;Clarence Howe;NA;LC;Administrative Genius;Very High;unknown;x
+45016;Minister of Security;Louis St-Laurent;NA;LC;Silent Lawyer;High;unknown;x
+;B Cabinet - 1940;ELECT_B;;;;;;x
+45011;Head of Government;Ernest Lapointe;NA;LC;NA;NA;unknown;x
+45012;Foreign Minister;Ernest Lapointe;NA;LC;Biased Intellectual;Undying;unknown;x
+45013;Minister of Armament;Charles Dunning;NA;LC;Resource Industrialist;High;unknown;x
+45016;Minister of Security;Louis St-Laurent;NA;LC;Silent Lawyer;High;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+45002;Head of Government;William L. King;NA;CE;NA;NA;mackenzie_william_can;x
+45003;Foreign Minister;William L. King;NA;CE;Great Compromiser;Undying;mackenzie_william_can;x
+45017;Minister of Armament;Andrew McNaughton;NA;LC;Military Entrepreneur;Very High;unknown;x
+45018;Minister of Security;Joseph Jean;NA;CE;Compassionate Gentleman;High;unknown;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+45019;Head of Government;Clarence Howe;NA;LC;NA;NA;unknown;x
+45020;Foreign Minister;Clarence Howe;NA;LC;Biased Intellectual;Undying;unknown;x
+45017;Minister of Armament;Andrew McNaughton;NA;LC;Military Entrepreneur;Very High;unknown;x
+45018;Minister of Security;Joseph Jean;NA;CE;Compassionate Gentleman;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+45021;Head of State;Adrien Arcand;NA;PA FA NS;NA;NA;unknown;x
+45022;Head of Government;Adrien Arcand;NA;FA;NA;NA;unknown;x
+45023;Foreign Minister;Adrien Arcand;NA;FA;Ideological Crusader;Undying;unknown;x
+45024;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+45025;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+45026;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+45027;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+45028;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+45029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+45030;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+45031;Head of State;Tim Buck;NA;LWR LE ST;NA;NA;unknown;x
+45032;Head of Government;Tim Buck;NA;ST;NA;NA;unknown;x
+45033;Foreign Minister;Tim Buck;NA;ST;Ideological Crusader;Undying;unknown;x
+45034;Minister of Armament;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+45035;Minister of Security;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+45036;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+45037;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+45038;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+45039;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+45040;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+45041;Head of State;Count Athlone;40;LC CE RS;NA;NA;unknown;x
+45042;Foreign Minister;Louis St-Laurent;41;LC;General Staffer;High;unknown;x
+45043;Minister of Armament;James Ralston;39;CE;Theoretical Scientist;High;unknown;x
+45044;Minister of Armament;Douglas S. Abbott;45;CE;Administrative Genius;Very High;unknown;x
+45045;Head of Military Intelligence;Kenneth Stuart;38;CE;Technical Specialist;Very High;unknown;x
+45046;Head of Military Intelligence;Maurice Pope;39;LC;Industrial Specialist;High;unknown;x
+45047;Head of Military Intelligence;Ralph Gibson;41;CE;Industrial Specialist;High;unknown;x
+45048;Chief of Staff;Thomas Anderson;38;CE;School of Psychology;High;unknown;x
+45049;Chief of Staff;Henry Crerar;40;CE;School of Psychology;High;crerar_henry_can;x
+45050;Chief of Staff;Kenneth Stuart;41;LC;School of Mass Combat;Very High;unknown;x
+45051;Chief of Staff;John Murchie;43;LC;School of Mass Combat;High;unknown;x
+45052;Chief of Staff;Charles Foulkes;45;LC;School of Maneuver;Very High;unknown;x
+45053;Chief of Army;Thomas Anderson;38;CE;Guns and Butter Doctrine;High;unknown;x
+45054;Chief of Army;Henry Crerar;40;CE;Guns and Butter Doctrine;High;crerar_henry_can;x
+45055;Chief of Army;Kenneth Stuart;41;LC;Decisive Battle Doctrine;Very High;unknown;x
+45056;Chief of Army;John Murchie;43;LC;Armoured Spearhead Doctrine;High;unknown;x
+45057;Chief of Army;Charles Foulkes;45;LC;Guns and Butter Doctrine;Very High;unknown;x

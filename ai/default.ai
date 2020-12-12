@@ -1,0 +1,32 @@
+# Default AI preferences used by all countries unless otherwise stated.
+# 
+# Henrik Fåhraeus 30-09-01
+
+# 100 = Total warmonger, 0 = absolute pacifist
+war = 50
+
+military = {
+	infantry = 			30
+	cavalry = 			5
+	motorized = 		10
+	mechanized =		5
+	panzer = 			10
+	paratrooper = 		0
+	marine = 			0
+	bergsjaeger = 		0
+	
+	fighter = 			15
+	strategic_bomber = 	0
+	tactical_bomber = 	2
+	naval_bomber = 		3
+	dive_bomber = 		0
+	transport_plane = 	0 
+	torpedo_plane = 	0
+	
+	battleship = 		0
+	carrier = 			0
+	destroyer = 		5
+	cruiser = 			2
+	submarine = 		5
+	transports = 		8
+}

@@ -1,0 +1,56 @@
+#
+# HoI - Poland Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  The UK offers an Alliance
+#########################################################################
+event = { 
+	id = 3600
+	random = no
+	country = POL
+	
+	# Triggered by ENG 3401
+	
+	name = "EVT_3600_NAME"
+	desc = "EVT_3600_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME3600A" # Accept
+		command = { type = trigger which = 3402 }
+		command = { type = alignment which = democratic value = 150 }
+	}
+	action_b = {
+		name = "ACTIONNAME3600B" # Decline
+		command = { type = trigger which = 3403 }
+	}
+}
+#########################################################################
+#  Danzig or War
+#########################################################################
+event = { 
+	id = 3601
+	random = no
+	country = POL
+	
+	# Triggered by GER 2027
+	
+	name = "EVT_3601_NAME"
+	desc = "EVT_3601_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME3601A" # Then it is War
+		command = { type = trigger which = 2028 }
+		command = { type = dissent value = -5 }
+	}
+	action_b = {
+		name = "ACTIONNAME3601B" # Fold
+		command = { type = secedeprovince which = GER value = 645 }
+		command = { type = trigger which = 2029 }
+		command = { type = dissent value = 5 }
+	}
+}

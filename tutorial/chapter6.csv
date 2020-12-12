@@ -1,0 +1,66 @@
+Action;Bool All;Num;Level;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data
+ShowMessage;;;;TUTORIAL_6_A1;;;;#Welcome;;;;;;;;;;;;;;x
+AddArrowsPos;;;;775;47;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_6_A2;;;;#Declare war;;;;;;;;;;;;;;x
+IsIW;;2;;;;;;#Diplomacy IW;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+CenterMap;;643;;;;;;#Poland;;;;;;;;;;;;;;x
+AddArrowsPid;;;;643;;;;#Poland;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_6_A3;;;;#;;;;;;;;;;;;;;x
+IsIW;;0;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;580;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPid;;;;599;;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_6_A4;;;;#Select the tank unit!;;;;;;;;;;;;;;x
+ArmySelected;;1;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+CenterMap;;604;;;;;;#;;;;;;;;;;;;;;x
+AddArrowsPid;;;;606;;;;#Poznan;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A5;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A6;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;580;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPid;;;;607;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A7;;;;#;;;;;;;;;;;;;;x
+CenterMap;;604;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPid;;;;604;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A8;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A9;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_6_A10;;;;#;;;;;;;;;;;;;;x
+AlwaysSuccess;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+WeControl;;606;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A11;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A12;;;;#;;;;;;;;;;;;;;x
+CenterMap;;654;;;;;;#Diplomacy IW;;;;;;;;;;;;;;x
+AddArrowsPid;;;;600;;;;#;;;;;;;;;;;;;;x
+AddArrowsPid;;;;651;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A13;;;;#;;;;;;;;;;;;;;x
+FleetSelected;;1;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A14;;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_6_A15;;;;#;;;;;;;;;;;;;;x
+NoEnemyIn;;651;;;;;;#Clean up;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;650;113;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A16;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPos;;;;775;47;;;#;;;;;;;;;;;;;;x
+CenterMap;;720;;;;;;#Poland;;;;;;;;;;;;;;x
+AddArrowsPid;;;;643;;;;#Poland;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_6_A18;;;;#;;;;;;;;;;;;;;x
+IsIW;;2;;;;;;#Diplomacy IW;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A19;;;;#;;;;;;;;;;;;;;x
+CenterMap;;902;;;;;;#Clean up;;;;;;;;;;;;;;x
+AddArrowsPid;;;;908;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A20;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A21;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_6_A22;;;;#;;;;;;;;;;;;;;x
+EndTutorial;;;;;;;;#Clean up;;;;;;;;;;;;;;x

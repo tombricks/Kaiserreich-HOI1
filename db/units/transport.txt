@@ -1,0 +1,23 @@
+# 0 - Pre-War
+model = {
+	cost						= 4
+	buildtime 					= 90
+	defaultorganisation 		= 30
+	manpower					= 1
+	maxspeed					= 30
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 0
+	visibility					= 90
+	seadefence					= 1
+	airdefence					= 1
+	seaattack					= 0
+	airattack					= 0
+	subattack					= 0
+	shorebombardment			= 0
+	transportcapability			= 40
+	aircraftcapacity			= 0
+	range						= 10000
+	supplyconsumption			= 0.5
+	fuelconsumption				= 1
+}

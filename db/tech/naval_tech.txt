@@ -1,0 +1,1980 @@
+# 
+# The Naval Technology Group
+#
+
+#
+#
+#	
+#	
+
+technology = {
+	id = 6
+	category = naval
+	name = TECH_NAVAL_NAME #Localized name
+	desc = TECH_NAVAL_DESC #Localized description
+	
+	level = { # Basic Naval Armament and Armour
+		id = 6000
+		name = TECH_LEVEL_NAVAL_1_NAME 
+		desc = TECH_LEVEL_NAVAL_1_DESC 
+		
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # BB Belt Armour 40mm+
+			id = 6001
+			name = TECH_APP_NAVAL_1_1_NAME
+			desc = TECH_APP_NAVAL_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # BB Deck Armour 15mm+
+			id = 6002
+			name = TECH_APP_NAVAL_1_2_NAME
+			desc = TECH_APP_NAVAL_1_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # CA & CV Belt Armour 10mm+
+			id = 6003
+			name = TECH_APP_NAVAL_1_3_NAME
+			desc = TECH_APP_NAVAL_1_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # CA & CV Deck Armor 5mm+
+			id = 6004
+			name = TECH_APP_NAVAL_1_4_NAME
+			desc = TECH_APP_NAVAL_1_4_DESC
+			
+			required = { 6010 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Destroyer Hull
+			id = 6005
+			name = TECH_APP_NAVAL_1_5_NAME
+			desc = TECH_APP_NAVAL_1_5_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Cruiser Hull
+			id = 6006
+			name = TECH_APP_NAVAL_1_6_NAME
+			desc = TECH_APP_NAVAL_1_6_DESC
+			
+			required = { 6003 6004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic BB Hull
+			id = 6007
+			name = TECH_APP_NAVAL_1_7_NAME
+			desc = TECH_APP_NAVAL_1_7_DESC
+			
+			required = { 6001 6002 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic CV Hull
+			id = 6008
+			name = TECH_APP_NAVAL_1_8_NAME
+			desc = TECH_APP_NAVAL_1_8_DESC
+			
+			required = { 6003 6004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Naval Refuel Vessel
+			id = 6009
+			name = TECH_APP_NAVAL_1_9_NAME
+			desc = TECH_APP_NAVAL_1_9_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Naval Ammunition Vessel
+			id = 6010
+			name = TECH_APP_NAVAL_1_10_NAME
+			desc = TECH_APP_NAVAL_1_10_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Naval Supply Vessel
+			id = 6011
+			name = TECH_APP_NAVAL_1_11_NAME
+			desc = TECH_APP_NAVAL_1_11_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Large Naval Shipyards
+			id = 6012
+			name = TECH_APP_NAVAL_1_12_NAME
+			desc = TECH_APP_NAVAL_1_12_DESC
+			required = { 6005 6006 }
+			chance = 90
+			cost = 35
+			time = 720
+			neg_offset = 20
+			pos_offset = 40
+
+			effects = {
+				command = { type = activate_unit_type which = battleship }
+				command = { type = activate_unit_type which = carrier }
+			}
+		}
+		
+	} # Level 1
+	
+	level = { # Basic Warship Design
+		id = 6100
+		name = TECH_LEVEL_NAVAL_2_NAME 
+		desc = TECH_LEVEL_NAVAL_2_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Basic Destroyer Propulsion
+			id = 6101
+			name = TECH_APP_NAVAL_2_1_NAME
+			desc = TECH_APP_NAVAL_2_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }				
+			}
+		}
+		application = { # Basic Cruiser Propulsion
+			id = 6102
+			name = TECH_APP_NAVAL_2_2_NAME
+			desc = TECH_APP_NAVAL_2_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }				
+			}
+		}
+		application = { # Basic Battleship Propulsion
+			id = 6103
+			name = TECH_APP_NAVAL_2_3_NAME
+			desc = TECH_APP_NAVAL_2_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }				
+			}
+		}
+		application = { # Basic CV Propulsion
+			id = 6104
+			name = TECH_APP_NAVAL_2_4_NAME
+			desc = TECH_APP_NAVAL_2_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }				
+			}
+		}
+		application = { # Basic Destroyer
+			id = 6105
+			name = TECH_APP_NAVAL_2_5_NAME
+			desc = TECH_APP_NAVAL_2_5_DESC
+			
+			required = { 6005 6101 14014 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = destroyer value = 1 }
+			}
+		}
+		application = { # Basic Cruiser
+			id = 6106
+			name = TECH_APP_NAVAL_2_6_NAME
+			desc = TECH_APP_NAVAL_2_6_DESC
+			
+			required = { 6006 6102 14015 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = cruiser value = 1 }
+			}
+		}
+		application = { # Basic Battleship 150mm+
+			id = 6107
+			name = TECH_APP_NAVAL_2_7_NAME
+			desc = TECH_APP_NAVAL_2_7_DESC
+			
+			required = { 6007 6103 14014 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = battleship value = 1 }
+			}
+		}
+		application = { # Basic Battleship 350mm+
+			id = 6108
+			name = TECH_APP_NAVAL_2_8_NAME
+			desc = TECH_APP_NAVAL_2_8_DESC
+			
+			required = { 6007 6103 14014 14016 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = battleship value = 2 }
+			}
+		}
+		application = { # Basic Aircraft Carrier
+			id = 6109
+			name = TECH_APP_NAVAL_2_9_NAME
+			desc = TECH_APP_NAVAL_2_9_DESC
+			
+			required = { 6008 6104 13003 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = carrier value = 1 }
+			}
+		}
+		application = { # Basic Decimetric Naval Anti-Air Radar
+			id = 6110
+			name = TECH_APP_NAVAL_2_10_NAME
+			desc = TECH_APP_NAVAL_2_10_DESC
+			
+			required = { 3003 3102 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_attack which = battleship when = on_upgrade value = 1 }
+				
+				command = { type = air_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Basic Decimetric Naval Artillery Radar
+			id = 6111
+			name = TECH_APP_NAVAL_2_11_NAME
+			desc = TECH_APP_NAVAL_2_11_DESC
+			
+			required = { 3003 3102 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = naval_attack which = battleship when = on_upgrade value = 1 }
+				
+				command = { type = surface_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = surface_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = surface_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Basic ASDIC
+			id = 6112
+			name = TECH_APP_NAVAL_2_12_NAME
+			desc = TECH_APP_NAVAL_2_12_DESC
+			
+			required = { 3003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		
+	} # Level 2
+	
+	level = { # Amphibious Warfare
+		id = 6200
+		name = TECH_LEVEL_NAVAL_3_NAME 
+		desc = TECH_LEVEL_NAVAL_3_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Naval Infantry Training
+			id = 6201
+			name = TECH_APP_NAVAL_3_1_NAME
+			desc = TECH_APP_NAVAL_3_1_DESC
+			
+			required = { 3003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				# Non-marine may now invade with a -70% modifier (they start at -100%).
+				command = { type = shore_attack which = infantry when = now value = 30 }
+				command = { type = shore_attack which = mechanized when = now value = 30 }
+				command = { type = shore_attack which = motorized when = now value = 30 }
+				command = { type = shore_attack which = cavalry when = now value = 30 }
+				command = { type = shore_attack which = armor when = now value = 30 }
+				command = { type = shore_attack which = bergsjaeger when = now value = 30 }
+				command = { type = shore_attack which = paratrooper when = now value = 30 }
+			}
+		}
+		application = { # Landing Ship Personnel and Tanks
+			id = 6202
+			name = TECH_APP_NAVAL_3_2_NAME
+			desc = TECH_APP_NAVAL_3_2_DESC
+			
+			required = { 6201 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				# Non-marine may now invade with a -50% modifier.
+				command = { type = shore_attack which = infantry when = now value = 20 }
+				command = { type = shore_attack which = mechanized when = now value = 20 }
+				command = { type = shore_attack which = motorized when = now value = 20 }
+				command = { type = shore_attack which = cavalry when = now value = 20 }
+				command = { type = shore_attack which = armor when = now value = 20 }
+				command = { type = shore_attack which = bergsjaeger when = now value = 20 }
+				command = { type = shore_attack which = paratrooper when = now value = 20 }
+			}
+		}
+		application = { # Marines
+			id = 6203
+			name = TECH_APP_NAVAL_3_3_NAME
+			desc = TECH_APP_NAVAL_3_3_DESC
+			
+			required = { 6202 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = activate_unit_type which = marine }
+			}
+		}
+		application = { # Amphibious Assault Training
+			id = 6204
+			name = TECH_APP_NAVAL_3_4_NAME
+			desc = TECH_APP_NAVAL_3_4_DESC
+			
+			required = { 6203 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = shore_attack which = marine when = now value = 10 }
+			}
+		}
+		application = { # Frogmen
+			id = 6205
+			name = TECH_APP_NAVAL_3_5_NAME
+			desc = TECH_APP_NAVAL_3_5_DESC
+			
+			required = { 6205 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = shore_attack which = marine when = now value = 10 }
+			}
+		}
+		application = { # Basic Surface Ship Torpedo
+			id = 6206
+			name = TECH_APP_NAVAL_3_6_NAME
+			desc = TECH_APP_NAVAL_3_6_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = destroyer when = now value = 1 }
+				command = { type = naval_attack which = cruiser when = now value = 1 }
+			}
+		}
+	} # Level 3
+	
+	level = { # Improved Naval Armament
+		id = 6300
+		name = TECH_LEVEL_NAVAL_4_NAME 
+		desc = TECH_LEVEL_NAVAL_4_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Surface Ship Torpedo
+			id = 6301
+			name = TECH_APP_NAVAL_4_1_NAME
+			desc = TECH_APP_NAVAL_4_1_DESC
+			
+			required = { 6206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = destroyer when = now value = 1 }
+				command = { type = naval_attack which = cruiser when = now value = 1 }
+			}
+		}
+		application = { # Basic Surface Ship Homing Torpedo
+			id = 6302
+			name = TECH_APP_NAVAL_4_2_NAME
+			desc = TECH_APP_NAVAL_4_2_DESC
+			
+			required = { 3504 6301 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = destroyer when = now value = 1 }
+				command = { type = naval_attack which = cruiser when = now value = 1 }
+			}
+		}
+		application = { # Improved Decimetric Naval Anti Air Artillery Radar
+			id = 6303
+			name = TECH_APP_NAVAL_4_3_NAME
+			desc = TECH_APP_NAVAL_4_3_DESC
+			
+			required = { 3003 6110  }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Improved Decimetric Naval Artillery Radar
+			id = 6306
+			name = TECH_APP_NAVAL_4_6_NAME
+			desc = TECH_APP_NAVAL_4_6_DESC
+			
+			required = { 3003 6111 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = surface_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = surface_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+	} # Level 4
+	
+	level = { # Basic ASW and Convoy Escorts
+		id = 6400
+		name = TECH_LEVEL_NAVAL_5_NAME 
+		desc = TECH_LEVEL_NAVAL_5_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # BB Belt Armor 50mm+
+			id = 6401
+			name = TECH_APP_NAVAL_5_1_NAME
+			desc = TECH_APP_NAVAL_5_1_DESC
+			
+			required = { 6001 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # BB Deck Armor 20mm+
+			id = 6402
+			name = TECH_APP_NAVAL_5_2_NAME
+			desc = TECH_APP_NAVAL_5_2_DESC
+			
+			required = { 6002 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # CA & CV Belt Armor 15mm+
+			id = 6403
+			name = TECH_APP_NAVAL_5_3_NAME
+			desc = TECH_APP_NAVAL_5_3_DESC
+			
+			required = { 6003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # CA & CV Deck Armor 10mm+
+			id = 6404
+			name = TECH_APP_NAVAL_5_4_NAME
+			desc = TECH_APP_NAVAL_5_4_DESC
+			
+			required = { 6004 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Surface Ship Torpedo
+			id = 6405
+			name = TECH_APP_NAVAL_5_5_NAME
+			desc = TECH_APP_NAVAL_5_5_DESC
+			
+			required = { 6301 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = destroyer when = now value = 1 }
+				command = { type = naval_attack which = cruiser when = now value = 1 }
+			}
+		}
+		
+		application = { # Escort Destroyers
+			id = 6406
+			name = TECH_APP_NAVAL_5_6_NAME
+			desc = TECH_APP_NAVAL_5_6_DESC
+			
+			required = { 4402 13207 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = build_time which = destroyer when = now value = -5 }
+			}
+		}
+		application = { # Detector Buoys
+			id = 6407
+			name = TECH_APP_NAVAL_5_7_NAME
+			desc = TECH_APP_NAVAL_5_7_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Towed Hydrophone
+			id = 6408
+			name = TECH_APP_NAVAL_5_8_NAME
+			desc = TECH_APP_NAVAL_5_8_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Close Water Radio Detection Device
+			id = 6409
+			name = TECH_APP_NAVAL_5_9_NAME
+			desc = TECH_APP_NAVAL_5_9_DESC
+			
+			required = { 3406 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Basic LR Anti-Submarine Aircraft
+			id = 6410
+			name = TECH_APP_NAVAL_5_10_NAME
+			desc = TECH_APP_NAVAL_5_10_DESC
+			
+			required = { 9106 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = now value = 1 }
+			}
+		}
+		
+	} # Level 5
+	
+	level = { # Improved Warship Design
+		id = 6500
+		name = TECH_LEVEL_NAVAL_6_NAME 
+		desc = TECH_LEVEL_NAVAL_6_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Cruiser Propulsion
+			id = 6501
+			name = TECH_APP_NAVAL_6_1_NAME
+			desc = TECH_APP_NAVAL_6_1_DESC
+			
+			required = { 6102 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		
+		application = { # Improved Battleship Propulsion
+			id = 6502
+			name = TECH_APP_NAVAL_6_2_NAME
+			desc = TECH_APP_NAVAL_6_2_DESC
+			
+			required = { 6103 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Carrier Propulsion
+			id = 6503
+			name = TECH_APP_NAVAL_6_3_NAME
+			desc = TECH_APP_NAVAL_6_3_DESC
+			
+			required = { 6104 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Cruiser Hull
+			id = 6504
+			name = TECH_APP_NAVAL_6_4_NAME
+			desc = TECH_APP_NAVAL_6_4_DESC
+			
+			required = { 6403 6404 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Battleship Hull
+			id = 6505
+			name = TECH_APP_NAVAL_6_5_NAME
+			desc = TECH_APP_NAVAL_6_5_DESC
+			
+			required = { 6401 6402 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Carrier Hull
+			id = 6506
+			name = TECH_APP_NAVAL_6_6_NAME
+			desc = TECH_APP_NAVAL_6_6_DESC
+			
+			required = { 6403 6404 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Cruiser
+			id = 6507
+			name = TECH_APP_NAVAL_6_7_NAME
+			desc = TECH_APP_NAVAL_6_7_DESC
+			
+			required = { 6501 6504 14014 14402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = cruiser value = 2 }
+			}
+		}
+		application = { # Improved Battleship
+			id = 6508
+			name = TECH_APP_NAVAL_6_8_NAME
+			desc = TECH_APP_NAVAL_6_8_DESC
+			
+			required = { 6502 6505 14014 14403 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = battleship value = 3 }
+			}
+		}
+		application = { # Improved Aircraft Carrier
+			id = 6509
+			name = TECH_APP_NAVAL_6_9_NAME
+			desc = TECH_APP_NAVAL_6_9_DESC
+			
+			required = { 6503 6506 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = carrier value = 2 }
+			}
+		}
+		application = { # Advanced Decimetric Naval Anti-Air Radar
+			id = 6510
+			name = TECH_APP_NAVAL_6_10_NAME
+			desc = TECH_APP_NAVAL_6_10_DESC
+			
+			required = { 3402 6303 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Advanced Decimetric Naval Artillery Radar
+			id = 6511
+			name = TECH_APP_NAVAL_6_11_NAME
+			desc = TECH_APP_NAVAL_6_11_DESC
+			
+			required = { 3402 6304 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = surface_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = surface_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Basic Centimetric Naval Anti-Air Radar
+			id = 6512
+			name = TECH_APP_NAVAL_6_12_NAME
+			desc = TECH_APP_NAVAL_6_12_DESC
+			
+			required = { 3102 3501 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Basic Centimetric Naval Artillery Radar
+			id = 6513
+			name = TECH_APP_NAVAL_6_13_NAME
+			desc = TECH_APP_NAVAL_6_13_DESC
+			
+			required = { 3102 3501 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = surface_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = surface_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		
+	} # Level 6
+	
+	level = { # Improved ASW and Convoy Escorts
+		id = 6600
+		name = TECH_LEVEL_NAVAL_7_NAME 
+		desc = TECH_LEVEL_NAVAL_7_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Destroyer Anti-Air Armament
+			id = 6601
+			name = TECH_APP_NAVAL_7_1_NAME
+			desc = TECH_APP_NAVAL_7_1_DESC
+			
+			required = { 6604 14106 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { type = air_defense which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Improved Destroyer Propulsion
+			id = 6602
+			name = TECH_APP_NAVAL_7_2_NAME
+			desc = TECH_APP_NAVAL_7_2_DESC
+			
+			required = { 6101 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { }
+			}
+		}
+		application = { # Improved Destroyer Hull
+			id = 6603
+			name = TECH_APP_NAVAL_7_3_NAME
+			desc = TECH_APP_NAVAL_7_3_DESC
+			
+			required = { 6005 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { }
+			}
+		}
+		application = { # Improved Destroyer
+			id = 6604
+			name = TECH_APP_NAVAL_7_4_NAME
+			desc = TECH_APP_NAVAL_7_4_DESC
+			
+			required = { 6602 6603 14014 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {				
+				command = { type = new_model which = destroyer value = 2 }
+			}
+		}
+		application = { # Basic Depth Charge Mortar 
+			id = 6605
+			name = TECH_APP_NAVAL_7_5_NAME
+			desc = TECH_APP_NAVAL_7_5_DESC
+			
+			required = { 5005 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { type = sub_attack which = destroyer when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Improved ASDIC 
+			id = 6606
+			name = TECH_APP_NAVAL_7_6_NAME
+			desc = TECH_APP_NAVAL_7_6_DESC
+			
+			required = { 6112 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Escort Air Carriers
+			id = 6607
+			name = TECH_APP_NAVAL_7_7_NAME
+			desc = TECH_APP_NAVAL_7_7_DESC
+			
+			required = { 4402 13407 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { type = build_time which = carrier when = now value = -5 }
+			}
+		}
+		application = { # Improved LR Anti-Submarine Aircraft
+			id = 6608
+			name = TECH_APP_NAVAL_7_8_NAME
+			desc = TECH_APP_NAVAL_7_8_DESC
+			
+			required = { 6410 9508 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { type = sub_detection which = destroyer when = now value = 0.5 }
+			}
+		}
+		application = { # Basic Centimetric Naval Radar Navigation
+			id = 6609
+			name = TECH_APP_NAVAL_7_9_NAME
+			desc = TECH_APP_NAVAL_7_9_DESC
+			
+			required = { 3102 3501 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { type = visibility which = battleship when = on_upgrade value = -10 }
+				command = { type = visibility which = cruiser when = on_upgrade value = -10 }
+				command = { type = visibility which = carrier when = on_upgrade value = -10 }
+				command = { type = visibility which = destroyer when = on_upgrade value = -10 }				
+			}
+		}
+	} # Level 7
+	
+	level = { # Advanced Warship Design
+		id = 6700
+		name = TECH_LEVEL_NAVAL_8_NAME 
+		desc = TECH_LEVEL_NAVAL_8_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Advanced Battleship Propulsion
+			id = 6701
+			name = TECH_APP_NAVAL_8_1_NAME
+			desc = TECH_APP_NAVAL_8_1_DESC
+			
+			required = { 6502 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { }
+			}
+		}
+		application = { # Advanced Cruiser Propulsion
+			id = 6702
+			name = TECH_APP_NAVAL_8_2_NAME
+			desc = TECH_APP_NAVAL_8_2_DESC
+			
+			required = { 6501 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { }
+			}
+		}
+		application = { # Advanced Carrier Propulsion
+			id = 6703
+			name = TECH_APP_NAVAL_8_3_NAME
+			desc = TECH_APP_NAVAL_8_3_DESC
+			
+			required = { 6503 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {				
+				command = { }
+			}
+		}
+		application = { # Advanced Battleship Hull
+			id = 6704
+			name = TECH_APP_NAVAL_8_4_NAME
+			desc = TECH_APP_NAVAL_8_4_DESC
+			
+			required = { 6505 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Cruiser Hull
+			id = 6705
+			name = TECH_APP_NAVAL_8_5_NAME
+			desc = TECH_APP_NAVAL_8_5_DESC
+			
+			required = { 6504 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Carrier Hull
+			id = 6706
+			name = TECH_APP_NAVAL_8_6_NAME
+			desc = TECH_APP_NAVAL_8_6_DESC
+			
+			required = { 6506 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Carrier Heavy Hull
+			id = 6707
+			name = TECH_APP_NAVAL_8_7_NAME
+			desc = TECH_APP_NAVAL_8_7_DESC
+			
+			required = { 6706 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Carrier Super-Heavy Hull
+			id = 6708
+			name = TECH_APP_NAVAL_8_8_NAME
+			desc = TECH_APP_NAVAL_8_8_DESC
+			
+			required = { 6707 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Battleship
+			id = 6709
+			name = TECH_APP_NAVAL_8_9_NAME
+			desc = TECH_APP_NAVAL_8_9_DESC
+			
+			required = { 6701 6704 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = battleship value = 4 }
+			}
+		}
+		application = { # Advanced Cruiser
+			id = 6710
+			name = TECH_APP_NAVAL_8_10_NAME
+			desc = TECH_APP_NAVAL_8_10_DESC
+			
+			required = { 6702 6705 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = cruiser value = 3 }
+			}
+		}
+		application = { # Advanced Aircraft Carrier
+			id = 6711
+			name = TECH_APP_NAVAL_8_11_NAME
+			desc = TECH_APP_NAVAL_8_11_DESC
+			
+			required = { 6703 6706 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = carrier value = 3 }
+			}
+		}
+		application = { # Heavy Advanced Aircraft Carrier
+			id = 6712
+			name = TECH_APP_NAVAL_8_12_NAME
+			desc = TECH_APP_NAVAL_8_12_DESC
+			
+			required = { 6703 6707 13402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = carrier value = 4 }
+			}
+		}
+		application = { # Super-Heavy Aircraft Carrier 'Advanced class'
+			id = 6713
+			name = TECH_APP_NAVAL_8_13_NAME
+			desc = TECH_APP_NAVAL_8_13_DESC
+			
+			required = { 6703 6708 13402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = carrier value = 5 }
+			}
+		}
+		application = { # Advanced LR Anti-Submarine Aircraft
+			id = 6714
+			name = TECH_APP_NAVAL_8_14_NAME
+			desc = TECH_APP_NAVAL_8_14_DESC
+			
+			required = { 6608 9806 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Supply Submarines
+			id = 6715
+			name = TECH_APP_NAVAL_8_15_NAME
+			desc = TECH_APP_NAVAL_8_15_DESC
+			
+			required = { 5005 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 8
+	
+	level = { # Advanced ASW and Convoy Escorts
+		id = 6800
+		name = TECH_LEVEL_NAVAL_9_NAME 
+		desc = TECH_LEVEL_NAVAL_9_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Depth Charge Mortar
+			id = 6801
+			name = TECH_APP_NAVAL_9_1_NAME
+			desc = TECH_APP_NAVAL_9_1_DESC
+			
+			required = { 6605 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_attack which = destroyer when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Advanced ASDIC
+			id = 6802
+			name = TECH_APP_NAVAL_9_2_NAME
+			desc = TECH_APP_NAVAL_9_2_DESC
+			
+			required = { 6606 3901 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Advanced Destroyer Propulsion
+			id = 6803
+			name = TECH_APP_NAVAL_9_3_NAME
+			desc = TECH_APP_NAVAL_9_3_DESC
+			
+			required = { 6602 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Destroyer Hull
+			id = 6804
+			name = TECH_APP_NAVAL_9_4_NAME
+			desc = TECH_APP_NAVAL_9_4_DESC
+			
+			required = { 6603 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Destroyer
+			id = 6805
+			name = TECH_APP_NAVAL_9_5_NAME
+			desc = TECH_APP_NAVAL_9_5_DESC
+			
+			required = { 6803 6804 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = destroyer value = 3 }
+			}
+		}
+		application = { # Improved Centimetric Naval Anti-Air Radar
+			id = 6806
+			name = TECH_APP_NAVAL_9_6_NAME
+			desc = TECH_APP_NAVAL_9_6_DESC
+			
+			required = { 6512 3702 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Improved Centimetric Naval Artillery Radar
+			id = 6807
+			name = TECH_APP_NAVAL_9_7_NAME
+			desc = TECH_APP_NAVAL_9_7_DESC
+			
+			required = { 6513 3702 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = surface_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = surface_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Improved Centimetric Naval Radar Navigation
+			id = 6808
+			name = TECH_APP_NAVAL_9_8_NAME
+			desc = TECH_APP_NAVAL_9_8_DESC
+			
+			required = { 6609 3702 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = visibility which = battleship when = on_upgrade value = -10 }
+				command = { type = visibility which = cruiser when = on_upgrade value = -10 }
+				command = { type = visibility which = carrier when = on_upgrade value = -10 }
+				command = { type = visibility which = destroyer when = on_upgrade value = -10 }
+			}
+		}
+		application = { # Advanced Destroyer Anti-Air Armament
+			id = 6809
+			name = TECH_APP_NAVAL_9_9_NAME
+			desc = TECH_APP_NAVAL_9_9_DESC
+			
+			required = { 6601 6805 14106 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_defense which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		
+	} # Level 9
+	
+	level = { # Advanced Naval Armament 
+		id = 6900
+		name = TECH_LEVEL_NAVAL_10_NAME 
+		desc = TECH_LEVEL_NAVAL_10_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Improved Surface Ship Homing Torpedo
+			id = 6901
+			name = TECH_APP_NAVAL_10_1_NAME
+			desc = TECH_APP_NAVAL_10_1_DESC
+			
+			required = { 6302 3705 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Advanced Surface Ship Homing Torpedo
+			id = 6902
+			name = TECH_APP_NAVAL_10_2_NAME
+			desc = TECH_APP_NAVAL_10_2_DESC
+			
+			required = { 6901 3904 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Battleship Ship-to-Ship Missiles
+			id = 6903
+			name = TECH_APP_NAVAL_10_3_NAME
+			desc = TECH_APP_NAVAL_10_3_DESC
+			
+			required = { 7703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = battleship when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Cruiser Ship-to-Ship Missiles
+			id = 6904
+			name = TECH_APP_NAVAL_10_4_NAME
+			desc = TECH_APP_NAVAL_10_4_DESC
+			
+			required = { 7703 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 2 }
+			}
+		}
+		application = { # Advanced Centimetric Naval Anti-Air Radar
+			id = 6905
+			name = TECH_APP_NAVAL_10_5_NAME
+			desc = TECH_APP_NAVAL_10_5_DESC
+			
+			required = { 6806 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_attack which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = air_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = air_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = air_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Advanced Centimetric Naval Artillery Radar
+			id = 6906
+			name = TECH_APP_NAVAL_10_6_NAME
+			desc = TECH_APP_NAVAL_10_6_DESC
+			
+			required = { 6807 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = naval_attack which = battleship when = on_upgrade value = 1 }
+				command = { type = naval_attack which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = surface_detection which = cruiser when = on_upgrade value = 1 }
+				command = { type = surface_detection which = battleship when = on_upgrade value = 1 }
+				command = { type = surface_detection which = carrier when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Improved Centimetric Naval Radar Navigation
+			id = 6907
+			name = TECH_APP_NAVAL_10_7_NAME
+			desc = TECH_APP_NAVAL_10_7_DESC
+			
+			required = { 6808 3901 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = visibility which = battleship when = on_upgrade value = -10 }
+				command = { type = visibility which = cruiser when = on_upgrade value = -10 }
+				command = { type = visibility which = carrier when = on_upgrade value = -10 }
+				command = { type = visibility which = destroyer when = on_upgrade value = -10 }
+			}
+		}
+	} # Level 10
+	
+	level = { # Semi-Modern Warship Equipment
+		id = 6940
+		name = TECH_LEVEL_NAVAL_11_NAME 
+		desc = TECH_LEVEL_NAVAL_11_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Semi-Modern ASDIC
+			id = 6941
+			name = TECH_APP_NAVAL_11_1_NAME
+			desc = TECH_APP_NAVAL_11_1_DESC
+			
+			required = { 6802 3901 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # ASW Helicopters
+			id = 6942
+			name = TECH_APP_NAVAL_11_2_NAME
+			desc = TECH_APP_NAVAL_11_2_DESC
+			
+			required = { 6407 10974 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = sub_detection which = destroyer when = on_upgrade value = 1 }
+				command = { type = sub_attack which = destroyer when = on_upgrade value = 1 }
+			}
+		}
+		application = { # Naval Surface-to-Air Missiles
+			id = 6943
+			name = TECH_APP_NAVAL_11_3_NAME
+			desc = TECH_APP_NAVAL_11_3_DESC
+			
+			required = { 7704 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_defense which = carrier when = now value = 1 }
+				command = { type = air_defense which = cruiser when = now value = 1 }
+				command = { type = air_defense which = battleship when = now value = 1 }
+			}
+		}
+		application = { # Emergency Shut-down System
+			id = 6944
+			name = TECH_APP_NAVAL_11_4_NAME
+			desc = TECH_APP_NAVAL_11_4_DESC
+			
+			required = { 8701 8702 8703 8704 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 11
+	
+	level = { # Semi-Modern Warship Design 
+		id = 6970
+		name = TECH_LEVEL_NAVAL_12_NAME 
+		desc = TECH_LEVEL_NAVAL_12_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Nuclear Battleship Propulsion
+			id = 6971
+			name = TECH_APP_NAVAL_12_1_NAME
+			desc = TECH_APP_NAVAL_12_1_DESC
+			
+			required = { 6944 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Nuclear Cruiser Propulsion
+			id = 6972
+			name = TECH_APP_NAVAL_12_2_NAME
+			desc = TECH_APP_NAVAL_12_2_DESC
+			
+			required = { 6944 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Nuclear Carrier Propulsion
+			id = 6973
+			name = TECH_APP_NAVAL_12_3_NAME
+			desc = TECH_APP_NAVAL_12_3_DESC
+			
+			required = { 6944 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Nuclear Battleship
+			id = 6974
+			name = TECH_APP_NAVAL_12_4_NAME
+			desc = TECH_APP_NAVAL_12_4_DESC
+			
+			required = { 6704 6971 13503 14014 14403 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = battleship value = 5 }
+			}
+		}
+		application = { # Nuclear Cruiser
+			id = 6975
+			name = TECH_APP_NAVAL_12_5_NAME
+			desc = TECH_APP_NAVAL_12_5_DESC
+			
+			required = { 6705 6972 13503 14014 14402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = cruiser value = 4 }
+			}
+		}
+		application = { # Nuclear Air Carrier
+			id = 6976
+			name = TECH_APP_NAVAL_12_6_NAME
+			desc = TECH_APP_NAVAL_12_6_DESC
+			
+			required = { 6707 6973 13503 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = carrier value = 6 }
+			}
+		}
+	} # Level 12
+}

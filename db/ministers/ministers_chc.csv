@@ -1,0 +1,25 @@
+CHC;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+51001;Head of State;Li Shaoqi;NA;ST LE;NA;NA;unknown;x
+51002;Head of Government;Mao Zedong;NA;ST;NA;NA;tse-tung_mao_chc;x
+51003;Foreign Minister;Zhou Enlai;NA;ST;Iron Fisted Brute;High;en-lai_chou_chc;x
+51004;Minister of Armament;Chen Yun;NA;ST;Military Entreprenuer;High;unknown;x
+51005;Minister of Security;Red Shadow;NA;ST;Man of the People;Medium;unknown;x
+51006;Head of Military Intelligence;Red Shadow;NA;ST;Logistics Specialist;Medium;unknown;x
+51007;Chief of Staff;Red Shadow;NA;ST;School of Mass Combat;Medium;unknown;x
+51008;Chief of Army;Zhu Dee;NA;LE;Guns and Butter Doctrine;Low;unknown;x
+51009;Chief of Navy;Red Shadow;NA;ST;Open Seas Doctrine;Medium;unknown;x
+51010;Chief of Air Force;Red Shadow;NA;ST;Army Aviation Doctrine;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+51011;Head of State;Blue Shadow;NA;LWR RS CE;NA;NA;unknown;x
+51012;Head of Government;Blue Shadow;NA;LWR;NA;NA;unknown;x
+51013;Foreign Minister;Blue Shadow;NA;LWR;Apologetic Clerk;Medium;unknown;x
+51014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+51015;Minister of Security;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+51016;Head of Military Intelligence;Blue Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+51017;Chief of Staff;Blue Shadow;NA;RS;School of Defence;Medium;unknown;x
+51018;Chief of Army;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+51019;Chief of Navy;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+51020;Chief of Air Force;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+51021;Head of State;Mao Zedong;44;ST;NA;NA;tse-tung_mao_chc;x
+51022;Head of Government;Zhou Enlai;44;ST;NA;NA;en-lai_chou_chc;x

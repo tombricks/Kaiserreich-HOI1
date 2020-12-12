@@ -1,0 +1,38 @@
+INO;Shadow Democrat Cabinet;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+61001;Head of State;Wilhelmina;NA;LC CE RS;NA;NA;wilhelmina2_hol;x
+61002;Head of Government;Alidius Tjarda van Starkenborgh-Stachouwer;NA;LC;NA;NA;unknown;x
+61003;Foreign Minister;Hubertus Van Mook;NA;LC;Undistinguished Suit;High;unknown;x
+61004;Minister of Armament;J. Ramaer;NA;LC;Undistinguished Suit;High;unknown;x
+61005;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+61006;Head of Military Intelligence;Raymond Westerling;NA;LC;Undistinguished Suit;High;unknown;x
+61007;Chief of Staff;Murk Boerstra;NA;LC;Undistinguished Suit;High;unknown;x
+61008;Chief of Army;Gerardus Berenschot;NA;LC;Undistinguished Suit;High;unknown;x
+61009;Chief of Navy;Conrad Helfrich;NA;LC;Undistinguished Suit;High;unknown;x
+61010;Chief of Air Force;Ludolph van Oyen;NA;LC;Undistinguished Suit;High;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+61011;Head of State;Sukarno;NA;PA LC CE RS LWR;NA;NA;unknown;x
+61012;Head of Government;Muhammad Thamrin;NA;LC;NA;NA;unknown;x
+61013;Foreign Minister;Muhammad Hatta;NA;PA;Cloak and Dagger Schemer;Low;unknown;x
+61014;Minister of Armament;Sutan Sjahrir;NA;LC;Infantry Proponent;Low;unknown;x
+61015;Minister of Security;Radjiman Wediodiningrat;NA;LC;Compassionate Gentleman;Medium;unknown;x
+61016;Head of Military Intelligence;Besar Sudirman;NA;PA;Logistics Specialist;High;unknown;x
+61017;Chief of Staff;Besar Sudirman;NA;PA;School of Mass Combat;High;unknown;x
+61018;Chief of Army;Besar Sudirman;NA;PA;Guns and Butter Doctrine;High;unknown;x
+61019;Chief of Navy;Besar Sudirman;NA;PA;Open Seas Doctrine;High;unknown;x
+61020;Chief of Air Force;Besar Sudirman;NA;PA;Army Aviation Doctrine;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+61021;Head of State;Musso;NA;LWR LE ST;NA;NA;unknown;x
+61022;Head of Government;Lukman dan Sardjono;NA;ST;NA;NA;unknown;x
+61023;Foreign Minister;Suripno;NA;LE;Ideological Crusader;High;unknown;x
+61024;Minister of Armament;Ruskak;NA;LWR;Resource Industrialist;High;unknown;x
+61025;Minister of Security;Amir Sjarifuddin;NA;LWR;Back Stabber;Medium;unknown;x
+61026;Head of Military Intelligence;Amir Sjarifuddin;NA;LWR;Political Specialist;Medium;unknown;x
+61027;Chief of Staff;Tan Malaka;NA;LWR;School of Mass Combat;Medium;unknown;x
+61028;Chief of Army;Tan Malaka;NA;LWR;Decisive Battle Doctrine;Medium;unknown;x
+61029;Chief of Navy;Tan Malaka;NA;LWR;Open Seas Doctrine;Medium;unknown;x
+61030;Chief of Air Force;Tan Malaka;NA;LWR;Army Aviation Doctrine;Medium;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+61031;Head of Government;Sutan Sjahrir;40;LC;NA;NA;unknown;x
+61032;Head of Government;Amir Sjarifuddin;42;LWR;NA;NA;unknown;x
+61033;Head of Government;Muhammad Hatta;40;PA;NA;NA;unknown;x
+61034;Minister of Security;Amir Sjarifuddin;42;LWR;Back Stabber;Very Low;unknown;x

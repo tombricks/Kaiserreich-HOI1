@@ -1,0 +1,36 @@
+Action;Bool All;Num;Level;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data;Data
+StopTime;;;;;;;;;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A1;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A2;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A3;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;775;45;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_2_A4;;;;#;;;;;;;;;;;;;;x
+IsIW;;2;;;;;;;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A5;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;334;13;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A6;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;906;;;;;;#;;;;;;;;;;;;;;x
+AddArrowsPid;;;;908;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A7;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A8;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+CenterMap;;730;;#;;;;;;;;;;;;;;;;;;x
+AddArrowsPid;;;;759;;;;#;;;;;;;;;;;;;;x
+AlwaysSuccess;;;;;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A9;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A10;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A11;;;;#;;;;;;;;;;;;;;x
+TerritorialClaim;;;;POL;GER;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A12;;;;#;;;;;;;;;;;;;;x
+AddMessage;;;;TUTORIAL_2_A13;;;;#;;;;;;;;;;;;;;x
+AddArrowsPos;;;;685;45;;;#;;;;;;;;;;;;;;x
+IsIW;;22;;;;;;#;;;;;;;;;;;;;;x
+RemoveMessage;;;;;;;;#;;;;;;;;;;;;;;x
+RemoveArrows;;;;;;;;#Clean up;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A14;;;;#;;;;;;;;;;;;;;x
+ShowMessage;;;;TUTORIAL_2_A15;;;;#;;;;;;;;;;;;;;x
+EndTutorial;;;;;;;;;;;;;;;;;;;;;;x

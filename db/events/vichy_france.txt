@@ -1,0 +1,112 @@
+#
+# HoI - Vichy France Events
+#
+#		written by Henrik Fåhraeus
+#
+
+# ID series: 4000-4099
+
+#########################################################################
+#  Japan demands bases in French Indochine
+#########################################################################
+event = { 
+	id = 4000
+	random = no
+	country = VIC
+	
+	# Triggered by JAP 3803
+	
+	name = "EVT_4000_NAME"
+	desc = "EVT_4000_DESC"
+	style = 0
+	
+	action_a = {
+		name = "ACTIONNAME4001A" # Accept
+		command = { type = secedeprovince which = JAP value = 1608 }
+		command = { type = secedeprovince which = JAP value = 1732 }
+		command = { type = secedeprovince which = JAP value = 1734 }
+		command = { type = trigger which = 3804 }
+	}
+	action_b = {
+		name = "ACTIONNAME4001B" # Refuse
+		command = { type = trigger which = 3805 }
+	}
+}
+#########################################################################
+#  Japan demands French Indochine
+#########################################################################
+event = { 
+	id = 4001
+	random = no
+	country = VIC
+	
+	# Triggered by JAP 3803
+	
+	name = "EVT_4001_NAME"
+	desc = "EVT_4001_DESC"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME4001A" # Accept
+		command = { type = secedeprovince which = JAP value = 1603 }
+		command = { type = secedeprovince which = JAP value = 1604 }
+		command = { type = secedeprovince which = JAP value = 1607 }
+		command = { type = secedeprovince which = JAP value = 1608 }
+		command = { type = secedeprovince which = JAP value = 1727 }
+		command = { type = secedeprovince which = JAP value = 1728 }
+		command = { type = secedeprovince which = JAP value = 1730 }
+		command = { type = secedeprovince which = JAP value = 1731 }
+		command = { type = secedeprovince which = JAP value = 1732 }
+		command = { type = secedeprovince which = JAP value = 1733 }
+		command = { type = secedeprovince which = JAP value = 1734 }
+		command = { type = secedeprovince which = JAP value = 1735 }
+		command = { type = secedeprovince which = JAP value = 1736 }
+		command = { type = secedeprovince which = JAP value = 1739 }
+		command = { type = trigger which = 3804 }
+	}
+	action_b = {
+		name = "ACTIONNAME4001B" # Refuse
+		command = { type = trigger which = 3805 }
+	}
+}
+#########################################################################
+#  Japan demands French Indochine and Madagascar
+#########################################################################
+event = { 
+	id = 4002
+	random = no
+	country = VIC
+	
+	# Triggered by JAP 3803
+	
+	name = "EVT_4002_NAME"
+	desc = "EVT_4002_DESC"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME4002A" # Refuse
+		command = { type = trigger which = 3805 }
+	}
+	action_b = {
+		name = "ACTIONNAME4002B" # Accept
+		command = { type = secedeprovince which = JAP value = 1603 }
+		command = { type = secedeprovince which = JAP value = 1604 }
+		command = { type = secedeprovince which = JAP value = 1607 }
+		command = { type = secedeprovince which = JAP value = 1608 }
+		command = { type = secedeprovince which = JAP value = 1727 }
+		command = { type = secedeprovince which = JAP value = 1728 }
+		command = { type = secedeprovince which = JAP value = 1730 }
+		command = { type = secedeprovince which = JAP value = 1731 }
+		command = { type = secedeprovince which = JAP value = 1732 }
+		command = { type = secedeprovince which = JAP value = 1733 }
+		command = { type = secedeprovince which = JAP value = 1734 }
+		command = { type = secedeprovince which = JAP value = 1735 }
+		command = { type = secedeprovince which = JAP value = 1736 }
+		command = { type = secedeprovince which = JAP value = 1739 }
+		
+		command = { type = secedeprovince which = JAP value = 1319 }
+		command = { type = secedeprovince which = JAP value = 1322 }
+		
+		command = { type = trigger which = 3804 }
+	}
+}

@@ -1,0 +1,54 @@
+New Triggers:
+
+random = x 			( % )
+intel_diff = x 		( >= x, x = our intel - enemy intel )
+dissent = x ( >= x )
+warentry = x ( >= x )
+government = [communist/fascist/democratic]
+minister_loyalty = x (The minister with the lowest loyalty has loyalty >= x)
+leader_loyalty = x (The commander with the lowest loyalty has loyalty >= x)
+ideology = [nazi/fascist/paternal_autocrat/liberal_conservative/centrist/reformed_socialist/left_wing_radical/leninist/stalinist]
+alignment = [communist/fascist/democratic] (true if closest to given alignment)
+atwar = [yes/no/country tag] # Country tag added to see if other countries are at war
+minister = [minister id] # Is minister alive?
+major = [yes/no]	# True if the country is ENG, FRA, GER, JAP, USA, ITA or SOV
+ispuppet = [Country Tag]
+puppet = { country = [tag 1] country = [tag 2] } # True if tag 1 is puppet of tag 2
+
+New Commands:
+
+type = steal_tech which = [country tag/-1 for random non-ally] # Steals a random tech
+type = gain_tech which = [tech id]
+type = detect_units which = [country tag/-1 for random neighbor] value = [nr of units]
+type = reveal_minister_loyalty which = [minister id/-1]
+type = reveal_leader_loyalty which = [leader id/-1]
+type = research_sabotaged
+type = regime_falls
+type = civil_war
+type = set_leader_skill which = [leader id/-1] value = [new value]
+type = leader_loyalty which = [leader id/-1] value = [value to add]
+type = minister_loyalty which = [minister id/-1] value = [value to add]
+type = dissent value = [value to add]
+type = industry which = [prov id/-1] value = [value to add]
+type = flak which = [prov id/-1] value = [value to add]
+type = infrastructure which = [prov id/-1] value = [value to add]
+type = coastal_fort which = [prov id/-1] value = [value to add]
+type = land_fort which = [prov id/-1] value = [value to add]
+type = alignment which = [communist/fascist/democratic] value = [0 - 200]
+type = supplies value = [value to add]
+type = oilpool value = [value to add]
+type = steelpool value = [value to add]
+type = coalpool value = [value to add]
+type = rubberpool value = [value to add]
+type = province_keypoints which = [province id/-1] value = [keypoints to add]
+type = peace which = [country tag] # Forces a peace if only two participants in the war
+type = influence value = [value to add] # diplomatic influence
+type = manpowerpool value = [value to add] # manpower
+type = warentry value = [value to add] # for democracies
+type = warentry which = [country tag] value = [value to add] # for democracies
+type = make_puppet which = [country tag]
+type = coup_nation which = [country tag]
+type = access which = [country tag] # Grant military access _to_ a country
+type = sleepminister which = [minister id/-1/-2] # -2 = minister with lowest loyalty.
+type = sleepleader which = [leader id/-1/-2] # -2 = leader with lowest loyalty.
+type = switch_allegiance which = [country tag] value = [unit id/-1]

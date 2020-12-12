@@ -1,0 +1,41 @@
+CRO;Shadow Fascist Cabinet;Name;Pool;Ideology;Personality;Loyalty;
+30001;Head of State;Tomislav II;NA;NS FA PA LC CE RS;NA;NA;tomislav_II_cro
+30002;Head of Government;Ante Pavelic;NA;NS  ;NA;NA;pavelic_ante_cro
+30003;Foreign Minister;Nikola Mandic;NA;NS;Iron Fisted Brute;Very High;
+30004;Minister of Armament;Black Shadow;NA;NS;Undistinguished Suit;Medium;
+30005;Minister of Security;Milan Miesler;NA;NS;Crooked Plutocrat;High;
+30006;Head of Military Intelligence;Black Shadow;NA;NS;Undistinguished Suit;Medium;
+30007;Chief of Staff;Slavko Kvaternik;NA;NS;School of Manoeuvre;Medium;sladko_kvaternik_cro
+30008;Chief of Army;August Maric;NA;NS;Armoured Spearhead Doctrine;High;
+30009;Chief of Navy;Djuro Jakcin;NA;NS;Base Control Doctrine;Medium;
+30010;Chief of Air Force;Vladimir Kren;NA;NS;Undistinguished Suit;Medium;
+;Shadow Democratic Cabinet;;;;;;
+30011;Head of State;Vladko Macek;NA;LC RS CE;NA;NA;
+30012;Head of Government;Ivan Subasic;NA;RS;NA;NA;
+30013;Foreign Minister;Vladimir Maek;NA;RS;Biased Intellectual;Medium;
+30014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;
+30015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;
+30016;Head of Military Intelligence;Blue Shadow;NA;RS;Undistinguished Suit;Medium;
+30017;Chief of Staff;Blue Shadow;NA;RS;Undistinguished Suit;Medium;
+30018;Chief of Army;Blue Shadow;NA;RS;Undistinguished Suit;Medium;
+30019;Chief of Navy;Blue Shadow;NA;RS;Undistinguished Suit;Medium;
+30020;Chief of Air Force;Blue Shadow;NA;RS;Undistinguished Suit;Medium;
+;Replacements;;;;;;
+30021;Minister of Security;Tartaglia;41;NS;Man of the People;High;
+30022;Minister of Security;Pecnikar;41;NS;Crooked Plutocrat;Medium;
+30023;Chief of Staff;Ante Pavelic;44;NS;School of Psychology;Very High;pavelic_ante_cro
+30024;Chief of Army;Vladimir Laxa;43;NS;Elastic Defence Doctrine;Medium;
+30025;Chief of Army;Djuro Djuric;45;NS;Static Defence Doctrine;Low;
+30026;Chief of Navy;Edgar Angeli;43;NS;Open Seas Doctrine;Medium;
+30027;Chief of Navy;Nikola Steinfl;44;NS;Decisive Battle Doctrine;Low;
+30028;Chief of Air Force;Adalbert Rogulja;43;NS;Undistinguished Suit;Medium;
+30029;Head of State;Alojzije Stepanic ;45;PA;NA;NA;
+30030;Chief of Staff;Djuro Gruic ;45;NS;School of Manoeuvre;High;
+30031;Chief of Staff;Fedor Dragoljov ;43;NS;School of Mass Combat;High;
+30032;Chief of Staff;Vladimir Laxa ;41;NS;School of Defence;Medium;
+30033;Chief of Staff;August Maric ;41;NS;School of Mass Combat;Very High;
+30034;Chief of Staff;Ivan Prpic ;42;NS;School of Fire Support;Low;
+30035;Chief of Army;Matija Canic ;44;NS;Elastic Defence Doctrine;High;
+30036;Chief of Army;Djuro Gruic ;45;NS;Static Defence Doctrine;High;
+30037;Chief of Army;Slavko Kvaternik ;41;NS;Guns and Butter Doctrine;Medium;sladko_kvaternik_cro
+30038;Chief of Army;Slavko Stancer ;41;NS;Decisive Battle Doctrine;Medium;

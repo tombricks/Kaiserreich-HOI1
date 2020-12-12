@@ -1,0 +1,504 @@
+header = {
+	tutorial = yes
+	tutorialfile = "Tutorial/Chapter3.csv"
+        name = "Tutorial Chapter 3"
+    	startyear = 1939
+    	endyear = 1947
+
+	selectable = { ENG }
+
+	ENG = {
+	}
+
+}
+
+globaldata = { 
+    startdate = { 
+        year = 1939
+        month = september
+        day = 1
+        } 
+    enddate = { 
+        year = 1947
+        month = december 
+        day = 31 
+        } 
+
+		allies = { 
+	        id = { type = 15000 id = 1 } 
+			participant = { ENG POL } 
+				}
+		axis = 	{
+	        id = { type = 15000 id = 2 } 
+			participant = { GER ITA } 
+		}
+
+
+	worldmarket =
+	{
+		trade = 
+		{
+	        id = { type = 12439 id = 1 } 
+			country = ger
+			from = steel
+			to = oil
+			price = 2
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 2 } 
+			country = ger
+			from = coal
+			to = rubber
+			price = 3
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 3 } 
+			country = swe
+			from = steel
+			to = coal
+			price = 2
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 4 } 
+			country = swe
+			from = steel
+			to = rubber
+			price = 2
+			amount = 1
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 5 } 
+			country = swe
+			from = steel
+			to = oil
+			price = 2
+			amount = 1
+		}
+	}
+
+
+    } 
+
+
+#
+#
+# Province Setup
+#
+#
+
+
+
+country = { 
+    tag = GER
+	capital = 602
+
+
+	alignment = { x = 0 y = -100 }
+
+	techlevels = { 1000 1100 }
+
+	diplomats = 25
+
+
+
+
+	transports = 18
+	escorts = 16
+
+
+	allowed = {
+		mechanized = yes
+	}
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+
+	development = {
+        id = { type = 30010 id = 163 } 
+		location = 0
+		name = "4th Panzer"
+		type = panzer
+		cost = 14
+		date = { year = 1939 month = 9  }
+	}
+
+	development = {
+
+        id = { type = 30010 id = 164 } 
+		location = 0
+		name = "Bismarck"
+		type = battleship
+		cost = 14
+		date = { year = 1939 month = 9  }
+	}
+	development = {
+
+        id = { type = 30010 id = 165 } 
+		location = 0
+		name = "1st Luftwaffe"
+		type = fighter
+		cost = 14
+		date = { year = 1939 month = 9  }
+
+	}
+
+    ownedprovinces =      
+	{ 
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599	602 603 604 605	
+		1961 586 588 589 547 577 562 566 646 650 607 636 
+		565 573 571 623 621 610 611 620 
+	615 612 578 617 613 616 619 614 631 618 632 727 726 
+	} 
+    controlledprovinces = 
+	{ 
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599	602 603 604 605
+		1961 586 588 589 547 577 562 566 646 650 607 636 
+		565 573 571 623 621 610 611 620 
+	615 612 578 617 613 616 619 614 631 618 632 727 726 
+	} 
+    nationalprovinces =
+	{ 
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599 602 603 604 605
+		1961 586 588 589 547 577 562 566 646 650 607 636 565 573 571 623 621 610 611 620 
+		615 612 578 617 613 616 619 614 631 618 632 727 726 
+
+
+		#claims on poles
+		645
+
+	} 
+
+##################
+####GERMAN OOB####
+##################
+
+	landunit = { location = 599 leader = 1 id = { type = 30010 id = 1 } name = "II Armeekorps"
+		division = { id = { type = 30010 id = 2 } name = "12th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 3 } name = "32nd Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 4 } name = "263rd Infantry" strength = 60 type = infantry }
+		division = { id = { type = 30010 id = 5 } name = "7th panzer" type = panzer }
+	}
+	 
+	landunit = { location = 607 leader = 2 id = { type = 30010 id = 8 } name = "VIII Armeekorps"
+		division = { id = { type = 30010 id = 9 } name = "8th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 10 } name = "28th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 11 } name = "87th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 12 } name = "267th Infantry" strength = 50 type = infantry }
+	}
+	 
+	airunit = { location = 602 leader = 12 id = { type = 30010 id = 15 } name = "ZG 26"
+		division = { id = { type = 30010 id = 16 } name = "I/ZG 26" strength = 34 type = fighter }
+		division = { id = { type = 30010 id = 17 } name = "II/ZG 26" strength = 37 type = fighter }
+		division = { id = { type = 30010 id = 18 } name = "I/ZG 1" strength = 35 type = fighter }
+		division = { id = { type = 30010 id = 19 } name = "II/ZG 2" strength = 36 type = fighter }
+	}
+	 
+	navalunit = { location = 598 leader = 4 id = { type = 30010 id = 22 } name = "Western Area"
+		division = { id = { type = 30010 id = 23 } name = "Scharnhorst" strength = 100 type = battleship }
+		division = { id = { type = 30010 id = 24 } name = "Gneisenau" strength = 100 type = battleship }
+		division = { id = { type = 30010 id = 25 } name = "Admiral Scheer" strength = 100 type = cruiser }
+		division = { id = { type = 30010 id = 26 } name = "Admiral Hipper" strength = 100 type = cruiser }
+	}
+	 
+	airunit = { location = 604 leader = 5 id = { type = 30010 id = 29 } name = "2. Flieger-	division"
+		division = { id = { type = 30010 id = 30 } name = "I./KG4" strength = 27 type = tactical_bomber }
+		division = { id = { type = 30010 id = 31 } name = "II./KG4" strength = 30 type = tactical_bomber }
+		division = { id = { type = 30010 id = 32 } name = "III./KG4" strength = 32 type = tactical_bomber }
+		division = { id = { type = 30010 id = 33 } name = "I./St.G.2" strength = 37 type = dive_bomber }
+	}
+
+}
+
+country = { 
+    tag = POL
+
+	capital = 643
+	alignment = { x = 50 y = -50 }
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+
+    ownedprovinces =      {
+		643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649 
+		717 721 719 725 716
+
+	 }
+    controlledprovinces = {
+	643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649 
+		717 721 719 725 716
+	  }
+    nationalprovinces =   {
+	643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649 
+		717 721 719 725 716
+	  }
+
+### Polish units
+
+	landunit = { location = 645 id = { type = 30020 id = 1 } name = "Pomorze Army"
+		division = { id = { type = 30020 id = 2 } name = "9th Infantry" strength = 60 type = infantry }
+		division = { id = { type = 30020 id = 3 } name = "15th Infantry" strength = 60 type = infantry }
+		division = { id = { type = 30020 id = 4 } name = "27th Infantry" strength = 60 type = infantry }
+	}
+	 
+	airunit = { location = 647 id = { type = 30020 id = 7 } name = "Polish Air Force"
+		division = { id = { type = 30020 id = 8 } name = "Bomber Wing" strength = 30 type = tactical_bomber }
+		division = { id = { type = 30020 id = 9 } name = "Fighter Wing" strength = 30 type = fighter }
+	}
+	 
+	navalunit = { location = 651 id = { type = 30020 id = 12 } name = "Destroyer Flotilla"
+		division = { id = { type = 30020 id = 13 } name = "Wicher" type = destroyer }
+		division = { id = { type = 30020 id = 14 } name = "Burza" type = destroyer }
+		division = { id = { type = 30020 id = 15 } name = "Blyskawica" type = destroyer }
+		division = { id = { type = 30020 id = 16 } name = "Grom" type = destroyer }
+	}
+
+}
+
+
+country = { 
+    tag = ITA
+	alignment = { x = 30 y = -70 }
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+
+	capital = 908
+    ownedprovinces =      {
+	933 932 912 563 567 910 905 906 908 907 900 938 901 902 893 903 898 897 913 885 883 754
+	#africa
+	1092 1094 1095 1097 1096 1098 1089 1088 1087 1086 1085 1084 1105 1106 1107 1285 1302 1299  
+	#ethiopia
+	1290 1288 1294 1293 1296 1295 1297
+	 }
+    controlledprovinces = {
+	933 932 912 563 567 910 905 906 908 907 900 938 901 902 893 903 898 897 913 885 883 754
+	#africa
+	1092 1094 1095 1097 1096 1098 1089 1088 1087 1086 1085 1084 1105 1106 1107 1285 1302 1299
+	#ethiopia
+	1290 1288 1294 1293 1296 1295 1297  
+	  }
+    nationalprovinces =   {
+	933 932 912 563 567 910 905 906 908 907 900 938 901 902 893 903 898 897 913 885 883 754
+	#africa
+	1092 1094 1095 1097 1096 1098 1089 1088 1087 1086 1085 1084 1105 1106 1107 1285 1302 1299
+	#ethiopia
+	1290 1288 1294 1293 1296 1295 1297 
+	  }
+
+}
+
+
+country = { 
+    tag = ROM
+	alignment = { x = 30 y = -70 }
+
+	capital = 757
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+    ownedprovinces =      {
+		761 868 757 736 739 731 759 760 768 728 729 730 629 767 763 
+	 }
+    controlledprovinces = {
+		761 868 757 736 739 731 759 760 768 728 729 730 629 767 763 
+	  }
+    nationalprovinces =   {
+		761 868 757 736 739 731 759 760 768 728 729 730 629 767 763 
+	  }
+}
+
+province = {	id = 503	landfort = 0 coastalfort = 3 }#Dover
+province = {	id = 1717	landfort = 3 coastalfort = 0 }#Hong Kong
+province = {	id = 1480	landfort = 0 coastalfort = 3 }#Ceylon
+province = {	id = 989	landfort = 6  coastalfort = 6 } #gibraltar
+province = {	id = 896	landfort = 0  coastalfort = 5 } #malta
+province = {	id = 1766	landfort = 0  coastalfort = 5 } #singapore
+
+country = { 
+    tag = ENG
+	capital = 499
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+	techlevels = { 
+		12000 12100 13000 13100 11000 11100 14000 1000 1100 1200 1300 2000  2100 5000 5100 6000 6100 9000
+		9100 10000 10100 7000  7100 8000 8100  8200 3000  3100 4000 4100 4200 4300 5200
+	 }
+	 techapps = {
+		12001 13001 13002 13004 11001 11004 14001 14003 14005 14008 14012 14014 14015 14016 1001 1107 1201
+		1205 1301 2001 2002 2003 2004 2005 2006 2101 2103 2104 5101 6001 6002 6003 6004 6005 6006 6011 6101
+		6102 6103 6105 6106 6107  6108 9001 10002 10003 7001 7002 7101 7102 3002 3003 3004 3005 3006 3007
+		3101 3102 4001 4101 4102 4201 4202 4203 4204 12004 12101 13003 13006 11104 1203 5202 6007 6008
+		6009 6010 6104 6109 6110 6111 6112 9002 9005
+		4301 4302 4303
+	 }
+
+    ownedprovinces =      {
+	482 483 484 485 486 487 488 489 490 491 493
+	 497 498 499 500 501 502 503
+	#India
+	1450 1442 1443 1444 1445 1446 1497 1447 1456 1457 1451 1458 1459 1463 1464 1460 1496 1469 1467 1468 1466 1465 1478 1479 1480 1498 1490 1592 1584 1585 1586 1491 1499 1495  
+	1417 1418 1448 1434 1435 1449 
+	#Egypt
+	1205 1275 
+	1209 1283 1348 
+	1091 1093 1099 1090 1100 1101 1102 1103 1104 1200 1201 1202 1203 1206  
+
+	#Sudan
+	1193 1196 1199 1198 1195 1298 1190 1191 
+
+	#Indochina etc
+	1788 1787 1766 1765 1762 1717 1590 1589 1593 1594 1587 1588 1599 1789 
+
+	#Carribean
+	308 309 276 275 274 272 270 268 260 225 233 222 461 
+
+	#Misc British
+	414 469 1310 1278 989 896 40 50 56 2129 2119 2121 168 
+
+	# British India
+	1500 1439 1501 1582 1745 1438 1752 1580 1583 2200 1953 
+
+	# British East Africa
+	1301 1308 1307 1304 1311 1309 1306 1183 1287 1340 1332 1331 37 38 
+
+	#British South Africa
+	1166 1163 1180 1181 1146 1145  1144 
+
+	#British West Africa
+	1063 1065 1070 1066 1069 1067 1057 1054 1042 1035 1068 1147 
+
+
+
+
+
+
+
+	 }
+    controlledprovinces = {
+	482 483 484 485 486 487 488 489 490 491 493
+	 497 498 499 500 501 502 503
+	#India
+	1450 1442 1443 1444 1445 1446 1497 1447 1456 1457 1451 1458 1459 1463 1464 1460 1496 1469 1467 1468 1466 1465 1478 1479 1480 1498 1490 1592 1584 1585 1586 1491 1499 1495  
+	1417 1418 1448 1434 1435 1449 
+	#Egypt
+	1205 1275 
+	1209 1283 1348 
+	1091 1093 1099 1090 1100 1101 1102 1103 1104 1200 1201 1202 1203 1206  
+
+	#Sudan
+	1193 1196 1199 1198 1195 1298 1190 1191 
+
+	#Indochina etc
+	1788 1787 1766 1765 1762 1717 1590 1589 1593 1594 1587 1588 1599 1789 
+
+	#Carribean
+	308 309 276 275 274 272 270 268 260 225 233 222 461 
+
+	#Misc British
+	414 469 1310 1278 989 896 40 50 56 2129 2119 2121 168 
+
+	# British India
+	1500 1439 1501 1582 1745 1438 1752 1580 1583 2200 1953
+
+	# British East Africa
+	1301 1308 1307 1304 1311 1309 1306 1183 1287 1340 1332 1331 37 38
+
+	#British South Africa
+	1166 1163 1180 1181 1146 1145  1144 
+
+	#British West Africa
+	1063 1065 1070 1066 1069 1067 1057 1054 1042 1035 1068 1147 
+
+
+
+
+
+	  }
+    nationalprovinces =   {
+	482 483 484 485 486 487 488 489 490 491 493
+	 497 498 499 500 501 502 503
+	#India
+	1450 1442 1443 1444 1445 1446 1497 1447 1456 1457 1451 1458 1459 1463 1464 1460 1496 1469 1467 1468 1466 1465 1478 1479 1480 1498 1490 1592 1584 1585 1586 1491 1499 1495  
+	1417 1418 1448 1434 1435 1449 
+	#Egypt
+	1205 1275 
+	1209 1283 1348 
+	1091 1093 1099 1090 1100 1101 1102 1103 1104 1200 1201 1202 1203 1206  
+
+	#Sudan
+	1193 1196 1199 1198 1195 1298 1190 1191 
+
+	#Indochina etc
+	1788 1787 1766 1765 1762 1717 1590 1589 1593 1594 1587 1588 1599 1789 
+
+	#Carribean
+	308 309 276 275 274 272 270 268 260 225 233 222 461 
+
+	#Misc British
+	414 469 1310 1278 989 896 40 50 56 2129 2119 2121 168 
+
+	# British India
+	1500 1439 1501 1582 1745 1438 1752 1580 1583 2200 1953
+
+	# British East Africa
+	1301 1308 1307 1304 1311 1309 1306 1183 1287 1340 1332 1331 37 38  
+
+	#British South Africa
+	1166 1163 1180 1181 1146 1145  1144 
+
+	#British West Africa
+	1063 1065 1070 1066 1069 1067 1057 1054 1042 1035 1068 1147 
+
+
+
+
+
+	  }
+
+	transports = 30
+	escorts = 10
+
+
+    convoy = { 
+        id = { type = 13016 id = 3317 } 
+        transports = 25 
+        escorts = 0
+        path = { 1788 1795 1764 1781 1776 1777 1476 1475 1327 1326 1161 1152 470 460 2151 455 453 1014 962 473 505 501 } 
+		supplies = no
+        } 
+
+
+} 
+

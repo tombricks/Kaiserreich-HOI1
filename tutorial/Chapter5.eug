@@ -1,0 +1,257 @@
+header = {
+	tutorial = yes
+	tutorialfile = "Tutorial/Chapter5.csv"
+        name = "Tutorial Chapter 5"
+    	startyear = 1939
+    	endyear = 1947
+
+	selectable = { GER }
+
+	GER = {
+	}
+
+}
+
+globaldata = { 
+    startdate = { 
+        year = 1939
+        month = september
+        day = 0
+        } 
+    enddate = { 
+        year = 1947
+        month = december 
+        day = 0 
+        } 
+
+	worldmarket =
+	{
+		trade = 
+		{
+	        id = { type = 12439 id = 1 } 
+			country = ger
+			from = steel
+			to = oil
+			price = 2
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 2 } 
+			country = ger
+			from = coal
+			to = rubber
+			price = 3
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 3 } 
+			country = swe
+			from = steel
+			to = coal
+			price = 2
+			amount = 2
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 4 } 
+			country = swe
+			from = steel
+			to = rubber
+			price = 2
+			amount = 1
+		}
+		trade = 
+		{
+	        id = { type = 12439 id = 5 } 
+			country = swe
+			from = steel
+			to = oil
+			price = 2
+			amount = 1
+		}
+	}
+
+
+    } 
+
+
+#
+#
+# Province Setup
+#
+#
+
+#victory points..
+province = {	id = 602	points = 10	}
+province = {	id = 499	points = 10	}
+province = {	id = 527	points = 10	}
+province = {	id = 550	points = 4	}
+province = {	id = 552	points = 4	}
+province = {	id = 594	points = 4	}
+province = {	id = 1698	points = 3	}
+province = {	id = 2160	points = 3	}
+province = {	id = 664	points = 3	}
+
+
+#czech points
+province = { 	id = 615	points = 5 }
+province = { 	id = 618	points = 2 }
+province = { 	id = 612	points = 1 }
+
+
+#Norwegian points
+province = { 	id = 664	points = 5 }
+province = { 	id = 671	points = 1 }
+province = { 	id = 674	points = 2 }
+province = { 	id = 662	points = 1 }
+province = { 	id = 663	points = 1 }
+province = { 	id = 680	points = 1 }
+
+#Swiss points
+province = {	id = 541	points = 3 }
+
+#Austrian points
+province = {	id = 621	points = 3 }
+province = {	id = 573	points = 1 }
+province = {	id = 610	points = 1 }
+province = {	id = 623	points = 1 }
+
+
+
+
+
+country = { 
+    tag = GER
+	capital = 602
+
+
+	alignment = { x = 0 y = -100 }
+
+	techlevels = { 
+	12000  12100 12200 13000 13100 13200 11000 11100 11200 11300 14000 14100 1000 1100 1200
+	1300 1400 2000 2100 2200 2300 5000 5100 5200 5300 5400	6000 6100 6200 6300 9000 9100 9200
+	9300 9400 10000 10100 10200 10300 7000 7100 7200 7300 7400 7500 7600 8000 8100 8200 8300 8400
+	8500 3000 3100 3200 3300 4000 4100 4200 4300 4400 4500 4600
+
+	 }
+
+	 techapps = {
+		12001 12002 12003 12004 12101 12102 12201 13001 13002 13004 13006 13102 13204 11001 11002 11003
+	11004 11101  11102 11103 11201 11202 11203 11205 11302 14001 14002 14003 14005  14007 14008 14009 14010
+	14011 14012 14014 14015 14016 14101 14103 14104 14105 14106 1001 1101 1107 1201 1203 1204 1205  1206
+	1207 1208 1301 1406 1407 2001 2002 2003 2004 2005 2006 2101 2102 2103 2105 2201 2202 2203 2204 2209 2210
+	5001 5002 5003 5004 5005 5101 5301 5405 6001 6002 6003 6004 6005 6006 6007 6009 6010 6011 6101 6102 6103
+	6105 6106 6107 6110 6111 6201 6303 9001 9002 9003 9004 9005 9006 9101 9102 9104 9105 9106 9107 9109 9201
+	9202 9203 9301 9303 10001 10002 10003 10101 10102 10201 10202 7001 7002 7003 7101 7102 7103 7201 7202
+	7203 8401 8402 3001 3002 3003 3004 3005 3006 3007 3101 3102 3103 3104 3202 3203 3204 3205 3206 4001
+	4101 4102 4201 4202 4203 4204 4301 4302 4303 4501 6012
+	 }
+
+
+	manpower = 40
+	diplomats = 25
+
+
+
+
+	transports = 18
+	escorts = 16
+
+
+	allowed = {
+		mechanized = yes
+	}
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+
+    ownedprovinces =      
+	{ 
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599	602 603 604 605	
+		1961 586 588 589 547 577 562 566 646 650 607 636 
+		565 573 571 623 621 610 611 620 
+	615 612 578 617 613 616 619 614 631 618 632 727 726 
+	} 
+    controlledprovinces = 
+	{ 
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599	602 603 604 605
+		1961 586 588 589 547 577 562 566 646 650 607 636 
+		565 573 571 623 621 610 611 620 
+	615 612 578 617 613 616 619 614 631 618 632 727 726 
+	} 
+    nationalprovinces =
+	{ 
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599 602 603 604 605
+		1961 586 588 589 547 577 562 566 646 650 607 636 565 573 571 623 621 610 611 620 
+		615 612 578 617 613 616 619 614 631 618 632 727 726 
+
+
+		#claims on poles
+		645
+
+	} 
+
+##################
+####GERMAN OOB####
+##################
+
+	landunit = { location = 559 leader = 1 id = { type = 30010 id = 1 } name = "II Armeekorps"
+		division = { id = { type = 30010 id = 2 } name = "12th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 3 } name = "32nd Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 4 } name = "263rd Infantry" strength = 60 type = infantry }
+	}
+
+	navalunit = { location = 600 id = { type = 30010 id = 5 } name = "Merchant fleet" 
+		division = { id = { type = 30010 id = 6 } name = "Transport 1" strength  = 100 type = transport }
+	}	 
+
+	airunit = { location = 602 id = { type = 30010 id = 7 } name = "1. Flieger-Division"
+		division = { id = { type = 30010 id = 8 } name = "I./ZG1" strength = 100 type = fighter } 
+		}
+
+	navalunit = { location = 597 id = { type = 30010 id = 9 } name = "Carrier Fleet"
+			division = { id = { type = 30010 id = 10 } name = "Graf Zeppelin" type = carrier } 
+		}
+	
+	}
+
+country = { 
+    tag = POL
+
+	capital = 643
+	alignment = { x = 50 y = -50 }
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+
+    ownedprovinces =      {
+		643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649 
+		717 721 719 725 716
+
+	 }
+    controlledprovinces = {
+	643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649 
+		717 721 719 725 716
+	  }
+    nationalprovinces =   {
+	643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649 
+		717 721 719 725 716
+	  }
+
+}
+
+
+event = "db\events\RandomEvents.txt"
+

@@ -1,0 +1,66 @@
+GRE;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+18001;Head of State;Georgios II;NA;PA LC CE;NA;NA;george_II2_gre;x
+18002;Head of Government;Constantinos Demertzis;NA;PA;NA;NA;unknown;x
+18003;Foreign Minister;Constantinos Demertzis;NA;PA;Undistinguished Suit;Very High;unknown;x
+18004;Minister of Armament;Georgios Mantzavinos;NA;PA;Undistinguished Suit;Medium;unknown;x
+18005;Minister of Security;Georgios Logothetis;NA;PA;Undistinguished Suit;Medium;unknown;x
+18006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+18007;Chief of Staff;Alexandros Papagos;NA;PA;School of Defence;Low;papagos_alexander_gre;x
+18008;Chief of Army;Alexandros Papagos;NA;PA;Elastic Defence Doctrine;Low;papagos_alexander_gre;x
+18009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+18010;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+18011;Head of State;Georgios II;NA;PA LC CE;NA;NA;george_II2_gre;x
+18012;Head of Government;Sophocles Venizelos;NA;CE;NA;NA;unknown;x
+18013;Foreign Minister;Sophocles Venizelos;NA;CE;Great Compromiser;Very High;unknown;x
+18014;Minister of Armament;Themistocles Sophoulis;NA;LC;Undistinguished Suit;High;unknown;x
+18015;Minister of Security;Georgios Papandreou;NA;LC;Efficient Sociopath;High;papandreou_george_gre;x
+18016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+18017;Chief of Staff;Alexandros Papagos;NA;LC;School of Defence;Medium;papagos_alexander_gre;x
+18018;Chief of Army;Alexandros Papagos;NA;LC;Elastic Defence Doctrine;Medium;papagos_alexander_gre;x
+18019;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+18020;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;High;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+18021;Head of State;Alexandros Svolos;NA;LWR;NA;NA;unknown;x
+18022;Head of Government;Nikos Zahariadis;NA;LWR;NA;NA;unknown;x
+18023;Foreign Minister;Nikos Zahariadis;NA;LWR;Ideological Crusader;Very High;unknown;x
+18024;Minister of Armament;Giorgis Siantos;NA;LWR;Undistinguished Suit;High;unknown;x
+18025;Minister of Security;Giannes Ioannides;NA;LWR;Undistinguished Suit;High;unknown;x
+18026;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+18027;Chief of Staff;Athanarios Klaras;NA;LWR;Undistinguished Suit;High;unknown;x
+18028;Chief of Army;Athanarios Klaras;NA;LWR;Undistinguished Suit;High;unknown;x
+18029;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+18030;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;High;unknown;x
+;Replacements;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+18031;Head of State;Archbishop Damaskinos;40;LC CE;NA;NA;damaskinos_gre;x
+18032;Head of Government;Ioannis Metaxas;NA;PA;NA;NA;metaxas_ioannis2_gre;x
+18033;Head of Government;Georgias Tsolakoglou;41;PA;NA;NA;unknown;x
+18034;Head of Government;Konstantinos Logothetopoulos;42;PA;NA;NA;unknown;x
+18035;Head of Government;Ioannis Rallis;43;PA;NA;NA;unknown;x
+18036;Head of Government;Konstanos Tsalderis;45;PA;NA;NA;unknown;x
+18037;Head of Government;Emmanouel Tsouderos;41;LC;NA;NA;unknown;x
+18038;Head of Government;Andreas Michalakoupolos;NA;LC;NA;NA;unknown;x
+18039;Head of Government;Georgios Papandreou;NA;LC;NA;NA;papandreou_george_gre;x
+18040;Head of Government;Nikolaos Plastiras;46;CE;NA;NA;plastiras_nicolas_gre;x
+18041;Head of Government;Alexandros Koryzis;46;LWR;NA;NA;unknown;x
+18042;Head of Government;Dimitrios Partsalidis;47;LWR;NA;NA;unknown;x
+18043;Foreign Minister;Ioannis Metaxas;NA;PA;Iron Fisted Brute;Very High;metaxas_ioannis2_gre;x
+18044;Foreign Minister;Georgias Tsolakoglou;41;PA;Undistinguished Suit;Very High;unknown;x
+18045;Foreign Minister;Konstantinos Logothetopoulos;42;PA;Undistinguished Suit;Very High;unknown;x
+18046;Foreign Minister;Ioannis Rallis;43;PA;Undistinguished Suit;Very High;unknown;x
+18047;Foreign Minister;Konstanos Tsalderis;45;PA;Undistinguished Suit;Very High;unknown;x
+18048;Foreign Minister;Emmanouel Tsouderos;41;LC;Undistinguished Suit;Very High;unknown;x
+18049;Foreign Minister;Andreas Michalakoupolos;NA;LC;Undistinguished Suit;Very High;unknown;x
+18050;Foreign Minister;Georgios Papandreou;NA;LC;Ideological Crusader;Very High;papandreou_george_gre;x
+18051;Foreign Minister;Nikolaos Plastiras;46;CE;Undistinguished Suit;Very High;plastiras_nicolas_gre;x
+18052;Foreign Minister;Alexandros Koryzis;46;LWR;Undistinguished Suit;Very High;unknown;x
+18053;Foreign Minister;Dimitrios Partsalidis;47;LWR;Undistinguished Suit;Very High;unknown;x
+18054;Minister of Armament;Theodoros Skylakakis;NA;PA;Undistinguished Suit;Medium;unknown;x
+18055;Minister of Armament;Ioannis Douriatis;37;PA;Undistinguished Suit;Medium;unknown;x
+18056;Minister of Armament;Panagiotis Kanellopoulos;NA;LC;Undistinguished Suit;Medium;unknown;x
+18057;Minister of Armament;Dimitris Gounaris;NA;LC;Undistinguished Suit;Medium;unknown;x
+18058;Minister of Armament;Alexandros Mylonas;NA;LC;Undistinguished Suit;Medium;unknown;x
+18059;Minister of Security;Konstantinos Maniadakis;NA;PA;Prince of Terror;High;unknown;x
+18060;Minister of Security;Panagiotis Kanellopoulos;NA;LC;Undistinguished Suit;Medium;unknown;x
+18061;Minister of Security;Dimitris Gounaris;NA;LC;Undistinguished Suit;Medium;unknown;x
+18062;Minister of Security;Alexandros Mylonas;NA;LC;Undistinguished Suit;Medium;unknown;x

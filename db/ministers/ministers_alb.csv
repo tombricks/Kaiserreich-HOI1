@@ -1,0 +1,108 @@
+ALB;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+32001;Head of State;Zog I;NA;PA FA;NA;NA;zog_I_alb;x
+32002;Head of Government;Mehdi Frashëri;NA;PA;NA;NA;unknown;x
+32003;Foreign Minister;Fuat Aslam;NA;PA;Apologetic Clerk;Medium;unknown;x
+32004;Minister of Armament;Rrok Geraj;NA;PA;Corrupt Kleptocrat;Medium;unknown;x
+32005;Minister of Security;Eqrem Toto;NA;PA;Crooked Plutocrat;Medium;unknown;x
+32006;Head of Military Intelligence;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+32007;Chief of Staff;Qemal Komani;NA;PA;Undistinguished Suit;Medium;unknown;x
+32008;Chief of Army;Sir Jocelyn Percy;NA;PA;Undistinguished Suit;Medium;unknown;x
+32009;Chief of Navy;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+32010;Chief of Air Force;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+32011;Head of State;Theofan Noli;NA;LWR RS CE LC;NA;NA;unknown;x
+32012;Head of Government;Theofan Noli;NA;LC;NA;NA;unknown;x
+32013;Foreign Minister;Dervish Duma;NA;LC;Ideological Crusader;Very High;unknown;x
+32014;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+32015;Minister of Security;Mustafa Mërlika;NA;LC;Compassionate Gentleman;Very High;unknown;x
+32016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+32017;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+32018;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+32019;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+32020;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+32021;Head of State;Tefik Mborja;NA;LC PA FA NS;NA;NA;unknown;x
+32022;Head of Government;Tefik Mborja;NA;FA;NA;NA;unknown;x
+32023;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+32024;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+32025;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+32026;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+32027;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+32028;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+32029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+32030;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+32031;Head of State;Ali Kelmendi;NA;LE ST;NA;NA;unknown;x
+32032;Head of Government;Omer Nishani;NA;ST;NA;NA;unknown;x
+32033;Foreign Minister;Omer Nishani;NA;ST;Ideological Crusader;Undying;unknown;x
+32034;Minister of Armament;Enver Hoxha;NA;ST;Undistinguished Suit;Very High;hoxha_enver_alb.jpg;x
+32035;Minister of Security;Pandi Kristo;NA;LE;Prince of Terror;Medium;unknown;x
+32036;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+32037;Chief of Staff;Mehmet Shehu;NA;ST;School of Mass Combat;Very High;unknown;x
+32038;Chief of Army;Mehmet Shehu;NA;ST;Guns and Butter Doctrine;Very High;unknown;x
+32039;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+32040;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+32041;Head of State;Llazar Fundua;39;RS LWR;NA;NA;unknown;x
+32042;Head of State;Omer Nishani;39;LE ST;NA;NA;unknown;x
+32043;Head of State;Ibrahim Biçaku;43;PA FA NS;NA;NA;unknown;x
+32044;Head of State;Sejfulla Malëshova;43;RS LWR LE;NA;NA;unknown;x
+32045;Head of Government;Kostaq Kota;36;PA;NA;NA;unknown;x
+32046;Head of Government;Xhafer Ypi;36;LC;NA;NA;unknown;x
+32047;Head of Government;Shefqet Vërlaci;39;PA;NA;NA;unknown;x
+32048;Head of Government;Enver Hoxha;41;ST;NA;NA;hoxha_enver_alb;x
+32049;Head of Government;Jup Kazazi;41;FA;NA;NA;unknown;x
+32050;Head of Government;Mustafa Mërlika;41;LC;NA;NA;unknown;x
+32051;Head of Government;Mehdi Frashëri;42;PA;NA;NA;unknown;x
+32052;Head of Government;Eqrem Libohova;43;FA;NA;NA;unknown;x
+32053;Head of Government;Kol Bibë Mirakaj;43;FA;NA;NA;unknown;x
+32054;Head of Government;Maliq Bushati;43;FA;NA;NA;unknown;x
+32055;Head of Government;Rexhep Mitrovica;43;LC;NA;NA;unknown;x
+32056;Head of Government;Fiqri Dine;44;PA;NA;NA;unknown;x
+32057;Head of Government;Ibrahim Biçaku;44;PA;NA;NA;unknown;x
+32058;Head of Government;Sejfulla Malëskova;44;ST;NA;NA;unknown;x
+32059;Foreign Minister;Eqrem Libohova;36;FA;Undistinguished Suit;Medium;unknown;x
+32060;Foreign Minister;Mihal Sherko;36;LC;Great Compromiser;Medium;unknown;x
+32061;Foreign Minister;Koço Tashko;39;ST;Undistinguished Suit;Medium;unknown;x
+32062;Foreign Minister;Xhemil Dino;39;PA;Great Compromiser;Medium;unknown;x
+32063;Foreign Minister;Mehmet Konica;43;LC;Apologetic Clerk;Medium;unknown;x
+32064;Foreign Minister;Eqrem Vlora;44;PA;Undistinguished Suit;Medium;unknown;x
+32065;Foreign Minister;Ibrahim Biçaku;44;PA;Apologetic Clerk;Very High;unknown;x
+32066;Minister of Armament;Kolë Thaçi;36;PA;Undistinguished Suit;Medium;unknown;x
+32067;Minister of Armament;Kosta Marku;36;LC;Undistinguished Suit;Medium;unknown;x
+32068;Minister of Armament;Fejzi Alizoti;39;PA;Undistinguished Suit;Medium;unknown;x
+32069;Minister of Armament;Qemal Vrioni;40;PA;Undistinguished Suit;Medium;unknown;x
+32070;Minister of Armament;Ramadan Çitaku;41;ST;Undistinguished Suit;Very High;unknown;x
+32071;Minister of Armament;Andon Beça;43;PA;Undistinguished Suit;Medium;unknown;x
+32072;Minister of Armament;Kostaq Marku;43;PA;Undistinguished Suit;Medium;unknown;x
+32073;Minister of Armament;Lovo Musani;43;PA;Undistinguished Suit;Medium;unknown;x
+32074;Minister of Armament;Nako Spiru;43;ST;Undistinguished Suit;Medium;unknown;x
+32075;Minister of Armament;Sokrat Dodbiba;43;LC;Undistinguished Suit;Medium;unknown;x
+32076;Minister of Armament;Edhem Cara;44;PA;Undistinguished Suit;Medium;unknown;x
+32077;Minister of Armament;Rrok Geraj;44;PA;Corrupt Kleptocrat;Medium;unknown;x
+32078;Minister of Security;Musa Juka;36;PA;Crime Fighter;Medium;unknown;x
+32079;Minister of Security;Zef Kadarja;36;LC;Undistinguished Suit;Medium;unknown;x
+32080;Minister of Security;Maliq Bushati;39;FA;Undistinguished Suit;Medium;unknown;x
+32081;Minister of Security;Mustafa Mërlika;39;LC;Compassionate Gentleman;Very High;unknown;x
+32082;Minister of Security;Eqrem Libohova;43;FA;Undistinguished Suit;Medium;unknown;x
+32083;Minister of Security;Haxhi Lleshi;43;ST;Undistinguished Suit;Medium;unknown;x
+32084;Minister of Security;Koçi Xoxe;43;ST;Prince of Terror;High;unknown;x
+32085;Minister of Security;Kol Bibë Mirakaj;43;FA;Undistinguished Suit;Very High;unknown;x
+32086;Minister of Security;Mark Gjonmarkaj;43;PA;Undistinguished Suit;Medium;unknown;x
+32087;Minister of Security;Mehmet Shehu;43;ST;Prince of Terror;Very High;unknown;x
+32088;Minister of Security;Xhafer Deva;43;PA;Man of the People;Medium;unknown;x
+32089;Minister of Security;Fiqri Dine;44;PA;Undistinguished Suit;Very High;unknown;x
+32090;Minister of Security;Ibrahim Biçaku;44;PA;Compassionate Gentleman;Very High;unknown;x
+32091;Chief of Staff;Mehmet Shehu;39;ST;Undistinguished Suit;Very High;unknown;x
+32092;Chief of Staff;Abaz Kupi;40;PA;School of Defence;Very High;unknown;x
+32093;Chief of Staff;Spiro Moisiu;41;PA;School of Mass Combat;High;unknown;x
+32094;Chief of Staff;Midhat Frashëri;42;LC;Undistinguished Suit;Medium;unknown;x
+32095;Chief of Staff;Enver Hoxha;44;ST;Undistinguished Suit;Very High;hoxha_enver_alb;x
+32096;Chief of Army;Qemal Stafa;39;LE;Guns and Butter Doctrine;High;unknown;x
+32097;Chief of Army;Vasil Shanto;39;ST;Guns and Butter Doctrine;Very High;unknown;x
+32098;Chief of Army;Abaz Kupi;40;PA;Elastic Defense Doctrine;Very High;unknown;x
+32099;Chief of Army;Gjin Marku;41;ST;Guns and Butter Doctrine;Medium;unknown;x
+32100;Chief of Army;Ali Klissura;42;LC;Guns and Butter Doctrine;Medium;unknown;x
+32101;Chief of Army;Haxhi Lleshi;43;ST;Guns and Butter Doctrine;Very High;unknown;x
+32102;Chief of Army;Mehmet Shehu;43;ST;Guns and Butter Doctrine;Very High;unknown;x
+32103;Chief of Army;Ymer Dishnica;43;ST;Guns and Butter Doctrine;Medium;unknown;x

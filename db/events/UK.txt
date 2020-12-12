@@ -1,0 +1,239 @@
+#
+# HoI - United Kingdom Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  Spanish Civil War - Intervention
+#########################################################################
+event = { 
+	id = 3400
+	random = no
+	country = ENG
+	
+	# Triggered by SPA 3001
+	
+	name = "EVT_3400_NAME"
+	desc = "EVT_3400_DESC"
+	style = 0
+	action_a = {
+		name = "ACTIONNAME3400A" # Why support anarchist rabble?
+		command = { type = dissent value = 5 }
+	}
+	action_b = {
+		name = "ACTIONNAME3400B" # Send materiel and volunteers
+		command = { type = manpowerpool value = -10 }
+		command = { type = supplies value = -100 }
+		command = { type = trigger which = 3103 } #SPR
+		command = { type = trigger which = 3722 } #USA
+	}
+}
+
+#########################################################################
+#  Guarantee Independence to Poland
+#########################################################################
+event = { 
+	id = 3401
+	random = no
+	country = ENG
+	
+	trigger = {
+	
+	OR = {
+		event = 2006
+		event = 2011
+		}
+		NOT = {
+			alliance = { country = POL country = SOV }
+			alliance = { country = POL country = GER }
+		}
+	}
+	
+	name = "EVT_3401_NAME"
+	desc = "EVT_3401_DESC"
+	style = 0
+	
+	date = { day = 30 month = march year = 1939 }
+	
+	action_a = {
+		name = "ACTIONNAME3401A" # Poland must be protected
+		command = { type = trigger which = 3600 } # POL
+	}
+	action_b = {
+		name = "ACTIONNAME3401B" # The world must be spared another Great War
+		command = { type = dissent value = 15 }
+		command = { type = warentry value = -10 }
+	}
+}
+#########################################################################
+#  Guarantee Independence to Poland - Poland Accepts
+#########################################################################
+event = { 
+	id = 3402
+	random = no
+	country = ENG
+	
+	# Triggered by POL 3600
+	
+	name = "EVT_3402_NAME"
+	desc = "EVT_3402_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Great!
+		command = { type = alliance which = POL }
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Guarantee Independence to Poland - Poland Declines
+#########################################################################
+event = { 
+	id = 3403
+	random = no
+	country = ENG
+	
+	# Triggered by POL 3600
+	
+	name = "EVT_3403_NAME"
+	desc = "EVT_3403_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Their loss
+		command = { }
+	}
+}
+#########################################################################
+#  The Lend-Lease Act - The First Shipment
+#########################################################################
+event = { 
+	id = 3404
+	random = no
+	country = ENG
+	
+	# Triggered by USA 3700
+	
+	name = "EVT_3404_NAME"
+	desc = "EVT_3404_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Excellent!
+		command = { type = supplies value = 1000 }
+		command = { type = oilpool value = 500 }
+		command = { type = steelpool value = 500 }
+	}
+}
+#########################################################################
+#  A Lend-Lease Shipment Arrives from the USA
+#########################################################################
+event = { 
+	id = 3405
+	random = no
+	country = ENG
+	
+	# Triggered by USA 3702. NOTE: May be triggered several times.
+	
+	name = "EVT_3405_NAME"
+	desc = "EVT_3405_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Excellent!
+		command = { type = supplies value = 300 }
+		command = { type = oilpool value = 100 }
+		command = { type = steelpool value = 100 }
+	}
+}
+#########################################################################
+#  The Independence of India
+#########################################################################
+event = { 
+	id = 3406
+	random = no
+	country = ENG
+	
+	trigger = {
+		random = 8 # 8% chance every month
+		NOT = {
+			exists = IND
+		}
+	}
+	
+	name = "EVT_3406_NAME"
+	desc = "EVT_3406_DESC"
+	style = 0
+	
+	date = { day = 1 month = november year = 1945 }
+	offset = 30
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	action_a = {
+		name = "ACTIONNAME3406A" # They cannot be held back any longer
+		command = { type = independence which = IND }
+		# No tag for Pakistan :(
+	}
+	action_b = {
+		name = "ACTIONNAME3406B" # This must not be allowed, it would signal the death of Empire
+		
+		command = { type = dissent value = 20 }
+		
+#		command = { type = province_revoltrisk which = 1417 value = 5 }
+#		command = { type = province_revoltrisk which = 1418 value = 5 }
+#		command = { type = province_revoltrisk which = 1434 value = 5 }
+#		command = { type = province_revoltrisk which = 1435 value = 5 }
+#		command = { type = province_revoltrisk which = 1438 value = 5 }
+#		command = { type = province_revoltrisk which = 1439 value = 5 }
+#		command = { type = province_revoltrisk which = 1442 value = 5 }
+#		command = { type = province_revoltrisk which = 1443 value = 5 }
+#		command = { type = province_revoltrisk which = 1444 value = 5 }
+#		command = { type = province_revoltrisk which = 1445 value = 5 }
+#		command = { type = province_revoltrisk which = 1446 value = 5 }
+#		command = { type = province_revoltrisk which = 1447 value = 5 }
+#		command = { type = province_revoltrisk which = 1448 value = 5 }
+#		command = { type = province_revoltrisk which = 1449 value = 5 }
+#		command = { type = province_revoltrisk which = 1450 value = 5 }
+#		command = { type = province_revoltrisk which = 1451 value = 5 }
+#		command = { type = province_revoltrisk which = 1456 value = 5 }
+#		command = { type = province_revoltrisk which = 1457 value = 5 }
+#		command = { type = province_revoltrisk which = 1458 value = 5 }
+#		command = { type = province_revoltrisk which = 1459 value = 5 }
+#		command = { type = province_revoltrisk which = 1460 value = 5 }
+#		command = { type = province_revoltrisk which = 1463 value = 5 }
+#		command = { type = province_revoltrisk which = 1464 value = 5 }
+#		command = { type = province_revoltrisk which = 1465 value = 5 }
+#		command = { type = province_revoltrisk which = 1466 value = 5 }
+#		command = { type = province_revoltrisk which = 1467 value = 5 }
+#		command = { type = province_revoltrisk which = 1468 value = 5 }
+#		command = { type = province_revoltrisk which = 1469 value = 5 }
+#		command = { type = province_revoltrisk which = 1478 value = 5 }
+#		command = { type = province_revoltrisk which = 1479 value = 5 }
+#		command = { type = province_revoltrisk which = 1480 value = 5 }
+#		command = { type = province_revoltrisk which = 1490 value = 5 }
+#		command = { type = province_revoltrisk which = 1491 value = 5 }
+#		command = { type = province_revoltrisk which = 1495 value = 5 }
+#		command = { type = province_revoltrisk which = 1496 value = 5 }
+#		command = { type = province_revoltrisk which = 1497 value = 5 }
+#		command = { type = province_revoltrisk which = 1498 value = 5 }
+#		command = { type = province_revoltrisk which = 1499 value = 5 }
+#		command = { type = province_revoltrisk which = 1500 value = 5 }
+#		command = { type = province_revoltrisk which = 1501 value = 5 }
+#		command = { type = province_revoltrisk which = 1580 value = 5 }
+#		command = { type = province_revoltrisk which = 1582 value = 5 }
+#		command = { type = province_revoltrisk which = 1583 value = 5 }
+#		command = { type = province_revoltrisk which = 1584 value = 5 }
+#		command = { type = province_revoltrisk which = 1585 value = 5 }
+#		command = { type = province_revoltrisk which = 1586 value = 5 }
+#		command = { type = province_revoltrisk which = 1587 value = 5 }
+#		command = { type = province_revoltrisk which = 1588 value = 5 }
+#		command = { type = province_revoltrisk which = 1589 value = 5 }
+#		command = { type = province_revoltrisk which = 1590 value = 5 }
+#		command = { type = province_revoltrisk which = 1592 value = 5 }
+#		command = { type = province_revoltrisk which = 1593 value = 5 }
+#		command = { type = province_revoltrisk which = 1594 value = 5 }
+#		command = { type = province_revoltrisk which = 1599 value = 5 }
+#		command = { type = province_revoltrisk which = 1745 value = 5 }
+	}
+}

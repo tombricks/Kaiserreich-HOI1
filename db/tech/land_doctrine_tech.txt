@@ -1,0 +1,683 @@
+# 
+# The Land Doctrine Technology Group
+#
+
+#
+#	
+#	
+#	
+technology = {
+	id = 11
+	category = land_doctrine
+	name = TECH_LAND_DOC_NAME #Localized name
+	desc = TECH_LAND_DOC_DESC #Localized description
+	
+	level = { # 1 - Great War Experience Analysis
+		id = 11000
+		name = TECH_LEVEL_LAND_DOC_1_NAME 
+		desc = TECH_LEVEL_LAND_DOC_1_DESC 
+		
+		cost = 40
+		time = 300
+		neg_offset = 75
+		pos_offset = 150
+
+		application = { # Static Defense Doctrine
+			id = 11001
+			name = TECH_APP_LAND_DOC_1_1_NAME
+			desc = TECH_APP_LAND_DOC_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 5 }
+				command = { type = ground_defense which = infantry when = now value = 3 }
+				command = { type = ground_defense which = bergsjaeger when = now value = 3 }
+				command = { type = ground_defense which = paratrooper when = now value = 3 }
+				command = { type = ground_defense which = marine when = now value = 1 }
+#				command = { type = ground_defense which = motorized when = now value = 3 }
+#				command = { type = ground_defense which = mechanized when = now value = 3 }
+			}
+		}
+		application = { # Motorized Warfare Doctrine
+			id = 11002
+			name = TECH_APP_LAND_DOC_1_2_NAME
+			desc = TECH_APP_LAND_DOC_1_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = activate_unit_type which = motorized }
+				command = { type = activate_unit_type which = mechanized }
+				command = { type = max_organization which = infantry when = now value = 3 }
+				command = { type = max_organization which = bergsjaeger when = now value = 3 }
+				command = { type = max_organization which = marine when = now value = 1 }
+				command = { type = max_organization which = cavalry when = now value = 5 }
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 10 }
+			}
+		}
+		application = { # Encirclement-Destruction Doctrine
+			id = 11003
+			name = TECH_APP_LAND_DOC_1_3_NAME
+			desc = TECH_APP_LAND_DOC_1_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 2 }
+				command = { type = max_organization which = motorized when = now value = 3 }
+				command = { type = max_organization which = cavalry when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 5 }
+				command = { type = max_organization which = paratrooper when = now value = 5 }
+				command = { type = max_organization which = marine when = now value = 1 }
+				command = { type = max_organization which = bergsjaeger when = now value = 3 }
+				
+			}
+		}
+		application = { # Specialist Warfare Doctrine
+			id = 11004
+			name = TECH_APP_LAND_DOC_1_4_NAME
+			desc = TECH_APP_LAND_DOC_1_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 1
+	
+	level = { # 2 - Pre-War Field Testing
+		id = 11100
+		name = TECH_LEVEL_LAND_DOC_2_NAME 
+		desc = TECH_LEVEL_LAND_DOC_2_DESC 
+		
+		cost = 40
+		time = 300
+		neg_offset = 75
+		pos_offset = 150
+
+		application = { # Tactical Offensive Regimen
+			id = 11101
+			name = TECH_APP_LAND_DOC_2_1_NAME
+			desc = TECH_APP_LAND_DOC_2_1_DESC
+			
+			required = { 11002 11003 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = cavalry when = now value = 10 }
+				command = { type = max_organization which = mechanized when = now value = 10 }
+				command = { type = max_organization which = armor when = now value = 10 }
+				command = { type = max_organization which = marine when = now value = 4 }
+				command = { type = max_organization which = paratrooper when = now value = 10 }
+				command = { type = deactivate which = 11104 }
+			}
+		}
+		application = { # Tactical Defensive Regimen
+			id = 11104
+			name = TECH_APP_LAND_DOC_2_4_NAME
+			desc = TECH_APP_LAND_DOC_2_4_DESC
+			
+			required = { 11001 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = cavalry when = now value = 5 }
+				command = { type = max_organization which = infantry when = now value = 5 }
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				command = { type = deactivate which = 11101 }
+			}
+		}
+		application = { # Army Long-Range Reconnaissance Doctrine
+			id = 11102
+			name = TECH_APP_LAND_DOC_2_2_NAME
+			desc = TECH_APP_LAND_DOC_2_2_DESC
+			
+			required = { 11003 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = cavalry when = now value = 2 }
+				command = { type = max_organization which = infantry when = now value = 5 }
+			}
+		}
+		application = { # Motorized HQs
+			id = 11103
+			name = TECH_APP_LAND_DOC_2_3_NAME
+			desc = TECH_APP_LAND_DOC_2_3_DESC
+			
+			required = { 11002 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = cavalry when = now value = 3 }
+				command = { type = max_organization which = infantry when = now value = 3 }
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 8 }
+				command = { type = max_organization which = marine when = now value = 1 }
+				command = { type = max_organization which = paratrooper when = now value = 1 }
+				command = { type = max_organization which = bergsjaeger when = now value = 3 }
+			}
+		}
+	} # Level 2
+	
+	level = { # 3 - Early War Experience Analysis
+		id = 11200
+		name = TECH_LEVEL_LAND_DOC_3_NAME 
+		desc = TECH_LEVEL_LAND_DOC_3_DESC 
+				
+		cost = 40
+		time = 300
+		neg_offset = 75
+		pos_offset = 150
+
+		application = { # Manoeuvre Artillery Doctrine
+			id = 11201
+			name = TECH_APP_LAND_DOC_3_1_NAME
+			desc = TECH_APP_LAND_DOC_3_1_DESC
+			
+			required = { 11002 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 3 }
+				command = { type = max_organization which = motorized when = now value = 3 }
+				command = { type = max_organization which = mechanized when = now value = 3 }
+				command = { type = max_organization which = armor when = now value = 3 }
+				command = { type = max_organization which = bergsjaeger when = now value = 3 }
+			}
+		}
+		application = { # Counter Artillery Doctrine
+			id = 11202
+			name = TECH_APP_LAND_DOC_3_2_NAME
+			desc = TECH_APP_LAND_DOC_3_2_DESC
+			
+			required = { 14702 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 3 }
+				command = { type = max_organization which = motorized when = now value = 3 }
+				command = { type = max_organization which = mechanized when = now value = 3 }
+				command = { type = max_organization which = armor when = now value = 3 }
+				command = { type = max_organization which = bergsjaeger when = now value = 3 }
+			}
+		}
+		application = { # Combined Arms Warfare Doctrine
+			id = 11203
+			name = TECH_APP_LAND_DOC_3_3_NAME
+			desc = TECH_APP_LAND_DOC_3_3_DESC
+			
+			required = { 11002 11103 11201 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				command = { type = max_organization which = cavalry when = now value = 5 }
+				command = { type = max_organization which = infantry when = now value = 8 }
+				command = { type = max_organization which = motorized when = now value = 10 }
+				command = { type = max_organization which = mechanized when = now value = 10 }
+				command = { type = max_organization which = armor when = now value = 10 }
+			}
+		}
+		application = { # Deep Area Defense Doctrine
+			id = 11204
+			name = TECH_APP_LAND_DOC_3_4_NAME
+			desc = TECH_APP_LAND_DOC_3_4_DESC
+			
+			required = { 11001 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 5 }
+				command = { type = ground_defense which = infantry when = now value = 2 }
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+			}
+		}
+		application = { # Triphibious Operations Doctrine
+			id = 11205
+			name = TECH_APP_LAND_DOC_3_5_NAME
+			desc = TECH_APP_LAND_DOC_3_5_DESC
+			
+			required = { 11203 12204 12301 13205 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = paratrooper when = now value = 10 }
+				command = { type = max_organization which = marine when = now value = 10 }
+			}
+		}
+		
+	} # Level 3
+	
+	level = { # 4 - Early War Combat Testing
+		id = 11300
+		name = TECH_LEVEL_LAND_DOC_4_NAME 
+		desc = TECH_LEVEL_LAND_DOC_4_DESC 
+						
+		cost = 40
+		time = 300
+		neg_offset = 75
+		pos_offset = 150
+
+		application = { # Divisional Defensive Organization
+			id = 11301
+			name = TECH_APP_LAND_DOC_4_1_NAME
+			desc = TECH_APP_LAND_DOC_4_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 5 }
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+			}
+		}
+		application = { # Divisional Offensive Organization
+			id = 11302
+			name = TECH_APP_LAND_DOC_4_2_NAME
+			desc = TECH_APP_LAND_DOC_4_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 5 }
+				command = { type = max_organization which = paratrooper when = now value = 5 }
+				command = { type = max_organization which = marine when = now value = 2 }
+			}
+		}
+		application = { # Corps Long-Range Reconnaissance Doctrine
+			id = 11303
+			name = TECH_APP_LAND_DOC_4_3_NAME
+			desc = TECH_APP_LAND_DOC_4_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 5 }
+				command = { type = max_organization which = cavalry when = now value = 2 }
+			}
+		}
+		application = { # Signal Intelligence Operations
+			id = 11304
+			name = TECH_APP_LAND_DOC_4_4_NAME
+			desc = TECH_APP_LAND_DOC_4_4_DESC
+			
+			required = { 1504 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = army_detection which = them value = -10 }
+			}
+		}
+		application = { # Motorized Logistics Organization
+			id = 11305
+			name = TECH_APP_LAND_DOC_4_5_NAME
+			desc = TECH_APP_LAND_DOC_4_5_DESC
+			
+			required = { 11103 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 4 }
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				command = { type = max_organization which = marine when = now value = 2 }
+			}
+		}
+		application = { # Forward Area Logistics Organization
+			id = 11306
+			name = TECH_APP_LAND_DOC_4_6_NAME
+			desc = TECH_APP_LAND_DOC_4_6_DESC
+			
+			required = { 11305 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 3 }
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				command = { type = max_organization which = marine when = now value = 3 }
+			}
+		}
+		application = { # Mechanized HQs
+			id = 11307
+			name = TECH_APP_LAND_DOC_4_7_NAME
+			desc = TECH_APP_LAND_DOC_4_7_DESC
+			
+			required = { 11103 11203 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 4 }
+			}
+		}
+	} # Level 4
+	
+	level = { # Late War Experience Analysis
+		id = 11400
+		name = TECH_LEVEL_LAND_DOC_5_NAME 
+		desc = TECH_LEVEL_LAND_DOC_5_DESC 
+						
+		cost = 40
+		time = 300
+		neg_offset = 75
+		pos_offset = 150
+
+		application = { # Elastic Defense Doctrine
+			id = 11401
+			name = TECH_APP_LAND_DOC_5_1_NAME
+			desc = TECH_APP_LAND_DOC_5_1_DESC
+			
+			required = { 11203 11204 }
+			chance = 90
+			cost = 20
+			time = 140
+			neg_offset = 35
+			pos_offset = 70
+			
+			effects = {
+				command = { type = ground_defense which = infantry when = now value = 3 }
+			}
+		}
+		application = { # Improved Manoeuvre Artillery Doctrine
+			id = 11402
+			name = TECH_APP_LAND_DOC_5_2_NAME
+			desc = TECH_APP_LAND_DOC_5_2_DESC
+			
+			required = { 11201 11305 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 5 }
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 3 }
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+			}
+		}
+		application = { # Special Operations Warfare Doctrine
+			id = 11403
+			name = TECH_APP_LAND_DOC_5_3_NAME
+			desc = TECH_APP_LAND_DOC_5_3_DESC
+			
+			required = { 1102 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				command = { type = army_detection which = them value = -5 }
+			}
+		}
+		application = { # Synchronized Artillery Doctrine
+			id = 11404
+			name = TECH_APP_LAND_DOC_5_4_NAME
+			desc = TECH_APP_LAND_DOC_5_4_DESC
+			
+			required = { 11402 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = infantry when = now value = 5 }
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 3 }
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				
+				command = { type = soft_attack which = infantry when = now value = 2 }
+				command = { type = soft_attack which = motorized when = now value = 2 }
+				command = { type = soft_attack which = mechanized when = now value = 2 }
+				command = { type = soft_attack which = armor when = now value = 2 }
+				command = { type = soft_attack which = bergsjaeger when = now value = 2 }
+			}
+		}
+		
+		application = { # Opposed Obstacle Crossing Operations
+			id = 11405
+			name = TECH_APP_LAND_DOC_5_5_NAME
+			desc = TECH_APP_LAND_DOC_5_5_DESC
+			
+			required = { }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = shore_attack which = engineer value = 10 }
+			}
+		}
+		application = { # Force Concentration Doctrine
+			id = 11406
+			name = TECH_APP_LAND_DOC_5_6_NAME
+			desc = TECH_APP_LAND_DOC_5_6_DESC
+			
+			required = { 11203 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				command = { type = max_organization which = infantry when = now value = 8 }
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+			}
+		}
+		application = { # Armored Spearhead Doctrine
+			id = 11407
+			name = TECH_APP_LAND_DOC_5_7_NAME
+			desc = TECH_APP_LAND_DOC_5_7_DESC
+			
+			required = { 11406 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = motorized when = now value = 5 }
+				command = { type = max_organization which = armor when = now value = 5 }
+				command = { type = max_organization which = mechanized when = now value = 5 }
+			}
+		}
+		application = { # Operational Manoeuvre Warfare Doctrine
+			id = 11408
+			name = TECH_APP_LAND_DOC_5_8_NAME
+			desc = TECH_APP_LAND_DOC_5_8_DESC
+			
+			required = { 11407 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = armor when = now value = 5 }
+			}
+		}
+	} # Level 5
+	
+	level = { # 6 - Late War Combat Testing
+		id = 11500
+		name = TECH_LEVEL_LAND_DOC_6_NAME 
+		desc = TECH_LEVEL_LAND_DOC_6_DESC 
+						
+		cost = 40
+		time = 300
+		neg_offset = 75
+		pos_offset = 150
+
+		application = { # Task Force Offensive Organization
+			id = 11501
+			name = TECH_APP_LAND_DOC_6_1_NAME
+			desc = TECH_APP_LAND_DOC_6_1_DESC
+			
+			required = { 11408 }
+			chance = 90
+			cost = 30
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = max_organization which = mechanized when = now value = 6 }
+				command = { type = max_organization which = armor when = now value = 6 }
+				command = { type = max_organization which = paratrooper when = now value = 6 }
+				command = { type = max_organization which = marine when = now value = 6 }
+			}
+		}
+		
+		application = { # Division Long-Range Reconnaissance Doctrine
+			id = 11502
+			name = TECH_APP_LAND_DOC_6_2_NAME
+			desc = TECH_APP_LAND_DOC_6_2_DESC
+			
+			required = { 11408 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = bergsjaeger when = now value = 5 }
+				command = { type = max_organization which = cavalry when = now value = 3 }
+			}
+		}
+		application = { # Airborne Command Organization
+			id = 11503
+			name = TECH_APP_LAND_DOC_6_3_NAME
+			desc = TECH_APP_LAND_DOC_6_3_DESC
+			
+			required = { 1973 }
+			chance = 90
+			cost = 25
+			time = 160
+			neg_offset = 40
+			pos_offset = 80
+			
+			effects = {
+				command = { type = max_organization which = mechanized when = now value = 3 }
+				command = { type = max_organization which = armor when = now value = 3 }
+				command = { type = max_organization which = paratrooper when = now value = 3 }
+			}
+		}
+	} # Level 6
+	
+	# There are only six levels of the Doctrines.
+}

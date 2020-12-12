@@ -1,0 +1,30 @@
+VIC;Shadow Fascist Cabinet;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+57001;Head of State;Phillipe Petain ;NA;PA FA;NA;NA;unknown;x
+57002;Head of Government;Pierre Laval;NA;PA;NA;NA;pierre_laval_fra;x
+57003;Foreign Minister;Baudouin;NA;PA;Undistinguished Suit;Medium;unknown;x
+57004;Minister of Armament;Belin;NA;PA;Resource Industrialist;Medium;unknown;x
+57005;Minister of Security;Marquet;NA;PA;Undistinguished Suit;Medium;unknown;x
+57006;Head of Military Intelligence;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+57007;Chief of Staff;Huntzinger;NA;PA;Undistinguished Suit;Medium;unknown;x
+57008;Chief of Army;Maxime Weygand;NA;PA;Undistinguished Suit;Medium;weygand;x
+57009;Chief of Navy;Jean-Francois Darlan;NA;PA;Undistinguished Suit;Low;darlan_jean-francois3_fra;x
+57010;Chief of Air Force;Bergeret;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+57011;Head of Government;Jean-Francois Darlan;40;PA;Undistinguished Suit;Low;darlan_jean-francois3_fra;x
+57012;Minister of Security;Jean-Francois Darlan;40;PA;Undistinguished Suit;Low;darlan_jean-francois3_fra;x
+57013;Minister of Security;Pucheu;41;PA;Undistinguished Suit;Medium;unknown;x
+57014;Foreign Minister;Jean-Francois Darlan;40;PA;Undistinguished Suit;Low;darlan_jean-francois3_fra;x
+57015;Chief of Staff;Jean-Francois Darlan;41;PA;Undistinguished Suit;Low;darlan_jean-francois3_fra;x
+57016;Minister of Armament;Pucheu;40;PA;Undistinguished Suit;Medium;unknown;x
+57017;Minister of Armament;Lehideux;41;PA;Undistinguished Suit;Medium;unknown;x
+57018;Minister of Security;Pierre Laval;42;PA;Undistinguished Suit;Medium;pierre_laval_fra;x
+57019;Foreign Minister;Pierre Laval;42;PA;Undistinguished Suit;Medium;pierre_laval_fra;x
+57020;Head of Military Intelligence;Pierre Laval;42;PA;Undistinguished Suit;Medium;pierre_laval_fra;x
+57021;Head of Military Intelligence;Marion;40;PA;Undistinguished Suit;Medium;unknown;x
+57022;Chief of Staff;Bridoux;42;PA;Undistinguished Suit;Medium;unknown;x
+57023;Chief of Navy;Auphan;42;PA;Undistinguished Suit;Medium;unknown;x
+57024;Minister of Armament;Bichelonne;42;PA;Undistinguished Suit;Medium;unknown;x
+57025;Minister of Security;Bousquet;42;PA;Undistinguished Suit;Medium;unknown;x
+57026;Chief of Air Force;Jannekeyn;42;PA;Undistinguished Suit;Medium;unknown;x
+57027;Chief of Army;Bridoux;44;PA;Undistinguished Suit;Medium;unknown;x
+57028;Chief of Navy;Bléhaut;44;PA;Undistinguished Suit;Medium;unknown;x

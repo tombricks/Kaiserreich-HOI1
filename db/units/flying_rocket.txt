@@ -1,0 +1,39 @@
+model = { #Model 0#Flying Rocket V2A5
+	cost 						= 5
+	buildtime					= 60
+	defaultorganisation 		= 100
+	manpower					= 0
+	maxspeed					= 600
+	surfacedefence				= 20
+	airdefence					= 20
+	strategicattack				= 14
+	range						= 1200
+	supplyconsumption 			= 3
+	fuelconsumption				= 20
+}
+model = { #Model 1#Ballistic Missile V2A9
+	cost 						= 6
+	buildtime					= 120
+	defaultorganisation 		= 100
+	manpower					= 0
+	maxspeed					= 900
+	surfacedefence				= 30
+	airdefence					= 30
+	strategicattack				= 20
+	range						= 2400
+	supplyconsumption 			= 5
+	fuelconsumption				= 30
+}
+model = { #Model 2#Inter Continental Ballistic Missile V2A10
+	cost 						= 8
+	buildtime					= 180
+	defaultorganisation 		= 100	
+	manpower					= 0
+	maxspeed					= 1100
+	surfacedefence				= 50
+	airdefence					= 50
+	strategicattack				= 40
+	range						= 6000
+	supplyconsumption 			= 9
+	fuelconsumption				= 45
+}

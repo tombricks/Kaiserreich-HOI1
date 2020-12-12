@@ -1,0 +1,16 @@
+#
+#
+#
+# The Hearts of Iron Events Database
+#
+# written by Henrik F�hraeus
+#
+#
+#
+
+# The nation specific historical events
+
+
+# Random events
+
+event = "db\events\RandomEvents.txt"

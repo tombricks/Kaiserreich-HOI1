@@ -1,0 +1,753 @@
+# 
+# The Rocketry Technology Group
+#
+
+#
+#	
+
+technology = {
+	id = 7
+	category = rocket
+	name = TECH_ROCKET_NAME #Localized name
+	desc = TECH_ROCKET_DESC #Localized description
+	
+	level = { # Basic Rocket Design
+		id = 7000
+		name = TECH_LEVEL_ROCKET_1_NAME 
+		desc = TECH_LEVEL_ROCKET_1_DESC 
+		
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Solid Rocket Fuel
+			id = 7001
+			name = TECH_APP_ROCKET_1_1_NAME
+			desc = TECH_APP_ROCKET_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Small Rocket Flight Tests
+			id = 7002
+			name = TECH_APP_ROCKET_1_2_NAME
+			desc = TECH_APP_ROCKET_1_2_DESC
+			
+			required = { 7001 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Joystick Wire Guidance
+			id = 7003
+			name = TECH_APP_ROCKET_1_3_NAME
+			desc = TECH_APP_ROCKET_1_3_DESC
+			
+			required = { 7002 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+	} # Level 1
+	
+	level = { # Military Test and Research Facility
+		id = 7100
+		name = TECH_LEVEL_ROCKET_2_NAME 
+		desc = TECH_LEVEL_ROCKET_2_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Wind Tunnels
+			id = 7101
+			name = TECH_APP_ROCKET_2_1_NAME
+			desc = TECH_APP_ROCKET_2_1_DESC
+			
+			required = { 7002 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Test Range
+			id = 7102
+			name = TECH_APP_ROCKET_2_2_NAME
+			desc = TECH_APP_ROCKET_2_2_DESC
+			
+			required = { 7002 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Telemetrics Station
+			id = 7103
+			name = TECH_APP_ROCKET_2_3_NAME
+			desc = TECH_APP_ROCKET_2_3_DESC
+			
+			required = { 7002 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+	} # Level 2
+	
+	level = { # Liquid Rocket Fuel
+		id = 7200
+		name = TECH_LEVEL_ROCKET_3_NAME 
+		desc = TECH_LEVEL_ROCKET_3_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Telemetrics Station
+			id = 7201
+			name = TECH_APP_ROCKET_3_1_NAME
+			desc = TECH_APP_ROCKET_3_1_DESC
+			
+			required = { 7001 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Miniature Steam Engine
+			id = 7202
+			name = TECH_APP_ROCKET_3_2_NAME
+			desc = TECH_APP_ROCKET_3_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Gyroscope Autopilot
+			id = 7203
+			name = TECH_APP_ROCKET_3_3_NAME
+			desc = TECH_APP_ROCKET_3_3_DESC
+			
+			required = { 7103 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+	} # Level 3
+	
+	level = { # Jet Engine Design
+		id = 7300
+		name = TECH_LEVEL_ROCKET_4_NAME 
+		desc = TECH_LEVEL_ROCKET_4_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Solid Fuel Rocket Engine
+			id = 7301
+			name = TECH_APP_ROCKET_4_1_NAME
+			desc = TECH_APP_ROCKET_4_1_DESC
+			
+			required = { 7001 7101 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Liquid Fuel Rocket Engine
+			id = 7302
+			name = TECH_APP_ROCKET_4_2_NAME
+			desc = TECH_APP_ROCKET_4_2_DESC
+			
+			required = { 7101 7201 7301 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Ramjet Engine
+			id = 7303
+			name = TECH_APP_ROCKET_4_3_NAME
+			desc = TECH_APP_ROCKET_4_3_DESC
+			
+			required = { 7101 7302 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+	} # Level 4
+	
+	level = { # Flying Bomb and Rocket Testing 
+		id = 7400
+		name = TECH_LEVEL_ROCKET_5_NAME 
+		desc = TECH_LEVEL_ROCKET_5_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Ground Launch Tests
+			id = 7401
+			name = TECH_APP_ROCKET_5_1_NAME
+			desc = TECH_APP_ROCKET_5_1_DESC
+			
+			required = { 7102 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Trajectory Test Flights
+			id = 7402
+			name = TECH_APP_ROCKET_5_2_NAME
+			desc = TECH_APP_ROCKET_5_2_DESC
+			
+			required = { 7102 7401 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Air-launch tests
+			id = 7403
+			name = TECH_APP_ROCKET_5_3_NAME
+			desc = TECH_APP_ROCKET_5_3_DESC
+			
+			required = { 7102 7402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Sea-launch tests
+			id = 7404
+			name = TECH_APP_ROCKET_5_4_NAME
+			desc = TECH_APP_ROCKET_5_4_DESC
+			
+			required = { 7102 7403 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+	} # Level 5
+	
+	level = { # Flying Bomb Development
+		id = 7500
+		name = TECH_LEVEL_ROCKET_6_NAME 
+		desc = TECH_LEVEL_ROCKET_6_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Launch Catapult
+			id = 7501
+			name = TECH_APP_ROCKET_6_1_NAME
+			desc = TECH_APP_ROCKET_6_1_DESC
+			
+			required = { 7202 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Modified Steering Fens
+			id = 7502
+			name = TECH_APP_ROCKET_6_2_NAME
+			desc = TECH_APP_ROCKET_6_2_DESC
+			
+			required = { 7103 7203 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Flying Bomb
+			id = 7503
+			name = TECH_APP_ROCKET_6_3_NAME
+			desc = TECH_APP_ROCKET_6_3_DESC
+			
+			required = { 7501 7502 7401 7402 7303 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = activate_unit_type which = flying_bomb }
+			}
+		}
+	} # Level 6
+	
+	level = { # Flying Rocket Development 
+		id = 7600
+		name = TECH_LEVEL_ROCKET_7_NAME 
+		desc = TECH_LEVEL_ROCKET_7_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Advanced Gyroscope Autopilot
+			id = 7601
+			name = TECH_APP_ROCKET_7_1_NAME
+			desc = TECH_APP_ROCKET_7_1_DESC
+			
+			required = { 7203 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Reinforced Ribs
+			id = 7602
+			name = TECH_APP_ROCKET_7_2_NAME
+			desc = TECH_APP_ROCKET_7_2_DESC
+			
+			required = { 7203 7402 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Flying Rocket
+			id = 7603
+			name = TECH_APP_ROCKET_7_3_NAME
+			desc = TECH_APP_ROCKET_7_3_DESC
+			
+			required = { 7601 7602 7401 7402 7302 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = activate_unit_type which = flying_rocket }
+			}
+		}
+		application = { # Multi-stage Test Flights
+			id = 7604
+			name = TECH_APP_ROCKET_7_4_NAME
+			desc = TECH_APP_ROCKET_7_4_DESC
+			
+			required = { 7401 7402 7301 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Spin Stabilization Corrections
+			id = 7605
+			name = TECH_APP_ROCKET_7_5_NAME
+			desc = TECH_APP_ROCKET_7_5_DESC
+			
+			required = { 7103 7604 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Multi-stage Rocket
+			id = 7606
+			name = TECH_APP_ROCKET_7_6_NAME
+			desc = TECH_APP_ROCKET_7_6_DESC
+			
+			required = { 7605 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 7
+	
+	level = { # Advanced Rocket and Jet Design
+		id = 7700
+		name = TECH_LEVEL_ROCKET_8_NAME 
+		desc = TECH_LEVEL_ROCKET_8_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Turbojet Engine
+			id = 7701
+			name = TECH_APP_ROCKET_8_1_NAME
+			desc = TECH_APP_ROCKET_8_1_DESC
+			
+			required = { 7101 7303 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Air-to-Air Missile (AAM)
+			id = 7702
+			name = TECH_APP_ROCKET_8_2_NAME
+			desc = TECH_APP_ROCKET_8_2_DESC
+			
+			required = { 7401 7402 7403 7302 3705 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = air_attack which = fighter when =  now value = 3 } 
+			}
+		}
+		application = { # Air-to-Surface Missile (ASM)
+			id = 7703
+			name = TECH_APP_ROCKET_8_3_NAME
+			desc = TECH_APP_ROCKET_8_3_DESC
+			
+			required = { 7003 7401 7402 7403 7302 3705 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = naval_attack which = torpedo_plane when =  now value = 2 } 
+				command = { type = naval_attack which = tactical_bomber when =  now value = 2 } 
+			}
+		}
+		application = { # Surface-to-Air Missile (SAM)
+			id = 7704
+			name = TECH_APP_ROCKET_8_4_NAME
+			desc = TECH_APP_ROCKET_8_4_DESC
+			
+			required = { 7401 7402 7301 3705 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 30 } 
+			}
+		}
+	} # Level 8
+	
+	level = { # Nuclear Delivery Vehicles
+		id = 7800
+		name = TECH_LEVEL_ROCKET_9_NAME 
+		desc = TECH_LEVEL_ROCKET_9_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Nuclear Modified Flying Bomb
+			id = 7801
+			name = TECH_APP_ROCKET_9_1_NAME
+			desc = TECH_APP_ROCKET_9_1_DESC
+			
+			required = { 7503 8400 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = nuclear_carrier which = flying_bomb }
+			}
+		}
+		application = { # Nuclear Modified Flying Rockets
+			id = 7802
+			name = TECH_APP_ROCKET_9_2_NAME
+			desc = TECH_APP_ROCKET_9_2_DESC
+			
+			required = { 7603 8400 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = nuclear_carrier which = flying_rocket }
+			}
+		}
+	} # Level 9
+	
+	level = { # Mobile Launch Sites
+		number = 10
+		id = 7900
+		name = TECH_LEVEL_ROCKET_10_NAME 
+		desc = TECH_LEVEL_ROCKET_10_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Towed Submarine Container
+			id = 7901
+			name = TECH_APP_ROCKET_10_1_NAME
+			desc = TECH_APP_ROCKET_10_1_DESC
+			
+			required = { 7401 7402 7403 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = missile_carrier which = submarine }
+			}
+		}
+	} # Level 10
+	
+	level = { # Ballistic Missile Development
+		id = 7940
+		name = TECH_LEVEL_ROCKET_11_NAME 
+		desc = TECH_LEVEL_ROCKET_11_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Gyrostabilized Launch Computer
+			id = 7941
+			name = TECH_APP_ROCKET_11_1_NAME
+			desc = TECH_APP_ROCKET_11_1_DESC
+			
+			required = { 7603 3302 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Ballistic Missile 
+			id = 7942
+			name = TECH_APP_ROCKET_11_2_NAME
+			desc = TECH_APP_ROCKET_11_2_DESC
+			
+			required = { 7941 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = flying_rocket value = 1 }
+			}
+		}
+		
+	} # Level 11
+	
+	level = { # ICBM Development
+		id = 7970
+		name = TECH_LEVEL_ROCKET_12_NAME 
+		desc = TECH_LEVEL_ROCKET_12_DESC 
+				
+		cost = 25
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+		
+		application = { # Multi-stage Ballistic Missile Test Flights
+			id = 7971
+			name = TECH_APP_ROCKET_12_1_NAME
+			desc = TECH_APP_ROCKET_12_1_DESC
+			
+			required = { 7942 7507 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # ICBM Guidance System Computer
+			id = 7972
+			name = TECH_APP_ROCKET_12_2_NAME
+			desc = TECH_APP_ROCKET_12_2_DESC
+			
+			required = { 7942 7602 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Intercontinental Ballistic Missile
+			id = 7973
+			name = TECH_APP_ROCKET_12_3_NAME
+			desc = TECH_APP_ROCKET_12_3_DESC
+			
+			required = { 7971 7972 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = new_model which = flying_rocket value = 2 }
+			}
+		}
+		
+	} # Level 12
+}

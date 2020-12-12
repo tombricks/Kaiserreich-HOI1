@@ -1,0 +1,155 @@
+#
+# HoI - Hungarian Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  The End of Czechoslovakia - Ruthenia ceded to Hungary
+#########################################################################
+event = { 
+	id = 2500
+	random = no
+	country = HUN
+	# Triggered by SLO 2300
+	name = "EVT_2500_NAME"
+	desc = "EVT_2500_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = -5 }
+		command = { type = alignment which = fascist value = 20 }
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia - Slovakia given to Hungary
+#########################################################################
+event = { 
+	id = 2501
+	random = no
+	country = HUN
+	# Triggered by CZE 2202
+	name = "EVT_2501_NAME"
+	desc = "EVT_2501_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = -20 }
+		command = { type = alignment which = fascist value = 200 }
+	}
+}
+#########################################################################
+#  The End of Czechoslovakia - Czecho-Slovakia fight back!
+#########################################################################
+event = { 
+	id = 2502
+	random = no
+	country = HUN
+	# Triggered by CZE 2202
+	name = "EVT_2502_NAME"
+	desc = "EVT_2502_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Vienna Diktat - Claim Transylvania with German blessing
+#########################################################################
+event = { 
+	id = 2503
+	random = no
+	country = HUN
+		
+	trigger = {
+		exists = GER
+		exists = ROM
+		NOT = {
+			war = { country = HUN country = ROM  }
+			OR = {
+				control = { province = 728 data = -1 }
+				control = { province = 729 data = -1 }
+				control = { province = 730 data = -1 }
+			}
+		}
+	}
+	
+	name = "EVT_2503_NAME"
+	desc = "EVT_2503_DESC"
+	style = 0
+	
+	date = { day = 4 month = september year = 1940 }
+
+	action_a = {
+		name = "ACTIONNAME2503A" # Press the issue
+		command = { type = trigger which = 2019 } # GER
+	}
+	action_b = {
+		name = "ACTIONNAME2503B" # Refrain
+		command = { }
+	}
+}
+#########################################################################
+#  The Vienna Diktat - Germans rule in Romanian favor
+#########################################################################
+event = { 
+	id = 2504
+	random = no
+	country = HUN
+	# Triggered by GER 2019
+	name = "EVT_2504_NAME"
+	desc = "EVT_2504_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = 5 }
+		command = { type = alignment which = democratic value = 30 }
+		command = { type = alignment which = communist value = 20 }
+	}
+}
+#########################################################################
+#  The Vienna Diktat - Romania folds under German duress
+#########################################################################
+event = { 
+	id = 2505
+	random = no
+	country = HUN
+	
+	# Triggered by ROM 2701
+	
+	name = "EVT_2505_NAME"
+	desc = "EVT_2505_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = -10 }
+		command = { type = alignment which = fascist value = 50 }
+	}
+}
+#########################################################################
+#  The Vienna Diktat - Romania refuses the demands!
+#########################################################################
+event = { 
+	id = 2506
+	random = no
+	country = HUN
+	
+	# Triggered by ROM 2701
+	
+	name = "EVT_2506_NAME"
+	desc = "EVT_2506_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = 5 }
+		command = { type = alignment which = fascist value = 100 }
+		command = { type = alliance which = GER } # Alliance with Germany if not already
+	}
+}

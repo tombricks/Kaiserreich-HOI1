@@ -1,0 +1,309 @@
+header = {
+	tutorial = yes
+	tutorialfile = "Tutorial/Chapter1.csv"
+	name = "Tutorial Chapter 1"
+	startyear = 1939
+	endyear = 1947
+
+	selectable = { GER }
+
+	GER = {
+	}
+
+}
+
+globaldata = {
+	startdate = {
+		year = 1939
+		month = september
+		day = 0
+	}
+	enddate = {
+		year = 1947
+		month = december
+		day = 0
+	}
+
+	worldmarket =
+	{
+		trade =
+		{
+			id = { type = 12439 id = 1 }
+			country = ger
+			from = steel
+			to = oil
+			price = 2
+			amount = 2
+		}
+		trade =
+		{
+			id = { type = 12439 id = 2 }
+			country = ger
+			from = coal
+			to = rubber
+			price = 3
+			amount = 2
+		}
+		trade =
+		{
+			id = { type = 12439 id = 3 }
+			country = swe
+			from = steel
+			to = coal
+			price = 2
+			amount = 2
+		}
+		trade =
+		{
+			id = { type = 12439 id = 4 }
+			country = swe
+			from = steel
+			to = rubber
+			price = 2
+			amount = 1
+		}
+		trade =
+		{
+			id = { type = 12439 id = 5 }
+			country = swe
+			from = steel
+			to = oil
+			price = 2
+			amount = 1
+		}
+	}
+
+
+}
+
+
+#
+#
+# Province Setup
+#
+#
+
+#victory points..
+province = {	id = 602	points = 10	}
+province = {	id = 499	points = 10	}
+province = {	id = 527	points = 10	}
+province = {	id = 550	points = 4	}
+province = {	id = 552	points = 4	}
+province = {	id = 594	points = 4	}
+province = {	id = 1698	points = 3	}
+province = {	id = 2160	points = 3	}
+province = {	id = 664	points = 3	}
+
+
+#czech points
+province = { 	id = 615	points = 5 }
+province = { 	id = 618	points = 2 }
+province = { 	id = 612	points = 1 }
+
+
+#Norwegian points
+province = { 	id = 664	points = 5 }
+province = { 	id = 671	points = 1 }
+province = { 	id = 674	points = 2 }
+province = { 	id = 662	points = 1 }
+province = { 	id = 663	points = 1 }
+province = { 	id = 680	points = 1 }
+
+#Swiss points
+province = {	id = 541	points = 3 }
+
+#Austrian points
+province = {	id = 621	points = 3 }
+province = {	id = 573	points = 1 }
+province = {	id = 610	points = 1 }
+province = {	id = 623	points = 1 }
+
+
+
+
+
+country = {
+	tag = GER
+	capital = 602
+
+
+	alignment = { x = 0 y = -100 }
+
+	techlevels = { 1000 1100 }
+
+	diplomats = 25
+
+
+
+
+	transports = 18
+	escorts = 16
+
+
+	allowed = {
+		mechanized = yes
+	}
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+
+
+
+
+
+	development = {
+		id = { type = 30010 id = 163 }
+		location = 0
+		name = "4th Panzer"
+		type = panzer
+		cost = 14
+		date = { year = 1939 month = 9  }
+	}
+
+	development = {
+
+		id = { type = 30010 id = 164 }
+		location = 0
+		name = "Bismarck"
+		type = battleship
+		cost = 14
+		date = { year = 1939 month = 9  }
+	}
+	development = {
+
+		id = { type = 30010 id = 165 }
+		location = 0
+		name = "1st Luftwaffe"
+		type = fighter
+		cost = 14
+		date = { year = 1939 month = 9  }
+
+	}
+
+	ownedprovinces =
+	{
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599	602 603 604 605
+		1961 586 588 589 547 577 562 566 646 650 607 636
+		565 573 571 623 621 610 611 620
+		615 612 578 617 613 616 619 614 631 618 632 727 726
+	}
+	controlledprovinces =
+	{
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599	602 603 604 605
+		1961 586 588 589 547 577 562 566 646 650 607 636
+		565 573 571 623 621 610 611 620
+		615 612 578 617 613 616 619 614 631 618 632 727 726
+	}
+	nationalprovinces =
+	{
+		558 559 560 574 575 576 579 580 582 583 585 587	598 599 602 603 604 605
+		1961 586 588 589 547 577 562 566 646 650 607 636 565 573 571 623 621 610 611 620
+		615 612 578 617 613 616 619 614 631 618 632 727 726
+
+
+		#claims on poles
+		645
+
+	}
+
+	##################
+	####GERMAN OOB####
+	##################
+
+	landunit = {
+		location = 599 leader = 1 id = { type = 30010 id = 1 } name = "II Armeekorps"
+		division = { id = { type = 30010 id = 2 } name = "12th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 3 } name = "32nd Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 4 } name = "263rd Infantry" strength = 60 type = infantry }
+		division = { id = { type = 30010 id = 5 } name = "7th panzer" type = panzer }
+	}
+
+	landunit = {
+		location = 607 leader = 2 id = { type = 30010 id = 8 } name = "VIII Armeekorps"
+		division = { id = { type = 30010 id = 9 } name = "8th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 10 } name = "28th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 11 } name = "87th Infantry" strength = 50 type = infantry }
+		division = { id = { type = 30010 id = 12 } name = "267th Infantry" strength = 50 type = infantry }
+	}
+
+	airunit = {
+		location = 602 leader = 12 id = { type = 30010 id = 15 } name = "ZG 26"
+		division = { id = { type = 30010 id = 16 } name = "I/ZG 26" strength = 34 type = fighter }
+		division = { id = { type = 30010 id = 17 } name = "II/ZG 26" strength = 37 type = fighter }
+		division = { id = { type = 30010 id = 18 } name = "I/ZG 1" strength = 35 type = fighter }
+		division = { id = { type = 30010 id = 19 } name = "II/ZG 2" strength = 36 type = fighter }
+	}
+
+	navalunit = {
+		location = 598 leader = 4 id = { type = 30010 id = 22 } name = "Western Area"
+		division = { id = { type = 30010 id = 23 } name = "Scharnhorst" strength = 100 type = battleship }
+		division = { id = { type = 30010 id = 24 } name = "Gneisenau" strength = 100 type = battleship }
+		division = { id = { type = 30010 id = 25 } name = "Admiral Scheer" strength = 100 type = cruiser }
+		division = { id = { type = 30010 id = 26 } name = "Admiral Hipper" strength = 100 type = cruiser }
+	}
+
+	airunit = {
+		location = 604 leader = 5 id = { type = 30010 id = 29 } name = "2. Flieger-	division"
+		division = { id = { type = 30010 id = 30 } name = "I./KG4" strength = 27 type = tactical_bomber }
+		division = { id = { type = 30010 id = 31 } name = "II./KG4" strength = 30 type = tactical_bomber }
+		division = { id = { type = 30010 id = 32 } name = "III./KG4" strength = 32 type = tactical_bomber }
+		division = { id = { type = 30010 id = 33 } name = "I./St.G.2" strength = 37 type = dive_bomber }
+	}
+
+}
+
+country = {
+	tag = POL
+
+	capital = 643
+	alignment = { x = 50 y = -50 }
+
+
+	# Resource Reserves
+	oil		= 200
+	steel	= 200
+	coal	= 200
+	rubber	= 200
+
+
+	ownedprovinces =      {
+		643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649
+		717 721 719 725 716
+
+	}
+	controlledprovinces = {
+		643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649
+		717 721 719 725 716
+	}
+	nationalprovinces =   {
+		643 642 648 645 647 606 637 639 640 638 635 724 720 723 722 718 649
+		717 721 719 725 716
+	}
+
+	### Polish units
+
+	landunit = { location = 645 id = { type = 30020 id = 1 } name = "Pomorze Army"
+	division = { id = { type = 30020 id = 2 } name = "9th Infantry" strength = 60 type = infantry }
+	division = { id = { type = 30020 id = 3 } name = "15th Infantry" strength = 60 type = infantry }
+	division = { id = { type = 30020 id = 4 } name = "27th Infantry" strength = 60 type = infantry }
+}
+
+airunit = { location = 647 id = { type = 30020 id = 7 } name = "Polish Air Force"
+division = { id = { type = 30020 id = 8 } name = "Bomber Wing" strength = 30 type = tactical_bomber }
+division = { id = { type = 30020 id = 9 } name = "Fighter Wing" strength = 30 type = fighter }
+}
+
+navalunit = { location = 651 id = { type = 30020 id = 12 } name = "Destroyer Flotilla"
+division = { id = { type = 30020 id = 13 } name = "Wicher" type = destroyer }
+division = { id = { type = 30020 id = 14 } name = "Burza" type = destroyer }
+division = { id = { type = 30020 id = 15 } name = "Blyskawica" type = destroyer }
+division = { id = { type = 30020 id = 16 } name = "Grom" type = destroyer }
+}
+
+}
+

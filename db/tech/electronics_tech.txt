@@ -1,0 +1,1096 @@
+# 
+# The Electronics Technology Group
+#
+
+#
+#	
+#	
+#	
+
+technology = {
+	id = 3
+	category = electronics
+	name = TECH_ELECTRONICS_NAME #Localized name
+	desc = TECH_ELECTRONICS_DESC #Localized description
+	
+	level = { # Decimetric Radar
+		id = 3000
+		name = TECH_LEVEL_ELEC_1_NAME 
+		desc = TECH_LEVEL_ELEC_1_DESC 
+		
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Magnetron Device
+			id = 3001
+			name = TECH_APP_ELEC_1_1_NAME
+			desc = TECH_APP_ELEC_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Radio Controlled Rangefinders
+			id = 3002
+			name = TECH_APP_ELEC_1_2_NAME
+			desc = TECH_APP_ELEC_1_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Basic Decimetric Radar
+			id = 3003
+			name = TECH_APP_ELEC_1_3_NAME
+			desc = TECH_APP_ELEC_1_3_DESC
+			
+			required = { 3001 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { } # No effects
+			}
+		}
+		application = { # Basic Decimetric Radar Warning Sites
+			id = 3004
+			name = TECH_APP_ELEC_1_4_NAME
+			desc = TECH_APP_ELEC_1_4_DESC
+			
+			required = { 3003 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = air value = 10 }
+			}
+		}
+		application = { # Basic Man Portable Radio Sets
+			id = 3005
+			name = TECH_APP_ELEC_1_5_NAME
+			desc = TECH_APP_ELEC_1_5_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Vehicle Radio Sets
+			id = 3006
+			name = TECH_APP_ELEC_1_6_NAME
+			desc = TECH_APP_ELEC_1_6_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Long-Range Radio Sets
+			id = 3007
+			name = TECH_APP_ELEC_1_7_NAME
+			desc = TECH_APP_ELEC_1_7_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 1
+	
+	level = { # Binary Code
+		id = 3100
+		name = TECH_LEVEL_ELEC_2_NAME 
+		desc = TECH_LEVEL_ELEC_2_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Binary Coded Machine Language
+			id = 3101
+			name = TECH_APP_ELEC_2_1_NAME
+			desc = TECH_APP_ELEC_2_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Moving Target Indicator
+			id = 3102
+			name = TECH_APP_ELEC_2_2_NAME
+			desc = TECH_APP_ELEC_2_2_DESC
+			
+			required = { 3003 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Electromechanical Computers
+			id = 3103
+			name = TECH_APP_ELEC_2_3_NAME
+			desc = TECH_APP_ELEC_2_3_DESC
+			
+			required = { 3101 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Electromechanical Encryption Devices
+			id = 3104
+			name = TECH_APP_ELEC_2_4_NAME
+			desc = TECH_APP_ELEC_2_4_DESC
+			
+			required = { 3101 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = intelligence which = them value = -10 }
+			}
+		}
+		
+	} # Level 2
+	
+	level = { # Cavity Magnetron
+		id = 3200
+		name = TECH_LEVEL_ELEC_3_NAME 
+		desc = TECH_LEVEL_ELEC_3_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Cavity Magnetron Device
+			id = 3201
+			name = TECH_APP_ELEC_3_1_NAME
+			desc = TECH_APP_ELEC_3_1_DESC
+			
+			required = { 3001 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Decimetric Radar
+			id = 3202
+			name = TECH_APP_ELEC_3_2_NAME
+			desc = TECH_APP_ELEC_3_2_DESC
+			
+			required = { 3003 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Decimetric Radar Warning Sites
+			id = 3203
+			name = TECH_APP_ELEC_3_3_NAME
+			desc = TECH_APP_ELEC_3_3_DESC
+			
+			required = { 3004 3202 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = air value = 5 }
+			}
+		}
+		application = { # Improved Man Portable Radio Sets
+			id = 3204
+			name = TECH_APP_ELEC_3_4_NAME
+			desc = TECH_APP_ELEC_3_4_DESC
+			
+			required = { 3005 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Vehicle Radio Sets
+			id = 3205
+			name = TECH_APP_ELEC_3_5_NAME
+			desc = TECH_APP_ELEC_3_5_DESC
+			
+			required = { 3006 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Long-Range Radio Sets
+			id = 3206
+			name = TECH_APP_ELEC_3_6_NAME
+			desc = TECH_APP_ELEC_3_6_DESC
+			
+			required = { 3007 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Electromechanical Decryption Machines
+			id = 3207
+			name = TECH_APP_ELEC_3_7_NAME
+			desc = TECH_APP_ELEC_3_7_DESC
+			
+			required = { 3101 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = intelligence which = us value = 20 }
+			}
+		}
+		
+	} # Level 3
+	
+	level = { # Frequency Modulation
+		id = 3300
+		name = TECH_LEVEL_ELEC_4_NAME 
+		desc = TECH_LEVEL_ELEC_4_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Magnetic Drum Data Storage
+			id = 3301
+			name = TECH_APP_ELEC_4_1_NAME
+			desc = TECH_APP_ELEC_4_1_DESC
+			
+			required = { 3103 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Electromechanical Computers
+			id = 3302
+			name = TECH_APP_ELEC_4_2_NAME
+			desc = TECH_APP_ELEC_4_2_DESC
+			
+			required = { 3301 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 4
+	
+	level = { # Resonance Magnetron
+		id = 3400
+		name = TECH_LEVEL_ELEC_5_NAME 
+		desc = TECH_LEVEL_ELEC_5_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Resonance Magnetron Device
+			id = 3401
+			name = TECH_APP_ELEC_5_1_NAME
+			desc = TECH_APP_ELEC_5_1_DESC
+			
+			required = { 3201 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Decimetric Radar
+			id = 3402
+			name = TECH_APP_ELEC_5_2_NAME
+			desc = TECH_APP_ELEC_5_2_DESC
+			
+			required = { 3202 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Decimetric Radar Warning Sites
+			id = 3403
+			name = TECH_APP_ELEC_5_3_NAME
+			desc = TECH_APP_ELEC_5_3_DESC
+			
+			required = { 3203 3402 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = air value = 5 }
+			}
+		}
+		application = { # Advanced Man Portable Radio Sets
+			id = 3404
+			name = TECH_APP_ELEC_5_4_NAME
+			desc = TECH_APP_ELEC_5_4_DESC
+			
+			required = { 3204 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Vehicle Radio Sets
+			id = 3405
+			name = TECH_APP_ELEC_5_5_NAME
+			desc = TECH_APP_ELEC_5_5_DESC
+			
+			required = { 3205 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Long-Range Radio Sets
+			id = 3406
+			name = TECH_APP_ELEC_5_6_NAME
+			desc = TECH_APP_ELEC_5_6_DESC
+			
+			required = { 3206 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Electromechanical Encryption Devices
+			id = 3407
+			name = TECH_APP_ELEC_5_7_NAME
+			desc = TECH_APP_ELEC_5_7_DESC
+			
+			required = { 3104 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = intelligence which = them value = -20 }
+			}
+		}
+		
+	} # Level 5
+	
+	level = { # Centimetric Radar
+		id = 3500
+		name = TECH_LEVEL_ELEC_6_NAME 
+		desc = TECH_LEVEL_ELEC_6_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Basic Centimetric Radar
+			id = 3501
+			name = TECH_APP_ELEC_6_1_NAME
+			desc = TECH_APP_ELEC_6_1_DESC
+			
+			required = { 3401 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Centimetric Radar Warning Sites
+			id = 3502
+			name = TECH_APP_ELEC_6_2_NAME
+			desc = TECH_APP_ELEC_6_2_DESC
+			
+			required = { 3403 3501 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = air value = 10 }
+			}
+		}
+		application = { # Basic Centimetric Radar Warning Device
+			id = 3503
+			name = TECH_APP_ELEC_6_3_NAME
+			desc = TECH_APP_ELEC_6_3_DESC
+			
+			required = { 3501 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Centimetric Radar Homing Device
+			id = 3504
+			name = TECH_APP_ELEC_6_4_NAME
+			desc = TECH_APP_ELEC_6_4_DESC
+			
+			required = { 3501 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Electromechanical Decryption Devices
+			id = 3505
+			name = TECH_APP_ELEC_6_5_NAME
+			desc = TECH_APP_ELEC_6_5_DESC
+			
+			required = { 3207 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = intelligence which = us value = 20 }
+			}
+		}
+		application = { # IFF Radar Frequency Technology
+			id = 3506
+			name = TECH_APP_ELEC_6_6_NAME
+			desc = TECH_APP_ELEC_6_6_DESC
+			
+			required = { 3501 10101 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { type = air_detection which = fighter when = now value = 1 }
+				command = { type = air_detection which = strategic_bomber when = now value = 1 }
+				command = { type = air_detection which = tactical_bomber when = now value = 1 }
+				command = { type = air_detection which = torpedo_plane when = now value = 1 }
+				command = { type = air_detection which = transport_plane when = now value = 1 }
+			}
+		}
+		
+		
+	} # Level 6
+	
+	level = { # Telemetric Guidance
+		id = 3600
+		name = TECH_LEVEL_ELEC_7_NAME 
+		desc = TECH_LEVEL_ELEC_7_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Advanced Electromechanical Encryption Devices
+			id = 3601
+			name = TECH_APP_ELEC_7_1_NAME
+			desc = TECH_APP_ELEC_7_1_DESC
+			
+			required = { 3407 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = intelligence which = them value = -20 }
+			}
+		}
+		application = { # Advanced Electromechanical Computers
+			id = 3602
+			name = TECH_APP_ELEC_7_2_NAME
+			desc = TECH_APP_ELEC_7_2_DESC
+			
+			required = { 3302 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = AA_batteries value = 20 }
+				command = { type = industrial_modifier which = total value = 5 }
+				command = { type = research_pos_offset which = theoretical value = -15 }
+			}
+		}
+		
+	} # Level 7
+	
+	level = { # Infrared Technology
+		id = 3700
+		name = TECH_LEVEL_ELEC_8_NAME 
+		desc = TECH_LEVEL_ELEC_8_DESC
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Near Infrared System Technology
+			id = 3701
+			name = TECH_APP_ELEC_8_1_NAME
+			desc = TECH_APP_ELEC_8_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Centimetric Radar
+			id = 3702
+			name = TECH_APP_ELEC_8_2_NAME
+			desc = TECH_APP_ELEC_8_2_DESC
+			
+			required = { 3501 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Centimetric Radar Warning Sites
+			id = 3703
+			name = TECH_APP_ELEC_8_3_NAME
+			desc = TECH_APP_ELEC_8_3_DESC
+			
+			required = { 3502 3702 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = air value = 10 }
+			}
+		}
+		application = { # Improved Centimetric Radar Warning Device
+			id = 3704
+			name = TECH_APP_ELEC_8_4_NAME
+			desc = TECH_APP_ELEC_8_4_DESC
+			
+			required = { 3503 3702 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Centimetric Radar Homing Device
+			id = 3705
+			name = TECH_APP_ELEC_8_5_NAME
+			desc = TECH_APP_ELEC_8_5_DESC
+			
+			required = { 3504 3702 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Electromechanical Decryption Device
+			id = 3706
+			name = TECH_APP_ELEC_8_6_NAME
+			desc = TECH_APP_ELEC_8_6_DESC
+			
+			required = { 3505 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = intelligence which = us value = 20 }
+			}
+		}
+		
+	} # Level 8
+	
+	level = { # Central Processing Unit
+		id = 3800
+		name = TECH_LEVEL_ELEC_9_NAME 
+		desc = TECH_LEVEL_ELEC_9_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Memory Storage
+			id = 3801
+			name = TECH_APP_ELEC_9_1_NAME
+			desc = TECH_APP_ELEC_9_1_DESC
+			
+			required = { 3301 3706 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Conditional Control Transfer
+			id = 3802
+			name = TECH_APP_ELEC_9_2_NAME
+			desc = TECH_APP_ELEC_9_2_DESC
+			
+			required = { 3801 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Central Processing Unit
+			id = 3803
+			name = TECH_APP_ELEC_9_3_NAME
+			desc = TECH_APP_ELEC_9_3_DESC
+			
+			required = { 3802 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Electromechanical General Purpose Computers
+			id = 3804
+			name = TECH_APP_ELEC_9_4_NAME
+			desc = TECH_APP_ELEC_9_4_DESC
+			
+			required = { 3803 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 5 }
+				command = { type = research_pos_offset which = theoretical value = -15 }
+			}
+		}
+		
+	} # Level 9
+	
+	level = { # Advanced Centimetric Radar
+		id = 3900
+		name = TECH_LEVEL_ELEC_10_NAME 
+		desc = TECH_LEVEL_ELEC_10_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Advanced Centimetric Radar
+			id = 3901
+			name = TECH_APP_ELEC_10_1_NAME
+			desc = TECH_APP_ELEC_10_1_DESC
+			
+			required = { 3702 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Centimetric Radar Warning Sites
+			id = 3902
+			name = TECH_APP_ELEC_10_2_NAME
+			desc = TECH_APP_ELEC_10_2_DESC
+			
+			required = { 3703 3901 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = surprise which = air value = 20 }
+			}
+		}
+		application = { # Advanced Centimetric Radar Warning Device
+			id = 3903
+			name = TECH_APP_ELEC_10_3_NAME
+			desc = TECH_APP_ELEC_10_3_DESC
+			
+			required = { 3704 3901 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Centimetric Radar Warning Device
+			id = 3904
+			name = TECH_APP_ELEC_10_4_NAME
+			desc = TECH_APP_ELEC_10_4_DESC
+			
+			required = { 3705 3901 }
+			chance = 90
+			cost = 10
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Improved Electromechanical General Purpose Computers
+			id = 3905
+			name = TECH_APP_ELEC_10_5_NAME
+			desc = TECH_APP_ELEC_10_5_DESC
+			
+			required = { 3804 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 5 }
+				command = { type = research_pos_offset which = theoretical value = -15 }
+			}
+		}
+	} # Level 10
+	
+	level = { # Transistor
+		id = 3940
+		name = TECH_LEVEL_ELEC_11_NAME 
+		desc = TECH_LEVEL_ELEC_11_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Assembly Programming Language
+			id = 3941
+			name = TECH_APP_ELEC_11_1_NAME
+			desc = TECH_APP_ELEC_11_1_DESC
+			
+			required = { 3905 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Magnetic Core Data Storage
+			id = 3942
+			name = TECH_APP_ELEC_11_2_NAME
+			desc = TECH_APP_ELEC_11_2_DESC
+			
+			required = { 3905 }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Advanced Electromechanical General Purpose Computers
+			id = 3943
+			name = TECH_APP_ELEC_11_3_NAME
+			desc = TECH_APP_ELEC_11_3_DESC
+			
+			required = { 3905 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 5 }
+				command = { type = research_pos_offset which = theoretical value = -15 }
+				command = { type = research_pos_offset which = application value = -10 }
+			}
+		}
+		
+	} # Level 11
+	
+	level = { # Electronic Computers
+		id = 3970
+		name = TECH_LEVEL_ELEC_12_NAME 
+		desc = TECH_LEVEL_ELEC_12_DESC 
+				
+		cost = 20
+		time = 180
+		neg_offset = 45
+		pos_offset = 90
+
+		application = { # Computer Adapted Transistors
+			id = 3971
+			name = TECH_APP_ELEC_12_1_NAME
+			desc = TECH_APP_ELEC_12_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 8
+			time = 90
+			neg_offset = 20
+			pos_offset = 40
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Basic Electronic Computers
+			id = 3972
+			name = TECH_APP_ELEC_12_2_NAME
+			desc = TECH_APP_ELEC_12_2_DESC
+			
+			required = { 3941 3942 3943 3971 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 5 }
+				command = { type = research_pos_offset which = theoretical value = -15 }
+				command = { type = research_pos_offset which = application value = -15 }
+			}
+		}
+		application = { # Improved Electronic Computers
+			id = 3973
+			name = TECH_APP_ELEC_12_3_NAME
+			desc = TECH_APP_ELEC_12_3_DESC
+			
+			required = { 3972 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 5 }
+				command = { type = research_pos_offset which = theoretical value = -15 }
+				command = { type = research_pos_offset which = application value = -15 }
+			}
+		}
+		application = { # Advanced Electronic Computers
+			id = 3974
+			name = TECH_APP_ELEC_12_4_NAME
+			desc = TECH_APP_ELEC_12_4_DESC
+			
+			required = { 3973 }
+			chance = 80
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 5 }
+				command = { type = research_pos_offset which = theoretical value = -15 }
+				command = { type = research_pos_offset which = application value = -15 }
+			}
+		}
+	} # Level 12
+}

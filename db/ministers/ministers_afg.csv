@@ -1,0 +1,33 @@
+AFG;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+54001;Head of State;Muhammed Zahir;NA;PA LC CE;NA;NA;zahir_mohammed_afg;x
+54002;Head of Government;Muhammed Zahir;NA;PA;NA;NA;zahir_mohammed_afg;x
+54003;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+54004;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+54005;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+54006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+54007;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+54008;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+54009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+54010;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+54001;Head of State;Muhammed Zahir;NA;PA LC CE;NA;NA;zahir_mohammed_afg;x
+54011;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+54012;Foreign Minister;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+54013;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+54014;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+54015;Head of Military Intelligence;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+54016;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+54017;Chief of Army;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+54018;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+54019;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+54020;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+54021;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+54022;Foreign Minister;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+54023;Minister of Armament;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+54024;Minister of Security;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+54025;Head of Military Intelligence;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+54026;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+54027;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+54028;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+54029;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x

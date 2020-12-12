@@ -1,0 +1,51 @@
+YUG;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+20001;Head of State;Petr II;NA;NS FA PA LC RS CE;NA;NA;peter_II2_yug;x
+20002;Head of Government;Boguljub Jevtic;NA;PA;NA;NA;unknown;x
+20003;Foreign Minister;Milan Stojadinovic;NA;PA;Cloak and Dagger Schemer;Medium;unknown;x
+20004;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+20005;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+20006;Head of Military Intelligence;Borivoje Josimovic;NA;PA;Political Specialist;Medium;unknown;x
+20007;Chief of Staff;Danilo Kalafatovic;NA;PA;School of Mass Combat;Medium;unknown;x
+20008;Chief of Army;Bogoljub Ilic;NA;PA;Decisive Battle Doctrine;Very High;unknown;x
+20009;Chief of Navy;Bogoljub Ilic;NA;PA;Base Control Doctrine;Very High;unknown;x
+20010;Chief of Air Force;Milosko Jakovic;NA;PA;Army Aviation Doctrine;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+20011;Head of State;Petr II;NA;LC RS CE ;NA;NA;peter_II2_yug;x
+20012;Head of Government;Dragojub Mihailovic;NA;RS;NA;NA;mihailovic_dragoliub_yug;x
+20013;Foreign Minister;Dragojub Mihailovic;NA;RS;General Staffer;Medium;mihailovic_dragoliub_yug;x
+20014;Minister of Armament;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+20015;Minister of Security;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+20016;Head of Military Intelligence;Vjekoslav Klisanic;NA;RS;Technical Specialist;High;unknown;x
+20017;Chief of Staff;Vjekoslav Klisanic;NA;RS;School of Maneuver;High;unknown;x
+20018;Chief of Army;Dragojub Mihailovic;NA;RS;Static Defense Doctrine;Very High;mihailovic_dragoliub_yug;x
+20019;Chief of Navy;Dragojub Mihailovic;NA;RS;Base Control Doctrine;Very High;mihailovic_dragoliub_yug;x
+20020;Chief of Air Force;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+20021;Head of State;Josip Broz;NA;LWR ST LE LC RS CE;NA;NA;tito_josip_yug;x
+20022;Head of Government;Josip Broz;NA;LWR;NA;NA;tito_josip_yug;x
+20023;Foreign Minister;Ivan Ribar;NA;LWR;Biased Intellectual;High;unknown;x
+20024;Minister of Armament;Milentije Popovi;NA;LWR;Resource Industrialist;High;unknown;x
+20025;Minister of Security;Ivan Gosnjak;NA;LWR;Efficient Sociopath;Medium;unknown;x
+20026;Head of Military Intelligence;Aleksandar Rankovi;NA;LWR;Political Specialist;High;unknown;x
+20027;Chief of Staff;Koa Popovi;NA;LWR;School of Maneuver;High;unknown;x
+20028;Chief of Army;Peko Dapcevic;NA;LWR;Elastic Defense Doctrine;High;unknown;x
+20029;Chief of Navy;Peko Dapcevic;NA;LWR;Open Seas Doctrine;High;unknown;x
+20030;Chief of Air Force;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+20031;Head of Government;Milan Stojadinovic;35;PA;NA;NA;unknown;x
+20032;Head of Government;Dragisa Cvetkovic;39;PA;NA;NA;cvetkovitj_dragisa_yug;x
+20033;Head of Government;Dusan Simovic;41;PA;NA;NA;simovic_dusjan_yug;x
+20034;Head of Government;Slobodan Jovanovic;42;PA;NA;NA;unknown;x
+20035;Head of Government;Milos Trifunovic;43;PA;NA;NA;unknown;x
+20036;Head of Government;Bozidar Puric;43;PA;NA;NA;unknown;x
+20037;Foreign Minister;Edvard Kardelj;45;LWR;Ideological Crusader;Very High;unknown;x
+20038;Chief of Staff;Arsa Jovanovic;45;LWR;School of Mass Combat;Medium;yovanovitch_aras_yug;x
+20039;Chief of Staff;Radivoje Jankovic;41;PA;School of Fire Support;Low;unknown;x
+20040;Chief of Army;Djordje Lukic;41;PA;Armoured Spearhead Doctrine;High;unknown;x
+20041;Chief of Army;Kosta Musicki;44;NS;Guns and Butter Doctrine;Very Low;unknown;x
+20042;Chief of Army;Milutin Nedic;38;PA;Decisive Battle Doctrine;Very High;unknown;x
+20043;Chief of Army;Petar Pesic;40;PA;Guns and Butter Doctrine;Medium;unknown;x
+20044;Chief of Navy;Djordje Lukic;41;PA;Decisive Battle Doctrine;High;unknown;x
+20045;Chief of Navy;Milutin Nedic;38;PA;Decisive Battle Doctrine;High;unknown;x
+20046;Chief of Navy;Petar Pesic;40;PA;Indirect Approach Doctrine;High;unknown;x
+20047;Chief of Air Force;Dusan Simovic;41;PA;Air Superiority Doctrine;Medium;simovic_dusjan_yug;x

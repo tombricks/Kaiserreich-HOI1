@@ -1,0 +1,34 @@
+NIC;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+48001;Head of State;Anastacio G. Somoza;NA;PA;NA;NA;somoza_anastasio_nic;x
+48002;Head of Government;Anastacio G. Somoza;NA;PA;NA;NA;somoza_anastasio_nic;x
+48003;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+48004;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+48005;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+48006;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+48007;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+48008;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+48009;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+48010;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+48011;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+48012;Head of Government;Blue Shadow;NA;CE;NA;NA;unknown;x
+48013;Foreign Minister;Blue Shadow;NA;RS;Undistinguished Suit;Medium;unknown;x
+48014;Minister of Armament;Blue Shadow;NA;CE;Undistinguished Suit;Medium;unknown;x
+48015;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+48016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+48017;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+48018;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+48019;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+48020;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+48021;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+48022;Head of Government;Red Shadow;NA;LE;NA;NA;unknown;x
+48023;Foreign Minister;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+48024;Minister of Armament;Red Shadow;NA;LE;Undistinguished Suit;Medium;unknown;x
+48025;Minister of Security;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+48026;Head of Military Intelligence;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+48027;Chief of Staff;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+48028;Chief of Army;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+48029;Chief of Navy;Red Shadow;NA;LWR;Undistinguished Suit;Medium;unknown;x
+48030;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

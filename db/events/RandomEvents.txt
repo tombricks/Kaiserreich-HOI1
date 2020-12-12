@@ -1,0 +1,747 @@
+#
+# HoI - Random Events
+#
+#		written by Henrik Fåhraeus
+#
+
+# TODO: Duplicate certain random events, but with more extreme trigger conditions
+
+#########################################################################
+#  Research Sabotaged
+#########################################################################
+event = { 
+	id = 1000
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5  # Intel Diff < -5
+		}
+	}
+	name = "EVT_1000R_NAME"
+	desc = "EVT_1000R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = research_sabotaged }
+	}
+}
+
+
+#########################################################################
+#  Industry Sabotaged
+#########################################################################
+event = { 
+
+	id = 1010
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5  # Intel Diff < -5
+		}
+	}
+	name = "EVT_1010R_NAME"
+	desc = "EVT_1010R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = industry which = -1 value = -1 } # 1 IC Sabotaged
+	}
+}
+
+
+
+#########################################################################
+#  Fort Sabotaged
+#########################################################################
+event = { 
+	id = 1020
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5  # Intel Diff < -5
+		}
+	}
+	name = "EVT_1020R_NAME"
+	desc = "EVT_1020R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = land_fort which = -1 value = -1 } # A Land Fort Sabotaged by 1
+	}
+}
+
+#########################################################################
+#  Coastal Fort Sabotaged
+#########################################################################
+event = { 
+	id = 1030
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5  # Intel Diff < -5
+		}
+	}
+	name = "EVT_1030R_NAME"
+	desc = "EVT_1030R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = coastal_fort which = -1 value = -1 } # A Land Fort Sabotaged by 1
+	}
+}
+
+#########################################################################
+#  Technology Stolen From Enemy
+#########################################################################
+event = { 
+	id = 1040
+	random = yes
+	trigger = {
+		intel_diff = 5 # intel_diff >= 5
+	}
+	name = "EVT_1040R_NAME"
+	desc = "EVT_1040R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = steal_tech which = -1 } # Steal a tech from a random enemy or neighbor
+	}
+}
+
+#########################################################################
+#  Commander Assassinated by Enemy Commandos
+#########################################################################
+event = { 
+	id = 1050
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -10 # intel_diff < -10
+		}
+	}
+	name = "EVT_1050R_NAME"
+	desc = "EVT_1050R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = sleepleader which = -1 }
+	}
+}
+
+#########################################################################
+#  Commander Defects
+#########################################################################
+event = { 
+	id = 1060
+	random = yes
+	trigger = {
+		atwar = yes
+		dissent = 15 # National Dissent >= 15%
+		NOT = {
+			leader_loyalty = 3
+		}
+	}
+	name = "EVT_1060R_NAME"
+	desc = "EVT_1060R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = sleepleader which = -2 } # Lowest loyalty leader
+	}
+}
+
+#########################################################################
+#  Secret Police Report
+#########################################################################
+event = { 
+	id = 1070
+	random = yes
+	name = "EVT_1070R_NAME"
+	desc = "EVT_1070R_DESC"
+	style = 0
+
+	action_a = {
+			name = "OK"
+			command = { type = reveal_leader_loyalty which = -1 }
+			command = { type = reveal_leader_loyalty which = -1 }
+			command = { type = reveal_minister_loyalty which = -1 }
+			command = { type = reveal_minister_loyalty which = -1 }
+	}
+}
+
+#########################################################################
+#  Traitor Executed
+#########################################################################
+event = { 
+	id = 1080
+	random = yes
+	trigger = {
+		NOT = {
+			leader_loyalty = 3
+			alignment = democratic
+		}
+	}
+	name = "EVT_1080R_NAME"
+	desc = "EVT_1080R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = sleepleader which = -2 } # Lowest loyalty leader
+	}
+}
+
+#########################################################################
+#  Parliamentary Scandal
+#########################################################################
+event = { 
+	id = 1090
+	random = yes
+	trigger = {
+		government = democratic
+	}
+	name = "EVT_1090R_NAME"
+	desc = "EVT_1090R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = 15 }
+	}
+}
+#########################################################################
+#  Minister Defects
+#########################################################################
+event = { 
+	id = 1100
+	random = yes
+	trigger = {
+		atwar = yes
+		dissent = 15 # National Dissent >= 15%
+		NOT = {
+			minister_loyalty = 3
+		}
+	}
+	name = "EVT_1100R_NAME"
+	desc = "EVT_1100R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = sleepminister which = -2 } # Lowest loyalty minister
+	}
+}
+#########################################################################
+#  Great War Manifestation
+#########################################################################
+event = { 
+	id = 1110
+	random = yes
+	trigger = {
+		atwar = no
+		government = democratic
+	}
+	name = "EVT_1110R_NAME"
+	desc = "EVT_1110R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = warentry value = 5 }
+	}
+}
+#########################################################################
+#  Great Peace Manifestation
+#########################################################################
+event = { 
+	id = 1120
+	random = yes
+	trigger = {
+		atwar = no
+		government = democratic
+	}
+	name = "EVT_1120R_NAME"
+	desc = "EVT_1120R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = warentry value = -5 }
+	}
+}
+#########################################################################
+#  Partisan Revolt
+#########################################################################
+event = { 
+	id = 1130
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 5
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = revolt which = -1 }
+	}
+}
+#########################################################################
+#  Partisan Revolt
+#########################################################################
+event = { 
+	id = 1131
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 15
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = revolt which = -1 }
+	}
+}
+#########################################################################
+#  Partisan Revolt
+#########################################################################
+event = { 
+	id = 1132
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 25
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = revolt which = -1 }
+	}
+}
+#########################################################################
+#  Partisan Revolt
+#########################################################################
+event = { 
+	id = 1133
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 35
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = revolt which = -1 }
+	}
+}
+#########################################################################
+#  Failed Coup d'Etat - Traitors executed
+#########################################################################
+event = { 
+	id = 1140
+	random = yes
+	trigger = {
+		dissent = 30 # >= 30
+	}
+	name = "EVT_1140R_NAME"
+	desc = "EVT_1140R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = sleepminister which = -2 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -2 }
+		command = { type = dissent value = -10 }
+	}
+}
+#########################################################################
+#  Successful Coup d'Etat - The Regime Falls
+#########################################################################
+event = { 
+	id = 1150
+	random = yes
+	trigger = {
+		dissent = 60 # >= 60
+	}
+	name = "EVT_1150R_NAME"
+	desc = "EVT_1150R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = regime_falls }
+		command = { type = dissent value = -100 }
+	}
+}
+#########################################################################
+#  Famous War Hero publishes articles critizing the Conduct of War
+#########################################################################
+event = { 
+	id = 1001
+	random = yes
+	trigger = {
+				atwar = yes
+	}
+	name = "EVT_1001R_NAME"
+	desc = "EVT_1001R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = 5 }
+		command = { type = leader_loyalty which = -1 value = -4 }
+		command = { type = reveal_minister_loyalty which = -3  }
+	}
+}
+#########################################################################
+#  Womens organisations donates material to the Army
+#########################################################################
+event = { 
+	id = 1002
+	random = yes
+	trigger = {	
+				atwar = yes
+	}
+	name = "EVT_1002R_NAME"
+	desc = "EVT_1002R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = supplies value = 200 }
+	}
+}
+#########################################################################
+#  Youth Movement provides more volunteers
+#########################################################################
+event = { 
+	id = 1003
+	random = yes
+	trigger = {
+					atwar = yes
+					NOT = { 
+							alignment = democratic
+							}
+	}
+	name = "EVT_1003R_NAME"
+	desc = "EVT_1003R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = manpowerpool value = 100 }
+	}
+}
+#########################################################################
+#  Women labour force tapped for factories.
+#########################################################################
+event = { 
+	id = 1004
+	random = yes
+	trigger = {
+				atwar = yes
+				alignment = democratic
+	}
+	
+	name = "EVT_1004R_NAME"
+	desc = "EVT_1004R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = manpowerpool value = 100 }
+	}
+}
+#########################################################################
+#  Great Military Parade held in Capital
+#########################################################################
+event = { 
+	id = 1005
+	random = yes
+	trigger = {
+		
+	}
+	name = "EVT_1005R_NAME"
+	desc = "EVT_1005R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = supplies value = -100 }
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Government nationalizes private sector
+#########################################################################
+event = { 
+	id = 1006
+	random = yes
+	trigger = {
+				NOT = { 
+							alignment = democratic
+							}
+	}
+	name = "EVT_1006R_NAME"
+	desc = "EVT_1006R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = industry which = -1 value = 2 }
+		command = { type = industry which = -1 value = 2 }
+		command = { type = industry which = -1 value = 2 }
+		command = { type = industry which = -1 value = 2 }
+		command = { type = industry which = -1 value = 2 }
+		command = { type = dissent value = 1 }
+	}
+}
+#########################################################################
+#  Massflight of War Refugees
+#########################################################################
+event = { 
+	id = 1007
+	random = yes
+	trigger = {
+		
+	}
+	name = "EVT_1007R_NAME"
+	desc = "EVT_1007R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = manpowerpool value = 30 }
+	}
+}
+#########################################################################
+#  Major Worker Strike
+#########################################################################
+event = { 
+	id = 1008
+	random = yes
+	trigger = {
+		
+	}
+	name = "EVT_1008R_NAME"
+	desc = "EVT_1008R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = industry which = -1 value = 1 }
+		command = { type = industry which = -1 value = 1 }
+		command = { type = industry which = -1 value = 1 } 
+		command = { type = dissent value = 3 }
+	}
+}
+#########################################################################
+#  Artist reflects popular emotions and records epic song
+#########################################################################
+event = { 
+	id = 1009
+	random = yes
+	trigger = {
+		
+	}
+	name = "EVT_1009R_NAME"
+	desc = "EVT_1009R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = dissent value = -3 }
+	}
+}
+#########################################################################
+#  Leading scientist defects to your country
+#########################################################################
+event = { 
+	id = 1011
+	random = yes
+	trigger = {
+		
+	}
+	name = "EVT_1011R_NAME"
+	desc = "EVT_1011R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = steal_tech which = -1 }
+	}
+}
+#########################################################################
+#  Accidental discovery. Miracular breaktrough in research
+#########################################################################
+event = { 
+	id = 1012
+	random = yes
+	trigger = {
+		
+	}
+	name = "EVT_1012R_NAME"
+	desc = "EVT_1012R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		#command = { type = get_tech which = -1 }
+	}
+}
+#########################################################################
+#  Private initiative boost production
+#########################################################################
+event = { 
+	id = 1013
+	random = yes
+	trigger = {
+				NOT = { 
+							alignment = communist
+							}
+	}
+	name = "EVT_1013R_NAME"
+	desc = "EVT_1013R_DESC"
+	style = 0
+
+	action_a = {
+		name = "OK"
+		command = { type = industry which = -1 value = 1 }
+		command = { type = industry which = -1 value = 1 }
+		command = { type = industry which = -1 value = 1 }
+		command = { type = industry which = -1 value = 1 }
+		command = { type = industry which = -1 value = 1 }
+		command = { type = industry which = -1 value = 1 }
+	}
+}
+#########################################################################
+#  Rogue Politician
+#########################################################################
+event = { 
+	id = 1014
+	random = yes
+	trigger = {
+							alignment = democratic
+	}
+	name = "EVT_1014R_NAME"
+	desc = "EVT_1014R_DESC"
+	style = 0
+
+	action_a = {
+		name = "Ignore him"
+		command = { type = dissent value = 1 }
+		command = { type = influence value = -3 }
+	}
+	action_b = {
+		name = "Answer him"
+		command = { type = dissent value = -1 }
+		command = { type = influence value = 3 }
+	}
+}
+#########################################################################
+#  Rogue Politician
+#########################################################################
+event = { 
+	id = 1015
+	random = yes
+	trigger = {
+				NOT = { 
+							alignment = democratic
+							}
+	}
+	name = "EVT_1015R_NAME"
+	desc = "EVT_1015R_DESC"
+	style = 0
+
+	action_a = {
+		name = "Drop Dead!"
+		command = { type = dissent value = -1 }
+		command = { type = influence value = 3 }
+		command = { type = sleepminister which = -2 }
+	}
+	action_b = {
+		name = "Ignore him"
+		command = { type = dissent value = 1 }
+		command = { type = influence value = -3 }
+	}
+}
+#########################################################################
+#  Outlaw the Communist Parties
+#########################################################################
+event = { 
+	id = 1016
+	random = yes
+	trigger = {
+				alignment = democratic
+	}
+	name = "EVT_1016R_NAME"
+	desc = "EVT_1016R_DESC"
+	style = 0
+
+	action_a = {
+		name = "NO"
+		command = { type = alignment which = democratic value = 20 }
+		command = { type = alignment which = communist value = 10 }
+	}
+	action_b = {
+		name = "YES"
+		command = { type = alignment which = democratic value = 10 }
+		command = { type = alignment which = fascist value = 20 }
+	}
+}
+#########################################################################
+#  Outlaw the Fascist Parties
+#########################################################################
+event = { 
+	id = 1017
+	random = yes
+	trigger = {
+				alignment = democratic
+	}
+	name = "EVT_1017R_NAME"
+	desc = "EVT_1017R_DESC"
+	style = 0
+
+	action_a = {
+		name = "NO"
+		command = { type = alignment which = democratic value = 20 }
+		command = { type = alignment which = fascist value = 10 }
+	}
+	action_b = {
+		name = "YES"
+		command = { type = alignment which = democratic value = 10 }
+		command = { type = alignment which = communist value = 20 }
+	}
+}

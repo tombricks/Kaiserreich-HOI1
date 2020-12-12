@@ -1,0 +1,45 @@
+NEP;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+75001;Head of State;Unknown;NA;PA LC;NA;NA;unknown;x
+75002;Head of Government;Unknown;NA;PA;NA;NA;unknown;x
+75003;Foreign Minister;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+75004;Minister of Armament;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+75005;Minister of Security;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+75006;Head of Military Intelligence;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+75007;Chief of Staff;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+75008;Chief of Army;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+75009;Chief of Navy;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+75010;Chief of Air Force;Unknown;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Democratic Cabinet;;;;;;;x
+75011;Head of State;Blue Shadow;NA;LC CE RS;NA;NA;unknown;x
+75012;Head of Government;Blue Shadow;NA;LC;NA;NA;unknown;x
+75013;Foreign Minister;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+75014;Minister of Armament;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+75015;Minister of Security;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+75016;Head of Military Intelligence;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+75017;Chief of Staff;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+75018;Chief of Army;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+75019;Chief of Navy;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+75020;Chief of Air Force;Blue Shadow;NA;LC;Undistinguished Suit;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+75021;Head of State;Black Shadow;NA;FA PA;NA;NA;unknown;x
+75022;Head of Government;Black Shadow;NA;FA;NA;NA;unknown;x
+75023;Foreign Minister;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+75024;Minister of Armament;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+75025;Minister of Security;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+75026;Head of Military Intelligence;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+75027;Chief of Staff;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+75028;Chief of Army;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+75029;Chief of Navy;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+75030;Chief of Air Force;Black Shadow;NA;FA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+75031;Head of State;Red Shadow;NA;ST LE LWR;NA;NA;unknown;x
+75032;Head of Government;Red Shadow;NA;ST;NA;NA;unknown;x
+75033;Foreign Minister;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+75034;Minister of Armament;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+75035;Minister of Security;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+75036;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+75037;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+75038;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+75039;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+75040;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x

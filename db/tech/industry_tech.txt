@@ -1,0 +1,653 @@
+# 
+# The Industry Technology Group
+#
+
+#
+#	
+#	
+#	
+
+technology = {
+	id = 4
+	category = industry
+	name = TECH_INDUSTRY_NAME #Localized name
+	desc = TECH_INDUSTRY_DESC #Localized description
+	
+	level = { # 1 - Hydrogenation
+		id = 4000
+		name = TECH_LEVEL_INDUSTRY_1_NAME 
+		desc = TECH_LEVEL_INDUSTRY_1_DESC 
+		
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Basic Synthetic Oil Plants
+			id = 4001
+			name = TECH_APP_INDUSTRY_1_1_NAME
+			desc = TECH_APP_INDUSTRY_1_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 16
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = industrial_multiplier which = coal_to_oil value = 0.25 }
+			}
+		}
+	} # Level 1
+	
+	level = { # 2 - Plastics
+		id = 4100
+		name = TECH_LEVEL_INDUSTRY_2_NAME 
+		desc = TECH_LEVEL_INDUSTRY_2_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Early Synthetic Materials
+			id = 4101
+			name = TECH_APP_INDUSTRY_2_1_NAME
+			desc = TECH_APP_INDUSTRY_2_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Caoutchouc
+			id = 4102
+			name = TECH_APP_INDUSTRY_2_2_NAME
+			desc = TECH_APP_INDUSTRY_2_2_DESC
+			
+			required = { 4101 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 2
+	
+	level = { # 3 - Catalytic Cracking
+		id = 4200
+		name = TECH_LEVEL_INDUSTRY_3_NAME 
+		desc = TECH_LEVEL_INDUSTRY_3_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Catalytic Cracking Plants
+			id = 4201
+			name = TECH_APP_INDUSTRY_3_1_NAME
+			desc = TECH_APP_INDUSTRY_3_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = supplies value = 10 }
+			}
+		}
+		application = { # Basic Synthetic Materials
+			id = 4202
+			name = TECH_APP_INDUSTRY_3_2_NAME
+			desc = TECH_APP_INDUSTRY_3_2_DESC
+			
+			required = { 4201 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Vinyl Acetates
+			id = 4203
+			name = TECH_APP_INDUSTRY_3_3_NAME
+			desc = TECH_APP_INDUSTRY_3_3_DESC
+			
+			required = { 4202 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Polyethylene
+			id = 4204
+			name = TECH_APP_INDUSTRY_3_4_NAME
+			desc = TECH_APP_INDUSTRY_3_4_DESC
+			
+			required = { 4202 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		
+	} # Level 3
+	
+	level = { # 4 - Polymerisation
+		id = 4300
+		name = TECH_LEVEL_INDUSTRY_4_NAME 
+		desc = TECH_LEVEL_INDUSTRY_4_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Butadiene Processing Plants
+			id = 4301
+			name = TECH_APP_INDUSTRY_4_1_NAME
+			desc = TECH_APP_INDUSTRY_4_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Styrene Processing Plants
+			id = 4302
+			name = TECH_APP_INDUSTRY_4_2_NAME
+			desc = TECH_APP_INDUSTRY_4_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Synthetic Rubber Plants
+			id = 4303
+			name = TECH_APP_INDUSTRY_4_3_NAME
+			desc = TECH_APP_INDUSTRY_4_3_DESC
+			
+			required = { 4301 4302 }
+			chance = 90
+			cost = 16
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = industrial_multiplier which = oil_to_rubber value = 0.5 }
+			}
+		}
+	} # Level 4
+	
+	level = { # 5 - Assembly Mass Production
+		id = 4400
+		name = TECH_LEVEL_INDUSTRY_5_NAME 
+		desc = TECH_LEVEL_INDUSTRY_5_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Vehicle Assembly Construction Process
+			id = 4401
+			name = TECH_APP_INDUSTRY_5_1_NAME
+			desc = TECH_APP_INDUSTRY_5_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = build_cost which = mechanized when = now value = -2 }
+				command = { type = build_time which = mechanized when = now value = -3 }
+				command = { type = build_cost which = armor when = now value = -3 }
+				command = { type = build_time which = armor when = now value = -3 }
+			}
+		}
+		application = { # Ship Assembly Construction Process
+			id = 4402
+			name = TECH_APP_INDUSTRY_5_2_NAME
+			desc = TECH_APP_INDUSTRY_5_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = build_cost which = battleship when = now value = -12 }
+				command = { type = build_cost which = cruiser when = now value = -8 }
+				command = { type = build_cost which = destroyer when = now value = -7 }
+				command = { type = build_cost which = submarine when = now value = -7 }
+				command = { type = build_cost which = carrier when = now value = -14 }
+				command = { type = build_cost which = transports when = now value = -5 }
+				command = { type = build_time which = battleship when = now value = -13 }
+				command = { type = build_time which = cruiser when = now value = -9 }
+				command = { type = build_time which = destroyer when = now value = -7 }
+				command = { type = build_time which = submarine when = now value = -7 }
+				command = { type = build_time which = carrier when = now value = -13 }
+				command = { type = build_time which = transports when = now value = -4 }
+			}
+		}
+		application = { # Aircraft Assembly Construction Process
+			id = 4403
+			name = TECH_APP_INDUSTRY_5_3_NAME
+			desc = TECH_APP_INDUSTRY_5_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = build_cost which = fighter when = now value = -5 }
+				command = { type = build_cost which = strategic_bomber when = now value = -7 }
+				command = { type = build_cost which = tactical_bomber when = now value = -5 }
+				command = { type = build_cost which = torpedo_plane when = now value = -5 }
+				command = { type = build_cost which = transport_plane when = now value = -5 }
+				command = { type = build_time which = fighter when = now value = -7 }
+				command = { type = build_time which = strategic_bomber when = now value = -6 }
+				command = { type = build_time which = tactical_bomber when = now value = -6 }
+				command = { type = build_time which = torpedo_plane when = now value = -6 }
+				command = { type = build_time which = transport_plane when = now value = -5 }
+				command = { type = build_time which = naval_bomber when = now value = -6 }
+				command = { type = build_time which = dive_bomber when = now value = -5 }
+			}
+		}
+		application = { # Rocket Assembly Construction Process
+			id = 4404
+			name = TECH_APP_INDUSTRY_5_4_NAME
+			desc = TECH_APP_INDUSTRY_5_4_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = build_cost which = flying_rocket when = now value = -5 }
+				command = { type = build_time which = flying_rocket when = now value = -5 }
+				command = { type = build_cost which = flying_bomb when = now value = -5 }
+				command = { type = build_time which = flying_bomb when = now value = -5 }
+			}
+		}
+	} # Level 5
+	
+	level = { # 6 - Improved Plastics
+		id = 4500
+		name = TECH_LEVEL_INDUSTRY_6_NAME 
+		desc = TECH_LEVEL_INDUSTRY_6_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Improved Synthetic Materials
+			id = 4501
+			name = TECH_APP_INDUSTRY_6_1_NAME
+			desc = TECH_APP_INDUSTRY_6_1_DESC
+			
+			required = { 4202 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Nylon
+			id = 4502
+			name = TECH_APP_INDUSTRY_6_2_NAME
+			desc = TECH_APP_INDUSTRY_6_2_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Polyurethane
+			id = 4503
+			name = TECH_APP_INDUSTRY_6_3_NAME
+			desc = TECH_APP_INDUSTRY_6_3_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 5 }
+			}
+		}
+	} # Level 6
+	
+	level = { # 7 - Hydroforming
+		id = 4600
+		name = TECH_LEVEL_INDUSTRY_7_NAME 
+		desc = TECH_LEVEL_INDUSTRY_7_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Improved Synthetic Oil Plants
+			id = 4601
+			name = TECH_APP_INDUSTRY_7_1_NAME
+			desc = TECH_APP_INDUSTRY_7_1_DESC
+			
+			required = { 4001 }
+			chance = 90
+			cost = 16
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = industrial_multiplier which = coal_to_oil value = 0.5 }
+			}
+		}
+	} # Level 7
+	
+	level = { # 8 - Catalytic Polymerisation
+		id = 4700
+		name = TECH_LEVEL_INDUSTRY_8_NAME 
+		desc = TECH_LEVEL_INDUSTRY_8_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Improved Synthetic Rubber Plants
+			id = 4701
+			name = TECH_APP_INDUSTRY_8_1_NAME
+			desc = TECH_APP_INDUSTRY_8_1_DESC
+			
+			required = { 4303 }
+			chance = 90
+			cost = 16
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = industrial_multiplier which = oil_to_rubber value = 1 }
+			}
+		}
+	} # Level 8
+	
+	level = { # 9 - Modular Assembly Construction
+		id = 4800
+		name = TECH_LEVEL_INDUSTRY_9_NAME 
+		desc = TECH_LEVEL_INDUSTRY_9_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Advanced Welding Techniques
+			id = 4801
+			name = TECH_APP_INDUSTRY_9_1_NAME
+			desc = TECH_APP_INDUSTRY_9_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Modular Assembly Ship Production
+			id = 4802
+			name = TECH_APP_INDUSTRY_9_2_NAME
+			desc = TECH_APP_INDUSTRY_9_2_DESC
+			
+			required = { 4402 4801 }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = build_cost which = transports when = now value = -5 }
+				command = { type = build_time which = transports when = now value = -8 }
+			}
+		}
+	} # Level 9
+	
+	level = { # 10 - Fluid Catalytic Cracking
+		id = 4900
+		name = TECH_LEVEL_INDUSTRY_10_NAME 
+		desc = TECH_LEVEL_INDUSTRY_10_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Fluid Catalytic Cracking Plants
+			id = 4901
+			name = TECH_APP_INDUSTRY_10_1_NAME
+			desc = TECH_APP_INDUSTRY_10_1_DESC
+			
+			required = { }
+			chance = 90
+			cost = 12
+			time = 150
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = supplies value = 10 }
+			}
+		}
+		application = { # Advanced Synthetic Materials
+			id = 4902
+			name = TECH_APP_INDUSTRY_10_2_NAME
+			desc = TECH_APP_INDUSTRY_10_2_DESC
+			
+			required = { 4501 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Teflon
+			id = 4903
+			name = TECH_APP_INDUSTRY_10_3_NAME
+			desc = TECH_APP_INDUSTRY_10_3_DESC
+			
+			required = { 4902 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Silicone
+			id = 4904
+			name = TECH_APP_INDUSTRY_10_4_NAME
+			desc = TECH_APP_INDUSTRY_10_4_DESC
+			
+			required = { 4902 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+	} # Level 10
+	
+	level = { # 11 - Iso-Octane and Alkylate Process
+		id = 4940
+		name = TECH_LEVEL_INDUSTRY_11_NAME 
+		desc = TECH_LEVEL_INDUSTRY_11_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Advanced Synthetic Oil Plants
+			id = 4941
+			name = TECH_APP_INDUSTRY_11_1_NAME
+			desc = TECH_APP_INDUSTRY_11_1_DESC
+			
+			required = { 4601 }
+			chance = 90
+			cost = 16
+			time = 180
+			neg_offset = 45
+			pos_offset = 90
+			
+			effects = {
+				command = { type = industrial_multiplier which = coal_to_oil value = 1 }
+			}
+		}
+	} # Level 11
+	
+	level = { # 12 - Cold Polymerisation
+		id = 4970
+		name = TECH_LEVEL_INDUSTRY_12_NAME 
+		desc = TECH_LEVEL_INDUSTRY_12_DESC 
+				
+		cost = 22
+		time = 200
+		neg_offset = 50
+		pos_offset = 100
+		
+		application = { # Very Advanced Synthetic Materials
+			id = 4971
+			name = TECH_APP_INDUSTRY_12_1_NAME
+			desc = TECH_APP_INDUSTRY_12_1_DESC
+			
+			required = { 4902 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { }
+			}
+		}
+		application = { # Polypropylene
+			id = 4972
+			name = TECH_APP_INDUSTRY_12_2_NAME
+			desc = TECH_APP_INDUSTRY_12_2_DESC
+			
+			required = { 4971 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_modifier which = total value = 15 }
+			}
+		}
+		application = { # Advanced Synthetic Rubber Plants
+			id = 4973
+			name = TECH_APP_INDUSTRY_12_3_NAME
+			desc = TECH_APP_INDUSTRY_12_3_DESC
+			
+			required = { 4701 }
+			chance = 90
+			cost = 12
+			time = 120
+			neg_offset = 30
+			pos_offset = 60
+			
+			effects = {
+				command = { type = industrial_multiplier which = oil_to_rubber value = 2 }
+			}
+		}
+	} # Level 12
+}

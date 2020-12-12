@@ -1,0 +1,59 @@
+AST;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+56001;Head of State;Alfred Isaac;NA;LC RS CE;NA;NA;unknown;x
+56002;Head of Government;Joseph A. Lyons;NA;RS;NA;NA;unknown;x
+56003;Foreign Minister;Henry G. Pearce;NA;RS;Great Compromiser;High;unknown;x
+56004;Minister of Armament;Robert A. Parkhill;NA;RS;Resource Industrialist;Medium;unknown;x
+56005;Minister of Security;Thomas Paterson;NA;RS;Silent Lawyer;Medium;unknown;x
+56006;Head of Military Intelligence;Alexander McLachlan;NA;RS;Technical Specialist;High;unknown;x
+56007;Chief of Staff;Joseph A. Lyons;NA;RS;School of Maneuver;Very High;unknown;x
+56008;Chief of Army;Blue Shadow;NA;RS;Decisive Battle Doctrine;Medium;unknown;x
+56009;Chief of Navy;Blue Shadow;NA;RS;Open Seas Doctrine;Medium;unknown;x
+56010;Chief of Air Force;Blue Shadow;NA;RS;Vertical Envelopment Doctrine;Medium;unknown;x
+;A Cabinet - 1940;ELECT_B;;;;;;x
+56011;Head of Government;Robert G. Menzies;NA;LC;NA;NA;menzies_robert_ast;x
+56012;Foreign Minister;Henry S. Gullett;NA;LC;Great Compromiser;Medium;unknown;x
+56013;Minister of Armament;GA Street;NA;LC;Administrative Genius;High;unknown;x
+56014;Minister of Security;Hattil S. Foll;NA;LC;Compassionate Gentleman;Medium;unknown;x
+;B Cabinet - 1940;ELECT_A;;;;;;x
+56002;Head of Government;Joseph A. Lyons;NA;RS;NA;NA;unknown;x
+56003;Foreign Minister;Henry G. Pearce;NA;RS;Great Compromiser;High;unknown;x
+56004;Minister of Armament;Robert A. Parkhill;NA;RS;Resource Industrialist;Medium;unknown;x
+56005;Minister of Security;Thomas Paterson;NA;RS;Silent Lawyer;Medium;unknown;x
+;A Cabinet - 1944;ELECT_A;;;;;;x
+56015;Head of Government;John J. Curtin;NA;RS;NA;NA;curtin_john_ast;x
+56016;Foreign Minister;Herbert V. Evatt;NA;RS;Biased Intellectual;High;unknown;x
+56017;Minister of Armament;Norman J. Makin;NA;RS;Military Entrepreneur;Medium;unknown;x
+56018;Minister of Security;Hubert P. Lazzarini;NA;RS;Silent Lawyer;Medium;unknown;x
+;B Cabinet - 1944;ELECT_B;;;;;;x
+56011;Head of Government;Robert G. Menzies;NA;LC;NA;NA;menzies_robert_ast;x
+56012;Foreign Minister;Henry S. Gullett;NA;LC;Great Compromiser;Medium;unknown;x
+56013;Minister of Armament;GA Street;NA;LC;Administrative Genius;High;unknown;x
+56014;Minister of Security;Hattil S. Foll;NA;LC;Compassionate Gentleman;Medium;unknown;x
+;Shadow Fascist Cabinet;;;;;;;x
+56019;Head of State;Black Shadow;NA;NS FA PA;NA;NA;unknown;x
+56020;Head of Government;Black Shadow;NA;PA;NA;NA;unknown;x
+56021;Foreign Minister;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+56022;Minister of Armament;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+56023;Minister of Security;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+56024;Head of Military Intelligence;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+56025;Chief of Staff;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+56026;Chief of Army;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+56027;Chief of Navy;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+56028;Chief of Air Force;Black Shadow;NA;PA;Undistinguished Suit;Medium;unknown;x
+;Shadow Communist Cabinet;;;;;;;x
+56029;Head of State;Lance Sharkey;NA;LWR ST LE;NA;NA;unknown;x
+56030;Head of Government;Lance Sharkey;NA;ST;NA;NA;unknown;x
+56031;Foreign Minister;H. Moxon;NA;ST;Ideological Crusader;High;unknown;x
+56032;Minister of Armament;Jack Henry;NA;ST;Military Entrepreneur;Medium;unknown;x
+56033;Minister of Security;J.B. Miles;NA;ST;Prince of Terror;High;unknown;x
+56034;Head of Military Intelligence;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+56035;Chief of Staff;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+56036;Chief of Army;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+56037;Chief of Navy;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+56038;Chief of Air Force;Red Shadow;NA;ST;Undistinguished Suit;Medium;unknown;x
+;Replacements;;;;;;;x
+56039;Head of State;Alexander G. Arkwright;40;LC RS CE;NA;NA;unknown;x
+56040;Head of Military Intelligence;Robert G. Menzies;40;LC;Industrial Specialist;Very High;menzies_robert_ast;x
+56041;Head of Military Intelligence;John J. Dedman;44;RS;Technical Specialist;High;unknown;x
+56042;Chief of Staff;James V. Fairbairn;40;LC;School of Fire Support;Medium;unknown;x
+56043;Chief of Staff;John A. Beasley;44;RS;School of Maneuver;Medium;unknown;x

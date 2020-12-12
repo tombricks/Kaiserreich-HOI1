@@ -1,0 +1,33 @@
+Name;ID;Country;Rank;Traits;Skill;Experience;Loyality;Type;Picture;x
+A. van den Bent;7803;HOL;2;0;2;0;5;0;unknown;x
+A. van Nijnatten;7813;HOL;2;0;2;0;4;0;unknown;x
+Belzer;7802;HOL;3;0;1;0;3;0;unknown;x
+Best;7804;HOL;2;0;2;0;4;2;unknown;x
+Carstens;7805;HOL;3;0;1;0;3;0;unknown;x
+Dames;7806;HOL;3;0;1;0;3;0;dames_hol;x
+Fabius;7807;HOL;3;0;1;0;3;0;unknown;x
+Furstner;7828;HOL;1;0;3;0;5;1;unknown;x
+H. van Lawick;7812;HOL;3;0;2;0;4;0;unknown;x
+H. van Voorst Vorst;7820;HOL;3;0;2;0;4;0;unknown;x
+H.J. van der Stad;7827;HOL;3;0;2;0;4;1;unknown;x
+Hakstroh;7809;HOL;3;0;1;0;3;0;unknown;x
+Harberts;7810;HOL;2;0;2;0;4;0;unknown;x
+Hassleman;7811;HOL;3;0;1;0;3;0;unknown;x
+J. van Andel;7801;HOL;3;0;1;0;4;0;unknown;x
+J. van Hertog;7808;HOL;3;0;1;0;4;0;unknown;x
+J. van Rees;7814;HOL;3;0;1;0;3;0;unknown;x
+J. van Voorst Vorst;7821;HOL;2;0;3;0;5;0;vanvoorsttotvoorst_hol;x
+C. van Geelkerken;7830;HOL;3;0;2;0;5;2;vangeelkerken_corneli_hol;x
+J. von Geusau;7800;HOL;3;0;1;0;4;0;unknown;x
+J.H. Sar;7825;HOL;3;0;1;0;4;2;unknown;x
+Jolles;7826;HOL;3;0;2;0;5;1;unknown;x
+N. van Roemer;7817;HOL;3;0;1;0;3;0;unknown;x
+Numans;7824;HOL;3;0;1;0;4;0;unknown;x
+Reynders;7815;HOL;1;0;3;0;5;0;reijnders_hol;x
+Roell;7816;HOL;2;0;3;0;5;0;unknown;x
+Sillevis;7818;HOL;3;0;1;0;4;0;unknown;x
+W.C.M. van Ellemet;7823;HOL;3;0;1;0;4;0;unknown;x
+Vaillent;7819;HOL;3;0;1;0;4;0;unknown;x
+Winkleman;7822;HOL;1;0;3;0;5;0;winkelman_hol;x
+Doorman;7829;HOL;1;0;2;0;4;1;doorman_hol;x
+Helfrich;7831;HOL;1;0;1;0;4;1;helfrich_hol;x

@@ -1,0 +1,58 @@
+#
+# Hearts of Iron
+#
+#  Italy Preferences..
+#
+
+# 100 = Total warmonger, 0 = absolute pacifist
+war = 10
+
+military = {
+	infantry = 			15
+	cavalry = 			0
+	motorized = 		5
+	mechanized = 		5
+	panzer = 			5
+	paratrooper = 		0
+	marine =			2
+	bergsjaeger = 		8
+					  # 40 %
+	
+	fighter = 			15
+	strategic_bomber = 	0
+	tactical_bomber = 	1
+	naval_bomber = 		1
+	dive_bomber = 		8
+	transport_plane = 	0
+	torpedo_plane = 	5
+					  # 30 %
+	
+	battleship = 		5
+	carrier = 			0
+	destroyer = 		6
+	cruiser = 			4
+	submarine = 		5
+	transports = 		10
+					  # 30 %
+}
+
+technology = {
+
+	endgoal = {}
+	preference = {}
+
+	electronics = 		0.8
+	armor = 			1.1
+	infantry = 			1.5
+	industry = 			1.5
+	rocket = 			0.1
+	nuclear = 			0.1
+	heavy_aircraft = 	0.5
+	light_aircraft = 	1.8
+	naval = 			1.7
+	submarine = 		1.1
+	artillery = 		0.8
+	naval_doctrine = 	1.5
+	land_doctrine = 	0.5
+	air_doctrine = 		1.3
+}

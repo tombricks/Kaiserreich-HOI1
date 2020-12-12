@@ -1,0 +1,173 @@
+#
+# HoI - Nationalist Spain Events
+#
+#		written by Henrik Fåhraeus
+#
+
+#########################################################################
+#  Vichy France - Return of occupied provinces (if Spain is Axis)
+#########################################################################
+event = { 
+	id = 3000
+	random = no
+	country = SPA
+	
+	trigger = {
+		exists = VIC
+		alliance = { country = GER country = SPA }
+	} 
+	
+	name = "EVT_3000_NAME"
+	desc = "EVT_3000_DESC"
+	style = 0
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 4
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	action_a = {
+		name = "OK" # Return occupied provinces as per agreement
+		command = { type = control which = VIC value = 545 }
+		command = { type = control which = VIC value = 915 }
+		command = { type = control which = VIC value = 917 }
+		command = { type = control which = VIC value = 923 }
+		command = { type = control which = VIC value = 926 }
+		command = { type = control which = VIC value = 927 }
+		command = { type = control which = VIC value = 928 }
+		command = { type = control which = VIC value = 929 }
+		command = { type = control which = VIC value = 930 }
+		command = { type = control which = VIC value = 931 }
+		command = { type = control which = VIC value = 935 }
+		command = { type = control which = VIC value = 936 }
+		command = { type = control which = VIC value = 937 }
+		command = { type = control which = VIC value = 944 }
+		command = { type = control which = VIC value = 945 }
+		command = { type = control which = VIC value = 947 }
+		command = { type = control which = VIC value = 949 }
+		command = { type = control which = VIC value = 951 }
+	}
+}
+
+#########################################################################
+#  Spanish Civil War - Fascist Nation
+#########################################################################
+event = { 
+	id = 3001
+	random = no
+	country = SPA
+	
+	trigger = {
+		exists = SPR
+	}
+	
+	name = "EVT_3001_NAME"
+	desc = "EVT_3001_DESC"
+	style = 0
+	
+	date = { day = 17 month = july year = 1936 }
+#	date = { day = 10 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 30 month = december year = 1947 }
+	
+	action_a = {
+		name = "OK" # Anarchism and Communism must fall!
+#		command = { type = war which = SPR }
+
+		command = { type = headofstate which = 10061 }
+		command = { type = headofgovernment which = 10062 }
+		command = { type = foreignminister which = 10063 }
+		command = { type = ministerofsecurity which = 10068 }
+		command = { type = ministerofintelligence which = 10075 }
+		command = { type = chiefofstaff which = 10076 }
+		command = { type = chiefofarmy which = 10078 }
+		command = { type = chiefofnavy which = 10082 }
+		command = { type = chiefofair which = 10084 }
+				
+		command = { type = addcore which = 941 }
+		command = { type = addcore which = 952 }
+		command = { type = addcore which = 956 }
+		command = { type = addcore which = 969 }
+		command = { type = addcore which = 970 }
+		command = { type = addcore which = 971 }
+		command = { type = addcore which = 972 }
+		command = { type = addcore which = 977 }
+		command = { type = addcore which = 980 }
+		command = { type = addcore which = 981 }
+		command = { type = addcore which = 983 }
+		command = { type = addcore which = 995 }
+		command = { type = addcore which = 996 }
+		
+		command = { type = trigger which = 2023 } # German intervention
+		command = { type = trigger which = 2623 } # Soviet intervention
+		command = { type = trigger which = 2801 } # French intervention
+		command = { type = trigger which = 2901 } # Italian intervention
+		command = { type = trigger which = 3400 } # UK intervention
+		
+		command = { type = alignment which = fascist value = 100 }
+	}
+}
+
+#########################################################################
+#  Spanish Civil War - German Intervention
+#########################################################################
+event = { 
+	id = 3002
+	random = no
+	country = SPA
+	
+	# Triggered by GER 2023
+	
+	name = "EVT_3002_NAME"
+	desc = "EVT_3002_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Great!
+		command = { type = manpowerpool value = 50 }
+		command = { type = supplies value = 200 }
+		command = { type = province_keypoints which = -1 value = 2 }
+	}
+}
+#########################################################################
+#  Spanish Civil War - Italian Intervention
+#########################################################################
+event = { 
+	id = 3003
+	random = no
+	country = SPA
+	
+	# Triggered by ITA 2901
+	
+	name = "EVT_3003_NAME"
+	desc = "EVT_3003_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Great!
+		command = { type = manpowerpool value = 50 }
+		command = { type = supplies value = 200 }
+		command = { type = province_keypoints which = -1 value = 2 }
+	}
+}
+#########################################################################
+#  Spanish Civil War - Victory!!!
+#########################################################################
+event = { 
+	id = 3004
+	random = no
+	country = SPA
+	
+	trigger = {
+		NOT = {
+			exists = SPR
+	   	}
+	}
+	name = "EVT_3004_NAME"
+	desc = "EVT_3004_DESC"
+	style = 0
+	
+	action_a = {
+		name = "OK" # Great!
+		command = { type = capital which = 972 }
+	}
+}
